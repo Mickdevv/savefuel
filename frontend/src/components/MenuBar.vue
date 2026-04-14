@@ -1,0 +1,232 @@
+<script setup lang="ts">
+import type { NavBarItem } from '@/types/navbar-item';
+import { ref } from 'vue';
+import PanelMenu from 'primevue/panelmenu';
+import 'primeicons/primeicons.css'
+import Menu from 'primevue/menu';
+import Button from 'primevue/button';
+import Select from 'primevue/select';
+import { useLocaleStore } from '@/stores/selected-language';
+import { LocaleOptions } from '@/types/enums/locales.enum';
+import { useCurrentPageStore } from '@/stores/current-page';
+import { useRouter } from 'vue-router';
+
+const localeStore = useLocaleStore()
+const currentPageStore = useCurrentPageStore()
+const menu = ref();
+
+const router = useRouter()
+
+const items = ref([
+  {
+    label: 'Home',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/')
+  },
+
+  {
+    label: 'How FO custs costs',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/how-fuel-ox-cuts-costs')
+  },
+
+  {
+    label: 'Free trial procedure',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/free-trial-procedure')
+  },
+
+  {
+    label: '4 Guarantees',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/four-guarantees')
+  },
+
+  {
+    label: 'Technical',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/technical')
+  },
+
+  {
+    label: 'Vehicles',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/vehicles')
+  },
+
+  {
+    label: 'Generators',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/generators')
+  },
+  {
+    label: 'About Save Fuel Europe',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/about')
+  },
+
+  {
+    label: '2026 Price list',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/price-list')
+  },
+
+  {
+    label: 'SFE legal details',
+    icon: 'pi pi-heart',
+    command: () => router.push('/legal')
+  },
+  {
+    label: 'GDPR declaration',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/gdpr')
+  },
+  {
+    label: 'contact@save-fuel.eu',
+    icon: 'pi pi-eraser',
+    command: () => router.push('/contact')
+  },
+])
+const toggle = (event: any) => {
+  menu.value.toggle(event);
+};
+
+
+</script>
+
+
+<template>
+  <div class="page-top-container">
+    <div class="menubar">
+      <div style="font-weight: bold; display: flex;">
+        <img src="../assets/SFE_Logo.png" style="max-width: 3rem;" />
+        <p class="company-name">Save Fuel Europe SAS</p>
+      </div>
+      <div>
+        <h2>{{ currentPageStore.currentPage }}</h2>
+      </div>
+      <div class="links">
+        <span class="icons">
+          <a class="sm-link linkedin-link" href="">
+            <i class="pi pi-linkedin"></i>
+          </a>
+          <a class="sm-link youtube-link" href="">
+            <i class="pi pi-youtube"></i>
+          </a>
+        </span>
+        <div class="border border-right menu">
+          <Button class="menu-internal-element" type="button" label="Menu" icon="pi pi-ellipsis-v" @click="toggle"
+            aria-haspopup="true" aria-controls="overlay_menu" />
+          <Menu class="menu-internal-element" ref="menu" id="overlay_menu" :model="items" :popup="true" />
+        </div>
+        <div class="language-selector">
+          <Select class="language-selector-select" v-model="localeStore.selectedLanguage"
+            :options="Object.values(LocaleOptions)"
+            @change="localeStore.selectLanguage(localeStore.selectedLanguage)" />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.company-name {
+  display: none;
+}
+
+
+.youtube-link {
+  display: none;
+  color: hsla(10, 100%, 37%, 1);
+}
+
+.linkedin-link {
+  display: none;
+  color: hsla(195, 100%, 37%, 1);
+}
+
+@media (min-width: 1000px) {
+
+  .youtube-link,
+  .linkedin-link {
+    display: inline;
+  }
+
+  .company-name {
+    display: flex;
+  }
+}
+
+.page-top-container {
+  background: linear-gradient(to bottom,
+      rgba(44, 57, 245, 0.7) 0%,
+      /* rgba(44, 57, 205, 0.5) 50%, */
+      rgba(44, 57, 245, 0) 100%);
+}
+
+.language-selector-select:focus {
+  padding: 0rem 0.5rem;
+  border-color: black !important;
+
+}
+
+.language-selector {
+  padding: 0rem 0.5rem;
+  border-color: black !important;
+}
+
+.sm-link {
+  border-radius: 5px;
+  margin: 0.5rem
+}
+
+.menu-internal-element {
+  margin: 0.2rem !important;
+  padding: 0.4rem !important;
+  background-color: gold !important;
+
+  border: none !important;
+}
+
+.menu-internal-element:focus {
+  background-color: gold !important;
+  border: none !important;
+}
+
+.menubar {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  background-color: white;
+}
+
+.border-left {
+  border-left: solid;
+  padding: 0rem 0.5rem;
+}
+
+.border-right {
+  border-right: solid;
+  padding: 0rem 0.5rem;
+}
+
+.menubar-item {
+  margin: 1rem;
+}
+
+.border {
+  border-width: 1px;
+}
+</style>

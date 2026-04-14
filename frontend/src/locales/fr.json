@@ -1,0 +1,154 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "users": "Utilisateurs",
+    "product": "Produit",
+    "documentation": "Documentation",
+    "meet_the_team": "L'équipe",
+    "order": "Commander",
+    "contact": "Contact"
+  },
+  "cost_benefit_calculator": {
+    "title": "Calculateur coût-bénéfice",
+    "fuel_price": "Prix du carburant",
+    "efficiency_gains": "Gains d'efficacité",
+    "fuel_volume": "Volume de carburant",
+    "fuelOx_price_per_L": "Prix du FuelOx® par L",
+    "fuel_savings": "Économies de carburant",
+    "fuelOx_needed": "Quantité de FuelOx® nécessaire",
+    "fuelOx_cost_per_L": "Coût de traiter 1L de carburant",
+    "fuelOx_cost": "Coût du FuelOx®",
+    "cost_savings": "Économies totales"
+  },
+  "home_page": {
+    "what_is_fuelox": {
+      "title": "Qu'est-ce que FuelOx® ?",
+      "content": "FuelOx® avec catalyseur de combustion est un additif carburant de pointe, conçu pour améliorer les performances et la longévité du moteur. En favorisant une combustion plus complète, cette formule révolutionnaire maximise l’efficacité énergétique tout en réduisant les émissions nocives. Sa composition unique aide également à ralentir la dégradation du carburant, l’accumulation d’humidité et les dépôts dans le moteur, garantissant ainsi une qualité de carburant optimale et une propreté accrue du moteur. Utilisé par des entreprises à travers le monde incluant par le Ministre de la Défense Américaine, FuelOx® avec catalyseur de combustion s’impose comme la solution pour optimiser les performances moteur tout en favorisant la durabilité environnementale."
+    },
+    "proven_track_record": {
+      "title": "Historique",
+      "content": [
+        "FuelOx® a été développé pour améliorer considérablement l’efficacité énergétique et prolonger la longévité des composants d’un moteur dans tous les climats ainsi que pour le Ministre de la Défense Américaine. Sa formule est soluble dans tous les carburants à base de pétrole et grâce à sa haute concentration, le dosage est simple et le stockage du produit est facile. Aujourd’hui FuelOx® traite environ 50 millions de litres de carburant par mois et a été utilisé dans plus de 50 000 moteurs sans incident."
+      ]
+    },
+    "benefits": {
+      "title": "Avantages",
+      "main_benefit": {
+        "title": "Avantage principal",
+        "content": "Reduire la consommation de carburant 7-12% et améliore la performance du moteur."
+      },
+      "secondary_benefits": {
+        "title": "Avantages secondaires",
+        "content": [
+          "Moins de suie et 50 % de régénérations en moins.",
+          "15 à 20 % de réduction de la consommation de DEF (AdBlue).",
+          "Stabilise le carburant pour un stockage de longue durée.",
+          "Désémulsionne et prévient le développement de bactéries."
+        ]
+      }
+    }
+  },
+  "documentation_page": {
+    "Technical": "Technique",
+    "Vehicle": "Véhicule",
+    "Static": "Statique",
+    "Marine": "Marine",
+    "Business": "Notre société"
+  },
+  "slogan": ["Économiser du Carburant", "Protéger la Terre", "Réduire les Coûts"],
+  "contactForm": {
+    "emailSuccess": "Envoyé avec succès",
+    "emailFail": "Erreur lors de l'envoi",
+    "lastName": "Nom",
+    "firstName": "Prénom",
+    "phoneNumber": "Numéro de téléphone",
+    "email": "Email",
+    "message": "Message",
+    "message_placeholder": "Ajouter un message",
+    "company": "Entreprise",
+    "reason": "Motif de contact",
+    "reason_placeholder": "Sélectionner",
+    "reason_options": {
+      "trial_enquiry": "Demande d’essai gratuit",
+      "place_an_order": "Passer une commande",
+      "general_enquiry": "Demande générale",
+      "other": "Autre"
+    },
+    "submit": "Envoyer",
+    "contact_us": "Un problème avec le formulaire ? Envoyez-nous un e-mail "
+  },
+  "place_order_page": {
+    "form": {
+      "success": "Commande envoyée avec succès",
+      "select_country": "Veuillez selectionner le pays de livraison.",
+      "fail": "Erreur lors de l'envoi",
+      "lastName": "Nom",
+      "firstName": "Prénom",
+      "phoneNumber": "Numéro de téléphone",
+      "email": "Email",
+      "fuelOx_quantity": "FuelOx (L)",
+      "bottle_quantity": "Bouteilles (100 ml)",
+      "message": "Informations supplémentaires",
+      "company": "Entreprise",
+      "invalid_email_address": "Adresse e-mail invalide",
+      "email_success": "Commande passée avec succès. Un e-mail de confirmation a été envoyé à votre adresse e-mail.",
+      "email_fail": "Erreur lors de l'envoi. Si le problème persiste, veuillez contacter notre équipe via le formulaire de contact.",
+      "countries": {
+        "Austria": "Autriche",
+        "Belgium": "Belgique",
+        "Bulgaria": "Bulgarie",
+        "Croatia": "Croatie",
+        "Cyprus": "Chypre",
+        "Czechia": "Tchéquie",
+        "Denmark": "Danemark",
+        "Estonia": "Estonie",
+        "Finland": "Finlande",
+        "France": "France",
+        "Germany": "Allemagne",
+        "Greece": "Grèce",
+        "Hungary": "Hongrie",
+        "Ireland": "Irlande",
+        "Italy": "Italie",
+        "Latvia": "Lettonie",
+        "Lithuania": "Lituanie",
+        "Luxembourg": "Luxembourg",
+        "Malta": "Malte",
+        "Netherlands": "Pays-Bas",
+        "Poland": "Pologne",
+        "Portugal": "Portugal",
+        "Romania": "Roumanie",
+        "Slovakia": "Slovaquie",
+        "Slovenia": "Slovénie",
+        "Spain": "Espagne",
+        "Sweden": "Suède"
+      },
+
+      "address": {
+        "country": "Pays",
+        "city": "Ville",
+        "street_address": "Rue et N de voie",
+        "postcode": "Code postal"
+      },
+      "price": "Prix (hors livraison)",
+      "submit": "Envoyer",
+      "message_placeholder": "Ajouter un message"
+    }
+  },
+  "the_team": {
+    "michael": {
+      "title": "Michael DEVEREUX",
+      "position": "Responsable technique",
+      "content": "Avec son expérience en informatique et en ingénierie, Michael veille à ce que tous nos besoins numériques soient satisfaits."
+    },
+    "steve": {
+      "title": "Steve DEVEREUX",
+      "position": "President",
+      "content": "Après 40 ans passés à forer des puits de pétrole, Steve concentre désormais ses efforts sur la réduction de la combustion des énergies fossiles et de la pollution."
+    },
+    "lesley": {
+      "title": "Lesley VAQUERO",
+      "position": "Directrice des ventes",
+      "content": "Gérante d’entreprise depuis 2008, Lesley pilote avec audace les stratégies commerciales et les équipes pour accélérer notre croissance et promouvoir des solutions énergétiques durables."
+    }
+  }
+}

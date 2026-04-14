@@ -1,0 +1,154 @@
+{
+  "navbar": {
+    "home": "Home",
+    "users": "Users",
+    "product": "Product",
+    "documentation": "Documentation",
+    "meet_the_team": "Meet the team",
+    "order": "Order",
+    "contact": "Contact"
+  },
+  "cost_benefit_calculator": {
+    "title": "FuelOx® savings",
+    "fuel_price": "Fuel price",
+    "efficiency_gains": "Efficiency gain",
+    "fuel_volume": "Fuel volume",
+    "fuelOx_price_per_L": "FuelOx® price",
+    "fuel_savings": "Fuel savings",
+    "fuelOx_needed": "FuelOx® needed",
+    "fuelOx_cost": "FuelOx® cost",
+    "fuelOx_cost_per_L": "Cost to treat 1L of fuel",
+    "cost_savings": "Cost savings"
+  },
+  "home_page": {
+    "what_is_fuelox": {
+      "title": "What is FuelOx®?",
+      "content": "FuelOx® with Combustion Catalyst is a cutting-edge fuel additive engineered to enhance engine performance and longevity. By promoting more complete combustion, this revolutionary formula maximises fuel efficiency while reducing harmful emissions. Its unique composition also helps prevent fuel degradation, moisture accumulation and engine deposits, ensuring optimal fuel quality and engine cleanliness. Trusted by drivers and fleet managers worldwide, FuelOx®with Combustion Catalyst is the go-to solution for achieving peak engine performance an environmental sustainability."
+    },
+    "proven_track_record": {
+      "title": "History",
+      "content": [
+        "FuelOx® with Combustion Catalyst was originally developed for ultra high-intensity applications, including use by the United States Department of Defense. Engineered to be soluble in all petroleum-based fuels and extremely concentrated, it was specifically designed to dramatically improve fuel efficiency and extend the longevity of engine components, even in the harshest climates. Its highly concentrated formula allows for easy dosing and minimizes inventory requirements, making it a versatile and cost-effective solution"
+      ]
+    },
+    "benefits": {
+      "title": "Benefits",
+      "main_benefit": {
+        "title": "Main benefit",
+        "content": "Reduces fuel consumption, saving much more than the cost of the FuelOx® additive while reducing environmental damage."
+      },
+      "secondary_benefits": {
+        "title": "Secondary benefits",
+        "content": [
+          "Less soot and 50% fewer regenerations.",
+          "15-20% less DEF (AdBlue) usage.",
+          "Stabilises fuel for long term storage.",
+          "Breaks emulsions and prevents bacteria.",
+          "EGR Coolers and valves and all sensors stay cleaner."
+        ]
+      }
+    }
+  },
+  "documentation_page": {
+    "Technical": "Technical",
+    "Vehicle": "Vehicle",
+    "Static": "Static",
+    "Marine": "Marine",
+    "Business": "Business"
+  },
+  "slogan": ["Save Fuel", "Protect Earth", "Reduce Cost"],
+  "contactForm": {
+    "emailSuccess": "Success",
+    "emailFail": "Failed to send",
+    "lastName": "Last name",
+    "firstName": "First name",
+    "phoneNumber": "Phone number",
+    "email": "Email",
+    "message": "Message",
+    "message_placeholder": "Add a message",
+    "company": "Company",
+    "reason": "Reason",
+    "reason_placeholder": "Select",
+    "submit": "Submit",
+    "reason_options": {
+      "trial_enquiry": "Request a free trial",
+      "place_an_order": "Place an order",
+      "general_enquiry": "General enquiry",
+      "other": "Other"
+    },
+    "contact_us": "Issues with the form ? Contact us at "
+  },
+  "place_order_page": {
+    "form": {
+      "success": "Order sent",
+      "fail": "Error",
+      "lastName": "Last name",
+      "firstName": "First name",
+      "phoneNumber": "Phone number",
+      "email": "Email",
+      "message": "Additional info",
+      "company": "Company",
+      "fuelOx_quantity": "FuelOx (L)",
+      "bottle_quantity": "Bottles (100ml)",
+      "invalid_email_address": "Invalid email address",
+      "email_success": "Order places successfully. A confirmation email was sent to your email address.",
+      "select_country": "Please select the delivery country.",
+      "email_fail": "Order failed, please try again. If the issue persists, contact our team on the contact page.",
+      "countries": {
+        "Austria": "Austria",
+        "Belgium": "Belgium",
+        "Bulgaria": "Bulgaria",
+        "Croatia": "Croatia",
+        "Cyprus": "Cyprus",
+        "Czechia": "Czechia",
+        "Denmark": "Denmark",
+        "Estonia": "Estonia",
+        "Finland": "Finland",
+        "France": "France",
+        "Germany": "Germany",
+        "Greece": "Greece",
+        "Hungary": "Hungary",
+        "Ireland": "Ireland",
+        "Italy": "Italy",
+        "Latvia": "Latvia",
+        "Lithuania": "Lithuania",
+        "Luxembourg": "Luxembourg",
+        "Malta": "Malta",
+        "Netherlands": "Netherlands",
+        "Poland": "Poland",
+        "Portugal": "Portugal",
+        "Romania": "Romania",
+        "Slovakia": "Slovakia",
+        "Slovenia": "Slovenia",
+        "Spain": "Spain",
+        "Sweden": "Sweden"
+      },
+      "address": {
+        "country": "Country",
+        "city": "City",
+        "street_address": "Street address",
+        "postcode": "Post code"
+      },
+      "price": "Price (delivery not included)",
+      "submit": "Submit",
+      "message_placeholder": "Add a message"
+    }
+  },
+  "the_team": {
+    "michael": {
+      "title": "Michael DEVEREUX",
+      "position": "Technical Lead",
+      "content": "With his background in computer science and engineering, Michael ensures that all our digital needs are met."
+    },
+    "steve": {
+      "title": "Steve DEVEREUX",
+      "position": "President",
+      "content": "After 40 years of drilling oil wells, Steve now focuses his efforts on reducing the burning of fossil fuels and cutting pollution."
+    },
+    "lesley": {
+      "title": "Lesley VAQUERO",
+      "position": "Sales Director",
+      "content": "An entrepreneur since 2008, Lesley boldly leads commercial strategies and teams to accelerate our growth and promote sustainable energy solutions."
+    }
+  }
+}
