@@ -1,10 +1,10 @@
   <template>
     <div class="footer-container">
-      <p>Save fuel</p>
+      <p>{{ $t('components.footer.save-fuel') }}</p>
       <img src="../assets/SFE_Logo.png" alt="">
-      <p>Protect earth</p>
+      <p>{{ $t('components.footer.protect-earth') }}</p>
       <img src="../assets/SFE_Logo.png" alt="">
-      <p>Reduce costs</p>
+      <p>{{ $t('components.footer.reduce-costs') }}</p>
 
     </div>
   </template>
@@ -16,5 +16,9 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+
+img {
+  max-width: 50px;
 }
 </style>

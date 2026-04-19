@@ -1,42 +1,9 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
 import MenuBar from './components/MenuBar.vue';
-import { ref } from "vue";
 import Footer from './components/Footer.vue';
 
 
 
-const items = ref([
-  {
-    label: 'Home',
-    icon: 'pi pi-home'
-  },
-  {
-    label: 'Projects',
-    icon: 'pi pi-search',
-    badge: 3,
-    items: [
-      {
-        label: 'Core',
-        icon: 'pi pi-bolt',
-        shortcut: '⌘+S'
-      },
-      {
-        label: 'Blocks',
-        icon: 'pi pi-server',
-        shortcut: '⌘+B'
-      },
-      {
-        separator: true
-      },
-      {
-        label: 'UI Kit',
-        icon: 'pi pi-pencil',
-        shortcut: '⌘+U'
-      }
-    ]
-  }
-]);
 </script>
 
 
@@ -48,11 +15,15 @@ const items = ref([
   <Footer />
 </template>
 
-<style scoped></style>
+<style scoped>
+.router-view {
+  padding: 2rem
+}
+</style>
 
 <style>
 .p-menubar {
-  max-width: 2000px;
+  max-width: 1280px;
   border: none;
   display: flex;
   justify-content: space-between;

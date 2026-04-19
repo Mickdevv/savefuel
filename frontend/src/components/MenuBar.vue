@@ -120,9 +120,8 @@ const toggle = (event: any) => {
           <Menu class="menu-internal-element" ref="menu" id="overlay_menu" :model="items" :popup="true" />
         </div>
         <div class="language-selector">
-          <Select class="language-selector-select" v-model="localeStore.selectedLanguage"
-            :options="Object.values(LocaleOptions)"
-            @change="localeStore.selectLanguage(localeStore.selectedLanguage)" />
+          <Select class="language-selector-select" v-model="$i18n.locale" :options="$i18n.availableLocales"
+            @change="localeStore.selectLanguage($i18n.locale)" />
         </div>
       </div>
     </div>
@@ -170,6 +169,8 @@ const toggle = (event: any) => {
 
 }
 
+
+
 .language-selector {
   padding: 0rem 0.5rem;
   border-color: black !important;
@@ -196,7 +197,6 @@ const toggle = (event: any) => {
 .menubar {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   align-items: center;
   display: flex;
   justify-content: space-between;

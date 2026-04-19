@@ -12,9 +12,9 @@ import { createI18n } from 'vue-i18n'
 
 const app = createApp(App)
 const i18n = createI18n({
-  legacy: false,
-  locale: 'fr',
-  fallbackLocale: 'fr',
+  locale: 'en',
+  fallbackLocale: 'en',
+  globalInjection: true,
   messages: {
     en,
     fr,

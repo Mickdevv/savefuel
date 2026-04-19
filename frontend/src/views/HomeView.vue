@@ -1,22 +1,24 @@
 <script setup lang="ts">
 import { useCurrentPageStore } from '@/stores/current-page';
 import Button from 'primevue/button'
+import { useI18n } from 'vue-i18n';
+import { useRouter } from 'vue-router';
 
+const router = useRouter()
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('Home')
+
+const { tm, t } = useI18n()
+currentPageStore.setCurrentPage(t('pages.home.page-title'))
 </script>
 
 
 
 <template>
-  <p>Do you watch fuel costs eat into your margins every month?</p>
-  <p>Save Fuel Europe is the exclusive Fuel Ox distributor in France. We help transport companies, ski resorts,
-    delivery
-    and logistics companies cut fuel bills with a simple, effective treatment which is safe for engines.</p>
-  <p>Test today, save tomorrow</p>
+  <p v-for="(p, i) in tm('pages.home.paragraphs')">{{ p }}</p>
   <div class="button-container">
-
-    <Button class="learn-more-button" label="Learn more" severity="warning" />
+    <Button @click="router.push('/how-fuel-ox-cuts-costs')" class="learn-more-button"
+      :label="$t('pages.home.learn-more-button')" severity="warning" />
   </div>
 </template>
 

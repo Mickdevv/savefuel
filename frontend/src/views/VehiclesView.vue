@@ -1,33 +1,128 @@
 <script setup lang="ts">
 import { useCurrentPageStore } from '@/stores/current-page';
 import Button from 'primevue/button'
+import { useRouter } from 'vue-router';
 
+const router = useRouter()
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('Vehicles')
 </script>
 <template>
-  <div>
-    <div>
-      <h2>Direct cost benefit</h2>
-      <p>A large truck driving 150 000km per year burning 30L/100km uses 45 000L of fuel. At the minimum guaranteed 7%
-        cut in consumption, this saves 3 150L.</p>
-      <p>Treating 45 000 L of fuel takes 4.5L of Fuel Ox, costing &euro;891 + VAT. If fuel costs &euro;1.67 + VAT
-        (&euro;2.00 total), Fuel Ox cuts your fuel cost by &euro;4 369 including the cost of Fuel Ox.</p>
-      <h2>Other benefits</h2>
-      <p>Read the <a href="">Fuel Ox white paper</a> for detailed technical information.</p>
-      <ul class="custom-list">
-        <li>
-          Polymerisation of fuel molecules broken and re-polymerisation prevented. Maximises burn efficiency.
-        </li>
-      </ul>
+  <div class="page-container">
+    <div class="paragraphs-column">
+      <div>
+
+        <h2>{{ $t('pages.vehicles.direct-cost-benefit.title') }}</h2>
+        <p>{{ $t('pages.vehicles.direct-cost-benefit.p1') }}</p>
+        <p>{{ $t('pages.vehicles.direct-cost-benefit.p2') }}</p>
+        <h2>{{ $t('pages.vehicles.other-benefits.title') }}</h2>
+        <p>{{ $t('pages.vehicles.other-benefits.p1_1') }} <a href="">{{ $t('pages.vehicles.other-benefits.p1_2') }}</a>
+          {{ $t('pages.vehicles.other-benefits.p1_3') }}</p>
+        <ul class="custom-list">
+          <li v-for="(p, i) in $tm('pages.vehicles.other-benefits.bullet-points')">
+            {{ p }}
+          </li>
+        </ul>
+      </div>
+      <div class="documents-container">
+        <div class="left-column">
+          <h2>{{ $t('pages.vehicles.trial-reports.title') }}</h2>
+          <ul>
+            <li>{{ $t('pages.vehicles.trial-reports.t1_1') }} <a href="">{{ $t('pages.vehicles.trial-reports.t1_2')
+                }}</a>
+            </li>
+            <li>{{ $t('pages.vehicles.trial-reports.t2_1') }} <a href="">{{ $t('pages.vehicles.trial-reports.t2_2')
+                }}</a>
+            </li>
+            <li>{{ $t('pages.vehicles.trial-reports.t3_1') }} <a href="">{{ $t('pages.vehicles.trial-reports.t3_2')
+                }}</a>
+            </li>
+            <li>{{ $t('pages.vehicles.trial-reports.t4_1') }} <a href="">{{ $t('pages.vehicles.trial-reports.t4_2')
+                }}</a>
+            </li>
+            <li>{{ $t('pages.vehicles.trial-reports.t5_1') }} <a href="">{{ $t('pages.vehicles.trial-reports.t5_2')
+                }}</a>
+            </li>
+          </ul>
+        </div>
+        <div class="right-column">
+          <h2>{{ $t('pages.vehicles.other-vehicle-documents.title') }}</h2>
+          <ul>
+            <li>{{ $t('pages.vehicles.other-vehicle-documents.t1_1') }} <a href="">{{
+              $t('pages.vehicles.other-vehicle-documents.t1_2') }}</a></li>
+            <li>{{ $t('pages.vehicles.other-vehicle-documents.t2') }}</li>
+            <li>{{ $t('pages.vehicles.other-vehicle-documents.t3') }}</li>
+            <li>{{ $t('pages.vehicles.other-vehicle-documents.t4') }}</li>
+            <li>{{ $t('pages.vehicles.other-vehicle-documents.t5_1') }} <a href="">{{
+              $t('pages.vehicles.other-vehicle-documents.t5_2') }}</a></li>
+            <li>{{ $t('pages.vehicles.other-vehicle-documents.t6_1') }} <a href="">{{
+              $t('pages.vehicles.other-vehicle-documents.t6_2') }}</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="images-column-container">
+      <div class="images">
+        <img src="@/assets/shutterstock_Trucks_cropped.jpg" alt="">
+        <img src="@/assets/shutterstock_Trucks_cropped.jpg" alt="">
+        <img src="@/assets/shutterstock_Trucks_cropped.jpg" alt="">
+      </div>
+      <Button @click="router.push('/four-guarantees')" :label="$t('pages.vehicles.four-guarantees-button')"></Button>
     </div>
   </div>
 </template>
 <style scoped>
+.page-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.images {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.documents-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 200px
+}
+
 .custom-list {
   list-style: none;
-  /* ❌ remove default bullets */
   padding-left: 0;
+}
+
+.paragraphs-column {
+  width: 100%
+}
+
+@media (min-width: 1080px) {
+  .paragraphs-column {
+    max-width: 75%
+  }
+
+  .images-column-container {
+    max-width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .images {
+    display: block;
+  }
+}
+
+Button {
+  background-color: gold;
+  border: none !important;
 }
 
 .custom-list li {

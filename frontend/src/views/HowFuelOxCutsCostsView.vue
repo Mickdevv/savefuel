@@ -2,6 +2,9 @@
 import CostBenefitCalculator from '@/components/CostBenefitCalculator.vue';
 import { useCurrentPageStore } from '@/stores/current-page';
 import Button from 'primevue/button'
+import { useRouter } from 'vue-router';
+
+const router = useRouter()
 
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('How Fuel Ox cuts costs')
@@ -13,28 +16,17 @@ currentPageStore.setCurrentPage('How Fuel Ox cuts costs')
   <div class="page-container">
 
     <div class="text-container">
-      <p>Fuel Ox treatment cuts fuel consumption by two separate methods. It improves burn efficiency and improves
-        engine
-        efficiency.</p>
-      <p>Treatment over several tanks of fuel cleans the fuel and ignition systems of sludges and deposits which maked
-        the
-        engine work more efficiently. With a 2005 high mileage turbo diesel vehicle, this made a dramatic difference.
-        The
-        road test showed a 17% reduction in fuel consumption from cleaning the engine systems. Treated fuel burns more
-        completely, less fuel is required to give the same power output. This enhanced combustion cut consumption by
-        another
-        5%. The total saving was 22%. Read the full test report <a href="">here</a></p>
-      <p>We guarantee that your vehicle will see reduced fuel consumption of at least 7%. This is guaranteed by you
-        performing a free trial of Fuel Ox on a vehicle in your fleet.</p>
-      <p>You can use our calculator to see the potential savings. Enter the current fuel price and your monthly fleet
-        fuel
-        consumption in litres to see the minimum cost savings if all your fleet treated fuel with Fuel Ox.</p>
-      <p>Detailed technical information is in the Fuel Ox White Paper.</p>
+      <p>{{ $t('pages.how-fo-cuts-costs.p1') }}</p>
+      <p>{{ $t('pages.how-fo-cuts-costs.p2') }}<a href="">here</a></p>
+      <p>{{ $t('pages.how-fo-cuts-costs.p3') }}</p>
+      <p>{{ $t('pages.how-fo-cuts-costs.p4') }}</p>
+      <p>{{ $t('pages.how-fo-cuts-costs.p5') }}</p>
     </div>
 
     <div class="cost-calculator-container">
       <CostBenefitCalculator class="cost-benefit-calculator" />
-      <Button class="learn-more-button" label="Explore a free trial" severity="warning" />
+      <Button @click="router.push('/free-trial-procedure')" class="learn-more-button"
+        :label="$t('pages.how-fo-cuts-costs.explore-a-free-trial-button')" severity="warning" />
     </div>
   </div>
 </template>
@@ -45,7 +37,7 @@ currentPageStore.setCurrentPage('How Fuel Ox cuts costs')
   display: block;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1080px) {
   .page-container {
     display: flex;
   }
@@ -56,7 +48,6 @@ currentPageStore.setCurrentPage('How Fuel Ox cuts costs')
 p {
   font-size: 1rem;
   margin-top: 2rem;
-  font-weight: bold;
 }
 
 .learn-more-button {
