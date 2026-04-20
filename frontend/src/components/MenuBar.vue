@@ -67,28 +67,31 @@ const items = computed(() => [
     // icon: 'pi pi-eraser',
     command: () => router.push('/about')
   },
+  {
+    separator: true
+  },
 
-  // {
-  //   label: '2026 Price list',
-  //   // icon: 'pi pi-eraser',
-  //   command: () => router.push('/price-list')
-  // },
-  //
-  // {
-  //   label: 'SFE legal details',
-  //   // icon: 'pi pi-heart',
-  //   command: () => router.push('/legal')
-  // },
-  // {
-  //   label: 'GDPR declaration',
-  //   // icon: 'pi pi-eraser',
-  //   command: () => router.push('/gdpr')
-  // },
-  // {
-  //   label: 'contact@save-fuel.eu',
-  //   // icon: 'pi pi-eraser',
-  //   command: () => router.push('/contact')
-  // },
+  {
+    label: '2026 Price list',
+    // icon: 'pi pi-eraser',
+    command: () => router.push('/price-list')
+  },
+
+  {
+    label: 'SFE legal details',
+    // icon: 'pi pi-heart',
+    command: () => router.push('/legal')
+  },
+  {
+    label: 'GDPR declaration',
+    // icon: 'pi pi-eraser',
+    command: () => router.push('/gdpr')
+  },
+  {
+    label: 'contact@save-fuel.eu',
+    // icon: 'pi pi-eraser',
+    command: () => router.push('/contact')
+  },
 ])
 const toggle = (event: any) => {
   menu.value.toggle(event);

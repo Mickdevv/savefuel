@@ -1,18 +1,32 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-
-const efficiencyGains = ref(9)
-const fuelPrice = ref(1.4)
+import { useI18n } from 'vue-i18n'
+const { locale } = useI18n()
+const efficiencyGains = ref(7)
+const fuelPrice = ref(2.2)
 const fuelVolume = ref(10000)
 const fuelOxPricePerL = ref(198)
 
 function reset() {
-  efficiencyGains.value = 9
+  efficiencyGains.value = 7
   fuelPrice.value = 2.2
   fuelVolume.value = 100000
   fuelOxPricePerL.value = 198
 }
 
+// ✅ FORMATTERS (French style: spaces + €)
+function formatNumber(value: number) {
+  return new Intl.NumberFormat(locale.value).format(value)
+}
+
+function formatCurrency(value: number) {
+  return new Intl.NumberFormat(locale.value, {
+    style: 'currency',
+    currency: 'EUR'
+  }).format(value)
+}
+
+// COMPUTED VALUES
 const fuelOxLitres = computed(() => {
   return fuelVolume.value / 10000
 })
@@ -63,25 +77,29 @@ const costSavings = computed(() => {
 
         <!-- RIGHT COLUMN -->
         <div class="calculator-right">
+
           <div class="result-box">
             <p>{{ $t('cost_benefit_calculator.fuelOx_cost_per_L') }}</p>
-            <span>€{{ Number((fuelOxPricePerL).toFixed(2)) / 10000 }}</span>
+            <span>
+              {{ formatCurrency((fuelOxPricePerL / 10000)) }}
+            </span>
           </div>
 
           <div class="result-box">
             <p>{{ $t('cost_benefit_calculator.fuel_savings') }}</p>
-            <span>{{ fuelSavings.toFixed(0) }} L</span>
+            <span>{{ formatNumber(fuelSavings) }} L</span>
           </div>
 
           <div class="result-box">
             <p>{{ $t('cost_benefit_calculator.fuelOx_needed') }}</p>
-            <span>{{ fuelOxLitres.toFixed(2) }} L</span>
+            <span>{{ formatNumber(Number(fuelOxLitres.toFixed(2))) }} L</span>
           </div>
 
           <div class="result-box highlight">
             <p>{{ $t('cost_benefit_calculator.cost_savings') }}</p>
-            <span>€{{ costSavings.toFixed(2) }}</span>
+            <span>{{ formatCurrency(costSavings) }}</span>
           </div>
+
         </div>
 
       </div>
@@ -100,7 +118,6 @@ const costSavings = computed(() => {
   padding: 1rem;
 }
 
-/* CARD */
 .calculator-card {
   width: 100%;
   max-width: 720px;
@@ -111,7 +128,6 @@ const costSavings = computed(() => {
   padding: 1.5rem;
 }
 
-/* TITLE */
 .calculator-title {
   text-align: center;
   font-size: 1.6rem;
@@ -120,28 +136,24 @@ const costSavings = computed(() => {
   margin-bottom: 1.5rem;
 }
 
-/* GRID */
 .calculator-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
-/* DESKTOP */
 @media (min-width: 1080px) {
   .calculator-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-/* LEFT */
 .calculator-left {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-/* INPUT GROUP */
 .input-group {
   display: flex;
   flex-direction: column;
@@ -153,7 +165,6 @@ const costSavings = computed(() => {
   color: #374151;
 }
 
-/* INPUT */
 .input-group input {
   border: 1.5px solid #d1d5db;
   border-radius: 6px;
@@ -162,11 +173,8 @@ const costSavings = computed(() => {
   background: #f9fafb;
   transition: all 0.2s ease;
   color: #111827;
-  /* ✅ FIX: dark readable text */
-
 }
 
-/* INPUT FOCUS */
 .input-group input:focus {
   outline: none;
   border-color: #3b82f6;
@@ -174,7 +182,6 @@ const costSavings = computed(() => {
   box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
 }
 
-/* RIGHT */
 .calculator-right {
   display: flex;
   flex-direction: column;
@@ -182,7 +189,6 @@ const costSavings = computed(() => {
   justify-content: space-between;
 }
 
-/* RESULT BOX */
 .result-box {
   background: #f9fafb;
   border: 1px solid #e5e7eb;
@@ -203,7 +209,6 @@ const costSavings = computed(() => {
   color: #111827;
 }
 
-/* HIGHLIGHT (Savings) */
 .result-box.highlight {
   background: #ecfdf5;
   border-color: #10b981;
@@ -213,14 +218,12 @@ const costSavings = computed(() => {
   color: #059669;
 }
 
-/* FOOTER */
 .calculator-footer {
   display: flex;
   justify-content: center;
   margin-top: 1.5rem;
 }
 
-/* BUTTON */
 .calculator-footer button {
   background: #3b82f6;
   color: white;
