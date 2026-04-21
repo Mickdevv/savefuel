@@ -23,7 +23,7 @@ currentPageStore.setCurrentPage('about')
       $t('pages.about.p6_2') }}</a> {{ $t('pages.about.p6_3') }} </p>
     <p>{{ $t('pages.about.p7') }}</p>
     <p>{{ $t('pages.about.p8_1') }} <a target="_blank" :href="$t('links.documents.intertek-EN590-test')">{{
-      $t('pages.about.p8_2') }}</a> {{ $t('pages.about.p8_3') }} </p>
+      $t('pages.about.p8_2') }}</a> </p>
     <p>{{ $t('pages.about.p9') }}</p>
     <p>{{ $t('pages.about.p10') }}</p>
   </div>
