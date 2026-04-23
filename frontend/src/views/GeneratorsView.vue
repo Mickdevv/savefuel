@@ -28,8 +28,8 @@ currentPageStore.setCurrentPage('generators')
       <h2>{{ $t('pages.generators.trial-reports.title') }}</h2>
       <p>
         <a target="_blank" :href="$t('links.documents.peruvian-mine')">{{ $t('pages.generators.trial-reports.p1')
-          }}</a>, <a target="_blank" :href="$t('links.documents.')">{{
-            $t('pages.generators.trial-reports.p2') }}</a>
+          }}</a>
+        <!-- <a target="_blank" :href="$t('links.documents.')">{{ $t('pages.generators.trial-reports.p2') }}</a> -->
       </p>
     </div>
     <div class="right-container">

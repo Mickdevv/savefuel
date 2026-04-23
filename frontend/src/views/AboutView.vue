@@ -13,7 +13,7 @@ currentPageStore.setCurrentPage('about')
     <p>{{ $t('pages.about.p1') }}</p>
     <p>{{ $t('pages.about.p2') }}</p>
     <p>{{ $t('pages.about.p3') }}</p>
-    <p>{{ $t('pages.about.p4_1') }} <a target="_blank" :href="$t('links.documents.trial-procedure')">{{
+    <p>{{ $t('pages.about.p4_1') }} <a href="/free-trial-procedure">{{
       $t('pages.about.p4_2') }}</a> {{ $t('pages.about.p4_3') }} <a target="_blank"
         :href="$t('links.documents.land-cruiser-22pc-report')">{{ $t('pages.about.p4_4') }}</a> {{
           $t('pages.about.p4_5') }} </p>

@@ -27,13 +27,14 @@ currentPageStore.setCurrentPage("technical")
             $t('pages.technical.technical-documents.p2_2') }}</p>
       <p> <a target="_blank" :href="$t('links.documents.faq')"> {{ $t('pages.technical.technical-documents.p3_1') }}</a>
         - {{
-          $t('pages.technical.technical-documents.p3_2') }} <a href="mailto:contact@save-fuel.eu">contact@save-fuel.eu</a>
+          $t('pages.technical.technical-documents.p3_2') }} <a
+          href="mailto:contact@save-fuel.eu?subject=FAQ">contact@save-fuel.eu</a>
       </p>
       <p> <a target="_blank" :href="$t('links.documents.gnr-compared-to-EN590')"> {{
         $t('pages.technical.technical-documents.p4_1') }}</a> - {{
             $t('pages.technical.technical-documents.p4_2') }}</p>
       <p> <a target="_blank" :href="$t('links.documents.fo-MSDS')"> {{ $t('pages.technical.technical-documents.p5_1')
-      }}</a> - {{
+          }}</a> - {{
             $t('pages.technical.technical-documents.p5_2') }}</p>
       <p> <a target="_blank" :href="$t('links.documents.intertek-EN590-test')"> {{
         $t('pages.technical.technical-documents.p6_1') }}</a> - {{

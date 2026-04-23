@@ -16,7 +16,8 @@ const { tm } = useI18n()
 
     <div class="paragraphs">
       <p v-for="(p, i) in tm('pages.free-trial-procedure.paragraphs')">{{ p }}</p>
-      <p>{{ $t('pages.free-trial-procedure.email-line') }}<a href="mailto:contact@save-fuel.eu">contact@save-fuel.eu</a>
+      <p>{{ $t('pages.free-trial-procedure.email-line') }}<a
+          :href="'mailto:contact@save-fuel.eu' + $t('links.email.free-trial-enquiry-subject')">contact@save-fuel.eu</a>
       </p>
     </div>
     <div class="right-column">

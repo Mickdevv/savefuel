@@ -62,9 +62,14 @@ currentPageStore.setCurrentPage('vehicles')
             <li>{{ $t('pages.vehicles.other-vehicle-documents.t1_1') }} <a :href="$t('links.videos.how-to-add-fo')"
                 target="_blank">{{
                   $t('pages.vehicles.other-vehicle-documents.t1_2') }}</a></li>
-            <li>{{ $t('pages.vehicles.other-vehicle-documents.t2') }}</li>
-            <li>{{ $t('pages.vehicles.other-vehicle-documents.t3') }}</li>
-            <li>{{ $t('pages.vehicles.other-vehicle-documents.t4') }}</li>
+            <li><a :href="$t('links.documents.truck-fleet-ops')">{{ $t('pages.vehicles.other-vehicle-documents.t2')
+            }}</a>
+            </li>
+            <li><a :href="$t('links.documents.FAQ-ski-stations')">{{ $t('pages.vehicles.other-vehicle-documents.t3')
+            }}</a>
+            </li>
+            <li><a :href="$t('links.documents.trial-procedure')">{{ $t('pages.vehicles.other-vehicle-documents.t4')
+                }}</a></li>
             <li>{{ $t('pages.vehicles.other-vehicle-documents.t5_1') }} <a target="_blank"
                 :href="$t('links.documents.scotland-ford-transit')">{{
                   $t('pages.vehicles.other-vehicle-documents.t5_2') }}</a></li>

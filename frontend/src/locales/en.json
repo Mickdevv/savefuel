@@ -28,7 +28,8 @@
       "p2": "Treatment over several tanks of fuel cleans the fuel and ignition systems of sludges and deposits which makes  the engine work more efficiently.  With a 2005 high mileage turbo diesel vehicle, this made a dramatic difference.   The road test showed a 17% reduction in fuel consumption from cleaning the engine systems.  Treated fuel burns more completely, less fuel is required to give the same power output.  This enhanced combustion cut consumption by another 5%.  The total saving was 22%.  Read the full test report ",
       "p3": "We guarantee that your vehicle will see a reduced fuel consumption of at least 7%. This is guaranteed by you performing  a free trial of Fuel Ox on a vehicle in your fleet. ",
       "p4": "You can use our calculator to see the potential savings.  Enter the current fuel price and  your monthly fleet fuel consumption in litres to see the minimum cost savings if all your fleet is treated fuel with Fuel Ox. ",
-      "p5": "Detailed technical information is in the Fuel Ox White Paper.",
+      "p5": "Detailed technical information is in the ",
+      "p6": "Fuel Ox White Paper.",
       "explore-a-free-trial-button": "Explore a free trial"
     },
     "free-trial-procedure": {
@@ -83,7 +84,7 @@
       },
       "other-vehicle-documents": {
         "title": "Other vehicle documents",
-        "t1_1": "Video - ",
+        "t1_1": "Video, ",
         "t1_2": "How to add Fuel Ox",
         "t2": "Truck fleet operations",
         "t3": "FAQ ski stations",
@@ -183,8 +184,8 @@
       "page-title": "About",
       "title": "Save Fuel Europe is the exclusive Fuel Ox distributor in France - Up to 22% proven fuel savings on the road",
       "p1": "Save Fuel Europe helps transport, delivery and logistics companies cut their fuel bills with a simple, effective treatment that is safe for engines. We expect more but guarantee at least 7% on a free trial; risk free",
-      "p2": "Running a fleet of utility vehicles, trucks or 4x4s and watching fuel costs eat into your margins every month? You know a minimum 7% reduction would make a real difference, but you’re cautious about trying a fuel treatment from a distributor that’s not yet well - known in F rance? We completely understand that caution. Fleet managers are most concerned about two things: risking damage to expensive engines or lacking reliable local support. Trump’s war causing fuel shortages, drive further on each tank. Save Fuel Europe sta rted with real - world tests on everyday vehicles before approaching professional fleets.",
-      "p3": "Fuel Ox is a 35 year old multi - function fuel treatment for petrol and diesel that cleans the engine fuel system, reduces friction, optimises combustion and lowers har mful emissions that treats around 50 Million litres of fuel a month. Result: up to 22% fuel savings, smoother engine performance and cleaner combustion — with no mechanical modifications and no risk to your warranty. As the exclusive distributor in Fran ce, we exist to supply and support our users.",
+      "p2": "Running a fleet of utility vehicles, trucks or 4x4s and watching fuel costs eat into your margins every month? You know a minimum 7% reduction would make a real difference, but you’re cautious about trying a fuel treatment from a distributor that’s not yet well - known in France? We completely understand that caution. Fleet managers are most concerned about two things: risking damage to expensive engines or lacking reliable local support. Trump’s war causing fuel shortages, drive further on each tank. Save Fuel Europe started with real - world tests on everyday vehicles before approaching professional fleets.",
+      "p3": "Fuel Ox is a 35 year old multi - function fuel treatment for petrol and diesel that cleans the engine fuel system, reduces friction, optimises combustion and lowers harmful emissions that treats around 50 Million litres of fuel a month. Result: up to 22% fuel savings, smoother engine performance and cleaner combustion — with no mechanical modifications and no risk to your warranty. As the exclusive distributor in France, we exist to supply and support our users.",
       "p4_1": "Save Fuel Europe tested Fuel Ox on real vehicles in normal operating conditions before becoming the EU distributor, using our",
       "p4_2": "trial procedure. ",
       "p4_3": "On a ",
@@ -234,13 +235,15 @@
       "how-to-add-fo": " https://www.youtube.com/watch?v=9iECyfYqDSI"
     },
     "documents": {
+      "FAQ-ski-stations": "https://save-fuel.eu/docs/en/Vehicle/FAQ-ski-stations.pdf",
+      "truck-fleet-ops": "https://save-fuel.eu/docs/en/Vehicle/FuelOX-Trucking-Fleet-Hard-Numbers.pdf",
       "land-rover-trial": "https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf",
       "trial-procedure": "https://save-fuel.eu/docs/en/Vehicle/Vehicle-test-procedure.pdf",
       "land-cruiser-22pc-report": "https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf",
       "fo-white-paper": "https://save-fuel.eu/docs/en/Technical/FuelOx-White-Paper.pdf",
       "laguilhon-trial": "https://save-fuel.eu/docs/en/Vehicle/France-2026-test-Mercedes-Sprinter.pdf",
-      "burkhina-faso-mine": "https://save-fuel.eu/docs/en/Static/Goldmine-Trial-Burkina-Faso.pdf",
-      "ghana-mine": "https://save-fuel.eu/docs/en/Static/Adamus-Resources-Ghana-mine.pdf",
+      "burkhina-faso-mine": "https://save-fuel.eu/docs/en/Vehicle/Goldmine-Trial-Burkina-Faso.pdf",
+      "ghana-mine": "https://save-fuel.eu/docs/en/Vehicle/Adamus-Resources-Ghana-mine.pdf",
       "how-tu-use-fo": "https://save-fuel.eu/docs/en/Technical/Using-FuelOx.pdf",
       "gdpr": "https://save-fuel.eu/docs/en/Business/GDPR-statement.pdf",
       "legal-details": "https://save-fuel.eu/docs/en/Business/Company-Information.pdf",
@@ -255,6 +258,9 @@
       "ASTM-D975-test": "https://save-fuel.eu/docs/en/Technical/ASTM-D975-diesel-labtests.pdf",
       "UAE-mitsubishi-test": "https://save-fuel.eu/docs/en/Vehicle/UAE-truck-emissions-trial.pdf",
       "peruvian-mine": "https://save-fuel.eu/docs/en/Static/Peruvian-Mine-emissions-reduction.pdf"
+    },
+    "email": {
+      "free-trial-enquiry-subject": "?subject=Free%20trial%20enquiry"
     }
   }
 }
