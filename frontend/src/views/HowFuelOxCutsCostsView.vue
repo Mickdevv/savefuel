@@ -17,12 +17,19 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
 
     <div class="text-container">
       <p>{{ $t('pages.how-fo-cuts-costs.p1') }}</p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p2') }}<a target="_blank"
-          :href="$t('links.documents.land-cruiser-22pc-report')">here</a></p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p3') }}</p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p4') }}</p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p5') }}<a target="_blank" :href="$t('links.documents.fo-white-paper')">{{
-        $t('pages.how-fo-cuts-costs.p6') }}</a></p>
+      <p>{{ $t('pages.how-fo-cuts-costs.p2') }}</p>
+      <ol>
+        <li>{{ $t('pages.how-fo-cuts-costs.p3') }}</li>
+        <li>{{ $t('pages.how-fo-cuts-costs.p4') }}</li>
+      </ol>
+      <p>{{ $t('pages.how-fo-cuts-costs.p5') }}</p>
+      <p>{{ $t('pages.how-fo-cuts-costs.p6_1') }}<a target="_blank"
+          :href="$t('links.documents.land-cruiser-22pc-report')">{{
+            $t('pages.how-fo-cuts-costs.p6_2') }}</a></p>
+      <p>{{ $t('pages.how-fo-cuts-costs.p7') }}</p>
+      <p>{{ $t('pages.how-fo-cuts-costs.p8') }}</p>
+      <p>{{ $t('pages.how-fo-cuts-costs.p9_1') }}<a target="_blank" :href="$t('links.documents.fo-white-paper')">{{
+        $t('pages.how-fo-cuts-costs.p9_2') }}</a></p>
     </div>
 
     <div class="cost-calculator-container">

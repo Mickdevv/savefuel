@@ -16,6 +16,21 @@ const { tm } = useI18n()
 
     <div class="paragraphs">
       <p v-for="(p, i) in tm('pages.free-trial-procedure.paragraphs')">{{ p }}</p>
+      <ol style="margin-bottom: 1rem;">
+        <li v-for="(p, i) in tm('pages.free-trial-procedure.steps')">
+          <p style="font-weight: bold;"> {{ p[0] }}</p>
+          <p>{{ p[1] }}</p>
+        </li>
+      </ol>
+      <h3 style="margin-top: 2rem;">{{ $t('pages.free-trial-procedure.test-conditions.title') }}</h3>
+      <h4>{{ $t('pages.free-trial-procedure.test-conditions.sub-title') }}</h4>
+      <ol>
+        <li v-for="(p, i) in tm('pages.free-trial-procedure.test-conditions.conditions')">
+          <p> {{ p }}</p>
+        </li>
+      </ol>
+
+      <h3>{{ $t('pages.free-trial-procedure.email-title') }}</h3>
       <p>{{ $t('pages.free-trial-procedure.email-line') }}<a
           :href="'mailto:contact@save-fuel.eu' + $t('links.email.free-trial-enquiry-subject')">contact@save-fuel.eu</a>
       </p>
@@ -36,6 +51,10 @@ const { tm } = useI18n()
 </template>
 
 <style scoped>
+ol {
+  margin-bottom: 2rem;
+}
+
 .right-column {
   margin-left: 1rem;
 }

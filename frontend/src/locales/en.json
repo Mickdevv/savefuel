@@ -24,24 +24,50 @@
     },
     "how-fo-cuts-costs": {
       "page-title": "How Fuel Ox cuts costs",
-      "p1": "Fuel Ox treatment cuts fuel consumption by two separate methods.  It improves burn efficiency and improves engine efficiency. ",
-      "p2": "Treatment over several tanks of fuel cleans the fuel and ignition systems of sludges and deposits which makes  the engine work more efficiently.  With a 2005 high mileage turbo diesel vehicle, this made a dramatic difference.   The road test showed a 17% reduction in fuel consumption from cleaning the engine systems.  Treated fuel burns more completely, less fuel is required to give the same power output.  This enhanced combustion cut consumption by another 5%.  The total saving was 22%.  Read the full test report ",
-      "p3": "We guarantee that your vehicle will see a reduced fuel consumption of at least 7%. This is guaranteed by you performing  a free trial of Fuel Ox on a vehicle in your fleet. ",
-      "p4": "You can use our calculator to see the potential savings.  Enter the current fuel price and  your monthly fleet fuel consumption in litres to see the minimum cost savings if all your fleet is treated fuel with Fuel Ox. ",
-      "p5": "Detailed technical information is in the ",
-      "p6": "Fuel Ox White Paper.",
+      "p1": "Fuel Ox works in two complementary ways to reduce your consumption in the long term.  It improves fuel combustion and optimizes the overall efficiency of your engine. ",
+      "p2": "As the tank is filled, the treatment gradually cleans the fuel and ignition systems.  The result: a cleaner, more efficient, and more efficient engine.  On a 2005 turbocharged diesel vehicle with high mileage, tests showed a reduction in fuel consumption of up to 22% : ",
+      "p3": "17% savings thanks to engine and fuel system cleaning  ",
+      "p4": "5% more thanks to more complete and efficient combustion  ",
+      "p5": "Better combustion simply means that less fuel is needed to produce the same amount of power. ",
+      "p6_1": "Check out the full test report ",
+      "p6_2": "here.",
+      "p7": "We are committed to concrete results: you benefit from a minimum reduction of 7% in your consumption, guaranteed thanks to a free trial of one of your vehicles. ",
+      "p8": "With our calculator here, you can easily visualize the potential savings.  Indicate the price of fuel and your monthly consumption and get a clear estimate of the possible gains across your entire fleet. ",
+      "p9_1": "Need more information?  Find all the detailed technical data in our ",
+      "p9_2": "Fuel Ox white paper.",
       "explore-a-free-trial-button": "Explore a free trial"
     },
     "free-trial-procedure": {
       "page-title": "Free trial procedure",
       "paragraphs": [
-        "A free trial allows you to test the reduction in fuel consumption before buying.   Save Fuel Europe SAS [SFE] will provide enough Fuel Ox for your trial vehicle.  The vehicle chosen will ideally refuel 2 or more times in a normal working week and drive under similar conditions during the test. ",
-        "SFE will provide a detailed test procedure. There are 3 phases.",
-        "First, accurately establish the baseline untreated fuel consumption.  Fill the tank(s) to the bottom of the filler tube or to a level that can be accurately repeated.  Note the odometer distance.  Drive until about 75% empty tank(s).  Refuel to exactly the same level, note the odometer reading and the fuel added.  Add Fuel Ox at twice the normal concentration to the full tank volume(s); 1 mL per 5 L of fuel.   ",
-        "Next is the initial clean-up phase where the process of cleaning the fuel and ignition systems begins.  Drive until about 75% of the fuel is used.  Refuel to exactly the same level, note the odometer reading and the fuel added.  Add the normal concentration of Fuel Ox to the volume of fuel added, 1 mL per 10 L of fuel. ",
-        "Finally, measure the treated fuel consumption.  Drive until about 75% of fuel is used.  Refuel to exactly the same level, note the odometer reading and the fuel added. ",
-        "There are two conditions attached to a free trial. You report the results to Save Fuel Europe and if the fuel saving is at least 7% you buy at least 1 litre of FuelOx."
+        "Test your fuel reduction for free. ",
+        "At Save Fuel Europe, we offer a free trial to see for yourself the savings you can make before you buy. ",
+        "We provide you with the amount of Fuel Ox needed to carry out this test in real conditions. For reliable results, we recommend using a vehicle that refuels at least twice a week and is usually driven in similar conditions. ",
+        "How does the trial work?  The trial is simply carried out in three stages: "
       ],
+      "steps": [
+        [
+          "Measure your current consumption",
+          "Start by refuelling (always at the same level to ensure accuracy). Write down your mileage and then use the vehicle normally. On the next fill-up, note the mileage and the amount of fuel added again. This will give you your reference consumption. "
+        ],
+        [
+          "Cleaning phase ",
+          "Then add Fuel Ox (starting dose) and continue to use your vehicle normally. This phase allows the fuel system to be gradually cleaned and its performance to be optimised. "
+        ],
+        [
+          "Measure your savings",
+          "After this phase, continue with the normal dose of Fuel Ox. Read your consumption data again to easily compare with your initial results. "
+        ]
+      ],
+      "test-conditions": {
+        "title": "Test conditions",
+        "sub-title": "Two simple conditions",
+        "conditions": [
+          "Share your consumption data with Save Fuel Europe",
+          "If you save at least 7%, you agree to buy at least 1 litre of Fuel Ox"
+        ]
+      },
+      "email-title": "Want to give it a try?  ",
       "email-line": "Email to set up a free trial ",
       "vehicles-button": "Vehicles",
       "generators-button": "Generators"
@@ -260,7 +286,8 @@
       "peruvian-mine": "https://save-fuel.eu/docs/en/Static/Peruvian-Mine-emissions-reduction.pdf"
     },
     "email": {
-      "free-trial-enquiry-subject": "?subject=Free%20trial%20enquiry"
+      "free-trial-enquiry-subject": "?subject=Free%20trial%20enquiry",
+      "website-enquiry": "?subject=Website%20enquiry"
     }
   }
 }

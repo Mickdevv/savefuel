@@ -93,7 +93,7 @@ const items = computed(() => [
   {
     label: 'contact@save-fuel.eu',
     // icon: 'pi pi-eraser',  
-    command: () => window.location.href = 'mailto:contact@save-fuel.eu'
+    command: () => window.location.href = `mailto:contact@save-fuel.eu${t('links.email.website-enquiry')}`
 
   },
 ])
@@ -119,10 +119,10 @@ const toggle = (event: any) => {
       </div>
       <div class="links">
         <span class="icons">
-          <a class="sm-link linkedin-link" href="">
+          <a class="sm-link linkedin-link" href="https://www.linkedin.com/company/save-fuel-europe/?viewAsMember=true ">
             <i class="pi pi-linkedin"></i>
           </a>
-          <a class="sm-link youtube-link" href="">
+          <a class="sm-link youtube-link" href="https://www.youtube.com/@SaveFuelEurope">
             <i class="pi pi-youtube"></i>
           </a>
         </span>

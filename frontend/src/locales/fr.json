@@ -24,24 +24,51 @@
     },
     "how-fo-cuts-costs": {
       "page-title": "Comment Fuel Ox réduit les coûts",
-      "p1": "Le traitement Fuel Ox réduit la consommation de carburant par deux méthodes distinctes. Il améliore l’efficacité de combustion et le rendement du moteur.",
-      "p2": "Le traitement sur plusieurs pleins de carburant décrasse les systèmes de carburant et d'allumage rendant le moteur plus efficace.  Sur un véhicule turbo diesel à kilométrage élevé de 2005, une économie de 22% de carburant a pu être observé. L'essai sur route a montré une réduction de 17 % dans la consommation de carburant due au décrassement des systèmes moteur.  Le combustible traité brûle plus complètement, moins de carburant est donc nécessaire pour obtenir la même puissance.  Cette combustion améliorée  a permis une économie supplémentaire de 5%. Lisez le rapport complet des tests ici. ",
-      "p3": "Nous garantissons que votre véhicule aura une réduction dans la consommation de carburant d'au moins 7 %. Cela est garanti par un essai gratuit de Fuel Ox avec un véhicule de votre flotte. ",
-      "p4": "Notre calculatrice est à votre disposition pour vous permettre de voir les économies éventuelles que vous pourrez faire. Entrez le prix du carburant ainsi que votre consommation mensuelle en litres. Les résultats vous montreront les gains minimum si toute votre flotte est traité avec Fuel Ox. ",
-      "p5": "Les informations techniques détaillées se trouvent dans le Livre Blanc FuelOx. ",
+      "p1": "Fuel Ox agit de deux façons complémentaires pour réduire durablement votre consommation.  Il améliore la combustion du carburant et optimise le rendement global de votre moteur. ",
+      "p2": "Au fil des pleins, le traitement nettoie progressivement les systèmes d’alimentation et d’allumage.  Résultat : un moteur plus propre, plus performant, et plus efficace.  Sur un véhicule diesel turbo de 2005 avec un kilométrage élevé, des tests ont montré une réduction de consommation allant jusqu’à 22 % : ",
+      "p3": "17 % d’économie grâce au nettoyage du moteur et du système carburant  ",
+      "p4": "5 % supplémentaires grâce à une combustion plus complète et plus efficace  ",
+      "p5": "Une meilleure combustion signifie simplement qu’il faut moins de carburant pour produire la même puissance.",
+      "p6_1": "Consultez le rapport complet des tests ",
+      "p6_2": "ici.",
+      "p7": "Nous nous engageons sur des résultats concrets : vous bénéficiez d’une réduction minimale de 7 % de votre consommation, garantie grâce à un essai gratuit réalisé sur l’un de vos véhicules. ",
+      "p8": "Grâce à notre calculatrice ici, visualisez facilement les économies potentielles.  Indiquez le prix du carburant et votre consommation mensuelle, et obtenez une estimation claire des gains possibles sur l’ensemble de votre flotte. ",
+      "p9_1": "Besoin de plus d’informations ?  Retrouvez toutes les données techniques détaillées dans notre ",
+      "p9_2": "Livre blanc Fuel Ox",
       "explore-a-free-trial-button": "Découvrir un essai gratuit"
     },
     "free-trial-procedure": {
       "page-title": "Procedure d'essai gratuit",
       "paragraphs": [
-        "Nous vous proposons un essai gratuit afin de tester la réduction de la consommation avant d'acheter.   Save Fuel Europe SAS [SFE] fournira suffisamment de Fuel Ox pour l’essai.  Le véhicule choisi idéalement, fait le plein au moins 2 fois par semaine et devra être conduit dans des conditions similaires qu’avant le test. ",
-        "SFE fournira une procédure de test détaillée, composée de trois phases.",
-        "Dans la première phase, il s’agit d’établir avec précision la consommation de carburant non traité. Commencez par remplir le ou les réservoirs jusqu’au fond du tube de remplissage, ou à un niveau que vous pouvez reproduire avec exactitude. Notez le kilométrage du véhicule. Roulez ensuite jusqu’à ce qu’il reste environ 25 % de carburant, puis refaites le plein exactement au même niveau. Notez à nouveau le kilométrage ainsi que le volume de carburant ajouté. Ajoutez ensuite le Fuel Ox dans le réservoir à une concentration double de la normale, soit 1 mL pour 5 L de carburant présent dans le réservoir.",
-        "La deuxième phase correspond à la phase initiale de nettoyage, durant laquelle commence le nettoyage du carburant et du système. Conduisez le véhicule jusqu’à ce qu’environ 75 % du carburant soit consommé, puis refaites le plein au même niveau. Notez le kilométrage ainsi que la quantité de carburant ajoutée. Ajoutez ensuite le Fuel Ox à la concentration normale, soit 1 mL pour 10 L de carburant ajouté.",
-        "Enfin, dans la troisième phase, mesurez la consommation de carburant traité. Conduisez jusqu’à ce qu’environ 75 % du carburant soit utilisé, puis refaites le plein au même niveau. Notez le kilométrage ainsi que le volume de carburant ajouté afin de déterminer la consommation avec carburant traité.",
-        "Il y a deux conditions à cet essai gratuit.  Vous devez transmettre les données à Save Fuel Europe et si l'économie de carburant est d'au moins 7 %, vous devez acheter au moins 1 litre de Fuel Ox. "
+        "Testez gratuitement la réduction de votre consommation de carburant. ",
+        "Chez Save Fuel Europe, nous vous proposons un essai gratuit pour constater par vous-même les économies possibles avant tout achat. ",
+        "Nous mettons à votre disposition la quantité de Fuel Ox nécessaire pour réaliser ce test dans des conditions réelles. Pour obtenir des résultats fiables, nous recommandons d’utiliser un véhicule qui fait le plein au moins deux fois par semaine et qui roule habituellement dans des conditions similaires.",
+        "Comment se déroule l’essai ?  L’essai se déroule simplement en trois étapes : "
       ],
-      "email-line": "Envoyez un e-mail pour organiser un essai gratuit ",
+      "steps": [
+        [
+          "Mesurez votre consommation actuelle",
+          "Commencez par faire le plein (toujours au même niveau pour garantir la précision). Notez votre kilométrage, puis utilisez le véhicule normalement. Lors du plein suivant, notez à nouveau le kilométrage et la quantité de carburant ajoutée. Cela vous donnera votre consommation de référence."
+        ],
+        [
+          "Phase de nettoyage",
+          "Ajoutez ensuite Fuel Ox (dose de démarrage) et continuez à utiliser votre véhicule normalement. Cette phase permet de nettoyer progressivement le système carburant et d’optimiser ses performances. "
+        ],
+        [
+          "Mesurez vos économies",
+          "Après cette phase, continuez avec la dose normale de Fuel Ox. Relevez à nouveau vos données de consommation pour comparer facilement avec vos résultats initiaux. "
+        ]
+      ],
+      "test-conditions": {
+        "title": "Conditions de l’essai ",
+        "sub-title": "Deux conditions simples : ",
+        "conditions": [
+          "Partager vos données de consommation avec Save Fuel Europe  ",
+          "En cas d’économie d’au moins 7 %, vous vous engagez à acheter au minimum 1 litre de Fuel Ox  "
+        ]
+      },
+      "email-title": "Envie d’essayer ? ",
+      "email-line": "Contactez-nous dès maintenant pour organiser votre test gratuit : ",
       "vehicles-button": "Véhicules",
       "generators-button": "Générateurs"
     },
@@ -251,6 +278,7 @@
     }
   },
   "email": {
-    "free-trial-enquiry-subject": "?subject=Essai%20gratuit"
+    "free-trial-enquiry-subject": "?subject=Essai%20gratuit",
+    "website-enquiry": "?subject=Demande%20site%20internet"
   }
 }
