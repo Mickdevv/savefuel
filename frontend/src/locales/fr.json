@@ -16,10 +16,10 @@
     "home": {
       "page-title": "Accueil",
       "paragraphs": [
-        "Réduisez vos coûts de carburant de 7 à 10 % — résultat garanti pour les flottes.",
-        "Efficacité démontrée en conditions réelles. Aucun impact sur la spécification du carburant. Sans risque pour les moteurs.",
-        "Pour un poids lourd parcourant 150 000 km/an et consommant 45 000 L de carburant, une réduction minimale garantie de 7 % permet d’économiser 3 150 L.",
-        "Pour un coût de traitement de €0,0198 € par litre et un carburant à 2 € par litre, l’économie atteint €5,409."
+        "Une réduction des coûts de carburant de 9 % ou plus est possible pour les exploitants de flottes.",
+        "Des essais routiers réalisés en France ont montré une réduction de la consommation de carburant comprise entre 9 % et 22 %.",
+        "Pour un camion parcourant 150 000 km par an et consommant 45 000 litres de carburant, une réduction de 9 % permet d’économiser 4 050 litres.",
+        "Pour un coût de traitement de €0,0198 € par litre et un carburant à 2 € par litre, l’économie atteint €7 209."
       ],
       "learn-more-button": "En savoir plus"
     },
@@ -32,7 +32,7 @@
       "p5": "Le combustible traité brûle plus complètement, moins de carburant est donc nécessaire pour obtenir la même puissance.",
       "p6_1": "Consultez le rapport complet des tests ",
       "p6_2": "ici.",
-      "p7": "Nous garantissons que votre véhicule aura une réduction dans la consommation de carburant d'au moins 7 %. Cela est garanti par un essai gratuit de Fuel Ox avec un véhicule de votre flotte.",
+      "p7": "Bénéficiez d’une réduction possible de 9 % de votre consommation. Essayez avant d’acheter grâce à un essai gratuit sur l’un de vos véhicules.",
       "p8": "Notre calculatrice est à votre disposition pour vous permettre de voir les économies éventuelles que vous pourrez faire. Entrez le prix du carburant ainsi que votre consommation mensuelle en litres. Les résultats vous montreront les gains minimum si toute votre flotte est traité avec Fuel Ox.",
       "p9_1": "Les informations techniques détaillées se trouvent dans le  ",
       "p9_2": "Livre blanc Fuel Ox",
@@ -77,8 +77,8 @@
       "page-title": "Véhicules",
       "direct-cost-benefit": {
         "title": "Bénéfice direct en coûts ",
-        "p1": "Un gros camion parcourant 150 000 km par an et brûlant 30 L/100 km consomme 45 000 L de carburant.  Avec la réduction minimale garantie de 7 % de la consommation, cela permet d'économiser 3 150 L.",
-        "p2": "Le traitement de 45 000 L de carburant nécessite 4,5 L de Fuel Ox, pour un coût de 891 € + TVA.  Si le carburant coûte 1,67 € + TVA (2,00 € au total), Fuel Ox réduit votre coût de carburant de 4 369 €, y compris le coût de Fuel Ox. "
+        "p1": "Un gros camion parcourant 150 000 km par an et brûlant 30 L/100 km consomme 45 000 L de carburant.  Avec la réduction minimale de 9 % de la consommation, cela permet d'économiser 4 050 L.",
+        "p2": "Le traitement de 45 000 L de carburant nécessite 4,5 L de Fuel Ox, pour un coût de 891 € + TVA.  Si le carburant coûte 1,67 € + TVA (2,00 € au total), Fuel Ox réduit votre coût de carburant de 5 872 € hors taxe, y compris le coût de Fuel Ox. "
       },
       "other-benefits": {
         "title": "Autres avantages  ",
@@ -150,8 +150,8 @@
       "page-title": "Générateurs",
       "direct-cost-benefit": {
         "title": "Bénéfice direct en coûts ",
-        "p1": "Un générateur typique bien entretenu de 100 kVA à 75 % de pleine charge brûlerait environ 21 L/heure, fournissant ~ 3,6 kWh/L.  Si cela était utilisé sur 22 jours de travail de 8 heures par mois, le carburant non traité serait de 21 x 8 x 22 = 3696 L.  Avec la réduction minimale garantie de 7 % de la consommation, cela permet d'économiser 259 L. ",
-        "p2": "Le traitement de 3696 L de carburant nécessite 0,37 L de Fuel Ox, coûtant 73 € + TVA.  Si le carburant coûte 1,67 € + TVA (2,00 € au total), Fuel Ox réduit le coût d'un générateur sur un mois d'au moins 360 €, y compris le coût de Fuel Ox avec une réduction garantie minimale de 7 % sur la consommation de carburant.   ",
+        "p1": "Un générateur typique bien entretenu de 100 kVA à 75 % de pleine charge brûlerait environ 21 L/heure, fournissant ~ 3,6 kWh/L.  Si cela était utilisé sur 22 jours de travail de 8 heures par mois, le carburant non traité serait de 21 x 8 x 22 = 3696 L.  Avec la réduction de 9 % de la consommation, cela permet d'économiser 332 L. ",
+        "p2": "Le traitement de 3696 L de carburant nécessite 0,37 L de Fuel Ox, coûtant 73 € + TVA.  Si le carburant coûte 1,67 € + TVA (2,00 € au total), 9 % moins consommation réduit le coût d'un générateur sur un mois de 482 €, y compris le coût de Fuel Ox",
         "p3": "Pour les lieux isolés, la logistique devient plus facile car chaque chargement de carburant dure plus longtemps. "
       },
       "other-benefits": {

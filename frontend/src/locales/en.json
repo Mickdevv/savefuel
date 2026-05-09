@@ -16,10 +16,10 @@
     "home": {
       "page-title": "Home",
       "paragraphs": [
-        "Reduce fuel costs by 7-10% guaranteed for fleet operators",
-        "Proven in real vehicles.  No change to fuel specification.  No risk to engines.",
-        "For a truck driving 150,000 km/year burning 45,000 L of fuel, guaranteed minimum 7% reduction saves 3,150 L.",
-        "At a treatment cost per litre of €0.0198 and fuel cost of €2 per litre, €5,409 saved."
+        "Reducing fuel costs by 9% or more is possible for fleet operators.",
+        "Road tests in France showed between 9% and 22% reduction in fuel consumption.",
+        "For a truck driving 150,000 km/year burning 45,000 L of fuel, a 9% reduction saves 4050 litres.",
+        "At a treatment cost per litre of €0.0198 and fuel cost of €2 per litre, €7209 saved."
       ],
       "learn-more-button": "Learn more"
     },
@@ -32,7 +32,7 @@
       "p5": "Better combustion simply means that less fuel is needed to produce the same amount of power. ",
       "p6_1": "Check out the full test report ",
       "p6_2": "here.",
-      "p7": "We are committed to concrete results: you benefit from a minimum reduction of 7% in your consumption, guaranteed thanks to a free trial of one of your vehicles. ",
+      "p7": "You benefit from a possible reduction of 9% in your consumption.  Try before you buy with a free trial using one of your vehicles.",
       "p8": "With our calculator here, you can easily visualize the potential savings.  Indicate the price of fuel and your monthly consumption and get a clear estimate of the possible gains across your entire fleet. ",
       "p9_1": "Need more information?  Find all the detailed technical data in our ",
       "p9_2": "Fuel Ox white paper.",
@@ -77,7 +77,7 @@
       "page-title": "Vehicles",
       "direct-cost-benefit": {
         "title": "Direct cost benefit",
-        "p1": "A large truck driving 150,000 km a year burning 30 L/100 km uses 45,000 L of fuel.  At the minimum guaranteed 7% cut in consumption, this saves 3,150 L. ",
+        "p1": "A large truck driving 150,000 km a year burning 30 L/100 km uses 45,000 L of fuel.  At 9% cut in consumption, this saves 4 050 L. ",
         "p2": "Treating 45,000 L of fuel takes 4.5 L of Fuel Ox, costing €891 + VAT.  If fuel costs €1.67 + VAT (€2.00 total), Fuel Ox cuts your fuel cost by €4,369 including the cost of Fuel Ox."
       },
       "other-benefits": {
@@ -151,8 +151,8 @@
       "page-title": "Generators",
       "direct-cost-benefit": {
         "title": "Direct cost benefit",
-        "p1": "A typical well maintained 100 kVA generator at 75% full load would burn around 21 L/hour, providing ~ 3.6 kWh/L. If that was used over 22 x 8 hour working days in a month, untreated fuel used would be 21 x 8 x 22 = 3696 L. At the minimum guaranteed 7% cut in consumption, this saves 259 L",
-        "p2": "Treating 3696 L of fuel takes 0.37 L of Fuel Ox, costing €73 + VAT. If fuel costs €1.67 + VAT (€2.00 total), Fuel Ox cuts the fuel cost of one generator over one month by at least €360 including the cost of Fuel Ox at the guaranteed minimum 7% fuel use reduction",
+        "p1": "A typical well maintained 100 kVA generator at 75% full load would burn around 21 L/hour, providing ~ 3.6 kWh/L. If that was used over 22 x 8 hour working days in a month, untreated fuel used would be 21 x 8 x 22 = 3696 L. At 9% cut in consumption, this saves 332 L",
+        "p2": "Treating 3696 L of fuel takes 0.37 L of Fuel Ox, costing €73 + VAT. If fuel costs €1.67 + VAT (€2.00 total), a 9% saving cuts the fuel cost of one generator over one month by €482 ex VAT including the cost of Fuel Ox.",
         "p3": "For remote locations, logistics becomes easier as each load of fuel lasts longer."
       },
       "other-benefits": {
