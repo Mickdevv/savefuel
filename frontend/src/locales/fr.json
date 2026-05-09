@@ -7,7 +7,7 @@
     "technical": "Technique",
     "vehicles": "Véhicules",
     "generators": "Générateurs",
-    "about": "À propos",
+    "about": "Save Fuel Europe",
     "price-list": "Liste prix 2026",
     "legal-details": "SFE mentions légales",
     "gdpr": "Déclaration GDPR"
@@ -186,7 +186,7 @@
         "p4": "Fuel Ox comprend des catalyseurs.  Un catalyseur provoque des réactions chimiques sans être consommé par la réaction, donc une petite quantité de catalyseur continuera à agir longtemps. Le traitement normal avec Fuel Ox utilise une partie sur 10 000. Un litre de Fuel Ox traite 10 000 litres de carburant. L'amélioration de l'efficacité de combustion est d'environ 5 %. L'amélioration de l'efficacité du moteur peut être bien plus importante, selon l'état du moteur."
       },
       "technical-documents": {
-        "title": "Documents techniques (consultation PDF ou téléchargement) ",
+        "title": "Documentation technique (consultation PDF ou téléchargement) ",
         "p1_1": "Informations sur le produit",
         "p1_2": "Caractéristiques, normes, spécifications. ",
         "p2_1": "Livre blanc sur Fuel Ox ",

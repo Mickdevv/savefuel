@@ -13,7 +13,7 @@ currentPageStore.setCurrentPage("technical")
   <div class="page-container">
 
     <div class="paragraphs">
-      <h2>{{ $t('pages.technical.history.title') }}</h2>
+      <!-- <h2>{{ $t('pages.technical.history.title') }}</h2> -->
       <p>{{ $t('pages.technical.history.p1') }}</p>
       <p>{{ $t('pages.technical.history.p2') }}</p>
       <p>{{ $t('pages.technical.history.p3') }}</p>
@@ -34,7 +34,7 @@ currentPageStore.setCurrentPage("technical")
         $t('pages.technical.technical-documents.p4_1') }}</a> - {{
             $t('pages.technical.technical-documents.p4_2') }}</p>
       <p> <a target="_blank" :href="$t('links.documents.fo-MSDS')"> {{ $t('pages.technical.technical-documents.p5_1')
-          }}</a> - {{
+      }}</a> - {{
             $t('pages.technical.technical-documents.p5_2') }}</p>
       <p> <a target="_blank" :href="$t('links.documents.intertek-EN590-test')"> {{
         $t('pages.technical.technical-documents.p6_1') }}</a> - {{
