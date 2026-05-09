@@ -119,7 +119,8 @@ const toggle = (event: any) => {
       </div>
       <div class="links">
         <span class="icons">
-          <a target="_blank" class="sm-link linkedin-link" href="https://www.linkedin.com/company/save-fuel-europe/?viewAsMember=true ">
+          <a target="_blank" class="sm-link linkedin-link"
+            href="https://www.linkedin.com/company/save-fuel-europe/?viewAsMember=true ">
             <i class="pi pi-linkedin"></i>
           </a>
           <a target="_blank" class="sm-link youtube-link" href="https://www.youtube.com/@SaveFuelEurope">
@@ -142,7 +143,7 @@ const toggle = (event: any) => {
 
 <style scoped>
 .company-name {
-  display: none;
+  /* display: none; */
 }
 
 
@@ -155,6 +156,8 @@ const toggle = (event: any) => {
   display: none;
   color: hsla(195, 100%, 37%, 1);
 }
+
+@media (min-width: 100px) {}
 
 @media (min-width: 1000px) {
 
