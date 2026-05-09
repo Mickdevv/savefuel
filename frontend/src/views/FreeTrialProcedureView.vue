@@ -31,8 +31,8 @@ const { tm } = useI18n()
       </ol>
 
       <h3>{{ $t('pages.free-trial-procedure.email-title') }}</h3>
-      <p>{{ $t('pages.free-trial-procedure.email-line') }}<a
-          :href="'mailto:contact@save-fuel.eu' + $t('links.email.free-trial-enquiry-subject')">contact@save-fuel.eu</a>
+      <p>{{ $t('pages.free-trial-procedure.email-line') }}
+        <a href="mailto:contact@save-fuel.eu?subject=Free%20trial%20enquiry">contact@save-fuel.eu</a>
       </p>
     </div>
     <div class="right-column">
