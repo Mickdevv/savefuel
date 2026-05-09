@@ -1,16 +1,47 @@
-  <template>
-    <div class="footer-container">
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <div class="footer-container">
+    <div class="mission-statement-container">
+      <img src="../assets/SFE_Logo.png" alt="">
       <p>{{ $t('components.footer.save-fuel') }}</p>
       <img src="../assets/SFE_Logo.png" alt="">
       <p>{{ $t('components.footer.protect-earth') }}</p>
       <img src="../assets/SFE_Logo.png" alt="">
       <p>{{ $t('components.footer.reduce-costs') }}</p>
+      <img src="../assets/SFE_Logo.png" alt="">
+    </div>
+    <div class="contact-row-container">
+      <p>Contact: Steve Devereux +33 675 79 08 16</p>
+      <a target="_blank" :href="$t('links.documents.legal-details')">{{ $t('menubar.legal-details') }}</a>
+      <a :href="`mailto:contact@save-fuel.eu${$t('links.email.website-enquiry')}`">contact@save-fuel.eu</a>
 
     </div>
-  </template>
+  </div>
+</template>
 
 <style scoped>
+.mission-statement-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact-row-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
 .footer-container {
+  flex-direction: column;
   margin-top: 2rem;
   display: flex;
   width: 100%;

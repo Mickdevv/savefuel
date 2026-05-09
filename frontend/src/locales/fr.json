@@ -276,10 +276,10 @@
       "ASTM-D975-test": "https://save-fuel.eu/docs/fr/Technical/ASTM-D975-Rapport-Analyse-Fuel-Ox.pdf",
       "UAE-mitsubishi-test": "https://save-fuel.eu/docs/fr/Vehicle/UAE-Emissions-Camion.pdf",
       "peruvian-mine": "https://save-fuel.eu/docs/fr/Static/Peru-Mine-Generator.pdf"
+    },
+    "email": {
+      "free-trial-enquiry-subject": "?subject=Essai%20gratuit",
+      "website-enquiry": "?subject=Demande%20site%20internet"
     }
-  },
-  "email": {
-    "free-trial-enquiry-subject": "?subject=Essai%20gratuit",
-    "website-enquiry": "?subject=Demande%20site%20internet"
   }
 }
