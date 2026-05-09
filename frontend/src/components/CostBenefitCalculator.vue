@@ -2,15 +2,15 @@
 import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
-const efficiencyGains = ref(7)
-const fuelPrice = ref(2.2)
+const efficiencyGains = ref(9)
+const fuelPrice = ref(2.0)
 const fuelVolume = ref(10000)
 const fuelOxPricePerL = ref(198)
 
 function reset() {
-  efficiencyGains.value = 7
-  fuelPrice.value = 2.2
-  fuelVolume.value = 100000
+  efficiencyGains.value = 9
+  fuelPrice.value = 2.0
+  fuelVolume.value = 45000
   fuelOxPricePerL.value = 198
 }
 
