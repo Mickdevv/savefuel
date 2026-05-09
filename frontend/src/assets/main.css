@@ -1,5 +1,7 @@
 @import './base.css';
-
+* {
+  font-family: 'Inter', sans-serif;
+}
 .primary-button {
   background-color: gold !important;
   border-color: gold !important;
