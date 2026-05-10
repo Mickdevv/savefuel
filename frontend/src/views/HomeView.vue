@@ -14,7 +14,7 @@ currentPageStore.setCurrentPage('home')
 
 
 <template>
-  <p v-for="(p, i) in tm('pages.home.paragraphs')">{{ p }}</p>
+  <p v-for="(p, i) in tm('pages.home.paragraphs')" v-html="p"></p>
   <div class="button-container">
     <Button @click="router.push('/how-fuel-ox-cuts-costs')" class="primary-button"
       :label="$t('pages.home.learn-more-button')" severity="warning" />
