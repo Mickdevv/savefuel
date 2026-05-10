@@ -246,7 +246,7 @@
     }
   },
   "cost_benefit_calculator": {
-    "title": "FuelOx® savings",
+    "title": "Potential savings",
     "fuel_price": "Fuel price",
     "efficiency_gains": "Efficiency gain",
     "fuel_volume": "Fuel volume",

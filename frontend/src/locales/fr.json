@@ -242,7 +242,7 @@
     }
   },
   "cost_benefit_calculator": {
-    "title": "Économies FuelOx®",
+    "title": "Potentielle économies",
     "fuel_price": "Prix du carburant",
     "efficiency_gains": "Gain d’efficacité",
     "fuel_volume": "Volume de carburant",
