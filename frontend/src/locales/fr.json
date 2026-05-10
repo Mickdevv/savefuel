@@ -16,10 +16,13 @@
     "home": {
       "page-title": "Accueil",
       "paragraphs": [
-        "Save Fuel Europe SAS est le distributeur exclusif de Fuel Ox en France. Il s’agit d’un traitement pour carburant qui améliore la consommation de carburant et offre d’autres avantages, comme expliqué sur ce site internet. Avant de créer l’entreprise, nous avons nous-mêmes testé Fuel Ox sur un Land Cruiser turbo diesel et constaté une économie de carburant de 22 %. Cela nous a donné confiance pour introduire Fuel Ox en France. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\">Rapport d’essai du Land Cruiser</a>",
-        "Des essais routiers réalisés en France ont montré une réduction de la consommation de carburant comprise entre 9 % et 22 %.",
-        "Pour un camion parcourant 150 000 km par an et consommant 45 000 litres de carburant, une réduction de 9 % permet d’économiser 4 050 litres.",
-        "Pour un coût de traitement de €0,0198 € par litre et un carburant à 2 € par litre, l’économie atteint €7 209."
+        "Save Fuel Europe SAS est le distributeur exclusif de Fuel Ox en France. Il s’agit d’un traitement pour carburant développé il y a plus de 30 ans pour la société AT&T et l’armée américaine. ",
+        
+        "Fuel Ox améliore la consommation de carburant.  Avant la création de Save Fuel Europe SAS, Fuel Ox a été testé sur un Land Cruiser de 2005 équipé d’un moteur turbo diesel D4D, et une économie de carburant de 22 % a été constatée. Cela nous a donné confiance pour introduire Fuel Ox en France.  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\">Rapport d’essai du Land Cruiser</a>",
+
+        "Des essais routiers indépendants ont également été réalisés en France. La plus faible réduction de la consommation de carburant observée était de 9 %.  Le rapport d’essai est disponible <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-LandRover-9pc-moins-fioul.pdf\" target=\"_blank\">ici</a>. ",
+
+        "À titre d’exemple, pour un camion parcourant 150 000 km par an et consommant 45 000 litres de carburant, une réduction de 9 % permet d’économiser 4 050 litres.  Avec un coût de traitement de 0,0198 € par litre et un coût du carburant de 2 € par litre, l’économie réalisée serait de 7 209 €."
       ],
       "learn-more-button": "En savoir plus"
     },
@@ -36,10 +39,10 @@
       "p8": "Notre calculatrice est à votre disposition pour vous permettre de voir les économies éventuelles que vous pourrez faire. Entrez le prix du carburant ainsi que votre consommation mensuelle en litres. Les résultats vous montreront les gains minimum si toute votre flotte est traité avec Fuel Ox.",
       "p9_1": "Les informations techniques détaillées se trouvent dans le  ",
       "p9_2": "Livre blanc Fuel Ox",
-      "explore-a-free-trial-button": "Découvrir un essai gratuit"
+      "explore-a-free-trial-button": "Profitez d'un essai gratuit"
     },
     "free-trial-procedure": {
-      "page-title": "Procedure d'essai gratuit",
+      "page-title": "Profitez d'un essai gratuit",
       "paragraphs": [
         "Testez gratuitement la réduction de votre consommation de carburant. ",
         "Chez Save Fuel Europe, nous vous proposons un essai gratuit pour constater par vous-même les économies possibles avant tout achat. ",

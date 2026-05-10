@@ -5,13 +5,11 @@
 <template>
   <div class="footer-container">
     <div class="mission-statement-container">
-      <img src="../assets/SFE_Logo.png" alt="">
       <p>{{ $t('components.footer.save-fuel') }}</p>
       <img src="../assets/SFE_Logo.png" alt="">
       <p>{{ $t('components.footer.protect-earth') }}</p>
       <img src="../assets/SFE_Logo.png" alt="">
       <p>{{ $t('components.footer.reduce-costs') }}</p>
-      <img src="../assets/SFE_Logo.png" alt="">
     </div>
     <div class="contact-row-container">
       <p>Contact: Steve Devereux +33 675 79 08 16</p>

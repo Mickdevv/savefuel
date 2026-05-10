@@ -23,8 +23,8 @@ currentPageStore.setCurrentPage('home')
 
 <style scoped>
 p {
-  font-size: 1.8rem;
-  margin-top: 4rem;
+  font-size: 1rem;
+  margin-top: 2rem;
   font-weight: 500;
 }
 
