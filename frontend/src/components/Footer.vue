@@ -12,7 +12,7 @@
       <p>{{ $t('components.footer.reduce-costs') }}</p>
     </div>
     <div class="contact-row-container">
-      <p>Contact: Steve Devereux +33 675 79 08 16</p>
+      <p>Contact: Lesley Vaquero +33 06 34 35 85 15</p>
       <a target="_blank" :href="$t('links.documents.legal-details')">{{ $t('menubar.legal-details') }}</a>
       <a :href="`mailto:contact@save-fuel.eu${$t('links.email.website-enquiry')}`">contact@save-fuel.eu</a>
 
