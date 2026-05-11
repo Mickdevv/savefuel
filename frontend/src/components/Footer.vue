@@ -12,7 +12,7 @@
       <p>{{ $t('components.footer.reduce-costs') }}</p>
     </div>
     <div class="contact-row-container">
-      <p>Contact: Steve Devereux +33 6 75 79 08 16</p>
+      <p>{{ $t('components.footer.contact') }}</p>
       <a target="_blank" :href="$t('links.documents.legal-details')">{{ $t('menubar.legal-details') }}</a>
       <a :href="`mailto:contact@save-fuel.eu${$t('links.email.website-enquiry')}`">contact@save-fuel.eu</a>
 
