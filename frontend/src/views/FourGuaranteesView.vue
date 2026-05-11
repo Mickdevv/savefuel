@@ -37,7 +37,7 @@ currentPageStore.setCurrentPage('four-guarantees')
         <a target="_blank" href="https://fuelox.com">fuelox.com</a>
       </div>
       <div class="img-container">
-        <img src="@/assets/Intertek_logo.png" alt="">
+       
         <a target="_blank" href="https://intertek-france.com">intertek-france.com</a>
       </div>
       <div class="img-container">
