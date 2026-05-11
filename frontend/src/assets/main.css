@@ -1,6 +1,7 @@
 @import './base.css';
 * {
   font-family: 'Inter', sans-serif;
+  text-align: justify;
 }
 .primary-button {
   background-color: gold !important;
