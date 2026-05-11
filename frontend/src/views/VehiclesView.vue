@@ -20,6 +20,7 @@ currentPageStore.setCurrentPage('vehicles')
             :href="$t('links.documents.fo-white-paper')">{{
               $t('pages.vehicles.other-benefits.p1_2') }}</a>
           {{ $t('pages.vehicles.other-benefits.p1_3') }}</p>
+
         <ul class="custom-list">
           <li v-for="(p, i) in $tm('pages.vehicles.other-benefits.bullet-points')">
             {{ p }}

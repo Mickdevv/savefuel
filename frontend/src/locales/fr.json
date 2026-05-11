@@ -79,23 +79,24 @@
     "vehicles": {
       "page-title": "Véhicules",
       "direct-cost-benefit": {
-        "title": "Bénéfice direct en coûts ",
-        "p1": "Un gros camion parcourant 150 000 km par an et brûlant 30 L/100 km consomme 45 000 L de carburant.  Avec la réduction minimale de 9 % de la consommation, cela permet d'économiser 4 050 L.",
-        "p2": "Le traitement de 45 000 L de carburant nécessite 4,5 L de Fuel Ox, pour un coût de 891 € + TVA.  Si le carburant coûte 1,67 € + TVA (2,00 € au total), Fuel Ox réduit votre coût de carburant de 5 872 € hors taxe, y compris le coût de Fuel Ox. "
+        "title": "Bénéfices directs sur vos coûts ",
+        "p1": "Un poids lourd parcourant 150 000 km par an avec une consommation moyenne de 30 L/100 km utilise 45 000 litres de carburant par an.  Grâce à une réduction de 9 % de la consommation, cela représente 4 050 litres économisés.",
+        "p2": "Le traitement de ces 45 000 litres nécessite seulement 4,5 litres de Fuel Ox, soit un coût de 891 € HT.  Au prix actuel du carburant de 2,00 € TTC/litre (1,67 € HT), Fuel Ox vous permet de réaliser une économie nette de 5 872 € HT par an, coût du traitement inclus."
       },
       "other-benefits": {
         "title": "Autres avantages  ",
-        "p1_1": "Lisez le ",
+        "p1_1": "Pour plus d’informations techniques détaillées, consultez le ",
         "p1_2": "livre blanc Fuel Ox ",
-        "p1_3": "pour des informations techniques détaillées. ",
+        "p1_3": ". ",
+         
         "bullet-points": [
-          "Polymérisation des molécules de combustible brisées et re-polymérisation empêchée.  Maximise l'efficacité de la combustion.",
-          "Les émissions de protoxyde d'azote diminuent, donc l'utilisation d'AdBlue diminue également.",
-          "~ 60 % de particules de suie noire en moins sont produites.  Les filtres DPF fonctionnent moins avec moins de cycles de régénération et durent plus longtemps",
-          "Les émulsions et boues qui bloquent les filtres sont cassées.",
-          "La croissance microbienne est éliminée par un agent biostatique.",
-          "Incorpore des composés qui agissent comme catalyseurs, réduisant le monoxyde de carbone et les hydrocarbures non brûlés en CO₂ et eau.",
-          "La durée de conservation du carburant s'étendait jusqu'à 2 ans."
+          "Combustion optimisée : Fuel Ox brise les polymères présents dans le carburant et empêche leur reformation, permettant une combustion beaucoup plus complète et efficace.",
+          "Réduction de l’AdBlue : Les émissions de protoxyde d’azote (N₂O) diminuent, ce qui réduit directement la consommation d’AdBlue.",
+          "Filtres DPF préservés : Jusqu’à 60 % de suie noire en moins. Moins de particules = moins de régénérations du filtre à particules, ce qui prolonge sa durée de vie et réduit les coûts d’entretien.",
+          "Filtres et injecteurs protégés : Les émulsions et boues qui encrassent le système sont dissoutes.",
+          "Protection antibactérienne : Un agent biostatique puissant élimine la prolifération microbienne dans le carburant.",
+          "Émissions réduites : Des composés catalytiques intégrés transforment plus efficacement le monoxyde de carbone et les hydrocarbures non brûlés en CO₂ et eau.",
+          "Stockage longue durée : Le carburant traité se conserve jusqu’à 2 ans sans dégradation."
         ]
       },
       "trial-reports": {
@@ -128,23 +129,23 @@
     "four-guarantees": {
       "page-title": "Quatre garanties",
       "manufacturers-guarantee": {
-        "title": "Garantie des fabricants ",
-        "p1_1": "Fuel Ox a une assurance pouvant aller jusqu'à 2 000 000 $ US en cas de dommage au moteur causé par le traitement Fuel Ox.  Aucune revendication n'a jamais été faite.   Aucun utilisateur n'a jamais affirmé que l'utilisation de Fuel Ox avait endommagé son moteur. ",
+        "title": "Garantie des fabricants moteur",
+        "p1_1": "Fuel Ox est couvert par une assurance responsabilité civile allant jusqu’à 2 000 000 $ US en cas de dommage moteur directement imputable au produit.  À ce jour, aucune réclamation n’a jamais été enregistrée auprès de l’assureur. Aucun utilisateur n’a signalé de dommage moteur lié à l’utilisation de Fuel Ox.",
         "p1_2": "Voir la garantie FuelOx. "
       },
       "EN590-ASTM-950": {
         "title": "Garanties de conformité EN590 et ASTM-950 ",
-        "p1_1": "Des tests de laboratoire réalisés par Intertek en France ont permis de comparer le diesel non traité au diesel traité avec une concentration deux fois supérieure à la normale de Fuel Ox.  La plupart des mesures étaient les mêmes, 7 montraient de minuscules différences.  Le carburant traité reste conforme aux spécifications EN590.  Le rapport de laboratoire note également que le Red Diesel traité reste également dans les spécifications.  La présence d'oxygène carburant ne peut pas être détectée par un test selon EN590.  La garantie moteur reste valide car le carburant respecte les spécifications requises. ",
+        "p1_1": "Des tests indépendants réalisés par le laboratoire Intertek en France ont montré que le diesel traité avec deux fois la dose recommandée de Fuel Ox restait conforme à la norme EN 590. La plupart des paramètres mesurés sont restés identiques, avec seulement de légères variations sur certains critères. Le carburant traité conserve ses spécifications, y compris pour le  Gasoil Non Routier (GRN).  Dans ces conditions, l’utilisation de Fuel Ox ne devrait pas affecter la garantie constructeur du véhicule.  Des tests comparatifs selon la norme américaine ASTM D975 ont également confirmé la conformité du carburant traité.",
         "p1_2": "Voir les tests EN590 du laboratoire France Intertek. ",
         "p2": "Des tests comparatifs en laboratoire avec la norme américaine ASTM-950 ont également montré que les résultats sur le carburant traité étaient presque identiques et respectaient la norme.  "
       },
       "save-fuel-europe-guarantee": {
-        "title": "Garantie SAS de Save Fuel Europe ",
-        "p1": "Nos propres tests et de nombreux tests indépendants prouvent que le traitement Fuel Ox réduit la consommation de carburant des véhicules de 6 % à 28 %.  Les rapports d'essai se trouvent sur la page Véhicules.  La plus faible économie observée lors des essais indépendants réalisés en France a montré une réduction de 9 % de la consommation de carburant. "
+        "title": "Garantie de Save Fuel Europe SAS",
+        "p1": "Selon nos tests internes et plusieurs essais indépendants, Fuel Ox peut permettre de réduire la consommation de carburant dans une fourchette de 6 % à 28 %, selon le type de véhicule, les conditions d’utilisation et l’entretien du moteur.  En France, les essais indépendants ont montré une réduction jusqu’à 9 % minimum dans le cas le plus bas observé.  Tous les rapports d’essais sont disponibles sur la page Véhicules."
       },
       "historical-guarantee": {
-        "title": "Garantie historique ",
-        "p1": "Fuel Ox a été développé dans les années 1990 pour la société AT&T et l'armée américaine.  Fuel Ox traite actuellement environ 50 000 000 de litres de carburant chaque mois.  Les utilisateurs ne continueraient pas à acheter Fuel Ox s'il ne fonctionnait pas."
+        "title": "Une histoire qui inspire confiance",
+        "p1": "Fuel Ox a été développé dans les années 1990 pour la société AT&T et l'armée américaine.  Fuel Ox traite actuellement environ 50 000 000 de litres de carburant chaque mois.  Les utilisateurs ne continueraient pas à acheter Fuel Ox s'il ne fonctionnait pas.  Développé dans les années 1990 notamment pour AT&T et l’armée américaine, Fuel Ox est un produit mature qui traite aujourd’hui plus de 50 millions de litres de carburant par mois à travers le monde. De nombreux utilisateurs professionnels l’utilisent de manière régulière depuis de nombreuses années."
       },
       "technical-button": "Technique"
     },
@@ -211,24 +212,34 @@
     "about": {
       "page-title": "À propos de Save Fuel Europe SAS",
       "title": "Save Fuel Europe est le distributeur exclusif de Fuel Ox en France",
+
       "p1": "Save Fuel Europe pourrait aider les entreprises de transport, de livraison et de logistique à réduire leurs factures de carburant grâce à un traitement simple et efficace, sûr pour les moteurs.",
+     
       "p2": "Gérer une flotte de véhicules utilitaires, camions ou 4x4 et voir les coûts du carburant gruger vos marges chaque mois ? Vous savez qu'une réduction de 9 % ferait une vraie différence, mais vous êtes prudent à l'idée d'essayer un traitement au carburant d'un distributeur encore peu connu en France ?  Nous comprenons parfaitement cette prudence. Les gestionnaires de flotte s'inquiètent surtout de deux choses : risquer d'endommager des moteurs coûteux ou de ne pas bénéficier d'un soutien local fiable.",
+     
       "p3": "Fuel Ox est un traitement multifonction de carburant qui existe depuis plus de 35 ans pour essence et diesel qui nettoie le système de carburant du moteur, réduit la friction, optimise la combustion et diminue les émissions nocives, traitant environ 50 millions de litres de carburant par mois.  Résultat : économies de carburant, des performances moteur plus fluides et une combustion plus propre — sans modifications mécaniques et sans risque pour votre garantie.   En tant que distributeur exclusif en France, nous existons pour fournir et soutenir nos utilisateurs. ",
+     
       "p4_1": "Save Fuel Europe a testé Fuel Ox sur de vrais véhicules en conditions normales avant de devenir distributeur européen, en utilisant notre ",
       "p4_2": "procédure d'essai.  ",
       "p4_3": "Sur une ",
       "p4_4": "Toyota Land Cruiser 2005",
       "p4_5": ", économie de carburant de 22 %, même conducteur, conduisant à la limite de vitesse si le trafic le permet. Le moteur fonctionne plus doucement, avec une meilleure réponse de l'accélérateur et une fumée visiblement réduite. ",
+     
       "p5_1": "Une entreprise locale disposant d'une ",
       "p5_2": "camionnette Mercedes Sprinter 2023",
       "p5_3": " réfrigérée (lignes urbaines et suburbaines quotidiennes).  10 % d'économie de carburant grâce à notre procédure d'essai. ",
+     
       "p6_1": "Un ",
       "p6_2": "Land Rover de 2000 ",
       "p6_3": "préparé par un spécialiste du Paris-Dakar (exigeant des conditions de rally-raid et un usage intensif).  Réduction de 9 % de carburant grâce à notre procédure d'essai. ",
+     
       "p7": "Une Yamaha FJR1300 moto de 2010.  Consommation de carburant non mesurée.  Le propriétaire a constaté une meilleure accélération et un démarrage à froid après le traitement avec Fuel Ox. ",
+     
       "p8_1": "Un test de laboratoire indépendant réalisé par Intertek confirme que l'ajout de Fuel Ox ne modifie pas la composition du carburant.  Cela garantit une compatibilité totale avec les moteurs diesel et essence modernes, sans risque pour les injecteurs, filtres ou systèmes de contrôle des émissions.  ",
       "p8_2": "Téléchargez le rapport Intertek (PDF). ",
+     
       "p9": "Ces résultats combinés (économies mesurées + vérification indépendante) nous permettent d'offrir Fuel Ox avec une confiance totale aux flottes professionnelles. ",
+     
       "p10": "Save Fuel Europe est une petite équipe composée de professionnels qui comprennent les réalités du transport et de la logistique. Pas de grand siège social ni de marketing surévalué — juste un produit qui fonctionne, un service client proche, et un véritable désir d'aider des entreprises comme la vôtre à réduire durablement les coûts du carburant tout en diminuant votre empreinte environnementale.  Save Fuel Europe est transparent : nous avons commencé petit pour construire de vraies preuves. Nous visons à aider les entreprises de transport routier, les stations de ski et les gestionnaires de flotte à améliorer leurs performances financières et environnementales avec Fuel Ox en France et dans toute l'UE. "
     }
   },
