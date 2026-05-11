@@ -12,11 +12,7 @@
       <p>{{ $t('components.footer.reduce-costs') }}</p>
     </div>
     <div class="contact-row-container">
-<<<<<<< Updated upstream
-      <p>Contact: Lesley Vaquero +33 06 34 35 85 15</p>
-=======
       <p>Contact: Steve Devereux +33 6 75 79 08 16</p>
->>>>>>> Stashed changes
       <a target="_blank" :href="$t('links.documents.legal-details')">{{ $t('menubar.legal-details') }}</a>
       <a :href="`mailto:contact@save-fuel.eu${$t('links.email.website-enquiry')}`">contact@save-fuel.eu</a>
 

@@ -90,15 +90,6 @@
         "p1_3": ". ",
          
         "bullet-points": [
-<<<<<<< Updated upstream
-          "Combustion optimisée : Fuel Ox brise les polymères présents dans le carburant et empêche leur reformation, permettant une combustion beaucoup plus complète et efficace.",
-          "Réduction de l’AdBlue : Les émissions de protoxyde d’azote (N₂O) diminuent, ce qui réduit directement la consommation d’AdBlue.",
-          "Filtres DPF préservés : Jusqu’à 60 % de suie noire en moins. Moins de particules = moins de régénérations du filtre à particules, ce qui prolonge sa durée de vie et réduit les coûts d’entretien.",
-          "Filtres et injecteurs protégés : Les émulsions et boues qui encrassent le système sont dissoutes.",
-          "Protection antibactérienne : Un agent biostatique puissant élimine la prolifération microbienne dans le carburant.",
-          "Émissions réduites : Des composés catalytiques intégrés transforment plus efficacement le monoxyde de carbone et les hydrocarbures non brûlés en CO₂ et eau.",
-          "Stockage longue durée : Le carburant traité se conserve jusqu’à 2 ans sans dégradation."
-=======
           "Polymérisation des molécules de combustible brisées et re-polymérisation empêchée.  Maximise l'efficacité de la combustion.",
           "Les émissions de protoxyde d'azote diminuent, donc l'utilisation d'AdBlue diminue également.",
           "~ 60 % de particules de suie noire en moins sont produites.  Les filtres DPF fonctionnent moins avec moins de cycles de régénération et durent plus longtemps",
@@ -107,7 +98,6 @@
           "Incorpore des composés qui agissent comme catalyseurs, réduisant le monoxyde de carbone et les hydrocarbures non brûlés en CO<sub>2</sub> et eau.",
           "La durée de conservation du carburant s'étendait jusqu'à 2 ans.",
           "Les motos accélèrent plus vite, vont plus loin avec un réservoir de carburant."
->>>>>>> Stashed changes
         ]
       },
       "trial-reports": {
@@ -225,13 +215,7 @@
       "title": "Save Fuel Europe est le distributeur exclusif de Fuel Ox en France",
 
       "p1": "Save Fuel Europe pourrait aider les entreprises de transport, de livraison et de logistique à réduire leurs factures de carburant grâce à un traitement simple et efficace, sûr pour les moteurs.",
-<<<<<<< Updated upstream
-     
-      "p2": "Gérer une flotte de véhicules utilitaires, camions ou 4x4 et voir les coûts du carburant gruger vos marges chaque mois ? Vous savez qu'une réduction de 9 % ferait une vraie différence, mais vous êtes prudent à l'idée d'essayer un traitement au carburant d'un distributeur encore peu connu en France ?  Nous comprenons parfaitement cette prudence. Les gestionnaires de flotte s'inquiètent surtout de deux choses : risquer d'endommager des moteurs coûteux ou de ne pas bénéficier d'un soutien local fiable.",
-     
-=======
       "p2": "Gérer une flotte de véhicules utilitaires, camions ou 4x4 et calculer les coûts du carburant gruger vos marges chaque mois ? Vous savez qu'une réduction de 9 % ferait une vraie différence, mais vous êtes prudent à l'idée d'essayer un traitement au carburant d'un distributeur encore peu connu en France ?  Nous comprenons parfaitement cette prudence. Les gestionnaires de flotte s'inquiètent surtout de deux choses : risquer d'endommager des moteurs coûteux ou de ne pas bénéficier d'un soutien local fiable.",
->>>>>>> Stashed changes
       "p3": "Fuel Ox est un traitement multifonction de carburant qui existe depuis plus de 35 ans pour essence et diesel qui nettoie le système de carburant du moteur, réduit la friction, optimise la combustion et diminue les émissions nocives, traitant environ 50 millions de litres de carburant par mois.  Résultat : économies de carburant, des performances moteur plus fluides et une combustion plus propre — sans modifications mécaniques et sans risque pour votre garantie.   En tant que distributeur exclusif en France, nous existons pour fournir et soutenir nos utilisateurs. ",
      
       "p4_1": "Save Fuel Europe a testé Fuel Ox sur de vrais véhicules en conditions normales avant de devenir distributeur européen, en utilisant notre ",
