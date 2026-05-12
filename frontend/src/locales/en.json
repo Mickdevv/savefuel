@@ -85,41 +85,55 @@
         "p1_1": "Read the ",
         "p1_2": "Fuel Ox white paper",
         "p1_3": "for detailed technical information. ",
+        "p3": "The US manufacturer reports these additional benefits based on many years of fuel treatment with Fuel Ox:",
         "bullet-points": [
-          "Polymerisation of fuel molecules broken and re-polymerisation prevented. Maxmimises burn efficiency.",
-          "Nitrous Oxide emissions reduce so AdBlue use also reduces.",
-          "~60% fewer black soot particulates are produced. DPF filters work less with fewer regeneration cycles and last longer.",
-          "Emulsions and sludges which block filters are also broken.",
-          "Microbial growth is eliminated with a biostatic agent.",
-          "Incorporates compounds that act as a catalytic converter, reducing carbon monoxide and unburnt hydrocarbons to CO2 and water.",
-          "Storage life of fuel extended up to 2 years.",
-          "Motorbikes accelerate faster and go further on a tank of fuel."
+            "<strong>Combustion optimised</strong>  Polymerisation of fuel molecules broken and re-polymerisation prevented. Maxmimises burn efficiency.",
+
+          "<strong>Reduced AdBlue consumption</strong>  Nitrous Oxide emissions reduce so AdBlue use also reduces.",
+
+          "<strong>Preserves DPF filters</strong>  Around 60% fewer black soot particulates are produced. DPF filters work less with fewer regeneration cycles and last longer.",
+
+          "<strong>Protects fuel filters and injectors</strong>  Emulsions, sludges and scale are reduced, preventing filter blockage and maintaining injector efficiency.",
+
+          "<strong>Antibacterial properties</strong>  Microbial growth is eliminated with a biostatic agent.",
+
+          "<strong>Reduced emissions</strong>  Incorporates compounds that act as a catalytic converter, reducing carbon monoxide and unburnt hydrocarbons to CO<sub>2</sub> and water.",
+
+          "<strong>Extends storage life</strong>  Storage life of fuel extended up to 2 years by eliminating polymerisation and microbial growth."
         ]
       },
+
       "trial-reports": {
         "title": "Trial reports",
-        "t1_1": "France, Mercedes Sprinter with refrigeration. 10% fuel saving.",
-        "t1_2": "Laguilhon SAS",
-        "t2_1": "France, off road rally vehicle, 9% fuel saving.",
-        "t2_2": "SARL Bearn land",
-        "t3_1": "France, turbo diesel Land Cruiser, 22% fuel saving.",
-        "t3_2": "Land cruiser",
-        "t4_1": "Burkino Faso gold mine.",
-        "t4_2": "Caterpillar 150 ton haul trucks and bulldozer test",
-        "t5_1": "Ghana mine.",
-        "t5_2": "Haul trucks, bulldozer and excavator test"
+         "bullet-points": [
+            "France, Mercedes Sprinter with refrigeration. 10% fuel saving. <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2026-test-Mercedes-Sprinter.pdf\" target=\"_blank\">Laguilhon SAS</a>",
+
+          "France, off road rally vehicle, 9% fuel saving.  <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">SARL Bearn Land</a>",
+
+         "France, turbo diesel Land Cruiser, 22% fuel saving.  <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">2005 Land Cruiser</a>",
+
+         "Burkino Faso gold mine.  <a href=\"https://save-fuel.eu/docs/en/Vehicle/Goldmine-Trial-Burkina-Faso.pdf\" target=\"_blank\">Caterpillar 150 ton haul trucks and bulldozer test</a>",
+
+          "Ghana mine.  <a href=\"https://save-fuel.eu/docs/en/Vehicle/Adamus-Resources-Ghana-mine.pdf\" target=\"_blank\">Haul trucks, bulldozer and excavator test</a>"
+        ]
+     
       },
       "other-vehicle-documents": {
         "title": "Other vehicle documents",
-        "t1_1": "Video, ",
-        "t1_2": "How to add Fuel Ox",
-        "t2": "Truck fleet operations",
-        "t3": "FAQ ski stations",
-        "t4": "Vehicle test procedure",
-        "t5_1": "Scotland, ",
-        "t5_2": "Ford Transit van emissions test",
-        "t6_1": "United Arab Emirates, ",
-        "t6_2": "Mitsubishi truck emissions test"
+         "bullet-points": [
+            "Video, <a href=\"https://www.youtube.com/watch?v=9iECyfYqDSI\" target=\"_blank\">How to add Fuel Ox</a>",
+
+          "<a href=\"https://save-fuel.eu/docs/en/Vehicle/FuelOX-Trucking-Fleet-Hard-Numbers.pdf\" target=\"_blank\" @click.stop>Truck fleet operations</a>",
+
+         "<a href=\"https://save-fuel.eu/docs/en/Vehicle/FAQ-ski-stations.pdf\" target=\"_blank\" @click.stop>Ski stations FAQ</a>",
+
+         "<a href=\"https://save-fuel.eu/docs/en/Vehicle/Vehicle-test-procedure.pdf\" target=\"_blank\" @click.stop>Generic vehicle test procedure</a>",
+
+         "Scotland, <a href=\"https://save-fuel.eu/docs/en/Vehicle/Transit-Van-Emissions-Results.pdf\" target=\"_blank\" @click.stop>Ford Transit van emissions test</a>",
+
+         "United Arab Emirates, <a href=\"https://save-fuel.eu/docs/en/Vehicle/UAE-truck-emissions-trial.pdf\" target=\"_blank\" @click.stop>Mitsubishi truck emissions test</a>"
+        ]
+
       },
       "four-guarantees-button": "Four guarantees"
     },
@@ -210,30 +224,13 @@
     "about": {
       "page-title": "About",
       "title": "Save Fuel Europe is the exclusive Fuel Ox distributor in France - Up to 22% proven fuel savings on the road",
-      "p1": "Save Fuel Europe helps transport, delivery and logistics companies cut their fuel bills with a simple, effective treatment that is safe for engines. We expect more but guarantee at least 7% on a free trial; risk free",
-      "p2": "Running a fleet of utility vehicles, trucks or 4x4s and watching fuel costs eat into your margins every month? You know a minimum 7% reduction would make a real difference, but you’re cautious about trying a fuel treatment from a distributor that’s not yet well - known in France? We completely understand that caution. Fleet managers are most concerned about two things: risking damage to expensive engines or lacking reliable local support. Trump’s war causing fuel shortages, drive further on each tank. Save Fuel Europe started with real - world tests on everyday vehicles before approaching professional fleets.",
-      "p3": "Fuel Ox is a 35 year old multi - function fuel treatment for petrol and diesel that cleans the engine fuel system, reduces friction, optimises combustion and lowers harmful emissions that treats around 50 Million litres of fuel a month. Result: up to 22% fuel savings, smoother engine performance and cleaner combustion — with no mechanical modifications and no risk to your warranty. As the exclusive distributor in France, we exist to supply and support our users.",
-      "p4_1": "Save Fuel Europe tested Fuel Ox on real vehicles in normal operating conditions before becoming the EU distributor, using our",
-      "p4_2": "trial procedure. ",
-      "p4_3": "On a ",
-      "p4_4": "2005 Toyota Land Cruiser",
-      "p4_5": ", fuel savings of 22%, same driver, driving at the speed limit traffic permitting. The engine runs smoother, with better throttle response and visibly reduced smoke.",
-
-      "p5_1": "A local company with a refrigerated ",
-      "p5_2": "2023 Mercedes Sprinter",
-      "p5_3": " delivery van (daily urban and suburban routes). 10% fuel savings using our trial procedure.",
-
-      "p6_1": "A ",
-      "p6_2": "2000 Land Rover",
-      "p6_3": "prepared by a Paris-Dakar specialist (demanding rally-aid conditions and intensive use). 9% fuel reduction using our trial procedure.",
-
-      "p7": "A 2010 Yamaha FJR1300 motorbike. Fuel consumption not measured. Owner found better acceleration and cold starting after treatment with Fuel Ox.",
-
-      "p8_1": "An independent laboratory test by Intertek confirms that adding Fuel Ox does not modify the composition of the fuel. This guarantees full compatibility with modern diesel and petrol engines, with no risk to injectors, filters or emission control systems.",
-      "p8_2": "Download the Intertek report (PDF)",
-
-      "p9": "These combined results (measured savings + independent verification) allow us to offer Fuel Ox with complete confidence to professional fleets.",
-      "p10": "Save Fuel Europe is a small team made up of professionals who understand the realities of transport and logistics. No big corporate headquarters or overhyped marketing — just a product that works, close customer service, and a genuine desire to help companies like yours reduce fuel costs sustainably while lowering your environmental footprint. Save Fuel Europe is transparent: we started small to build real proof. We aim to help trucking companies, ski resorts and fleet managers improve financial and environmental performance with Fuel Ox in France and throughout the EU."
+       "p1": "We support transport, delivery, logistics companies and off-grid power users in reducing their fuel bills with a simple, efficient and engine-safe solution.",
+      "p2": "Do you manage a fleet of commercial vehicles, trucks or generators and see fuel costs eroding your margins month after month? You know that a significant discount would make all the difference, but you're hesitant to trust a distributor that's still relatively unknown in France?",
+      "p3": "We fully understand this caution. Vehicle and generator fleet managers are primarily concerned with two things: avoiding any risk to expensive engines and managing operating costs.",
+      "p4": "Save Fuel Europe is a small team of professionals. Without a large head office or flashy marketing, we focus on the essentials: a close, transparent and results-oriented service.",
+      "p5": "We chose to start modestly to build real credibility with our clients. Our ambition is to provide long-term support to road transport companies, ski resorts, fleet managers and off-grid power users in France and Europe, helping them improve both their financial performance and their environmental footprint.",
+      "p6": "As the exclusive distributor in France, we are committed to providing personalized support and quality service to all our customers.",
+      "p7": " "
     }
   },
 

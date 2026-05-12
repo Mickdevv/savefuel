@@ -78,24 +78,11 @@ const items = computed(() => [
   },
 
   {
-    label: t('menubar.legal-details'),
-    // icon: 'pi pi-heart',
-    command: () => window.open(t('links.documents.legal-details'))
-  },
-  {
     label: t('menubar.gdpr'),
     // icon: 'pi pi-eraser',
     command: () => window.open(t('links.documents.gdpr'))
   },
-  {
-    separator: true
-  },
-  {
-    label: 'contact@save-fuel.eu',
-    // icon: 'pi pi-eraser',  
-    command: () => window.location.href = `mailto:contact@save-fuel.eu${t('links.email.website-enquiry')}`
-
-  },
+  
 ])
 const toggle = (event: any) => {
   menu.value.toggle(event);
