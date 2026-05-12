@@ -6,7 +6,6 @@ import { useRouter } from 'vue-router';
 const router = useRouter()
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage("technical")
-
 </script>
 
 <template>
@@ -14,47 +13,115 @@ currentPageStore.setCurrentPage("technical")
 
     <div class="paragraphs">
       <!-- <h2>{{ $t('pages.technical.history.title') }}</h2> -->
+
       <p>{{ $t('pages.technical.history.p1') }}</p>
       <p>{{ $t('pages.technical.history.p2') }}</p>
       <p>{{ $t('pages.technical.history.p3') }}</p>
       <p>{{ $t('pages.technical.history.p4') }}</p>
+
       <h2>{{ $t('pages.technical.technical-documents.title') }}</h2>
-      <p> <a target="_blank" :href="$t('links.documents.product-information')"> {{
-        $t('pages.technical.technical-documents.p1_1') }}</a> - {{
-            $t('pages.technical.technical-documents.p1_2') }}</p>
-      <p> <a target="_blank" :href="$t('links.documents.fo-white-paper')"> {{
-        $t('pages.technical.technical-documents.p2_1') }}</a> - {{
-            $t('pages.technical.technical-documents.p2_2') }}</p>
-      <p> <a target="_blank" :href="$t('links.documents.faq')"> {{ $t('pages.technical.technical-documents.p3_1') }}</a>
-        - {{
-          $t('pages.technical.technical-documents.p3_2') }} <a
-          href="mailto:contact@save-fuel.eu?subject=FAQ">contact@save-fuel.eu</a>
+
+      <p>
+        {{ $t('pages.technical.technical-documents.video-trial-text') }}
+        <a
+          :href="$t('links.videos.long-fuel-ox-test')"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ $t('pages.technical.technical-documents.video-trial-link') }}
+        </a>
       </p>
-      <p> <a target="_blank" :href="$t('links.documents.gnr-compared-to-EN590')"> {{
-        $t('pages.technical.technical-documents.p4_1') }}</a> - {{
-            $t('pages.technical.technical-documents.p4_2') }}</p>
-      <p> <a target="_blank" :href="$t('links.documents.fo-MSDS')"> {{ $t('pages.technical.technical-documents.p5_1')
-      }}</a> - {{
-            $t('pages.technical.technical-documents.p5_2') }}</p>
-      <p> <a target="_blank" :href="$t('links.documents.intertek-EN590-test')"> {{
-        $t('pages.technical.technical-documents.p6_1') }}</a> - {{
-            $t('pages.technical.technical-documents.p6_2') }}</p>
-      <p> <a target="_blank" :href="$t('links.documents.ASTM-D975-test')"> {{
-        $t('pages.technical.technical-documents.p7_1') }}</a> - {{
-            $t('pages.technical.technical-documents.p7_2') }}</p>
-      <p> <a target="_blank" :href="$t('links.documents.fo-guarantee')"> {{
-        $t('pages.technical.technical-documents.p8_1') }}</a> - {{
-            $t('pages.technical.technical-documents.p8_2') }}</p>
+
+      <p>
+        <a target="_blank" :href="$t('links.documents.product-information')">
+          {{ $t('pages.technical.technical-documents.p1_1') }}
+        </a>
+        -
+        {{ $t('pages.technical.technical-documents.p1_2') }}
+      </p>
+
+      <p>
+        <a target="_blank" :href="$t('links.documents.fo-white-paper')">
+          {{ $t('pages.technical.technical-documents.p2_1') }}
+        </a>
+        -
+        {{ $t('pages.technical.technical-documents.p2_2') }}
+      </p>
+
+      <p>
+        <a target="_blank" :href="$t('links.documents.faq')">
+          {{ $t('pages.technical.technical-documents.p3_1') }}
+        </a>
+        -
+        {{ $t('pages.technical.technical-documents.p3_2') }}
+
+        <a href="mailto:contact@save-fuel.eu?subject=FAQ">
+          contact@save-fuel.eu
+        </a>
+      </p>
+
+      <p>
+        <a target="_blank" :href="$t('links.documents.gnr-compared-to-EN590')">
+          {{ $t('pages.technical.technical-documents.p4_1') }}
+        </a>
+        -
+        {{ $t('pages.technical.technical-documents.p4_2') }}
+      </p>
+
+      <p>
+        <a target="_blank" :href="$t('links.documents.fo-MSDS')">
+          {{ $t('pages.technical.technical-documents.p5_1') }}
+        </a>
+        -
+        {{ $t('pages.technical.technical-documents.p5_2') }}
+      </p>
+
+      <p>
+        <a target="_blank" :href="$t('links.documents.intertek-EN590-test')">
+          {{ $t('pages.technical.technical-documents.p6_1') }}
+        </a>
+        -
+        {{ $t('pages.technical.technical-documents.p6_2') }}
+      </p>
+
+      <p>
+        <a target="_blank" :href="$t('links.documents.ASTM-D975-test')">
+          {{ $t('pages.technical.technical-documents.p7_1') }}
+        </a>
+        -
+        {{ $t('pages.technical.technical-documents.p7_2') }}
+      </p>
+
+      <p>
+        <a target="_blank" :href="$t('links.documents.fo-guarantee')">
+          {{ $t('pages.technical.technical-documents.p8_1') }}
+        </a>
+        -
+        {{ $t('pages.technical.technical-documents.p8_2') }}
+      </p>
     </div>
+
     <div class="right-column">
       <div class="images">
+        <img
+          src="../assets/Fuel_molecules_polymerised.png"
+          style="border-radius: 5px; width: 100%"
+          alt=""
+        />
 
-        <img src="../assets/Fuel_molecules_polymerised.png" style="border-radius: 5px; width: 100%" alt="">
-        <img src="../assets/Fuel_molecules_dispersed.png" style="border-radius: 5px; width: 100%" alt="">
+        <img
+          src="../assets/Fuel_molecules_dispersed.png"
+          style="border-radius: 5px; width: 100%"
+          alt=""
+        />
       </div>
+
       <div class="buttons-bar">
-        <Button class="primary-button" @click="router.push('/about')"
-          :label="$t('pages.technical.about-button')"></Button>
+        <Button
+          class="primary-button"
+          @click="router.push('/about')"
+          :label="$t('pages.technical.about-button')"
+        />
       </div>
     </div>
 

@@ -196,36 +196,44 @@
       },
       "four-guarantees-button": "Quatre garanties"
     },
-    "technical": {
-      "page-title": "Technique",
-      "history": {
-        "title": "Historique",
-        "p1": "Bell Labs est un laboratoire américain de recherche scientifique et industrielle fondé en 1925.  Il a développé la radioastronomie, les transisters, les lasers, les cellules photovoltaïques, le dispositif à couplage de charge, la théorie de l'information, le système d'exploitation Unix et plusieurs grands langages de programmation.  Ses chercheurs ont reçu onze prix Nobel et cinq prix Turing pour des recherches menées aux Bell Labs, notamment pour la découverte du fond micro-ondes cosmique. ",
-        "p2": "Les molécules des combustibles hydrocarburés sont polaires. Elles ont des charges électriques différentes à différents endroits de la molécule. Cela conduit à la polymérisation, où des charges négatives sur une molécule adhèrent aux charges positives sur une autre molécule. Cela provoque la formation d'amas de molécules, empêchant l'oxygène d'atteindre les molécules à l'intérieur de l'amas pendant la combustion. Une combustion incomplète provoque de la suie et des hydrocarbures non brûlés à l'échappement et nécessite plus de carburant pour produire une puissance donnée. Il faut plus d'accélérateur pour maintenir la même puissance.  La polymérisation augmente avec le temps, de sorte qu'après plusieurs mois de production en raffinerie, le combustible devient inutilisable.  Il bouche filtres et conduites de carburant, crée des dépôts à l'intérieur des systèmes d'injection.  Les moteurs deviennent moins efficaces avec l'utilisation, ce qui signifie qu'il faut brûler encore plus de carburant pour obtenir une performance souhaitée. ",
-        "p3": "Bell Labs appartenait à la grande société AT&T (Atlantic Telephone and Telegraph) qui possédait une vaste flotte de véhicules à travers les États-Unis. Les laboratoires ont développé un traitement de carburant pour décomposer et prévenir la polymérisation du carburant, restaurant les performances du moteur et la combustion du carburant afin d'améliorer la durée de conservation et de réduire la consommation de carburant. Ce traitement de carburant a ensuite été adopté par l'armée américaine. Son nom actuel est Fuel Ox et il traite actuellement environ 50 millions de litres de carburant par mois, principalement aux États-Unis. ",
-        "p4": "Fuel Ox comprend des catalyseurs.  Un catalyseur provoque des réactions chimiques sans être consommé par la réaction, donc une petite quantité de catalyseur continuera à agir longtemps. Le traitement normal avec Fuel Ox utilise une partie sur 10 000. Un litre de Fuel Ox traite 10 000 litres de carburant. L'amélioration de l'efficacité de combustion est d'environ 5 %. L'amélioration de l'efficacité du moteur peut être bien plus importante, selon l'état du moteur."
-      },
-      "technical-documents": {
-        "title": "Documentation technique (consultation PDF ou téléchargement) ",
-        "p1_1": "Informations sur le produit",
-        "p1_2": "Caractéristiques, normes, spécifications. ",
-        "p2_1": "Livre blanc sur Fuel Ox ",
-        "p2_2": "5 pages, explication détaillée du fonctionnement des fonctionnalités Fuel Ox.  Vraiment intéressant. ",
-        "p3_1": "FAQ",
-        "p3_2": "Questions et réponses courantes.  Merci de nous envoyer toutes vos questions à ajouter,",
-        "p4_1": "GNR comparé au carburant EN590",
-        "p4_2": "Comment les normes pour Gasoil Non Routier et le diesel standard de l'UE se comparent pour le traitement des Fuel Ox. ",
-        "p5_1": "Fuel Ox MSDS",
-        "p5_2": "Fiche de données de sécurité des matériaux. ",
-        "p6_1": "Tests en laboratoire EN 590",
-        "p6_2": "Intertek France a réalisé des tests sur le diesel, comparant le carburant non traité avec le Fuelox ajouté à une concentration deux fois supérieure à la normale. ",
-        "p7_1": "Tests de laboratoire ASTM D-975",
-        "p7_2": "Le laboratoire FirstEnergy en Oklahoma a comparé le diesel traité à l'oxygène carburant avec le diesel non traité. ",
-        "p8_1": "Garantie des fabricants de Fuel Ox",
-        "p8_2": "une police d'assurance de 2 millions de dollars contre les dommages au moteur.  Jamais revendiqué. "
-      },
-      "about-button": "À propos"
-    },
+
+  "technical": {
+  "page-title": "Technique",
+
+  "history": {
+    "title": "Historique",
+    "p1": "Bell Labs est un laboratoire américain de recherche scientifique et industrielle fondé en 1925. Il a développé la radioastronomie, les transistors, les lasers, les cellules photovoltaïques, le dispositif à couplage de charge, la théorie de l'information, le système d'exploitation Unix et plusieurs grands langages de programmation. Ses chercheurs ont reçu onze prix Nobel et cinq prix Turing pour des recherches menées aux Bell Labs, notamment pour la découverte du fond micro-ondes cosmique.",
+    "p2": "Les molécules des combustibles hydrocarburés sont polaires. Elles ont des charges électriques différentes à différents endroits de la molécule. Cela conduit à la polymérisation, où des charges négatives sur une molécule adhèrent aux charges positives sur une autre molécule. Cela provoque la formation d'amas de molécules, empêchant l'oxygène d'atteindre les molécules à l'intérieur de l'amas pendant la combustion. Une combustion incomplète provoque de la suie et des hydrocarbures non brûlés à l'échappement et nécessite plus de carburant pour produire une puissance donnée. Il faut plus d'accélérateur pour maintenir la même puissance. La polymérisation augmente avec le temps, de sorte qu'après plusieurs mois de production en raffinerie, le combustible devient inutilisable. Il bouche filtres et conduites de carburant et crée des dépôts à l'intérieur des systèmes d'injection. Les moteurs deviennent moins efficaces avec l'utilisation, ce qui signifie qu'il faut brûler encore plus de carburant pour obtenir une performance souhaitée.",
+    "p3": "Bell Labs appartenait à la grande société AT&T, Atlantic Telephone and Telegraph, qui possédait une vaste flotte de véhicules à travers les États-Unis. Les laboratoires ont développé un traitement de carburant pour décomposer et prévenir la polymérisation du carburant, restaurant les performances du moteur et la combustion du carburant afin d'améliorer la durée de conservation et de réduire la consommation de carburant. Ce traitement de carburant a ensuite été adopté par l'armée américaine. Son nom actuel est Fuel Ox et il traite actuellement environ 50 millions de litres de carburant par mois, principalement aux États-Unis.",
+    "p4": "Fuel Ox comprend des catalyseurs. Un catalyseur provoque des réactions chimiques sans être consommé par la réaction, donc une petite quantité de catalyseur continuera à agir longtemps. Le traitement normal avec Fuel Ox utilise une partie sur 10 000. Un litre de Fuel Ox traite 10 000 litres de carburant. L'amélioration de l'efficacité de combustion est d'environ 5 %. L'amélioration de l'efficacité du moteur peut être bien plus importante, selon l'état du moteur."
+  },
+
+  "technical-documents": {
+    "title": "Documentation technique (consultation PDF ou téléchargement)",
+
+    "video-trial-text": "Vidéo en anglais d’un essai Fuel Ox sur 6 mois. Activez les sous-titres puis sélectionnez « Français » dans les paramètres. ",
+    "video-trial-link": "Essai longue durée de Fuel Ox",
+
+    "p1_1": "Informations sur le produit",
+    "p1_2": "Caractéristiques, normes, spécifications.",
+    "p2_1": "Livre blanc sur Fuel Ox",
+    "p2_2": "5 pages, explication détaillée du fonctionnement des caractéristiques de Fuel Ox. Vraiment intéressant.",
+    "p3_1": "FAQ",
+    "p3_2": "Questions et réponses courantes. Merci de nous envoyer toutes vos questions à ajouter à",
+    "p4_1": "GNR comparé au carburant EN590",
+    "p4_2": "Comment les normes pour Gasoil Non Routier et le diesel standard de l'UE se comparent pour le traitement Fuel Ox.",
+    "p5_1": "Fuel Ox MSDS",
+    "p5_2": "Fiche de données de sécurité.",
+    "p6_1": "Tests en laboratoire EN 590",
+    "p6_2": "Intertek France a réalisé des tests sur le diesel, comparant le carburant non traité avec du Fuel Ox ajouté à une concentration deux fois supérieure à la normale.",
+    "p7_1": "Tests de laboratoire ASTM D-975",
+    "p7_2": "Le laboratoire FirstEnergy en Oklahoma a comparé le diesel traité avec Fuel Ox au diesel non traité.",
+    "p8_1": "Garantie des fabricants de Fuel Ox",
+    "p8_2": "Une police d'assurance de 2 millions de dollars contre les dommages moteur. Jamais utilisée."
+  },
+  "about-button": "À propos"
+},
+
     "about": {
       "page-title": "À propos de Save Fuel Europe SAS",
       "title": "Save Fuel Europe est le distributeur exclusif de Fuel Ox en France",
@@ -262,8 +270,10 @@
   },
   "links": {
     "videos": {
-      "how-to-add-fo": " https://www.youtube.com/watch?v=9iECyfYqDSI"
+      "how-to-add-fo": "https://www.youtube.com/watch?v=9iECyfYqDSI",
+      "long-fuel-ox-test": "https://www.youtube.com/watch?v=XqgsoKOAI4Q"
     },
+
     "documents": {
       "land-rover-trial": "https://save-fuel.eu/docs/fr/Vehicle/France-2025-LandRover-9pc-moins-fioul.pdf",
       "trial-procedure": "https://save-fuel.eu/docs/fr/Vehicle/Procedure-essai-v%C3%A9hicule.pdf",
