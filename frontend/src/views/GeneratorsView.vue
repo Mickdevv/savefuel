@@ -58,7 +58,8 @@ img {
   margin-bottom: 1rem;
 }
 
-.right-container .left-container {
+.right-container,
+.left-container {
   width: 100%;
 }
 
@@ -71,12 +72,13 @@ img {
     display: flex;
   }
 
-  .right-container {
-    max-width: 25%;
-  }
-
   .left-container {
     max-width: 75%;
+  }
+
+  .right-container {
+    max-width: 25%;
+    margin-left: 2rem;
   }
 }
 
@@ -88,7 +90,6 @@ img {
 .custom-list li {
   position: relative;
   padding-left: 2rem;
-  /* space for logo */
   margin-bottom: 0.5rem;
 }
 
@@ -97,12 +98,9 @@ img {
   padding: 0;
   position: absolute;
   left: 0;
-
   width: 1.5rem;
   height: 1.5rem;
-
   background-image: url('@/assets/SFE_Logo.png');
-  /* ✅ your logo */
   background-size: contain;
   background-repeat: no-repeat;
 }
