@@ -32,7 +32,7 @@
       "p5": "Better combustion simply means that less fuel is needed to produce the same amount of power. ",
       "p6_1": "Check out the full test report ",
       "p6_2": "here.",
-      "p7": "You benefit from a possible reduction of 9% in your consumption.  Try before you buy with a free trial using one of your vehicles.",
+      "p7": "You benefit from a possible reduction of 9% or more in your consumption.  Try before you buy with a free trial using one of your vehicles.",
       "p8": "With our calculator here, you can easily visualize the potential savings.  Indicate the price of fuel and your monthly consumption and get a clear estimate of the possible gains across your entire fleet. ",
       "p9_1": "Need more information?  Find all the detailed technical data in our ",
       "p9_2": "Fuel Ox white paper.",
@@ -146,10 +146,10 @@
         "p1_2": "See FuelOx guarantee."
       },
       "EN590-ASTM-950": {
-        "title": "EN590 and ASTM-950 compliance guarantees",
-        "p1_1": "Laboratory tests completed by Intertek in France compared untre ated diesel with diesel treated with twice the normal concentration of Fuel Ox. Most measurements were the same, 7 showed tiny differences. The treated fuel remains compliant with the EN590 specification. The lab report also notes that treated Red Diese l also remains within specification. Fuel Ox presence cannot be detected by testing to EN590. Engine warranty remains valid because the fuel meets the required specification. See the France Intertek lab EN590 tests.",
+        "title": "EN590 and ASTM-D975 compliance guarantees",
+        "p1_1": "Laboratory tests completed by Intertek in France compared untreated diesel with diesel treated with twice the normal concentration of Fuel Ox. Most measurements were the same, 7 showed tiny differences. The treated fuel remains compliant with the EN590 specification. The lab report also notes that treated Red Diesel also remains within specification. Fuel Ox presence cannot be detected by testing to EN590. Engine warranty remains valid because the fuel meets the required specification. See the France Intertek lab EN590 tests.",
         "p1_2": "See the France Intertek lan EN590 tests.",
-        "p2": "Comparative lab tests to the US stand ard ASTM - 950 also showed that treated fuel results were almost identical and met the standard."
+        "p2": "Comparative lab tests to the US standard ASTM-D975 also showed that treated fuel results were almost identical and met the standard."
       },
       "save-fuel-europe-guarantee": {
         "title": "Save Fuel Europe SAS guarantee",

@@ -151,10 +151,10 @@
         "p1_2": "Voir la garantie FuelOx. "
       },
       "EN590-ASTM-950": {
-        "title": "Garanties de conformité EN590 et ASTM-950 ",
+        "title": "Garanties de conformité EN590 et ASTM-D975 ",
         "p1_1": "Des tests indépendants réalisés par le laboratoire Intertek en France ont montré que le diesel traité avec deux fois la dose recommandée de Fuel Ox restait conforme à la norme EN 590. La plupart des paramètres mesurés sont restés identiques, avec seulement de légères variations sur certains critères. Le carburant traité conserve ses spécifications, y compris pour le  Gasoil Non Routier (GRN).  Dans ces conditions, l’utilisation de Fuel Ox ne devrait pas affecter la garantie constructeur du véhicule.  Des tests comparatifs selon la norme américaine ASTM D975 ont également confirmé la conformité du carburant traité.",
         "p1_2": "Voir les tests EN590 du laboratoire France Intertek. ",
-        "p2": "Des tests comparatifs en laboratoire avec la norme américaine ASTM-950 ont également montré que les résultats sur le carburant traité étaient presque identiques et respectaient la norme.  "
+        "p2": "Des tests comparatifs en laboratoire avec la norme américaine ASTM-D975 ont également montré que les résultats sur le carburant traité étaient presque identiques et respectaient la norme.  "
       },
       "save-fuel-europe-guarantee": {
         "title": "Garantie de Save Fuel Europe SAS",
@@ -211,7 +211,7 @@
   "technical-documents": {
     "title": "Documentation technique (consultation PDF ou téléchargement)",
 
-    "video-trial-text": "Vidéo en anglais d’un essai Fuel Ox sur 6 mois. Activez les sous-titres puis sélectionnez « Français » dans les paramètres. ",
+    "video-trial-text": "Vidéo en anglais d’un essai Fuel Ox sur 6 mois. Activez les sous-titres puis sélectionnez « Français » dans les paramètres.",
     "video-trial-link": "Essai longue durée de Fuel Ox",
 
     "p1_1": "Informations sur le produit",
