@@ -163,36 +163,57 @@
       },
       "technical-button": "Technical"
     },
-    "generators": {
-      "page-title": "Generators",
-      "direct-cost-benefit": {
-        "title": "Direct cost benefit",
-        "p1": "A typical well maintained 100 kVA generator at 75% full load would burn around 21 L/hour, providing ~ 3.6 kWh/L. If that was used over 22 x 8 hour working days in a month, untreated fuel used would be 21 x 8 x 22 = 3696 L. At 9% cut in consumption, this saves 332 L",
-        "p2": "Treating 3696 L of fuel takes 0.37 L of Fuel Ox, costing €73 + VAT. If fuel costs €1.67 + VAT (€2.00 total), a 9% saving cuts the fuel cost of one generator over one month by €482 ex VAT including the cost of Fuel Ox.",
-        "p3": "For remote locations, logistics becomes easier as each load of fuel lasts longer."
-      },
-      "other-benefits": {
-        "title": "Other benefits",
-        "p1_1": "Read the ",
-        "p1_2": "Fuel Ox white paper",
-        "p1_3": "for detailed technical information.",
-        "bullet-points": [
-          "Polymerisation of fuel molecules broken and re-polymerisation prevented. Maximises burn efficiency",
-          "Nitrous Oxide emissions reduce.",
-          "~60% fewer black soot particulates are produced.",
-          "Emulsions and sludges which block filters are broken.",
-          "Microbial growth is eliminated with a biostatic agent. ",
-          "Incorporates compounds that act as a catalytic converter, reducing carbon monoxide and unburnt hydrocarbons to CO₂ and water.",
-          "Storage life of fuel extended up to 2 years. Especially useful for emergency generators and fuel storage."
-        ]
-      },
-      "trial-reports": {
-        "title": "Trial reports",
-        "p1": "Peruvian mine",
-        "p2": "generator emission test"
-      },
-      "four-guarantees-button": "Four guarantees"
-    },
+
+
+"generators": {
+  "page-title": "Generators",
+
+  "direct-cost-benefit": {
+    "title": "Direct cost benefit",
+
+    "paragraphs": [
+      "A typical well maintained 100 kVA generator at 75% full load would burn around 21 L/hour, providing ~ 3.6 kWh/L. If that was used over 22 × 8 hour working days in a month, untreated fuel used would be 21 × 8 × 22 = 3696 L. At 9% cut in consumption, this saves 332 L.",
+
+      "Treating 3696 L of fuel takes 0.37 L of Fuel Ox, costing €73 + VAT. If fuel costs €1.67 + VAT (€2.00 total), a 9% saving cuts the fuel cost of one generator over one month by €482 ex VAT including the cost of Fuel Ox.",
+
+      "For remote locations, logistics becomes easier as each load of fuel lasts longer."
+    ]
+  },
+
+  "other-benefits": {
+    "title": "Other benefits",
+
+    "p1_1": "Read the ",
+    "p1_2": "Fuel Ox white paper",
+    "p1_3": "for detailed technical information.",
+
+    "bullet-points": [
+      "<strong>Combustion optimised</strong> Polymerisation of fuel molecules broken and re-polymerisation prevented. Maximises burn efficiency.",
+
+      "<strong>Reduced emissions</strong> Nitrous Oxide emissions reduce.",
+
+      "<strong>Reduced soot</strong> ~60% fewer black soot particulates are produced.",
+
+      "<strong>Cleaner fuel systems</strong> Emulsions and sludges which block filters are broken.",
+
+      "<strong>Biostatic protection</strong> Microbial growth is eliminated with a biostatic agent.",
+
+      "<strong>Catalytic effect</strong> Incorporates compounds that act as a catalytic converter, reducing carbon monoxide and unburnt hydrocarbons to CO₂ and water.",
+
+      "<strong>Long-term storage</strong> Storage life of fuel extended up to 2 years. Especially useful for emergency generators and fuel storage."
+    ]
+  },
+
+  "trial-reports": {
+    "title": "Trial reports",
+
+    "bullet-points": [
+      "Peruvian mine. <a href=\"https://save-fuel.eu/docs/en/Static/Peruvian-Mine-emissions-reduction.pdf\" target=\"_blank\">Generator emissions test</a>"
+    ]
+  },
+
+  "four-guarantees-button": "Four guarantees"
+},
 
    "technical": {
   "page-title": "Technical",
