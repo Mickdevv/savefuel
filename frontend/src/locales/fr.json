@@ -106,42 +106,39 @@
         ]
       },
 
-
       "trial-reports": {
         "title": "Rapports d'essais",
 
-         "bullet-points": [
-            "France, Mercedes Sprinter avec réfrigération.  10 % d'économie de carburant. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2026-test-Mercedes-Sprinter.pdf\" target=\"_blank\">Laguilhon SAS</a>",
+        "bullet-points": [
+          "France, Mercedes Sprinter avec réfrigération.  10 % d'économie de carburant. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2026-test-Mercedes-Sprinter.pdf\" target=\"_blank\">Laguilhon SAS</a>",
 
           "France, véhicule tout-terrain, économie de carburant de 9 %.  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-LandRover-9pc-moins-fioul.pdf\" target=\"_blank\"> SARL Bearn Land</a>",
 
-         "France, Land Cruiser turbo diesel, économie de carburant de 22 %.  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\"> 2005 Toyota Land Cruiser</a>",
+          "France, Land Cruiser turbo diesel, économie de carburant de 22 %.  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\"> 2005 Toyota Land Cruiser</a>",
 
-         "Mine d'or Burkino Faso.  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Mine-d'or-Burkina-Faso.pdf\" target=\"_blank\"> Camions de transport Caterpillar de 150 tonnes et essai de bulldozer.</a>",
+          "Mine d'or Burkino Faso.  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Mine-d'or-Burkina-Faso.pdf\" target=\"_blank\"> Camions de transport Caterpillar de 150 tonnes et essai de bulldozer.</a>",
 
           "Essai de mines au Ghana.  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Adamus-Resources-Ghana-mine.pdf\" target=\"_blank\"> Camions de remorque, bulldozer et excavatrice.</a>"
         ]
       },
 
-      
       "other-vehicle-documents": {
         "title": "Autres documents de véhicules ",
-          "bullet-points": [
-            "Video, <a href=\"https://www.youtube.com/watch?v=9iECyfYqDSI\" target=\"_blank\"> Comment ajouter du Fuel Ox</a>",
+        "bullet-points": [
+          "Video, <a href=\"https://www.youtube.com/watch?v=9iECyfYqDSI\" target=\"_blank\"> Comment ajouter du Fuel Ox</a>",
 
           "Vidéo en anglais d’un essai Fuel Ox sur 6 mois. Activez les sous-titres puis sélectionnez « Français » dans les paramètres. <a href=\"https://www.youtube.com/watch?v=XqgsoKOAI4Q\" target=\"_blank\">Essai longue durée de Fuel Ox</a>",
 
           "<a href=\"https://save-fuel.eu/docs/en/Vehicle/FuelOX-Trucking-Fleet-Hard-Numbers.pdf\" target=\"_blank\" @click.stop> Exploitation de la flotte de camions (en anglais)</a>",
 
-         "<a href=\"https://save-fuel.eu/docs/fr/Vehicle/FAQ-stations-de-ski.pdf\" target=\"_blank\" @click.stop> Stations de ski FAQ</a>",
+          "<a href=\"https://save-fuel.eu/docs/fr/Vehicle/FAQ-stations-de-ski.pdf\" target=\"_blank\" @click.stop> Stations de ski FAQ</a>",
 
-         "<a href=\"https://save-fuel.eu/docs/fr/Vehicle/Procedure-essai-véhicule.pdf\" target=\"_blank\" @click.stop> Procédure d'essai du véhicule</a>",
+          "<a href=\"https://save-fuel.eu/docs/fr/Vehicle/Procedure-essai-véhicule.pdf\" target=\"_blank\" @click.stop> Procédure d'essai du véhicule</a>",
 
-         "Écosse, <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Transit-Van-Emissions-Results.pdf\" target=\"_blank\" @click.stop>test d'émissions du fourgon Ford Transit (en anglais)</a>",
+          "Écosse, <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Transit-Van-Emissions-Results.pdf\" target=\"_blank\" @click.stop>test d'émissions du fourgon Ford Transit (en anglais)</a>",
 
-         "Émirats arabes unis, <a href=\"https://save-fuel.eu/docs/fr/Vehicle/UAE-Emissions-Camion.pdf\" target=\"_blank\" @click.stop> test des émissions de camion Mitsubishi</a>"
+          "Émirats arabes unis, <a href=\"https://save-fuel.eu/docs/fr/Vehicle/UAE-Emissions-Camion.pdf\" target=\"_blank\" @click.stop> test des émissions de camion Mitsubishi</a>"
         ]
-        
       },
       "four-guarantees-button": "Quatre garanties"
     },
@@ -199,42 +196,42 @@
       "four-guarantees-button": "Quatre garanties"
     },
 
-  "technical": {
-  "page-title": "Technique",
+    "technical": {
+      "page-title": "Technique",
 
-  "history": {
-    "title": "Historique",
-    "p1": "Bell Labs est un laboratoire américain de recherche scientifique et industrielle fondé en 1925. Il a développé la radioastronomie, les transistors, les lasers, les cellules photovoltaïques, le dispositif à couplage de charge, la théorie de l'information, le système d'exploitation Unix et plusieurs grands langages de programmation. Ses chercheurs ont reçu onze prix Nobel et cinq prix Turing pour des recherches menées aux Bell Labs, notamment pour la découverte du fond micro-ondes cosmique.",
-    "p2": "Les molécules des combustibles hydrocarburés sont polaires. Elles ont des charges électriques différentes à différents endroits de la molécule. Cela conduit à la polymérisation, où des charges négatives sur une molécule adhèrent aux charges positives sur une autre molécule. Cela provoque la formation d'amas de molécules, empêchant l'oxygène d'atteindre les molécules à l'intérieur de l'amas pendant la combustion. Une combustion incomplète provoque de la suie et des hydrocarbures non brûlés à l'échappement et nécessite plus de carburant pour produire une puissance donnée. Il faut plus d'accélérateur pour maintenir la même puissance. La polymérisation augmente avec le temps, de sorte qu'après plusieurs mois de production en raffinerie, le combustible devient inutilisable. Il bouche filtres et conduites de carburant et crée des dépôts à l'intérieur des systèmes d'injection. Les moteurs deviennent moins efficaces avec l'utilisation, ce qui signifie qu'il faut brûler encore plus de carburant pour obtenir une performance souhaitée.",
-    "p3": "Bell Labs appartenait à la grande société AT&T, Atlantic Telephone and Telegraph, qui possédait une vaste flotte de véhicules à travers les États-Unis. Les laboratoires ont développé un traitement de carburant pour décomposer et prévenir la polymérisation du carburant, restaurant les performances du moteur et la combustion du carburant afin d'améliorer la durée de conservation et de réduire la consommation de carburant. Ce traitement de carburant a ensuite été adopté par l'armée américaine. Son nom actuel est Fuel Ox et il traite actuellement environ 50 millions de litres de carburant par mois, principalement aux États-Unis.",
-    "p4": "Fuel Ox comprend des catalyseurs. Un catalyseur provoque des réactions chimiques sans être consommé par la réaction, donc une petite quantité de catalyseur continuera à agir longtemps. Le traitement normal avec Fuel Ox utilise une partie sur 10 000. Un litre de Fuel Ox traite 10 000 litres de carburant. L'amélioration de l'efficacité de combustion est d'environ 5 %. L'amélioration de l'efficacité du moteur peut être bien plus importante, selon l'état du moteur."
-  },
+      "history": {
+        "title": "Historique",
+        "p1": "Bell Labs est un laboratoire américain de recherche scientifique et industrielle fondé en 1925. Il a développé la radioastronomie, les transistors, les lasers, les cellules photovoltaïques, le dispositif à couplage de charge, la théorie de l'information, le système d'exploitation Unix et plusieurs grands langages de programmation. Ses chercheurs ont reçu onze prix Nobel et cinq prix Turing pour des recherches menées aux Bell Labs, notamment pour la découverte du fond micro-ondes cosmique.",
+        "p2": "Les molécules des combustibles hydrocarburés sont polaires. Elles ont des charges électriques différentes à différents endroits de la molécule. Cela conduit à la polymérisation, où des charges négatives sur une molécule adhèrent aux charges positives sur une autre molécule. Cela provoque la formation d'amas de molécules, empêchant l'oxygène d'atteindre les molécules à l'intérieur de l'amas pendant la combustion. Une combustion incomplète provoque de la suie et des hydrocarbures non brûlés à l'échappement et nécessite plus de carburant pour produire une puissance donnée. Il faut plus d'accélérateur pour maintenir la même puissance. La polymérisation augmente avec le temps, de sorte qu'après plusieurs mois de production en raffinerie, le combustible devient inutilisable. Il bouche filtres et conduites de carburant et crée des dépôts à l'intérieur des systèmes d'injection. Les moteurs deviennent moins efficaces avec l'utilisation, ce qui signifie qu'il faut brûler encore plus de carburant pour obtenir une performance souhaitée.",
+        "p3": "Bell Labs appartenait à la grande société AT&T, Atlantic Telephone and Telegraph, qui possédait une vaste flotte de véhicules à travers les États-Unis. Les laboratoires ont développé un traitement de carburant pour décomposer et prévenir la polymérisation du carburant, restaurant les performances du moteur et la combustion du carburant afin d'améliorer la durée de conservation et de réduire la consommation de carburant. Ce traitement de carburant a ensuite été adopté par l'armée américaine. Son nom actuel est Fuel Ox et il traite actuellement environ 50 millions de litres de carburant par mois, principalement aux États-Unis.",
+        "p4": "Fuel Ox comprend des catalyseurs. Un catalyseur provoque des réactions chimiques sans être consommé par la réaction, donc une petite quantité de catalyseur continuera à agir longtemps. Le traitement normal avec Fuel Ox utilise une partie sur 10 000. Un litre de Fuel Ox traite 10 000 litres de carburant. L'amélioration de l'efficacité de combustion est d'environ 5 %. L'amélioration de l'efficacité du moteur peut être bien plus importante, selon l'état du moteur."
+      },
 
-  "technical-documents": {
-    "title": "Documentation technique (consultation PDF ou téléchargement)",
+      "technical-documents": {
+        "title": "Documentation technique (consultation PDF ou téléchargement)",
 
-    "video-trial-text": "Vidéo en anglais d’un essai Fuel Ox sur 6 mois. Activez les sous-titres puis sélectionnez « Français » dans les paramètres.",
-    "video-trial-link": "Essai longue durée de Fuel Ox",
+        "video-trial-text": "Vidéo en anglais d’un essai Fuel Ox sur 6 mois. Activez les sous-titres puis sélectionnez « Français » dans les paramètres.",
+        "video-trial-link": "Essai longue durée de Fuel Ox",
 
-    "p1_1": "Informations sur le produit",
-    "p1_2": "Caractéristiques, normes, spécifications.",
-    "p2_1": "Livre blanc sur Fuel Ox",
-    "p2_2": "5 pages, explication détaillée du fonctionnement des caractéristiques de Fuel Ox. Vraiment intéressant.",
-    "p3_1": "FAQ",
-    "p3_2": "Questions et réponses courantes. Merci de nous envoyer toutes vos questions à ajouter à",
-    "p4_1": "GNR comparé au carburant EN590",
-    "p4_2": "Comment les normes pour Gasoil Non Routier et le diesel standard de l'UE se comparent pour le traitement Fuel Ox.",
-    "p5_1": "Fuel Ox MSDS",
-    "p5_2": "Fiche de données de sécurité.",
-    "p6_1": "Tests en laboratoire EN 590",
-    "p6_2": "Intertek France a réalisé des tests sur le diesel, comparant le carburant non traité avec du Fuel Ox ajouté à une concentration deux fois supérieure à la normale.",
-    "p7_1": "Tests de laboratoire ASTM D-975",
-    "p7_2": "Le laboratoire FirstEnergy en Oklahoma a comparé le diesel traité avec Fuel Ox au diesel non traité.",
-    "p8_1": "Garantie des fabricants de Fuel Ox",
-    "p8_2": "Une police d'assurance de 2 millions de dollars contre les dommages moteur. Jamais utilisée."
-  },
-  "about-button": "À propos"
-},
+        "p1_1": "Informations sur le produit",
+        "p1_2": "Caractéristiques, normes, spécifications.",
+        "p2_1": "Livre blanc sur Fuel Ox",
+        "p2_2": "5 pages, explication détaillée du fonctionnement des caractéristiques de Fuel Ox. Vraiment intéressant.",
+        "p3_1": "FAQ",
+        "p3_2": "Questions et réponses courantes. Merci de nous envoyer toutes vos questions à ajouter à",
+        "p4_1": "GNR comparé au carburant EN590",
+        "p4_2": "Comment les normes pour Gasoil Non Routier et le diesel standard de l'UE se comparent pour le traitement Fuel Ox.",
+        "p5_1": "Fuel Ox MSDS",
+        "p5_2": "Fiche de données de sécurité.",
+        "p6_1": "Tests en laboratoire EN 590",
+        "p6_2": "Intertek France a réalisé des tests sur le diesel, comparant le carburant non traité avec du Fuel Ox ajouté à une concentration deux fois supérieure à la normale.",
+        "p7_1": "Tests de laboratoire ASTM D-975",
+        "p7_2": "Le laboratoire FirstEnergy en Oklahoma a comparé le diesel traité avec Fuel Ox au diesel non traité.",
+        "p8_1": "Garantie des fabricants de Fuel Ox",
+        "p8_2": "Une police d'assurance de 2 millions de dollars contre les dommages moteur. Jamais utilisée."
+      },
+      "about-button": "À propos"
+    },
 
     "about": {
       "page-title": "À propos de Save Fuel Europe SAS",
@@ -255,7 +252,7 @@
       "save-fuel": "Économisez du carburant",
       "protect-earth": "Protégez la planète",
       "reduce-costs": "Réduisez vos coûts",
-      "contact": "Contact: Lesley Vacquero +33 6 34 35 85 15"
+      "contact": "Contact: Lesley Vaquero +33 6 34 35 85 15"
     }
   },
   "cost_benefit_calculator": {
