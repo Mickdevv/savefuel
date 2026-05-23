@@ -1,9 +1,9 @@
-name: Go test 
+name: Test, build and publish
 on: push
 
 jobs:
   # Label of the runner job
-  build-and-test:
+  test:
     # You must use a Linux environment when using service containers or container jobs
     runs-on: ubuntu-latest
 
@@ -52,7 +52,28 @@ jobs:
           DB_URL: "postgres://postgres:postgres@localhost:5432/test-db?sslmode=disable"
         run: cd backend && go test -v ./api/...
 
+  build-and-publish:
+    name: Build and publish to registry
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
 
-  
+      - name: Login to Docker Hub
+        uses: docker/login-action@v4
+        with:
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_TOKEN }}   
+          
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: ./backend
+          push: true
+          tags: polleyman/savefuel-backend:latest
+        
+        
+      
 
 
