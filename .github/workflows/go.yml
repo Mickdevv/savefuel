@@ -47,13 +47,13 @@ jobs:
           GOOSE_DBSTRING: "postgres://postgres:postgres@localhost:5432/test-db?sslmode=disable"
         run: goose -dir ./backend/sql/schema up  
 
-      - name: Build
-        run: go build -v ./backend/...
+      - name: 
+        run: cd backend && go build -v ./...
 
       - name: Test
         env:
           DB_URL: "postgres://postgres:postgres@localhost:5432/test-db?sslmode=disable"
-        run: go test -v ./backend/api/...
+        run: cd backend && go test -v ./api/...
 
 
   
