@@ -9,6 +9,7 @@ import Aura from '@primeuix/themes/aura'
 import App from './App.vue'
 import router from './router'
 import { createI18n } from 'vue-i18n'
+import ToastService from 'primevue/toastservice'
 
 const app = createApp(App)
 const i18n = createI18n({
@@ -20,6 +21,7 @@ const i18n = createI18n({
     fr,
   },
 })
+app.use(ToastService)
 app.use(i18n)
 app.use(PrimeVue, {
   theme: {

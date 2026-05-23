@@ -1,16 +1,17 @@
 <script setup lang="ts">
-import type { NavBarItem } from '@/types/navbar-item';
 import { computed, ref } from 'vue';
-import PanelMenu from 'primevue/panelmenu';
 import 'primeicons/primeicons.css'
 import Menu from 'primevue/menu';
 import Button from 'primevue/button';
 import Select from 'primevue/select';
 import { useLocaleStore } from '@/stores/selected-language';
-import { LocaleOptions } from '@/types/enums/locales.enum';
 import { useCurrentPageStore } from '@/stores/current-page';
 import { useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
+import Dialog from 'primevue/dialog';
+import Contact from './Contact.vue';
+
+const contactFormVisible = ref<boolean>(false)
 
 const localeStore = useLocaleStore()
 const currentPageStore = useCurrentPageStore()
@@ -70,19 +71,22 @@ const items = computed(() => [
   {
     separator: true
   },
-
   {
     label: t('menubar.price-list'),
     // icon: 'pi pi-eraser',
     command: () => window.open(t('links.documents.price-list'))
   },
-
+  {
+    label: t('menubar.contact'),
+    // icon: 'pi pi-eraser',
+    command: () => { contactFormVisible.value = !contactFormVisible.value }
+  },
   {
     label: t('menubar.gdpr'),
     // icon: 'pi pi-eraser',
     command: () => window.open(t('links.documents.gdpr'))
   },
-  
+
 ])
 const toggle = (event: any) => {
   menu.value.toggle(event);
@@ -93,6 +97,9 @@ const toggle = (event: any) => {
 
 
 <template>
+  <Dialog :header="$t('components.contact-form.title')" v-model:visible="contactFormVisible">
+    <Contact />
+  </Dialog>
   <div class="page-top-container">
     <div class="menubar">
       <a class="logo-link" href="/">

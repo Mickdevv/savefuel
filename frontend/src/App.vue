@@ -11,6 +11,7 @@ import Footer from './components/Footer.vue';
   <MenuBar />
   <div class="router-view">
     <RouterView />
+    <Toast />
   </div>
   <Footer />
 </template>
