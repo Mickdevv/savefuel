@@ -41,6 +41,9 @@ jobs:
       - name: Install goose for migrations
         run: go install github.com/pressly/goose/v3/cmd/goose@latest
 
+      - name: Move to backend directory
+        run: cd backend
+
       - name: Run DB migrations
         env:
           GOOSE_DRIVER: postgres
