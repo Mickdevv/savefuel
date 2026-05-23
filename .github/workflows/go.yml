@@ -41,22 +41,19 @@ jobs:
       - name: Install goose for migrations
         run: go install github.com/pressly/goose/v3/cmd/goose@latest
 
-      - name: Move to backend directory
-        run: cd backend
-
       - name: Run DB migrations
         env:
           GOOSE_DRIVER: postgres
           GOOSE_DBSTRING: "postgres://postgres:postgres@localhost:5432/test-db?sslmode=disable"
-        run: goose -dir ./sql/schema up  
+        run: goose -dir ./backend/sql/schema up  
 
       - name: Build
-        run: go build -v ./...
+        run: go build -v ./backend/...
 
       - name: Test
         env:
           DB_URL: "postgres://postgres:postgres@localhost:5432/test-db?sslmode=disable"
-        run: go test -v ./api/...
+        run: go test -v ./backend/api/...
 
 
   
