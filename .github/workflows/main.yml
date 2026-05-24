@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: "Deploy backend"
         env:
-          SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+          SSH_USERNAME: ${{ secrets.SSH_USER }}
           SSH_KEY: ${{ secrets.SSH_KEY }}
           SSH_HOST: ${{ secrets.SSH_IP }}
           SSH_PORT: ${{ secrets.SSH_PORT }}
