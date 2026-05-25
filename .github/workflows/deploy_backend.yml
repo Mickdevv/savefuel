@@ -5,7 +5,7 @@ jobs:
   # Label of the runner job
   test:
     # You must use a Linux environment when using service containers or container jobs
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
 
     # Service containers to run with `runner-job`
     services:
@@ -55,7 +55,7 @@ jobs:
   build-and-publish:
     name: Build and publish to registry
     needs: test
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-slim
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
@@ -79,7 +79,7 @@ jobs:
 
         
   deploy-backend:
-    name: "Deploy backend"
+    name: "Deploy"
     runs-on: ubuntu-slim
     needs: build-and-publish
 
@@ -102,6 +102,6 @@ jobs:
           -o StrictHostKeyChecking=no \
           "$SSH_USERNAME@$SSH_HOST" << 'EOF'
 
-          cd ./savefuel-backend/
+          cd ./savefuel
           ./deploy.sh
 
