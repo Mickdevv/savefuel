@@ -1,4 +1,4 @@
-name: Deploy backend
+name: Deploy frontend
 
 on:
   push:
@@ -6,11 +6,26 @@ on:
 
 jobs: 
   Deploy-backend:
-    name: "Deploy backend"
+    name: "Deploy frontend"
     runs-on: ubuntu-slim
 
     steps:
-      - name: "Deploy backend"
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        working-directory: ./frontend
+        run: npm ci
+
+      - name: Build frontend
+        run: npm run build
+        
+      - name: "Deploy frontend"
         env:
           SSH_USERNAME: ${{ secrets.SSH_USER }}
           SSH_KEY: ${{ secrets.SSH_KEY }}
@@ -22,16 +37,17 @@ jobs:
           mkdir -p ~/.ssh/
           printf "%s" "$SSH_KEY" > ~/.ssh/vps.key
           chmod 600 ~/.ssh/vps.key
+
+          scp -i ~.ssh/vps.key \
+          -P "$SSH_PORT" \
+          -r "./frontend/dist/*" \
+          "$SSH_USERNAME@$SSH_HOST:/home/deploy/savefuel"
           
           ssh -i ~/.ssh/vps.key \
           -p "$SSH_PORT" \
           -o StrictHostKeyChecking=no \
           "$SSH_USERNAME@$SSH_HOST" << 'EOF'
 
-          whoami
-          pwd
-          ls -la
-          echo "Test file creation"
-          echo "hello from github actions" > test.txt
-          
+          sudo systemctl reload nginx
+
           
