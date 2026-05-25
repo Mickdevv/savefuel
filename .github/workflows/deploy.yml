@@ -76,8 +76,32 @@ jobs:
           context: ./backend
           push: true
           tags: polleyman/savefuel-backend:latest
-        
-        
-      
 
+        
+  deploy-backend:
+    name: "Deploy backend"
+    runs-on: ubuntu-slim
+    needs: build-and-publish
+
+    steps:
+      - name: "Deploy backend"
+        env:
+          SSH_USERNAME: ${{ secrets.SSH_USER }}
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+          SSH_HOST: ${{ secrets.SSH_IP }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+        run: |
+          set -e
+          
+          mkdir -p ~/.ssh/
+          printf "%s" "$SSH_KEY" > ~/.ssh/vps.key
+          chmod 600 ~/.ssh/vps.key
+          
+          ssh -i ~/.ssh/vps.key \
+          -p "$SSH_PORT" \
+          -o StrictHostKeyChecking=no \
+          "$SSH_USERNAME@$SSH_HOST" << 'EOF'
+
+          cd ./savefuel-backend/
+          ./deploy.sh
 
