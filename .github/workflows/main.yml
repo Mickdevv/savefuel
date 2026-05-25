@@ -41,8 +41,8 @@ jobs:
 
           scp -i ~.ssh/vps.key \
           -P "$SSH_PORT" \
-          -r "./frontend/dist/*" \
-          "$SSH_USERNAME@$SSH_HOST:/home/deploy/savefuel"
+          -r ./frontend/dist/* \
+          "$SSH_USERNAME@$SSH_HOST:/home/deploy/savefuel/dist"
           
           ssh -i ~/.ssh/vps.key \
           -p "$SSH_PORT" \
