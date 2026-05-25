@@ -39,7 +39,7 @@ jobs:
           printf "%s" "$SSH_KEY" > ~/.ssh/vps.key
           chmod 600 ~/.ssh/vps.key
 
-          scp -i ~.ssh/vps.key \
+          scp -i ~/.ssh/vps.key \
           -P "$SSH_PORT" \
           -r ./frontend/dist/* \
           "$SSH_USERNAME@$SSH_HOST:/home/deploy/savefuel/dist"
