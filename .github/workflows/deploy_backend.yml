@@ -83,18 +83,7 @@ jobs:
     runs-on: ubuntu-slim
     needs: build-and-publish
 
-    steps:
-    
-      - name: Check backend scripts
-        uses: appleboy/ssh-action@v1
-        with:
-          host: ${{ secrets.SSH_IP }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
-          port: ${{ secrets.SSH_PORT }}
-          script: |
-            ls ~/savefuel
-          
+    steps:          
       - name: Deploy backend
         uses: appleboy/ssh-action@v1
         with:
@@ -102,7 +91,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          script_path: ~/savefuel/deploy.sh
+          script: ./~/savefuel/deploy.sh
 
             
   migrate-db:
