@@ -120,7 +120,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             cd ./savefuel/sql/schema
-            goose postgres "${{ secrets.DB_URL }}" up
+            /home/deploy/go/bin/goose postgres "${{ secrets.DB_URL }}" up
             
 
       
