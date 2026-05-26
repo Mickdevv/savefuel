@@ -55,7 +55,7 @@ jobs:
   build-and-publish:
     name: Build and publish to registry
     needs: test
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
