@@ -118,8 +118,8 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          source: "./backend/sql/schema"
-          target: "~/savefuel"
+          source: ./backend/sql/schema/*
+          target: ~/savefuel/migrations
 
       
 
