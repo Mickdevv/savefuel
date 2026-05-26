@@ -91,7 +91,7 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          script_path: savefuel/deploy.sh
+          script_path: ~/savefuel/deploy.sh
 
             
   migrate-db:
