@@ -3,9 +3,9 @@ on: push
 
 jobs:
   # Label of the runner job
-  test:
+  Test:
     # You must use a Linux environment when using service containers or container jobs
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
 
     # Service containers to run with `runner-job`
     services:
@@ -54,7 +54,7 @@ jobs:
 
   build-and-publish:
     name: Build and publish to registry
-    needs: test
+    needs: Test
     runs-on: ubuntu-slim
     steps:
       - name: Check out the repo
