@@ -120,7 +120,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           source: ./backend/sql/schema/
           strip-components: 1
-          target: ~/savefuel/migrations
+          target: ~/savefuel
 
       
 
