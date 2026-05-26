@@ -3,7 +3,7 @@ on: push
 
 jobs:
   # Label of the runner job
-  Test:
+  test:
     # You must use a Linux environment when using service containers or container jobs
     runs-on: ubuntu-latest
 
@@ -54,7 +54,7 @@ jobs:
 
   build-and-publish:
     name: Build and publish to registry
-    needs: Test
+    needs: test
     runs-on: ubuntu-slim
     steps:
       - name: Check out the repo
@@ -97,6 +97,7 @@ jobs:
   migrate-db:
     name: "Run DB migrations"
     runs-on: ubuntu-slim
+    needs: deploy-backend
     steps:
       - uses: actions/checkout@v4
       
