@@ -4,7 +4,7 @@ on: push
 jobs:
   # Label of the runner job
   test:
-    # You must use a Linux environment when using service containers or container jobs
+    name: Run backend tests
     runs-on: ubuntu-latest
 
     # Service containers to run with `runner-job`
@@ -84,6 +84,17 @@ jobs:
     needs: build-and-publish
 
     steps:
+    
+      - name: Check backend scripts
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            ls ~/savefuel
+          
       - name: Deploy backend
         uses: appleboy/ssh-action@v1
         with:
