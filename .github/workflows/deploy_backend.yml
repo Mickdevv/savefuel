@@ -108,7 +108,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: ${{ secrets.SSH_PORT }}
           source: ./backend/sql/schema/
-          strip-components: 1
+          strip_components: 2
           target: ~/savefuel
 
       - name: Run migrations
