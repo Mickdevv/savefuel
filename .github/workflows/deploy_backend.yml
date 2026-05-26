@@ -105,3 +105,21 @@ jobs:
           cd ./savefuel
           ./deploy.sh
 
+  migrate-db:
+    name: "Run DB migrations"
+    runs-on: ubuntu-slim
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Copy migration files to VPS
+        uses: appleboy/scp-action@v1
+        with:
+          host: ${{ secrets.SSH_IP }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          source: "./backend/sql/schema"
+          target: "~/savefuel"
+
+      
+
