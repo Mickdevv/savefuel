@@ -122,5 +122,17 @@ jobs:
           strip-components: 1
           target: ~/savefuel
 
+      - name: Run migrations
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            ls
+            goose postgres "${{ secrets.DB_URL }}" up
+            
+
       
 
