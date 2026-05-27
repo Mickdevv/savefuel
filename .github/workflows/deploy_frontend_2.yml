@@ -49,7 +49,7 @@ jobs:
           
           ssh -i ~/.ssh/vps.key \
           -p "$SSH_PORT_2" \
-          "$SSH_USER_2@$SSH_IP" << 'EOF'
+          "$SSH_USER@$SSH_IP" << 'EOF'
 
           sudo systemctl reload nginx
 
