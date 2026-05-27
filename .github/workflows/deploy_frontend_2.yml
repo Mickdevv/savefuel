@@ -48,7 +48,7 @@ jobs:
           "$SSH_USER@$SSH_IP:/var/www/savefuel/dist"
           
           ssh -i ~/.ssh/vps.key \
-          -p "$SSH_PORT_2" \
+          -p "$SSH_PORT" \
           "$SSH_USER@$SSH_IP" << 'EOF'
 
           sudo systemctl reload nginx
