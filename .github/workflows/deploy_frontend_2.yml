@@ -1,0 +1,56 @@
+
+name: Deploy frontend
+
+on:
+  push:
+    branches: ['main']
+
+jobs: 
+  Deploy-backend:
+    name: "Deploy frontend"
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        working-directory: ./frontend
+        run: npm ci
+
+      - name: Build frontend
+        working-directory: ./frontend
+        run: npm run build
+        
+      - name: "Deploy frontend"
+        env:
+          SSH_USERNAME: ${{ secrets.SSH_USER }}
+          SSH_KEY: ${{ secrets.SSH_KEY_2 }}
+          SSH_HOST: ${{ secrets.SSH_IP }}
+          SSH_PORT: ${{ secrets.SSH_PORT_2 }}
+        run: |
+          set -e
+          
+          mkdir -p ~/.ssh/
+          printf "%s" "$SSH_KEY_2" > ~/.ssh/vps.key
+          chmod 600 ~/.ssh/vps.key
+
+          ssh-keyscan -p "$SSH_PORT_2" "$SSH_IP" >> ~/.ssh/known_hosts
+
+          scp -i ~/.ssh/vps.key \
+          -P "$SSH_PORT_2" \
+          -r ./frontend/dist/* \
+          "$SSH_USER@$SSH_IP:/var/www/savefuel/dist"
+          
+          ssh -i ~/.ssh/vps.key \
+          -p "$SSH_PORT_2" \
+          "$SSH_USER_2@$SSH_IP" << 'EOF'
+
+          sudo systemctl reload nginx
+
+          
