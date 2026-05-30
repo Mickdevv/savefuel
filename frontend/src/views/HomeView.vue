@@ -9,6 +9,7 @@ const currentPageStore = useCurrentPageStore()
 
 const { tm, t } = useI18n()
 currentPageStore.setCurrentPage('home')
+
 </script>
 
 
