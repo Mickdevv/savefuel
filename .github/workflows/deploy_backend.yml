@@ -89,8 +89,8 @@ jobs:
         with:
           host: ${{ secrets.SSH_IP }}
           username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
-          port: ${{ secrets.SSH_PORT }}
+          key: ${{ secrets.SSH_KEY_2 }}
+          port: ${{ secrets.SSH_PORT_2 }}
           script: |
             cd ~/savefuel
             ./deploy.sh
@@ -108,8 +108,8 @@ jobs:
         with:
           host: ${{ secrets.SSH_IP }}
           username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
-          port: ${{ secrets.SSH_PORT }}
+          key: ${{ secrets.SSH_KEY_2 }}
+          port: ${{ secrets.SSH_PORT_2 }}
           source: ./backend/sql/schema/
           strip_components: 2
           target: ~/savefuel
@@ -119,8 +119,8 @@ jobs:
         with:
           host: ${{ secrets.SSH_IP }}
           username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
-          port: ${{ secrets.SSH_PORT }}
+          key: ${{ secrets.SSH_KEY_2 }}
+          port: ${{ secrets.SSH_PORT_2 }}
           script: |
             cd ./savefuel/sql/schema
             /home/deploy/go/bin/goose postgres "${{ secrets.DB_URL }}" up
