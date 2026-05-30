@@ -1,9 +1,8 @@
-
 name: Deploy frontend
 
 on:
   push:
-    branches: ['main']
+    branches: ['never']
 
 jobs: 
   Deploy-backend:
@@ -30,9 +29,9 @@ jobs:
       - name: "Deploy frontend"
         env:
           SSH_USERNAME: ${{ secrets.SSH_USER }}
-          SSH_KEY: ${{ secrets.SSH_KEY_2 }}
+          SSH_KEY: ${{ secrets.SSH_KEY }}
           SSH_HOST: ${{ secrets.SSH_IP }}
-          SSH_PORT: ${{ secrets.SSH_PORT_2 }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
         run: |
           set -e
           

@@ -1,9 +1,9 @@
 
-name: Deploy frontend
+name: Deploy test frontend
 
 on:
   push:
-    branches: ['main']
+    branches: ['test']
 
 jobs: 
   Deploy-backend:
@@ -45,7 +45,7 @@ jobs:
           scp -i ~/.ssh/vps.key \
           -P "$SSH_PORT" \
           -r ./frontend/dist/* \
-          "$SSH_USERNAME@$SSH_HOST:/var/www/savefuel/dist"
+          "$SSH_USERNAME@$SSH_HOST:/var/www/test.savefuel/dist"
           
           ssh -i ~/.ssh/vps.key \
           -p "$SSH_PORT" \

@@ -1,7 +1,7 @@
-name: Deploy backend
+name: Deploy test backend
 on:
   push:
-    branches: ['main']
+    branches: ['test']
 
 jobs:
   # Label of the runner job
@@ -94,7 +94,7 @@ jobs:
           key: ${{ secrets.SSH_KEY_2 }}
           port: ${{ secrets.SSH_PORT_2 }}
           script: |
-            cd ~/savefuel
+            cd ~/test.savefuel
             ./deploy.sh
 
             
@@ -114,7 +114,7 @@ jobs:
           port: ${{ secrets.SSH_PORT_2 }}
           source: ./backend/sql/schema/
           strip_components: 2
-          target: ~/savefuel
+          target: ~/test.savefuel
 
       - name: Run migrations
         uses: appleboy/ssh-action@v1
@@ -124,8 +124,8 @@ jobs:
           key: ${{ secrets.SSH_KEY_2 }}
           port: ${{ secrets.SSH_PORT_2 }}
           script: |
-            cd ./savefuel/sql/schema
-            /home/deploy/go/bin/goose postgres "${{ secrets.DB_URL }}" up
+            cd ./test.savefuel/sql/schema
+            /home/deploy/go/bin/goose postgres "${{ secrets.TEST_DB_URL }}" up
             
 
       
