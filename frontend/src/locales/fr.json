@@ -1,6 +1,6 @@
 {
   "menubar": {
-    "home": "Accueil-test",
+    "home": "Accueil",
     "how-fo-cuts-costs": "Comment Fuel Ox réduit les coûts",
     "free-trial-procedure": "Procédure d’essai gratuit",
     "four-guarantees": "Quatre garanties",
@@ -15,7 +15,7 @@
   },
   "pages": {
     "home": {
-      "page-title": "Accueil-test",
+      "page-title": "Accueil",
       "paragraphs": [
         "Save Fuel Europe SAS est le distributeur exclusif de Fuel Ox en France. Développé il y a plus de 30 ans pour AT&t et l'armée americaine, Fuel Ox est un traitement pour carburant haute performance qui optimise la combustion et réduit significativement la consommation de carburant.",
 
