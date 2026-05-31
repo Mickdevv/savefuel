@@ -1,4 +1,3 @@
-
 name: Deploy test frontend
 
 on:
@@ -6,22 +5,35 @@ on:
     branches: ['test']
 
 jobs: 
-  Deploy-backend:
+  Deploy-frontend:
     name: "Deploy frontend"
     runs-on: ubuntu-slim
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 24
 
-      - name: Install dependencies
-        working-directory: ./frontend
-        run: npm ci
+      - name: Debug lockfile
+        run: |
+          node -v
+          npm -v
+          ls -la
+          test -f package-lock.json && echo "lockfile exists"
+          grep -n "@emnapi" package-lock.json || true
+          npm pkg get dependencies
+          npm pkg get devDependencies
+
+          
+      - name: Show npm tree resolution
+        run: |
+          npm install --package-lock-only
+          git diff -- package-lock.json || true
+
 
       - name: Build frontend
         working-directory: ./frontend
@@ -52,5 +64,3 @@ jobs:
           "$SSH_USERNAME@$SSH_HOST" << 'EOF'
 
           sudo systemctl reload nginx
-
-          
