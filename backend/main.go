@@ -11,6 +11,7 @@ import (
 	"github.com/Mickdevv/savefuel-backend/api/auth"
 	"github.com/Mickdevv/savefuel-backend/api/document_categories"
 	"github.com/Mickdevv/savefuel-backend/api/documents"
+	"github.com/Mickdevv/savefuel-backend/api/email"
 	"github.com/Mickdevv/savefuel-backend/internal/database"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
@@ -29,6 +30,12 @@ func main() {
 		JWT_SECRET:       os.Getenv("JWT_SECRET"),
 		DB:               database.New(dbConn),
 		STATIC_FILES_DIR: os.Getenv("STATIC_FILES_DIR"),
+
+		EMAIL_HOST:          os.Getenv("EMAIL_HOST"),
+		EMAIL_PORT:          os.Getenv("EMAIL_PORT"),
+		EMAIL_HOST_USER:     os.Getenv("EMAIL_HOST_USER"),
+		EMAIL_HOST_PASSWORD: os.Getenv("EMAIL_HOST_PASSWORD"),
+		EMAIL_TO:            os.Getenv("EMAIL_TO"),
 	}
 
 	mux := http.NewServeMux()
@@ -39,6 +46,7 @@ func main() {
 	documents.RegisterRoutes(mux, &serverConfig)
 	auth.RegisterRoutes(mux, &serverConfig)
 	document_categories.RegisterRoutes(mux, &serverConfig)
+	email.RegisterRoutes(mux, &serverConfig)
 
 	serverPort := os.Getenv("SERVER_PORT")
 	server := &http.Server{

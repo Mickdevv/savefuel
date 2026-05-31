@@ -26,7 +26,7 @@ const contactForm = ref<ContactForm>({
 const contactFormSubmit = async () => {
   loading.value = true
   try {
-    await axios.post('/api/email', { ...contactForm.value, phone_number: contactForm.value.phoneNumber })
+    await axios.post('/api/email/contact', { ...contactForm.value, phone_number: contactForm.value.phoneNumber })
     contactForm.value = {
       name: "",
       message: "",
