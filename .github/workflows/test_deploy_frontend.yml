@@ -20,6 +20,7 @@ jobs:
 
       - name: Debug lockfile
         run: |
+          cd frontend
           node -v
           npm -v
           ls -la
@@ -31,6 +32,7 @@ jobs:
           
       - name: Show npm tree resolution
         run: |
+          cd frontend
           npm install --package-lock-only
           git diff -- package-lock.json || true
 
