@@ -36,6 +36,10 @@ jobs:
           npm install --package-lock-only
           git diff -- package-lock.json || true
 
+      - name: Install dependencies
+        working-directory: ./frontend
+        run: npm ci
+
 
       - name: Build frontend
         working-directory: ./frontend
