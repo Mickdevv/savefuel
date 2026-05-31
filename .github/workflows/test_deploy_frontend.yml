@@ -18,28 +18,9 @@ jobs:
         with:
           node-version: 24
 
-      - name: Debug lockfile
-        run: |
-          cd frontend
-          node -v
-          npm -v
-          ls -la
-          test -f package-lock.json && echo "lockfile exists"
-          grep -n "@emnapi" package-lock.json || true
-          npm pkg get dependencies
-          npm pkg get devDependencies
-
-          
-      - name: Show npm tree resolution
-        run: |
-          cd frontend
-          npm install --package-lock-only
-          git diff -- package-lock.json || true
-
       - name: Install dependencies
         working-directory: ./frontend
         run: npm ci
-
 
       - name: Build frontend
         working-directory: ./frontend
