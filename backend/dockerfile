@@ -1,5 +1,10 @@
 FROM debian:stable-slim
 
+RUN apt-get update && \
+    apt-get install -y ca-certificates && \
+    update-ca-certificates && \
+    rm -rf /var/lib/apt/lists/*
+
 # COPY source destination
 COPY savefuel-backend /bin/savefuel-backend
 CMD ["/bin/savefuel-backend"]
