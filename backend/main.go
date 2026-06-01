@@ -53,6 +53,7 @@ func main() {
 		Addr:    ":" + serverPort,
 		Handler: mux,
 	}
+
 	fmt.Println("Server listening on port", serverPort)
 	log.Fatal(server.ListenAndServe())
 }
