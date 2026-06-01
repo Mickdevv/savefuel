@@ -14,6 +14,9 @@
   overflow-x: hidden;
 }
 
+p {
+  line-height: 1.5;
+}
 a {
   color: rgb(221, 164, 17);
 }
