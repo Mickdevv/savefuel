@@ -16,11 +16,6 @@ import Footer from './components/Footer.vue';
   <Footer />
 </template>
 
-<style scoped>
-.router-view {
-  padding: 2rem
-}
-</style>
 
 <style>
 .p-menubar {

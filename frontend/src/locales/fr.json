@@ -25,7 +25,7 @@
 
         "Exemple concret: pour un camion parcourant 150 000 km par an et consommant 45 000 litres de carburant, une réduction de 9 %  représente une économie de 4 050 litres par an.  Avec un coût de traitement de seulement 0,0198 € par litre et un prix du carburant de 2 € par litre, l’économie nette s'élève à 7 209 €."
       ],
-      "learn-more-button": "En savoir plus"
+      "learn-more-button": "Calculez vos economies"
     },
     "how-fo-cuts-costs": {
       "page-title": "Comment Fuel Ox réduit les coûts",
@@ -251,6 +251,52 @@
     }
   },
   "components": {
+    "hero-banners": {
+      "home": {
+        "title": "Reduce your fuel costs. \nProtect your engine.",
+        "description": "Fuel Ox is a high-performance fuel treatment trusted by French fleets, generators, and marine operators.",
+        "buttonLabel": "See how it works",
+        "buttonLink": "/how-fuel-ox-cuts-costs"
+      }
+    },
+    "figures-cards": {
+      "min-fuel-savings": {
+        "title": "9%",
+        "description": "minimum fuel savings"
+      },
+      "max-fuel-savings": {
+        "title": "22%",
+        "description": "Maximum fuel savings observed"
+      },
+      "annual-savings-per-truck": {
+        "title": "€7,209",
+        "description": "Annual savings per truck"
+      },
+      "proven-track-record": {
+        "title": "30+ years",
+        "description": "Proven track record"
+      }
+    },
+    "links-cards": {
+      "road-vehicles": {
+        "title": "Transport routier",
+        "description": "Reduce fuel costs for your fleet with proven results from independent tests conducted in France.",
+        "link": "En savoir plus",
+        "href": "/vehicles"
+      },
+      "generators": {
+        "title": "Générateurs",
+        "description": "Optimize power generation efficiency and extend fuel storage life for remote operations.",
+        "link": "En savoir plus",
+        "href": "/generators"
+      },
+      "environment": {
+        "title": "Environnement",
+        "description": "Reduce emissions and environmental impact with more complete fuel combustion. ",
+        "link": "En savoir plus",
+        "href": "/technical"
+      }
+    },
     "contact-form": {
       "title": "Contact",
       "name": "Nom",

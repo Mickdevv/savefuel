@@ -1,0 +1,52 @@
+<script setup lang="ts">
+defineProps<{
+  cardName: string
+}>()
+</script>
+
+
+<template>
+  <div class="card">
+    <h1>{{ $t(`components.figures-cards.${cardName}.title`) }}</h1>
+
+    <p>
+      {{ $t(`components.figures-cards.${cardName}.description`) }}
+    </p>
+
+  </div>
+</template>
+
+<style scoped>
+.card {
+  flex: 1 1 250px;
+
+
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 24px 20px;
+  border-top: 3px solid #dda411;
+  color: #dda411;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #3a3a3a;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #dda411;
+  text-decoration: none;
+}
+</style>

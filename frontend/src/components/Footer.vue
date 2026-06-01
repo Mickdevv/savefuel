@@ -3,6 +3,7 @@
 </script>
 
 <template>
+
   <div class="footer-container">
     <div class="mission-statement-container">
       <p>{{ $t('components.footer.save-fuel') }}</p>
@@ -45,6 +46,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid rgb(232, 232, 232);
 }
 
 img {
