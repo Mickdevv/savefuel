@@ -7,6 +7,7 @@ import Card from 'primevue/card';
 import FiguresCard from '@/components/FiguresCard.vue';
 import LinksCard from '@/components/LinksCard.vue';
 import HeroBanner from '@/components/HeroBanner.vue';
+import heroBannerImage from '@/assets/hero-home.webp'
 
 const router = useRouter()
 const currentPageStore = useCurrentPageStore()
@@ -21,7 +22,7 @@ currentPageStore.setCurrentPage('home')
 <template>
 
   <div class="outer-page-container">
-    <HeroBanner image="/src/assets/hero-home.webp" bannerName="home" />
+    <HeroBanner :image="heroBannerImage" bannerName="home" />
 
     <div class="page-container">
 

@@ -45,7 +45,8 @@ defineProps<Props>()
 }
 
 .hero.container {
-  max-width: 1280px;
+  width: 100%;
+  padding: 2rem;
 }
 
 .hero-banner {
@@ -61,13 +62,6 @@ defineProps<Props>()
   background-repeat: no-repeat;
 }
 
-.hero-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center 40%;
-}
-
 .hero-overlay {
   display: flex;
   justify-content: center;
@@ -79,15 +73,11 @@ defineProps<Props>()
 }
 
 .hero-content {
-  position: absolute;
-  inset: 0;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
 
-  padding: 0 clamp(24px, 6vw, 80px);
-  max-width: 800px;
+  width: 100%;
 
   white-space: pre-line;
 }
