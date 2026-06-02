@@ -10,7 +10,7 @@ import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import Dialog from 'primevue/dialog';
 
-const visible = ref<boolean>(true)
+const visible = ref<boolean>(false)
 const contactFormVisible = ref<boolean>(false)
 
 const localeStore = useLocaleStore()
@@ -167,7 +167,7 @@ function navigate(path: string) {
         </div>
         <div class="language-selector">
           <button @click="localeStore.toggleLocale();" class="language-selector-select">{{ $i18n.locale.toUpperCase()
-          }}</button>
+            }}</button>
         </div>
       </div>
     </div>
