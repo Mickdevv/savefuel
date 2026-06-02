@@ -121,14 +121,16 @@ function navigate(path: string) {
           <button class="close-button" @click="closeMenu" aria-label="Close menu">X</button>
         </div>
 
-        <ul class="menu-list">
-          <li v-for="item in items" :key="item.label">
-            <p @click="item.command(); closeMenu()" class="menu-link"
-              :class="{ active: currentPath === (item.activeFlag) && item.activeFlag != '' }">
-              {{ item.label }}
-            </p>
-          </li>
-        </ul>
+        <div class="menu-list-container">
+          <ul class="menu-list">
+            <li v-for="item in items" :key="item.label">
+              <p @click="item.command(); closeMenu()" class="menu-link"
+                :class="{ active: currentPath === (item.activeFlag) && item.activeFlag != '' }">
+                {{ item.label }}
+              </p>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
   </Transition>
@@ -272,12 +274,15 @@ function navigate(path: string) {
   padding: 4px;
 }
 
+.menu-list-container {
+  overflow: auto;
+}
+
 /* menu list */
 .menu-list {
   list-style: none;
   margin: 0;
   padding: 8px 0;
-  overflow: scroll;
 }
 
 /* links */
