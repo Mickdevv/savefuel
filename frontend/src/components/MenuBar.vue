@@ -10,6 +10,7 @@ import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import Dialog from 'primevue/dialog';
 
+const visible = ref<boolean>(true)
 const contactFormVisible = ref<boolean>(false)
 
 const localeStore = useLocaleStore()
@@ -86,7 +87,6 @@ const toggle = (event: any) => {
   menu.value.toggle(event);
 };
 
-const visible = ref(true)
 const emit = defineEmits<{
   (e: 'update:menuOpen', value: boolean): void
 }>()
@@ -110,9 +110,11 @@ function navigate(path: string) {
 
 
 <template>
+  <Transition name="fade-in">
+    <div v-if="visible" class="overlay-menu-backdrop" @click="closeMenu"></div>
+  </Transition>
   <Transition name="drawer">
     <div v-if="visible" class="nav-drawer">
-      <div class="overlay-menu-backdrop" @click="closeMenu"></div>
 
       <nav class="overlay-menu-panel">
         <div class="overlay-menu-header">
@@ -158,7 +160,10 @@ function navigate(path: string) {
           </a>
         </span>
         <div class="border border-right menu">
-          <button class="menu-internal-element" @click="openMenu">Menu <i class="pi pi-ellipsis-v"></i></button>
+          <button class="language-selector-select" @click="openMenu"><i class="pi pi-align-justify">
+            </i>
+            <p>Menu</p>
+          </button>
         </div>
         <div class="language-selector">
           <button @click="localeStore.toggleLocale();" class="language-selector-select">{{ $i18n.locale.toUpperCase()
@@ -172,13 +177,15 @@ function navigate(path: string) {
 <style scoped>
 /* ENTER animation */
 .drawer-enter-active,
-.drawer-leave-active {
+.drawer-leave-active,
+.fade-in-enter-from,
+.fade-in-leave-to {
   transition: all 250ms ease;
 }
 
 /* start state (enter + leave end) */
-.drawer-enter-from,
-.drawer-leave-to {
+.fade-in-enter-from,
+.fade-in-leave-to {
   opacity: 0;
 }
 
@@ -191,6 +198,21 @@ function navigate(path: string) {
 /* final state */
 .drawer-enter-to .overlay-menu-panel,
 .drawer-leave-from .overlay-menu-panel {
+  transform: translateX(0);
+}
+
+.drawer-enter-from,
+.drawer-leave-to {
+  transform: translateX(100%);
+}
+
+.drawer-enter-active,
+.drawer-leave-active {
+  transition: transform 250ms ease;
+}
+
+.drawer-enter-to,
+.drawer-leave-from {
   transform: translateX(0);
 }
 
@@ -214,6 +236,7 @@ function navigate(path: string) {
 
 /* backdrop */
 .overlay-menu-backdrop {
+  z-index: 1000;
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.4);
@@ -289,6 +312,10 @@ function navigate(path: string) {
   /* display: none; */
 }
 
+.youtube-link:hover .linkedin-link:hover {
+  background: transparent;
+}
+
 .youtube-link {
   display: none;
   color: hsla(10, 100%, 37%, 1) !important;
@@ -320,12 +347,28 @@ function navigate(path: string) {
       rgba(44, 57, 245, 0) 100%);
 }
 
+.language-selector-select p {
+  margin: 0;
+}
+
 .language-selector-select {
+  font-size: 1rem;
   padding: 0.5rem;
-  border-color: black !important;
+  border-color: black;
   border-radius: 5px;
+  border: 1px solid rgb(224, 224, 224);
   background-color: transparent;
   color: #1c1c1c;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+}
+
+.language-selector-select:hover {
+  cursor: pointer;
 }
 
 .language-selector-select:focus {
@@ -379,7 +422,7 @@ function navigate(path: string) {
 }
 
 .border-right {
-  border-right: solid;
+  border-right: 1px solid rgb(224, 224, 224);
   padding: 0rem 0.5rem;
 }
 

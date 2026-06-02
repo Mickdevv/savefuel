@@ -49,11 +49,13 @@ defineProps<Props>()
 .hero-container-container {
   width: 100%;
   max-width: 1280px !important;
+  display: flex;
+  align-items: center;
 }
 
 .hero-container {
-  width: 100% !important;
-  padding: 2rem !important;
+  width: 100%;
+  padding: 2rem;
 }
 
 .hero-banner {
