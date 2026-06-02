@@ -167,7 +167,7 @@ function navigate(path: string) {
         </div>
         <div class="language-selector">
           <button @click="localeStore.toggleLocale();" class="language-selector-select">{{ $i18n.locale.toUpperCase()
-            }}</button>
+          }}</button>
         </div>
       </div>
     </div>
@@ -277,6 +277,7 @@ function navigate(path: string) {
   list-style: none;
   margin: 0;
   padding: 8px 0;
+  overflow: scroll;
 }
 
 /* links */
