@@ -7,6 +7,7 @@ import TechnicalView from '@/views/TechnicalView.vue'
 import VehiclesView from '@/views/VehiclesView.vue'
 import GeneratorsView from '@/views/GeneratorsView.vue'
 import AboutView from '@/views/AboutView.vue'
+import ContactView from '@/views/ContactView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -50,6 +51,11 @@ const router = createRouter({
       path: '/about',
       name: 'about',
       component: AboutView,
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: ContactView,
     },
   ],
 })

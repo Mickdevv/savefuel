@@ -5,7 +5,7 @@ import { createPinia } from 'pinia'
 import PrimeVue from 'primevue/config'
 import en from './locales/en.json'
 import fr from './locales/fr.json'
-import Aura from '@primeuix/themes/aura'
+import Material from '@primeuix/themes/material'
 import App from './App.vue'
 import router from './router'
 import { createI18n } from 'vue-i18n'
@@ -25,7 +25,7 @@ app.use(ToastService)
 app.use(i18n)
 app.use(PrimeVue, {
   theme: {
-    preset: Aura,
+    preset: Material,
     options: {},
   },
 })

@@ -3,6 +3,9 @@
   font-family: 'Inter', sans-serif;
   text-align: justify;
 }
+button, p, h1, h2, h3 {
+  color: #1c1c1c;
+}
 .primary-button {
   background-color: gold !important;
   border-color: gold !important;
@@ -84,9 +87,6 @@ body::after {
 .page-container {
   padding: 2rem;
   max-width: 1280px;
-  display: flex;
-  flex-direction:column;
-  justify-content: center;
 }
 
 /* a, */

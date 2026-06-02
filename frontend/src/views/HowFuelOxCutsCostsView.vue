@@ -13,6 +13,7 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
 
 
 <template>
+
   <div class="page-container">
 
     <div class="text-container">

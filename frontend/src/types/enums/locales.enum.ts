@@ -1,4 +1,4 @@
 export enum LocaleOptions {
-  EN = 'EN',
-  FR = 'FR',
+  EN = 'en',
+  FR = 'fr',
 }

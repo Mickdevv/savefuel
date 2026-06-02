@@ -1,15 +1,14 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue';
+import { computed, ref, Transition } from 'vue';
 import 'primeicons/primeicons.css'
 import Menu from 'primevue/menu';
 import Button from 'primevue/button';
 import Select from 'primevue/select';
 import { useLocaleStore } from '@/stores/selected-language';
 import { useCurrentPageStore } from '@/stores/current-page';
-import { useRouter } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import Dialog from 'primevue/dialog';
-import Contact from './Contact.vue';
 
 const contactFormVisible = ref<boolean>(false)
 
@@ -20,86 +19,123 @@ const menu = ref();
 const { t } = useI18n()
 
 const router = useRouter()
+const route = useRoute()
 
 const items = computed(() => [
   {
     label: t('menubar.home'),
-    // icon: 'pi pi-eraser',
+    activeFlag: '/',
     command: () => router.push('/')
   },
 
   {
     label: t('menubar.how-fo-cuts-costs'),
-    // icon: 'pi pi-eraser',
+    activeFlag: '/how-fuel-ox-cuts-costs',
     command: () => router.push('/how-fuel-ox-cuts-costs')
   },
 
   {
     label: t('menubar.free-trial-procedure'),
-    // icon: 'pi pi-eraser',
+    activeFlag: '/free-trial-procedure',
     command: () => router.push('/free-trial-procedure')
   },
 
   {
     label: t('menubar.four-guarantees'),
-    // icon: 'pi pi-eraser',
+    activeFlag: '/four-guarantees',
     command: () => router.push('/four-guarantees')
   },
-
   {
     label: t('menubar.technical'),
-    // icon: 'pi pi-eraser',
+    activeFlag: '/technical',
     command: () => router.push('/technical')
   },
 
   {
     label: t('menubar.vehicles'),
-    // icon: 'pi pi-eraser',
+    activeFlag: '/vehicles',
     command: () => router.push('/vehicles')
   },
-
   {
     label: t('menubar.generators'),
-    // icon: 'pi pi-eraser',
+    activeFlag: '/generators',
     command: () => router.push('/generators')
   },
   {
     label: t('menubar.about'),
-    // icon: 'pi pi-eraser',
+    activeFlag: '/about',
     command: () => router.push('/about')
   },
   {
-    separator: true
+    label: t('menubar.contact'),
+    activeFlag: '/contact',
+    command: () => router.push('/contact')
   },
   {
     label: t('menubar.price-list'),
-    // icon: 'pi pi-eraser',
+    activeFlag: '',
     command: () => window.open(t('links.documents.price-list'))
   },
   {
-    label: t('menubar.contact'),
-    // icon: 'pi pi-eraser',
-    command: () => { contactFormVisible.value = !contactFormVisible.value }
-  },
-  {
     label: t('menubar.gdpr'),
-    // icon: 'pi pi-eraser',
+    activeFlag: '',
     command: () => window.open(t('links.documents.gdpr'))
-  },
-
+  }
 ])
 const toggle = (event: any) => {
   menu.value.toggle(event);
 };
 
+const visible = ref(true)
+const emit = defineEmits<{
+  (e: 'update:menuOpen', value: boolean): void
+}>()
+
+
+const openMenu = () => {
+  visible.value = true
+}
+const closeMenu = () => {
+  visible.value = false
+}
+
+const currentPath = computed(() => route.path)
+
+function navigate(path: string) {
+  router.push(path)
+  closeMenu()
+}
 
 </script>
 
 
 <template>
+  <Transition name="drawer">
+    <div v-if="visible" class="nav-drawer">
+      <div class="overlay-menu-backdrop" @click="closeMenu"></div>
+
+      <nav class="overlay-menu-panel">
+        <div class="overlay-menu-header">
+          <button class="close-button" @click="closeMenu" aria-label="Close menu">X</button>
+        </div>
+
+        <ul class="menu-list">
+          <li v-for="item in items" :key="item.label">
+            <p @click="item.command(); closeMenu()" class="menu-link"
+              :class="{ active: currentPath === (item.activeFlag) && item.activeFlag != '' }">
+              {{ item.label }}
+            </p>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </Transition>
+
   <Dialog :header="$t('components.contact-form.title')" v-model:visible="contactFormVisible">
     <Contact />
   </Dialog>
+
+
   <div class="page-top-container">
     <div class="menubar">
       <a class="logo-link" href="/">
@@ -122,13 +158,11 @@ const toggle = (event: any) => {
           </a>
         </span>
         <div class="border border-right menu">
-          <Button class="menu-internal-element" type="button" label="Menu" icon="pi pi-ellipsis-v" @click="toggle"
-            aria-haspopup="true" aria-controls="overlay_menu" />
-          <Menu class="menu-internal-element" ref="menu" id="overlay_menu" :model="items" :popup="true" />
+          <button class="menu-internal-element" @click="openMenu">Menu <i class="pi pi-ellipsis-v"></i></button>
         </div>
         <div class="language-selector">
-          <Select class="language-selector-select" v-model="$i18n.locale" :options="$i18n.availableLocales"
-            @change="localeStore.selectLanguage($i18n.locale)" />
+          <button @click="localeStore.toggleLocale();" class="language-selector-select">{{ $i18n.locale.toUpperCase()
+          }}</button>
         </div>
       </div>
     </div>
@@ -136,14 +170,128 @@ const toggle = (event: any) => {
 </template>
 
 <style scoped>
+/* ENTER animation */
+.drawer-enter-active,
+.drawer-leave-active {
+  transition: all 250ms ease;
+}
+
+/* start state (enter + leave end) */
+.drawer-enter-from,
+.drawer-leave-to {
+  opacity: 0;
+}
+
+/* slide panel specifically */
+.drawer-enter-from .overlay-menu-panel,
+.drawer-leave-to .overlay-menu-panel {
+  transform: translateX(100%);
+}
+
+/* final state */
+.drawer-enter-to .overlay-menu-panel,
+.drawer-leave-from .overlay-menu-panel {
+  transform: translateX(0);
+}
+
+.overlay-menu-panel {
+  will-change: transform;
+}
+
+.nav-drawer {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+}
+
+.overlay-menu {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+}
+
+/* backdrop */
+.overlay-menu-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* panel */
+.overlay-menu-panel {
+  position: relative;
+  margin-left: auto;
+  width: 360px;
+  max-width: 90vw;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+}
+
+/* header */
+.overlay-menu-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 20px 8px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+/* close button */
+.close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #1c1c1c;
+  padding: 4px;
+}
+
+/* menu list */
+.menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+}
+
+/* links */
+.menu-link {
+  display: block;
+  padding: 12px 24px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #1c1c1c;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+  transition: all 150ms ease;
+}
+
+/* active state */
+.menu-link.active {
+  font-weight: 600;
+  color: #dda411;
+  border-left: 3px solid #dda411;
+  background: rgba(221, 164, 17, 0.06);
+}
+
+.menu-link:hover {
+  font-weight: 600;
+  color: #dda411;
+  border-left: 3px solid #dda411;
+  background: rgba(221, 164, 17, 0.06);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
 .company-name {
   /* display: none; */
 }
 
-
 .youtube-link {
   display: none;
-  color: hsla(10, 100%, 37%, 1);
+  color: hsla(10, 100%, 37%, 1) !important;
 }
 
 .linkedin-link {
@@ -172,13 +320,17 @@ const toggle = (event: any) => {
       rgba(44, 57, 245, 0) 100%);
 }
 
-.language-selector-select:focus {
-  padding: 0rem 0.5rem;
+.language-selector-select {
+  padding: 0.5rem;
   border-color: black !important;
-
+  border-radius: 5px;
+  background-color: transparent;
+  color: #1c1c1c;
 }
 
-
+.language-selector-select:focus {
+  border-color: black !important;
+}
 
 .language-selector {
   padding: 0rem 0.5rem;

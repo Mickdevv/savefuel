@@ -18,20 +18,22 @@ defineProps<Props>()
 
     <div class="hero-overlay">
     </div>
+    <div class="hero-container-container">
 
-    <div class="hero-container">
-      <div class="hero-content">
-        <h2>{{ $t(`components.hero-banners.${bannerName}.title`) }}</h2>
+      <div class="hero-container">
+        <div class="hero-content">
+          <h2>{{ $t(`components.hero-banners.${bannerName}.title`) }}</h2>
 
-        <p>
-          {{ $t(`components.hero-banners.${bannerName}.description`) }}
-        </p>
+          <p>
+            {{ $t(`components.hero-banners.${bannerName}.description`) }}
+          </p>
 
-        <Button @click="router.push($t(`components.hero-banners.${bannerName}.buttonLink`))" class="primary-button"
-          :label="$t(`components.hero-banners.${bannerName}.buttonLabel`)"></Button>
+          <Button @click="router.push($t(`components.hero-banners.${bannerName}.buttonLink`))" class="primary-button"
+            :label="$t(`components.hero-banners.${bannerName}.buttonLabel`)"></Button>
+        </div>
       </div>
-    </div>
 
+    </div>
   </section>
 </template>
 
@@ -44,9 +46,14 @@ defineProps<Props>()
   max-width: 12rem;
 }
 
-.hero.container {
+.hero-container-container {
   width: 100%;
-  padding: 2rem;
+  max-width: 1280px !important;
+}
+
+.hero-container {
+  width: 100% !important;
+  padding: 2rem !important;
 }
 
 .hero-banner {
