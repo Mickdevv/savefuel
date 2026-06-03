@@ -6,9 +6,34 @@
 button, p, h1, h2, h3 {
   color: #1c1c1c;
 }
+.secondary-button {
+  color: white;
+  background-color: #360;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  inline-display: flex;
+  padding: 0.65rem 2rem;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s;
+}
 .primary-button {
-  background-color: gold !important;
-  border-color: gold !important;
+  background-color: #dda411;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  inline-display: flex;
+  padding: 0.65rem 2rem;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.2s;
 }
 
 #app {

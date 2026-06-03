@@ -35,23 +35,29 @@ const { tm } = useI18n()
           <!-- <p>{{ p[1] }}</p> -->
         </div>
       </div>
-      <h3 style="margin-top: 2rem;">{{ $t('pages.free-trial-procedure.test-conditions.title') }}</h3>
-      <h4>{{ $t('pages.free-trial-procedure.test-conditions.sub-title') }}</h4>
-      <div class="steps">
-        <div class="step condition" v-for="(p, i) in tm('pages.free-trial-procedure.test-conditions.conditions')">
-          <div class="step-number">{{ i + 1 }}</div>
 
-          <div class="step-content">
-            <div class="step-description">{{ p }}</div>
-          </div>
-        </div>
+      <div class="conditions-container">
+        <h2 style="margin-top: 2rem;">{{ $t('pages.free-trial-procedure.test-conditions.title') }}</h2>
+        <h4>{{ $t('pages.free-trial-procedure.test-conditions.sub-title') }}</h4>
+        <ol class="conditions">
+          <li class=" condition" v-for="(p, i) in tm('pages.free-trial-procedure.test-conditions.conditions')">
+            {{ p }}
+          </li>
+        </ol>
       </div>
 
       <h3>{{ $t('pages.free-trial-procedure.email-title') }}</h3>
       <p>{{ $t('pages.free-trial-procedure.email-line') }}
         <a href="mailto:contact@save-fuel.eu?subject=Free%20trial%20enquiry">contact@save-fuel.eu</a>
       </p>
+
+
+      <button class="primary-button vehicles-link">{{ $t('pages.free-trial-procedure.vehicles-button') }}</button>
+      <button class="secondary-button generators-link">{{ $t('pages.free-trial-procedure.generators-button') }}</button>
     </div>
+
+
+
     <div class="right-column">
       <div class="images">
         <img src="../assets/Both Fuelox bottles.png" style="border-radius: 5px; width: 100%" alt="">
@@ -68,6 +74,13 @@ const { tm } = useI18n()
 </template>
 
 <style scoped>
+.conditions-container {
+  background: rgb(244, 244, 244);
+  border-radius: 8px;
+  border-left: 4px solid rgb(51, 102, 0);
+  padding: 12px 24px;
+}
+
 .condition {
   display: flex;
   align-items: center;
