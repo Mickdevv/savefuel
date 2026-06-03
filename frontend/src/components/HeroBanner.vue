@@ -44,9 +44,6 @@ defineProps<Props>()
   text-align: left;
 }
 
-.primary-button {
-  max-width: 12rem;
-}
 
 .hero-container-container {
   width: 100%;

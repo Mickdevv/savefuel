@@ -79,7 +79,7 @@ p {
 }
 
 .primary-button {
-  padding: 1rem 1.5rem;
+  max-width: 100%;
 }
 
 .button-container {
