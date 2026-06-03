@@ -43,8 +43,8 @@ currentPageStore.setCurrentPage('home')
       </div>
 
       <div class="button-container">
-        <Button @click="router.push('/how-fuel-ox-cuts-costs')" class="primary-button"
-          :label="$t('pages.home.learn-more-button')" severity="warning" />
+        <button @click="router.push('/how-fuel-ox-cuts-costs')" class="button primary-button" severity="warning">{{
+          $t('pages.home.learn-more-button') }}</button>
       </div>
     </div>
   </div>

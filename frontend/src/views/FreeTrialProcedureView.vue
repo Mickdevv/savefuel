@@ -52,8 +52,10 @@ const { tm } = useI18n()
       </p>
 
 
-      <button class="primary-button vehicles-link">{{ $t('pages.free-trial-procedure.vehicles-button') }}</button>
-      <button class="secondary-button generators-link">{{ $t('pages.free-trial-procedure.generators-button') }}</button>
+      <button class="button primary-button vehicles-link">{{ $t('pages.free-trial-procedure.vehicles-button')
+        }}</button>
+      <button class="button secondary-button generators-link">{{ $t('pages.free-trial-procedure.generators-button')
+        }}</button>
     </div>
 
 

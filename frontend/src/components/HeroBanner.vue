@@ -28,8 +28,10 @@ defineProps<Props>()
             {{ $t(`components.hero-banners.${bannerName}.description`) }}
           </p>
 
-          <Button @click="router.push($t(`components.hero-banners.${bannerName}.buttonLink`))" class="primary-button"
-            :label="$t(`components.hero-banners.${bannerName}.buttonLabel`)"></Button>
+          <div>
+            <button @click="router.push($t(`components.hero-banners.${bannerName}.buttonLink`))"
+              class="button primary-button">{{ $t(`components.hero-banners.${bannerName}.buttonLabel`) }}</button>
+          </div>
         </div>
       </div>
 
