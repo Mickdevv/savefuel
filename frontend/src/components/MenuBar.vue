@@ -97,6 +97,7 @@ const openMenu = () => {
 }
 const closeMenu = () => {
   visible.value = false
+  console.log("test coe")
 }
 
 const currentPath = computed(() => route.path)
@@ -110,6 +111,7 @@ function navigate(path: string) {
 
 
 <template>
+
   <Transition name="fade-in">
     <div v-if="visible" class="overlay-menu-backdrop" @click="closeMenu"></div>
   </Transition>
@@ -233,7 +235,6 @@ function navigate(path: string) {
   position: fixed;
   inset: 0;
   z-index: 1000;
-  display: flex;
 }
 
 /* backdrop */

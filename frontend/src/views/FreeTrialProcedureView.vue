@@ -3,6 +3,7 @@ import Button from 'primevue/button'
 import { useCurrentPageStore } from '@/stores/current-page';
 import { useI18n } from 'vue-i18n';
 import { useRouter } from 'vue-router';
+import LinksCard from '@/components/LinksCard.vue';
 
 const router = useRouter()
 const currentPageStore = useCurrentPageStore()
@@ -15,20 +16,36 @@ const { tm } = useI18n()
   <div class="page-container">
 
     <div class="paragraphs">
-      <p v-for="(p, i) in tm('pages.free-trial-procedure.paragraphs')">{{ p }}</p>
-      <ol style="margin-bottom: 1rem;">
-        <li v-for="(p, i) in tm('pages.free-trial-procedure.steps')">
-          <p style="font-weight: bold;"> {{ p[0] }}</p>
-          <p>{{ p[1] }}</p>
-        </li>
-      </ol>
+      <h2>{{ $t('pages.free-trial-procedure.intro.title') }}</h2>
+      <p>{{ $t('pages.free-trial-procedure.intro.p1') }}</p>
+      <p>{{ $t('pages.free-trial-procedure.intro.p2') }}</p>
+
+      <h2>{{ $t('pages.free-trial-procedure.steps.title') }}</h2>
+      <p>{{ $t('pages.free-trial-procedure.steps.subtitle') }}</p>
+      <div class="steps" style="margin-bottom: 1rem;">
+        <div class="step" v-for="(p, i) in tm('pages.free-trial-procedure.steps.steps')">
+
+          <div class="step-number">{{ i + 1 }}</div>
+
+          <div class="step-content">
+            <div class="step-title">{{ p[0] }}</div>
+            <div class="step-description">{{ p[1] }}</div>
+          </div>
+          <!-- <p style="font-weight: bold;"> {{ p[0] }}</p> -->
+          <!-- <p>{{ p[1] }}</p> -->
+        </div>
+      </div>
       <h3 style="margin-top: 2rem;">{{ $t('pages.free-trial-procedure.test-conditions.title') }}</h3>
       <h4>{{ $t('pages.free-trial-procedure.test-conditions.sub-title') }}</h4>
-      <ol>
-        <li v-for="(p, i) in tm('pages.free-trial-procedure.test-conditions.conditions')">
-          <p> {{ p }}</p>
-        </li>
-      </ol>
+      <div class="steps">
+        <div class="step condition" v-for="(p, i) in tm('pages.free-trial-procedure.test-conditions.conditions')">
+          <div class="step-number">{{ i + 1 }}</div>
+
+          <div class="step-content">
+            <div class="step-description">{{ p }}</div>
+          </div>
+        </div>
+      </div>
 
       <h3>{{ $t('pages.free-trial-procedure.email-title') }}</h3>
       <p>{{ $t('pages.free-trial-procedure.email-line') }}
@@ -51,6 +68,72 @@ const { tm } = useI18n()
 </template>
 
 <style scoped>
+.condition {
+  display: flex;
+  align-items: center;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.step {
+  display: flex;
+  gap: 16px;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #dda411;
+  color: #1c1c1c;
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-title {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.step-description {
+  margin: 0;
+  font-size: 16px;
+  color: #3a3a3a;
+  line-height: 1.5;
+}
+
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #336600;
+}
+
 ol {
   margin-bottom: 2rem;
 }
@@ -64,7 +147,8 @@ ol {
 }
 
 .page-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr minmax(280px, 380px);
   align-items: flex-start;
   flex-wrap: wrap;
 }
