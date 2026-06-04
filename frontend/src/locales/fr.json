@@ -21,11 +21,9 @@
 
         "Avant même la création de Save Fuel Europe SAS, Fuel Ox a été testé sur un Land Cruiser 2005 équipé d'un moteur turbo diesel D4D. Les résultats ont révélé une économie de carburant de 22%. Ces performances exceptionnelles nous ont convaincus du potential du produit et nous ont encouragés à l'introduire sur le marché français. Consultez le rapport du Land Cruiser  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\">ici</a>.",
 
-        "Des essais routiers indépendants réalisés en France ont confirmé ces résultats. La réduction minimale de consommation observée s'élève à 9%. Le rapport complet est disponible <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-LandRover-9pc-moins-fioul.pdf\" target=\"_blank\">ici</a>. ",
-
-        "Exemple concret: pour un camion parcourant 150 000 km par an et consommant 45 000 litres de carburant, une réduction de 9 %  représente une économie de 4 050 litres par an.  Avec un coût de traitement de seulement 0,0198 € par litre et un prix du carburant de 2 € par litre, l’économie nette s'élève à 7 209 €."
+        "Des essais routiers indépendants réalisés en France ont confirmé ces résultats. La réduction minimale de consommation observée s'élève à 9%. Le rapport complet est disponible <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-LandRover-9pc-moins-fioul.pdf\" target=\"_blank\">ici</a>. "
       ],
-      "learn-more-button": "Calculez vos economies"
+      "learn-more-button": "Calculez vos économies"
     },
     "how-fo-cuts-costs": {
       "page-title": "Comment Fuel Ox réduit les coûts",
@@ -43,27 +41,27 @@
       "explore-a-free-trial-button": "Découvrez d'un essai gratuit"
     },
     "free-trial-procedure": {
-      "page-title": "Comment se d'eroule un essai ?",
+      "page-title": "Procédure d'essai gratuit",
       "intro": {
-        "title": "Testez gratuitement la réduction de votre consommation de carburant",
-        "p1": "Chez Save Fuel Europe, nous vous proposons un essai gratuit pour constater par vous-même les économies possibles avant tout achat.",
-        "p2": "Nous mettons à votre disposition la quantité de Fuel Ox nécessaire pour réaliser ce test dans des conditions réelles. Pour obtenir des résultats fiables, nous recommandons d’utiliser un véhicule qui fait le plein au moins deux fois par semaine et qui roule habituellement dans des conditions similaires."
+        "title": "Testez la réduction de votre consommation de carburant — gratuitement.",
+        "p1": "Chez Save Fuel Europe, nous vous offrons un essai gratuit pour que vous puissiez constater par vous-même les économies possibles avant de faire un achat.",
+        "p2": "Nous fournissons la quantité de Fuel Ox nécessaire pour effectuer ce test dans des conditions réelles. Pour des résultats fiables, nous recommandons d'utiliser un véhicule qui fait le plein au moins deux fois par semaine et qui fonctionne normalement dans des conditions similaires."
       },
       "steps": {
         "title": "Comment se déroule l’essai ?",
-        "subtitle": "L’essai se déroule simplement en trois étapes :",
+        "subtitle": "L'essai se déroule en trois étapes simples :",
         "steps": [
           [
             "Mesurez votre consommation actuelle",
-            "Commencez par faire le plein (toujours au même niveau pour garantir la précision). Notez votre kilométrage, puis utilisez le véhicule normalement. Lors du plein suivant, notez à nouveau le kilométrage et la quantité de carburant ajoutée. Cela vous donnera votre consommation de référence."
+            "Commencez par faire le plein (toujours au même niveau pour assurer la précision). Notez votre kilométrage, puis utilisez le véhicule normalement. Au prochain ravitaillement, notez à nouveau le kilométrage et la quantité de carburant ajoutée. Cela vous donne votre consommation de base."
           ],
           [
             "Phase de nettoyage",
-            "Ajoutez ensuite Fuel Ox (dose de démarrage) et continuez à utiliser votre véhicule normalement. Cette phase permet de nettoyer progressivement le système carburant et d’optimiser ses performances. "
+            "Ajoutez Fuel Ox (dose de démarrage) et continuez à utiliser votre véhicule normalement. Cette phase nettoie progressivement le système de carburant et optimise ses performances."
           ],
           [
             "Mesurez vos économies",
-            "Après cette phase, continuez avec la dose normale de Fuel Ox. Relevez à nouveau vos données de consommation pour comparer facilement avec vos résultats initiaux. "
+            "Après cette phase, continuez avec la dose normale de Fuel Ox. Enregistrez à nouveau vos données de consommation pour comparer facilement avec vos résultats initiaux."
           ]
         ]
       },
@@ -75,8 +73,7 @@
           "Partager vos données de consommation avec Save Fuel Europe. "
         ]
       },
-      "email-title": "Envie d’essayer ? ",
-      "email-line": "Contactez-nous dès maintenant pour organiser votre test gratuit : ",
+      "email-title": "Prêt à essayer ? Contactez-nous maintenant pour organiser votre essai gratuit :",
       "vehicles-button": "Véhicules",
       "generators-button": "Générateurs"
     },
@@ -265,7 +262,7 @@
     "figures-cards": {
       "min-fuel-savings": {
         "title": "9 %",
-        "description": "Économies de carburant minimales"
+        "description": "Économies de carburant minimales constatées"
       },
       "max-fuel-savings": {
         "title": "22 %",

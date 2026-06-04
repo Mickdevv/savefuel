@@ -48,15 +48,16 @@ const { tm } = useI18n()
       </div>
 
       <h3>{{ $t('pages.free-trial-procedure.email-title') }}</h3>
-      <p>{{ $t('pages.free-trial-procedure.email-line') }}
-        <a href="mailto:contact@save-fuel.eu?subject=Free%20trial%20enquiry">contact@save-fuel.eu</a>
+      <p>
+        <a style="font-weight:600"
+          href="mailto:contact@save-fuel.eu?subject=Free%20trial%20enquiry">contact@save-fuel.eu</a>
       </p>
 
 
       <button class="button primary-button vehicles-link">{{ $t('pages.free-trial-procedure.vehicles-button')
-      }}</button>
+        }}</button>
       <button class="button secondary-button generators-link">{{ $t('pages.free-trial-procedure.generators-button')
-      }}</button>
+        }}</button>
     </div>
 
 
@@ -77,6 +78,12 @@ const { tm } = useI18n()
   border-radius: 8px;
   border-left: 4px solid rgb(51, 102, 0);
   padding: 12px 24px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.button {
+  padding: 1rem 3rem
 }
 
 .condition {
@@ -171,6 +178,12 @@ ol {
   padding: 40px 24px;
 }
 
+@media (max-width: 1080px) {
+  .page-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 .paragraphs {
   width: 100%;
 }
@@ -180,6 +193,7 @@ ol {
 }
 
 .images {
+  margin-bottom: 1rem;
   width: 100%;
 }
 

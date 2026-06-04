@@ -19,8 +19,7 @@
       "paragraphs": [
         "Save Fuel Europe SAS is the exclusive distributor of Fuel Ox in France. Developed over 30 years ago for AT&T and the US military, Fuel Ox is a high-performance fuel treatment that optimizes combustion and significantly reduces fuel consumption.",
         " Before Save Fuel Europe was even established, Fuel Ox was tested on a 2005 Land Cruiser equipped with a D4D turbodiesel engine. Results showed fuel savings of 22%. These exceptional results convinced us of the product's potential and encouraged us to introduce it to the French market. See the Land Cruiser test report <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">here</a>.",
-        "Independent road tests conducted in France have confirmed these results. The minimum fuel reduction observed was 9%.  The test report is available <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">here</a>.  ",
-        "As an example, for a truck driving 150,000 km/year and burning 45,000 L of fuel, a 9% reduction saves 4050 litres.  At a treatment cost per litre of €0.0198 and fuel cost of €2 per litre, €7209 would be saved."
+        "Independent road tests conducted in France have confirmed these results. The minimum fuel reduction observed was 9%.  The test report is available <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">here</a>.  "
       ],
       "learn-more-button": "Learn more"
     },
@@ -41,25 +40,34 @@
     },
     "free-trial-procedure": {
       "page-title": "Free trial procedure",
-      "paragraphs": [
-        "Test your fuel reduction for free. ",
-        "At Save Fuel Europe, we offer a free trial to see for yourself the savings you can make before you buy. ",
-        "We provide you with the amount of Fuel Ox needed to carry out this test in real conditions. For reliable results, we recommend using a vehicle that refuels at least twice a week and is usually driven in similar conditions. ",
-        "How does the trial work?  The trial is simply carried out in three stages: "
-      ],
-      "steps": [
-        [
-          "Measure your current consumption",
-          "Start by refuelling (always at the same level to ensure accuracy). Write down your mileage and then use the vehicle normally. On the next fill-up, note the mileage and the amount of fuel added again. This will give you your reference consumption. "
-        ],
-        [
-          "Cleaning phase ",
-          "Then add Fuel Ox (starting dose) and continue to use your vehicle normally. This phase allows the fuel system to be gradually cleaned and its performance to be optimised. "
-        ],
-        [
-          "Measure jour savings",
-          "After this phase, continue with the normal dose of Fuel Ox. Read your consumption data again to easily compare with your initial results. "
+      "intro": {
+        "title": "Test the reduction in your fuel consumption — free of charge.",
+        "p1": "At Save Fuel Europe, we offer you a free trial so you can see the possible savings for yourself before making any purchase.",
+        "p2": "We provide the quantity of Fuel Ox needed to carry out this test under real conditions. For reliable results, we recommend using a vehicle that fills up at least twice a week and normally operates under similar conditions."
+      },
+      "steps": {
+        "title": "How does the trial work?",
+        "subtitle": "The trial takes place in three simple steps:",
+        "steps": [
+          [
+            "Measure your current consumption",
+            "Start by filling up (always to the same level to ensure accuracy). Note your mileage, then use the vehicle normally. At the next fill-up, note the mileage and fuel quantity added again. This gives you your baseline consumption."
+          ],
+          [
+            "Cleaning phase ",
+            "Then add Fuel Ox (startup dose) and continue using your vehicle normally. This phase gradually cleans the fuel system and optimizes its performance."
+          ],
+          [
+            "Measure jour savings",
+            "After this phase, continue with the normal dose of Fuel Ox. Record your consumption data again to easily compare with your initial results."
+          ]
         ]
+      },
+      "paragraphs": [
+        "Test the reduction in your fuel consumption — free of charge.",
+        "At Save Fuel Europe, we offer you a free trial so you can see the possible savings for yourself before making any purchase.",
+        "We provide the quantity of Fuel Ox needed to carry out this test under real conditions. For reliable results, we recommend using a vehicle that fills up at least twice a week and normally operates under similar conditions.",
+        "How does the trial work?  The trial is simply carried out in three stages: "
       ],
       "test-conditions": {
         "title": "Test conditions",
@@ -69,7 +77,7 @@
           "Share your consumption data with Save Fuel Europe"
         ]
       },
-      "email-title": "Ready to try?  ",
+      "email-title": "Ready to try? Contact us now to arrange your free trial:",
       "email-line": "Email to set up a free trial ",
       "vehicles-button": "Vehicles",
       "generators-button": "Generators"
