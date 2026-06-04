@@ -4,6 +4,7 @@ import { useCurrentPageStore } from '@/stores/current-page';
 import { useI18n } from 'vue-i18n';
 import { useRouter } from 'vue-router';
 import LinksCard from '@/components/LinksCard.vue';
+import FiguresCard from '@/components/FiguresCard.vue';
 
 const router = useRouter()
 const currentPageStore = useCurrentPageStore()
@@ -40,7 +41,7 @@ const { tm } = useI18n()
         <h2 style="margin-top: 2rem;">{{ $t('pages.free-trial-procedure.test-conditions.title') }}</h2>
         <h4>{{ $t('pages.free-trial-procedure.test-conditions.sub-title') }}</h4>
         <ol class="conditions">
-          <li class=" condition" v-for="(p, i) in tm('pages.free-trial-procedure.test-conditions.conditions')">
+          <li class="condition" v-for="(p, i) in tm('pages.free-trial-procedure.test-conditions.conditions')">
             {{ p }}
           </li>
         </ol>
@@ -53,23 +54,18 @@ const { tm } = useI18n()
 
 
       <button class="button primary-button vehicles-link">{{ $t('pages.free-trial-procedure.vehicles-button')
-        }}</button>
+      }}</button>
       <button class="button secondary-button generators-link">{{ $t('pages.free-trial-procedure.generators-button')
-        }}</button>
+      }}</button>
     </div>
 
 
 
     <div class="right-column">
       <div class="images">
-        <img src="../assets/Both Fuelox bottles.png" style="border-radius: 5px; width: 100%" alt="">
+        <img class="truck-image" src="@/assets/ai-trucks.webp" style="border-radius: 5px; width: 100%" alt="">
       </div>
-      <div class="buttons-bar">
-        <Button class="primary-button" @click="router.push('/vehicles')"
-          :label="$t('pages.free-trial-procedure.vehicles-button')"></Button>
-        <Button class="primary-button" @click="router.push('/generators')"
-          :label="$t('pages.free-trial-procedure.generators-button')"></Button>
-      </div>
+      <FiguresCard cardName="free-trial-no-obligation" />
     </div>
 
   </div>
@@ -86,6 +82,7 @@ const { tm } = useI18n()
 .condition {
   display: flex;
   align-items: center;
+  margin: 5px;
 }
 
 .steps {
@@ -145,7 +142,8 @@ const { tm } = useI18n()
 }
 
 h2 {
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 20px;
   color: #336600;
 }
 
@@ -162,10 +160,15 @@ ol {
 }
 
 .page-container {
+  max-width: 1280px;
+
   display: grid;
   grid-template-columns: 1fr minmax(280px, 380px);
   align-items: flex-start;
   flex-wrap: wrap;
+  gap: 48px;
+  align-items: start;
+  padding: 40px 24px;
 }
 
 .paragraphs {
@@ -177,27 +180,14 @@ ol {
 }
 
 .images {
-  display: none;
+  width: 100%;
 }
 
-@media (min-width: 1080px) {
-  .page-container {
-    flex-wrap: nowrap;
-  }
-
-  .images-column-container {
-    max-width: 25%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .images {
-    display: block;
-  }
-
-  .paragraphs {
-    width: 75%
-  }
+.truck-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 20px;
+  object-fit: cover;
+  aspect-ratio: 4 / 3;
 }
 </style>

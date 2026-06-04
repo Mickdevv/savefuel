@@ -19,9 +19,9 @@
       "paragraphs": [
         "Save Fuel Europe SAS est le distributeur exclusif de Fuel Ox en France. Développé il y a plus de 30 ans pour AT&T et l'armée americaine, Fuel Ox est un traitement pour carburant haute performance qui optimise la combustion et réduit significativement la consommation de carburant.",
 
-        "Avant même la création de Save Fuel Europe SAS, Fuel Ox a été testé sur un Land Cruiser 2005 équipé d’un moteur turbo diesel D4D. Les résultats ont révélé une économie de carburant de 22%.  Ces performances exceptionnelles nous ont convaincus du potential du produit et nous ont encouragés à l'introduire sur le marché français.  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\">Rapport d’essai du Land Cruiser</a>",
+        "Avant même la création de Save Fuel Europe SAS, Fuel Ox a été testé sur un Land Cruiser 2005 équipé d'un moteur turbo diesel D4D. Les résultats ont révélé une économie de carburant de 22%. Ces performances exceptionnelles nous ont convaincus du potential du produit et nous ont encouragés à l'introduire sur le marché français. Consultez le rapport du Land Cruiser  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\">ici</a>.",
 
-        "Des essais routiers indépendants réalisés en France ont confirmé ces résultats. La réduction minimale de consommation observée s'élève à 9 %.  Le rapport complet est disponible <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-LandRover-9pc-moins-fioul.pdf\" target=\"_blank\">ici</a>. ",
+        "Des essais routiers indépendants réalisés en France ont confirmé ces résultats. La réduction minimale de consommation observée s'élève à 9%. Le rapport complet est disponible <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-LandRover-9pc-moins-fioul.pdf\" target=\"_blank\">ici</a>. ",
 
         "Exemple concret: pour un camion parcourant 150 000 km par an et consommant 45 000 litres de carburant, une réduction de 9 %  représente une économie de 4 050 litres par an.  Avec un coût de traitement de seulement 0,0198 € par litre et un prix du carburant de 2 € par litre, l’économie nette s'élève à 7 209 €."
       ],
@@ -278,6 +278,10 @@
       "proven-track-record": {
         "title": "Plus de 30 ans",
         "description": "Efficacité éprouvée"
+      },
+      "free-trial-no-obligation": {
+        "title": "",
+        "description": "Aucun risque, aucune obligation. Nous fournissons le Fuel Ox nécessaire pour le test gratuitement. Tout ce que nous demandons, c'est de suivre le protocole et de partager vos résultats avec nous."
       }
     },
     "links-cards": {

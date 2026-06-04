@@ -17,9 +17,9 @@
     "home": {
       "page-title": "Home",
       "paragraphs": [
-        "Save Fuel Europe SAS is the exclusive distributor in France for Fuel Ox.  This is a fuel treatment that was developed over 30 years ago for the AT&T company and the US military.",
-        "Fuel Ox improves fuel consumption.  Before establishing Save Fuel Europe SAS, Fuel Ox was tested using a 2005 Land Cruiser with a D4D turbo diesel engine and found a 22% fuel saving.  This gave us confidence to bring Fuel Ox to France.  See the Land Cruiser test report <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">here</a>.",
-        "Independent road tests were also done in France.  The lowest reduction in fuel consumption was 9%.  The test report is available <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">here</a>.  ",
+        "Save Fuel Europe SAS is the exclusive distributor of Fuel Ox in France. Developed over 30 years ago for AT&T and the US military, Fuel Ox is a high-performance fuel treatment that optimizes combustion and significantly reduces fuel consumption.",
+        " Before Save Fuel Europe was even established, Fuel Ox was tested on a 2005 Land Cruiser equipped with a D4D turbodiesel engine. Results showed fuel savings of 22%. These exceptional results convinced us of the product's potential and encouraged us to introduce it to the French market. See the Land Cruiser test report <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">here</a>.",
+        "Independent road tests conducted in France have confirmed these results. The minimum fuel reduction observed was 9%.  The test report is available <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">here</a>.  ",
         "As an example, for a truck driving 150,000 km/year and burning 45,000 L of fuel, a 9% reduction saves 4050 litres.  At a treatment cost per litre of €0.0198 and fuel cost of €2 per litre, €7209 would be saved."
       ],
       "learn-more-button": "Learn more"
@@ -57,19 +57,19 @@
           "Then add Fuel Ox (starting dose) and continue to use your vehicle normally. This phase allows the fuel system to be gradually cleaned and its performance to be optimised. "
         ],
         [
-          "Measure your savings",
+          "Measure jour savings",
           "After this phase, continue with the normal dose of Fuel Ox. Read your consumption data again to easily compare with your initial results. "
         ]
       ],
       "test-conditions": {
         "title": "Test conditions",
-        "sub-title": "Two simple conditions",
+        "sub-title": "Two simple conditions:",
         "conditions": [
           "Follow our test procedure",
           "Share your consumption data with Save Fuel Europe"
         ]
       },
-      "email-title": "Want to give it a try?  ",
+      "email-title": "Ready to try?  ",
       "email-line": "Email to set up a free trial ",
       "vehicles-button": "Vehicles",
       "generators-button": "Generators"
@@ -293,6 +293,10 @@
       "proven-track-record": {
         "title": "30+ years",
         "description": "Proven track record"
+      },
+      "free-trial-no-obligation": {
+        "title": "",
+        "description": "No risk, no obligation. We supply the Fuel Ox needed for the test at no cost. All we ask is that you follow the protocol and share your results with us."
       }
     },
     "links-cards": {

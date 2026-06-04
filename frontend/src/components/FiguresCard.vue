@@ -7,9 +7,11 @@ defineProps<{
 
 <template>
   <div class="card">
-    <h1>{{ $t(`components.figures-cards.${cardName}.title`) }}</h1>
+    <h1 v-if="$t(`components.figures-cards.${cardName}.title`)">
+      {{ $t(`components.figures-cards.${cardName}.title`) }}
+    </h1>
 
-    <p>
+    <p v-if="$t(`components.figures-cards.${cardName}.description`)">
       {{ $t(`components.figures-cards.${cardName}.description`) }}
     </p>
 
