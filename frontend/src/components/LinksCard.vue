@@ -13,8 +13,8 @@ defineProps<{
       {{ $t(`components.links-cards.${cardName}.description`) }}
     </p>
 
-    <a v-if="$t(`components.links-cards.${cardName}.link`) != ''" :href="$t(`components.links-cards.${cardName}.href`)">
-      {{ $t(`components.links-cards.${cardName}.link`) }}
+    <a v-if="$t(`components.links-cards.${cardName}.href`) != ''" :href="$t(`components.links-cards.${cardName}.href`)">
+      {{ $t(`components.links-cards.link-label`) }}
       <span>→</span>
     </a>
   </div>

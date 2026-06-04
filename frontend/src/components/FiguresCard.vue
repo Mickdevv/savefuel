@@ -19,8 +19,6 @@ defineProps<{
 <style scoped>
 .card {
   flex: 1 1 250px;
-
-
   background: #f4f4f4;
   border-radius: 8px;
   padding: 24px 20px;
@@ -30,6 +28,7 @@ defineProps<{
 
 h1 {
   margin-bottom: 10px;
+  color: var(--primary-color-gold)
 }
 
 p {

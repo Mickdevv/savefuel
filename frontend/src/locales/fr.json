@@ -17,7 +17,7 @@
     "home": {
       "page-title": "Accueil",
       "paragraphs": [
-        "Save Fuel Europe SAS est le distributeur exclusif de Fuel Ox en France. Développé il y a plus de 30 ans pour AT&t et l'armée americaine, Fuel Ox est un traitement pour carburant haute performance qui optimise la combustion et réduit significativement la consommation de carburant.",
+        "Save Fuel Europe SAS est le distributeur exclusif de Fuel Ox en France. Développé il y a plus de 30 ans pour AT&T et l'armée americaine, Fuel Ox est un traitement pour carburant haute performance qui optimise la combustion et réduit significativement la consommation de carburant.",
 
         "Avant même la création de Save Fuel Europe SAS, Fuel Ox a été testé sur un Land Cruiser 2005 équipé d’un moteur turbo diesel D4D. Les résultats ont révélé une économie de carburant de 22%.  Ces performances exceptionnelles nous ont convaincus du potential du produit et nous ont encouragés à l'introduire sur le marché français.  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\">Rapport d’essai du Land Cruiser</a>",
 
@@ -256,47 +256,45 @@
   "components": {
     "hero-banners": {
       "home": {
-        "title": "Reduce your fuel costs. \nProtect your engine.",
-        "description": "Fuel Ox is a high-performance fuel treatment trusted by French fleets, generators, and marine operators.",
-        "buttonLabel": "See how it works",
+        "title": "Réduisez vos coûts de carburant.\nProtégez votre moteur.",
+        "description": "Fuel Ox est un traitement carburant haute performance utilisé par les flottes françaises, les groupes électrogènes et les opérateurs maritimes.",
+        "buttonLabel": "Découvrir son fonctionnement",
         "buttonLink": "/how-fuel-ox-cuts-costs"
       }
     },
     "figures-cards": {
       "min-fuel-savings": {
-        "title": "9%",
-        "description": "minimum fuel savings"
+        "title": "9 %",
+        "description": "Économies de carburant minimales"
       },
       "max-fuel-savings": {
-        "title": "22%",
-        "description": "Maximum fuel savings observed"
+        "title": "22 %",
+        "description": "Économies de carburant maximales constatées"
       },
       "annual-savings-per-truck": {
-        "title": "€7,209",
-        "description": "Annual savings per truck"
+        "title": "7 209 €",
+        "description": "Économies annuelles par camion"
       },
       "proven-track-record": {
-        "title": "30+ years",
-        "description": "Proven track record"
+        "title": "Plus de 30 ans",
+        "description": "Efficacité éprouvée"
       }
     },
     "links-cards": {
+      "link-label": "En savoir plus",
       "road-vehicles": {
         "title": "Transport routier",
-        "description": "Reduce fuel costs for your fleet with proven results from independent tests conducted in France.",
-        "link": "En savoir plus",
+        "description": "Réduisez les coûts de carburant de votre flotte grâce à des résultats éprouvés issus de tests indépendants réalisés en France.",
         "href": "/vehicles"
       },
       "generators": {
-        "title": "Générateurs",
-        "description": "Optimize power generation efficiency and extend fuel storage life for remote operations.",
-        "link": "En savoir plus",
+        "title": "Groupes électrogènes",
+        "description": "Optimisez l’efficacité de la production d’énergie et prolongez la durée de stockage du carburant pour les opérations isolées.",
         "href": "/generators"
       },
       "environment": {
         "title": "Environnement",
-        "description": "Reduce emissions and environmental impact with more complete fuel combustion. ",
-        "link": "En savoir plus",
+        "description": "Réduisez les émissions et l’impact environnemental grâce à une combustion plus complète du carburant.",
         "href": "/technical"
       }
     },
