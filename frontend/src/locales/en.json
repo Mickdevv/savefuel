@@ -224,18 +224,17 @@
     "technical": {
       "page-title": "Technical",
       "history": {
-        "title": "History",
+        "title": "The science behind Fuel Ox",
 
-        "p1": "Bell Labs is an American scientific and industrial research laboratory established in 1925. It developed radio astronomy, transistors, lasers, photovoltaic cells, the charge coupled device, information theory, the Unix computer operating system and several major programming languages. Its researchers were awarded eleven Nobel prizes and five Turing Awards for research done at Bell Labs, including for the discovery of the Cosmic Microwave Background.",
-
-        "p2": "Molecules of hydrocarbon fuels are polar. They have different electrical charges at different places on the molecule. This leads to polymerisation, where negative charges on one molecule stick to positive charges on another molecule. This causes clumps of molecules to form, which prevents oxygen reaching the molecules inside the clump during combustion. Incomplete combustion causes soot and unburnt hydrocarbons at the exhaust and requires more fuel to create a given power output. More throttle is needed to maintain the same power. Polymerisation increases with time so that after several months from production in a refinery, fuel becomes unusable. It plugs filters and fuel lines and creates deposits inside injection systems. Engines become less efficient with use, which means even more fuel must be burned for a desired performance.",
-
-        "p3": "Bell Labs was owned by the huge AT&T company (Atlantic Telephone and Telegraph), which had a large fleet of vehicles across the USA. The labs developed a fuel treatment to break up and prevent fuel polymerisation, restoring engine performance and fuel combustion to improve storage life and reduce fuel consumption. This fuel treatment was then adopted by the US military. Its current name is Fuel Ox and it currently treats around 50 million litres of fuel a month, mostly in the USA.",
-
-        "p4": "Fuel Ox includes catalysts. A catalyst causes chemical reactions without being consumed by the reaction, so a small amount of catalyst will keep working over a long time. The normal treatment with Fuel Ox uses one part in 10,000. One litre of Fuel Ox treats 10,000 litres of fuel. Our vehicle test showed improved combustion efficiency of about 5%. The improvement in engine efficiency can be much greater, depending on the state of the engine."
+        "p1": "Bell Labs is an American scientific and industrial research laboratory founded in 1925. It developed radio astronomy, transistors, lasers, photovoltaic cells, charge-coupled devices, information theory, the Unix operating system, and several major programming languages. Its researchers have received eleven Nobel Prizes and five Turing Awards.",
+        "p2": "The molecules of hydrocarbon fuels are polar — they have different electrical charges at different points on the molecule. This leads to polymerisation, where negative charges on one molecule adhere to positive charges on another. This causes clusters of molecules to form, preventing oxygen from reaching the molecules inside the cluster during combustion. Incomplete combustion produces soot and unburned hydrocarbons in the exhaust and requires more fuel to produce a given power output.",
+        "p3": "Polymerisation increases over time, so that after several months of production at the refinery, the fuel becomes unusable. It clogs filters and fuel lines and creates deposits inside injection systems. Engines become less efficient with use, meaning even more fuel must be burned to achieve a desired performance.",
+        "p4": "Bell Labs belonged to the large company AT&T, which owned a vast fleet of vehicles across the United States. The laboratories developed a fuel treatment to break down and prevent fuel polymerisation, restoring engine performance and fuel combustion to improve shelf life and reduce fuel consumption. This fuel treatment was subsequently adopted by the US military. Its current name is Fuel Ox, and it currently treats approximately 50 million litres of fuel per month, primarily in the United States.",
+        "p5": "Fuel Ox contains catalysts. A catalyst causes chemical reactions without being consumed by the reaction, so a small amount of catalyst will continue to act for a long time. Normal treatment with Fuel Ox uses one part per 10,000. One litre of Fuel Ox treats 10,000 litres of fuel. The improvement in combustion efficiency is approximately 5%. The improvement in engine efficiency can be much greater, depending on the condition of the engine."
       },
       "technical-documents": {
         "title": "Technical documents (PDF view or download)",
+        "subtitle": "All documents are available for online viewing or download (PDF format).",
 
         "video-trial-text": "Video about a 6 month trial of Fuel Ox.",
         "video-trial-link": "Long Fuel Ox test",
@@ -285,6 +284,71 @@
         "buttonLink": "/how-fuel-ox-cuts-costs"
       }
     },
+    "document-cards": [
+      {
+        "title": "Product Information",
+        "description": "Characteristics, standards, specifications",
+        "type": "documents",
+        "link": "product-information",
+        "icon": "file"
+      },
+      {
+        "title": "Fuel Ox White Paper",
+        "description": "5 pages, detailed explanation of how Fuel Ox works. Highly reccommended reading.",
+        "type": "documents",
+        "link": "fo-white-paper",
+        "icon": "file"
+      },
+      {
+        "title": "FAQ",
+        "description": "Common questions and answers.",
+        "type": "documents",
+        "link": "faq",
+        "icon": "file"
+      },
+      {
+        "title": "GNR vs EN590 standard",
+        "description": "How Non-Road Gas, Oil and standard EU diesel standards compare for Fuel Ox treatment.",
+        "type": "documents",
+        "link": "gnr-compared-toEN590",
+        "icon": "file"
+      },
+      {
+        "title": "Fuel Ox Safety Data Sheet (MSDS)",
+        "description": "Material safety data sheet.",
+        "type": "documents",
+        "link": "fo-MSDS",
+        "icon": "file"
+      },
+      {
+        "title": "EN 590 Laboratory Tests",
+        "description": "Intertek France tested diesel, comparing untreated fuel with Fuel Ox added at twice the normal concentration.",
+        "type": "documents",
+        "link": "intertek-EN590-test",
+        "icon": "file"
+      },
+      {
+        "title": "ASTM D-975 Laboratory Tests",
+        "description": "FirstEnergy laboratory in Oklahoma compared Fuel Ox-treated diesel with untreated diesel.",
+        "type": "documents",
+        "link": "ASTM-D975-test",
+        "icon": "file"
+      },
+      {
+        "title": "Fuel Ox Manufacturer Guarantee",
+        "description": "A US$2 million insurance policy against engine damage. Never used.",
+        "type": "documents",
+        "link": "fo-guarantee",
+        "icon": "file"
+      },
+      {
+        "title": "6-Month Fuel Ox Trial Video",
+        "description": "English-language video of a 6-month Fuel Ox trial. Enable subtitles and select your language.",
+        "type": "videos",
+        "link": "long-fuel-ox-test",
+        "icon": "play"
+      }
+    ],
     "figures-cards": {
       "min-fuel-savings": {
         "title": "9%",

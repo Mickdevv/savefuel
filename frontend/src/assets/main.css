@@ -1,4 +1,10 @@
 @import './base.css';
+.section-divider {
+  background: var(--primary-color-green);
+  width: 48px;
+  height: 3px;
+  border-radius: 1.5px;
+}
 * {
   font-family: 'Inter', sans-serif;
   text-align: justify;
