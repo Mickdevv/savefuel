@@ -24,7 +24,7 @@ defineProps<Props>()
         <div class="hero-content">
           <h2>{{ $t(`components.hero-banners.${bannerName}.title`) }}</h2>
 
-          <p>
+          <p class="banner-description">
             {{ $t(`components.hero-banners.${bannerName}.description`) }}
           </p>
 
@@ -44,6 +44,9 @@ defineProps<Props>()
   text-align: left;
 }
 
+.banner-description {
+  color: var(--primary-color-gold);
+}
 
 .hero-container-container {
   width: 100%;

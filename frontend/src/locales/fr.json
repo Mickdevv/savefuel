@@ -43,7 +43,7 @@
     "free-trial-procedure": {
       "page-title": "Procédure d'essai gratuit",
       "intro": {
-        "title": "Testez la réduction de votre consommation de carburant — gratuitement.",
+        "title": "Testez la réduction de votre consommation de carburant gratuitement.",
         "p1": "Chez Save Fuel Europe, nous vous offrons un essai gratuit pour que vous puissiez constater par vous-même les économies possibles avant de faire un achat.",
         "p2": "Nous fournissons la quantité de Fuel Ox nécessaire pour effectuer ce test dans des conditions réelles. Pour des résultats fiables, nous recommandons d'utiliser un véhicule qui fait le plein au moins deux fois par semaine et qui fonctionne normalement dans des conditions similaires."
       },
@@ -254,7 +254,7 @@
     "hero-banners": {
       "home": {
         "title": "Réduisez vos coûts de carburant.\nProtégez votre moteur.",
-        "description": "Fuel Ox est un traitement carburant haute performance utilisé par les flottes françaises, les groupes électrogènes et les opérateurs maritimes.",
+        "description": "Fuel Ox est un traitement carburant haute performance \nutilisé par les flottes françaises, les groupes électrogènes \net les opérateurs maritimes.",
         "buttonLabel": "Découvrir son fonctionnement",
         "buttonLink": "/how-fuel-ox-cuts-costs"
       }
@@ -317,7 +317,7 @@
     }
   },
   "cost_benefit_calculator": {
-    "title": "Potentielle économies",
+    "title": "Potentielles économies",
     "fuel_price": "Prix du carburant",
     "efficiency_gains": "Gain d’efficacité",
     "fuel_volume": "Volume de carburant",
