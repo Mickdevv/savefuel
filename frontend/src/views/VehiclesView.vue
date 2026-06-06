@@ -1,8 +1,12 @@
 <script setup lang="ts">
 import { useCurrentPageStore } from '@/stores/current-page'
 import Button from 'primevue/button'
+import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
+import DocumentCard from '@/components/DocumentCard.vue'
+import FiguresCard from '@/components/FiguresCard.vue';
 
+const { tm, t } = useI18n()
 const router = useRouter()
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('vehicles')
@@ -10,9 +14,12 @@ currentPageStore.setCurrentPage('vehicles')
 
 <template>
   <div class="page-container">
+
     <div class="paragraphs-column">
       <div>
         <h2>{{ $t('pages.vehicles.direct-cost-benefit.title') }}</h2>
+        <div class="section-divider"></div>
+        <!-- <div class=""> </div> -->
         <p>{{ $t('pages.vehicles.direct-cost-benefit.p1') }}</p>
         <p>{{ $t('pages.vehicles.direct-cost-benefit.p2') }}</p>
 
@@ -27,60 +34,49 @@ currentPageStore.setCurrentPage('vehicles')
         <p>{{ $t('pages.vehicles.other-benefits.p3') }}</p>
 
         <ul class="custom-list">
-          <li
-            v-for="(p, i) in $tm('pages.vehicles.other-benefits.bullet-points')"
-            :key="i"
-            v-html="String(p)"
-          ></li>
+          <li v-for="(p, i) in $tm('pages.vehicles.other-benefits.bullet-points')" :key="i" v-html="String(p)"></li>
         </ul>
       </div>
-
-      <div class="documents-container">
-        <div class="left-column">
-          <h2>{{ $t('pages.vehicles.trial-reports.title') }}</h2>
-          <ul class="custom-list">
-            <li
-              v-for="(p, i) in $tm('pages.vehicles.trial-reports.bullet-points')"
-              :key="i"
-              v-html="String(p)"
-            ></li>
-          </ul>
-        </div>
-
-        <div class="right-column">
-          <h2>{{ $t('pages.vehicles.other-vehicle-documents.title') }}</h2>
-          <ul class="custom-list">
-            <li
-              v-for="(p, i) in $tm('pages.vehicles.other-vehicle-documents.bullet-points')"
-              :key="i"
-              v-html="String(p)"
-            ></li>
-          </ul>
-        </div>
+      <!---->
+      <!--   <div class="documents-container"> -->
+      <!--     <div class="left-column"> -->
+      <!--       <h2>{{ $t('pages.vehicles.trial-reports.title') }}</h2> -->
+      <!--       <ul class="custom-list"> -->
+      <!--         <li v-for="(p, i) in $tm('pages.vehicles.trial-reports.bullet-points')" :key="i" v-html="String(p)"></li> -->
+      <!--       </ul> -->
+      <!--     </div> -->
+      <!---->
+      <!--     <div class="right-column"> -->
+      <!--       <h2>{{ $t('pages.vehicles.other-vehicle-documents.title') }}</h2> -->
+      <!--       <ul class="custom-list"> -->
+      <!--         <li v-for="(p, i) in $tm('pages.vehicles.other-vehicle-documents.bullet-points')" :key="i" -->
+      <!--           v-html="String(p)"></li> -->
+      <!--       </ul> -->
+      <!--     </div> -->
+      <!--   </div> -->
+    </div>
+    <div class="technical-documents">
+      <div class="document-links">
+        <DocumentCard :properties="d" v-for="d in tm('pages.vehicles.document-cards')" />
       </div>
     </div>
 
-    <div class="images-column-container">
-      <div class="images">
-        <img src="@/assets/shutterstock_Trucks_cropped.jpg" alt="" />
-        <img src="@/assets/LAND_ROVER_DISCOVERY.png" alt="" />
-        <img src="@/assets/Laguilhon_van.png" alt="" />
-      </div>
-
-      <Button
-        class="primary-button"
-        @click="router.push('/four-guarantees')"
-        :label="$t('pages.vehicles.four-guarantees-button')"
-      />
-    </div>
+    <button class="primary-button" @click="router.push('/four-guarantees')">{{
+      $t('pages.vehicles.four-guarantees-button') }}</button>
   </div>
 </template>
 
 <style scoped>
+.document-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
 .page-container {
-  display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .paragraphs-column {

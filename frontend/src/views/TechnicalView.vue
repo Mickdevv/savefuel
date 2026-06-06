@@ -109,7 +109,7 @@ currentPageStore.setCurrentPage("technical")
 
         <div class="document-links">
 
-          <DocumentCard :properties="d" v-for="d in tm('components.document-cards')" />
+          <DocumentCard :properties="d" v-for="d in tm('pages.technical.document-cards')" />
         </div>
       </div>
     </div>

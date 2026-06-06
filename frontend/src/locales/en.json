@@ -126,6 +126,43 @@
           "Ghana mine.  <a href=\"https://save-fuel.eu/docs/en/Vehicle/Adamus-Resources-Ghana-mine.pdf\" target=\"_blank\">Haul trucks, bulldozer and excavator test</a>"
         ]
       },
+      "document-cards": [
+        {
+          "title": "Laguilhon SAS",
+          "description": "France, Mercedes Sprinter avec réfrigération. 10 % d'économie de carburant.",
+          "type": "documents",
+          "link": "laguilhon-trial",
+          "icon": "file"
+        },
+        {
+          "title": "SARL Bearn Land",
+          "description": "France, véhicule tout-terrain, économie de carburant de 9 %.",
+          "type": "documents",
+          "link": "land-rover-trial",
+          "icon": "file"
+        },
+        {
+          "title": "2005 Toyota Land Cruiser",
+          "description": "France, Land Cruiser turbo diesel, économie de carburant de 22 %.",
+          "type": "documents",
+          "link": "land-cruiser-22pc-report",
+          "icon": "file"
+        },
+        {
+          "title": "Burkina Faso",
+          "description": "Mine d'or Burkino Faso. Camions de transport Caterpillar de 150 tonnes et essai de bulldozer.",
+          "type": "documents",
+          "link": "burkhina-faso-mine",
+          "icon": "file"
+        },
+        {
+          "title": "Ghana",
+          "description": "Essai de mines au Ghana. Camions de remorque, bulldozer et excavatrice.",
+          "type": "documents",
+          "link": "ghana-mine",
+          "icon": "file"
+        }
+      ],
       "other-vehicle-documents": {
         "title": "Other vehicle documents",
         "bullet-points": [
@@ -168,7 +205,7 @@
         "title": "Historical guarantee",
         "p1": "Fuel Ox was developed in the 1990’s for the AT&T company and the US military. With a 30 year history, Fuel Ox currently treats around 50,000,000 litres of fuel each month. Users would not continue to buy Fuel Ox if it didn’t work"
       },
-      "technical-button": "Technical"
+      "technical-button": "Technical information"
     },
 
     "generators": {
@@ -256,6 +293,71 @@
         "p8_1": "Fuel Ox manufacturer guarantee",
         "p8_2": "A $2m insurance policy against engine damage. Never claimed."
       },
+      "document-cards": [
+        {
+          "title": "Product Information",
+          "description": "Characteristics, standards, specifications",
+          "type": "documents",
+          "link": "product-information",
+          "icon": "file"
+        },
+        {
+          "title": "Fuel Ox White Paper",
+          "description": "5 pages, detailed explanation of how Fuel Ox works. Highly reccommended reading.",
+          "type": "documents",
+          "link": "fo-white-paper",
+          "icon": "file"
+        },
+        {
+          "title": "FAQ",
+          "description": "Common questions and answers.",
+          "type": "documents",
+          "link": "faq",
+          "icon": "file"
+        },
+        {
+          "title": "GNR vs EN590 standard",
+          "description": "How Non-Road Gas, Oil and standard EU diesel standards compare for Fuel Ox treatment.",
+          "type": "documents",
+          "link": "gnr-compared-toEN590",
+          "icon": "file"
+        },
+        {
+          "title": "Fuel Ox Safety Data Sheet (MSDS)",
+          "description": "Material safety data sheet.",
+          "type": "documents",
+          "link": "fo-MSDS",
+          "icon": "file"
+        },
+        {
+          "title": "EN 590 Laboratory Tests",
+          "description": "Intertek France tested diesel, comparing untreated fuel with Fuel Ox added at twice the normal concentration.",
+          "type": "documents",
+          "link": "intertek-EN590-test",
+          "icon": "file"
+        },
+        {
+          "title": "ASTM D-975 Laboratory Tests",
+          "description": "FirstEnergy laboratory in Oklahoma compared Fuel Ox-treated diesel with untreated diesel.",
+          "type": "documents",
+          "link": "ASTM-D975-test",
+          "icon": "file"
+        },
+        {
+          "title": "Fuel Ox Manufacturer Guarantee",
+          "description": "A US$2 million insurance policy against engine damage. Never used.",
+          "type": "documents",
+          "link": "fo-guarantee",
+          "icon": "file"
+        },
+        {
+          "title": "6-Month Fuel Ox Trial Video",
+          "description": "English-language video of a 6-month Fuel Ox trial. Enable subtitles and select your language.",
+          "type": "videos",
+          "link": "long-fuel-ox-test",
+          "icon": "play"
+        }
+      ],
       "about-button": "About SFE"
     },
 
@@ -284,71 +386,6 @@
         "buttonLink": "/how-fuel-ox-cuts-costs"
       }
     },
-    "document-cards": [
-      {
-        "title": "Product Information",
-        "description": "Characteristics, standards, specifications",
-        "type": "documents",
-        "link": "product-information",
-        "icon": "file"
-      },
-      {
-        "title": "Fuel Ox White Paper",
-        "description": "5 pages, detailed explanation of how Fuel Ox works. Highly reccommended reading.",
-        "type": "documents",
-        "link": "fo-white-paper",
-        "icon": "file"
-      },
-      {
-        "title": "FAQ",
-        "description": "Common questions and answers.",
-        "type": "documents",
-        "link": "faq",
-        "icon": "file"
-      },
-      {
-        "title": "GNR vs EN590 standard",
-        "description": "How Non-Road Gas, Oil and standard EU diesel standards compare for Fuel Ox treatment.",
-        "type": "documents",
-        "link": "gnr-compared-toEN590",
-        "icon": "file"
-      },
-      {
-        "title": "Fuel Ox Safety Data Sheet (MSDS)",
-        "description": "Material safety data sheet.",
-        "type": "documents",
-        "link": "fo-MSDS",
-        "icon": "file"
-      },
-      {
-        "title": "EN 590 Laboratory Tests",
-        "description": "Intertek France tested diesel, comparing untreated fuel with Fuel Ox added at twice the normal concentration.",
-        "type": "documents",
-        "link": "intertek-EN590-test",
-        "icon": "file"
-      },
-      {
-        "title": "ASTM D-975 Laboratory Tests",
-        "description": "FirstEnergy laboratory in Oklahoma compared Fuel Ox-treated diesel with untreated diesel.",
-        "type": "documents",
-        "link": "ASTM-D975-test",
-        "icon": "file"
-      },
-      {
-        "title": "Fuel Ox Manufacturer Guarantee",
-        "description": "A US$2 million insurance policy against engine damage. Never used.",
-        "type": "documents",
-        "link": "fo-guarantee",
-        "icon": "file"
-      },
-      {
-        "title": "6-Month Fuel Ox Trial Video",
-        "description": "English-language video of a 6-month Fuel Ox trial. Enable subtitles and select your language.",
-        "type": "videos",
-        "link": "long-fuel-ox-test",
-        "icon": "play"
-      }
-    ],
     "figures-cards": {
       "min-fuel-savings": {
         "title": "9%",

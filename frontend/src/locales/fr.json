@@ -123,6 +123,43 @@
         ]
       },
 
+      "document-cards": [
+        {
+          "title": "Laguilhon SAS",
+          "description": "France, Mercedes Sprinter avec réfrigération. 10 % d'économie de carburant.",
+          "type": "documents",
+          "link": "laguilhon-trial",
+          "icon": "file"
+        },
+        {
+          "title": "SARL Bearn Land",
+          "description": "France, véhicule tout-terrain, économie de carburant de 9 %.",
+          "type": "documents",
+          "link": "land-rover-trial",
+          "icon": "file"
+        },
+        {
+          "title": "2005 Toyota Land Cruiser",
+          "description": "France, Land Cruiser turbo diesel, économie de carburant de 22 %.",
+          "type": "documents",
+          "link": "land-cruiser-22pc-report",
+          "icon": "file"
+        },
+        {
+          "title": "Burkina Faso",
+          "description": "Mine d'or Burkino Faso. Camions de transport Caterpillar de 150 tonnes et essai de bulldozer.",
+          "type": "documents",
+          "link": "burkhina-faso-mine",
+          "icon": "file"
+        },
+        {
+          "title": "Ghana",
+          "description": "Essai de mines au Ghana. Camions de remorque, bulldozer et excavatrice.",
+          "type": "documents",
+          "link": "",
+          "icon": "file"
+        }
+      ],
       "other-vehicle-documents": {
         "title": "Autres documents de véhicules ",
         "bullet-points": [
@@ -201,7 +238,7 @@
       "page-title": "Technique",
 
       "history": {
-        "title": "The science behind Fuel Ox",
+        "title": "La science derrière Fuel Ox",
         "p1": "Bell Labs est un laboratoire américain de recherche scientifique et industrielle fondé en 1925. Il a développé la radioastronomie, les transistors, les lasers, les cellules photovoltaïques, les dispositifs à couplage de charge, la théorie de l'information, le système d'exploitation Unix et plusieurs langages de programmation majeurs. Ses chercheurs ont reçu onze prix Nobel et cinq prix Turing.",
         "p2": "Les molécules des carburants hydrocarbonés sont polaires — elles ont des charges électriques différentes à différents points de la molécule. Cela conduit à la polymérisation, où les charges négatives d'une molécule adhèrent aux charges positives d'une autre. Cela provoque la formation de grappes de molécules, empêchant l'oxygène d'atteindre les molécules à l'intérieur de la grappe pendant la combustion. Une combustion incomplète produit de la suée et des hydrocarbures imbrûlés dans l'échappement et nécessite plus de carburant pour produire une puissance donnée.",
         "p3": "La polymérisation augmente avec le temps, de sorte qu'après plusieurs mois de production à la raffinerie, le carburant devient inutilisable. Il obstrue les filtres et les conduites de carburant et crée des dépôts à l'intérieur des systèmes d'injection. Les moteurs deviennent moins efficaces avec l'utilisation, ce qui signifie que plus de carburant doit être brûlé pour atteindre les performances souhaitées.",
@@ -233,6 +270,71 @@
         "p8_1": "Garantie des fabricants de Fuel Ox",
         "p8_2": "Une police d'assurance de 2 millions de dollars contre les dommages moteur. Jamais utilisée."
       },
+      "document-cards": [
+        {
+          "title": "Information produit",
+          "description": "Caractéristiques, normes, spécifications.",
+          "type": "documents",
+          "link": "product-information",
+          "icon": "file"
+        },
+        {
+          "title": "Livre blanc Fuel Ox",
+          "description": "5 pages, explication détaillée du fonctionnement des caractéristiques de Fuel Ox. Vraiment intéressant.",
+          "type": "documents",
+          "link": "fo-white-paper",
+          "icon": "file"
+        },
+        {
+          "title": "FAQ",
+          "description": "Questions et réponses courantes.",
+          "type": "documents",
+          "type": "documents",
+          "icon": "file"
+        },
+        {
+          "title": "Standard GNR vs EN590",
+          "description": "Comment les normes pour Gasoil Non Routier et le diesel standard de l'UE se comparent pour le traitement Fuel Ox.",
+          "type": "documents",
+          "link": "gnr-compared-toEN590",
+          "icon": "file"
+        },
+        {
+          "title": "Fuel Ox Safety Data Sheet (MSDS)",
+          "description": "Fiche de données de sécurité.",
+          "type": "documents",
+          "link": "fo-MSDS",
+          "icon": "file"
+        },
+        {
+          "title": "EN 590 Laboratory Tests",
+          "description": "Intertek France a réalisé des tests sur le diesel, comparant le carburant non traité avec du Fuel Ox ajouté à une concentration deux fois supérieure à la normale.",
+          "type": "documents",
+          "link": "intertek-EN590-test",
+          "icon": "file"
+        },
+        {
+          "title": "ASTM D-975 Laboratory Tests",
+          "description": "Le laboratoire FirstEnergy en Oklahoma a comparé le diesel traité avec Fuel Ox au diesel non traité.",
+          "type": "documents",
+          "link": "ASTM-D975-test",
+          "icon": "file"
+        },
+        {
+          "title": "Fuel Ox Manufacturer Guarantee",
+          "description": "Une police d'assurance de 2 millions de dollars contre les dommages moteur. Jamais utilisée.",
+          "type": "documents",
+          "link": "fo-guarantee",
+          "icon": "file"
+        },
+        {
+          "title": "Essai longue durée de Fuel Ox",
+          "description": "Vidéo en anglais d’un essai Fuel Ox sur 6 mois. Activez les sous-titres puis sélectionnez « Français » dans les paramètres.",
+          "type": "videos",
+          "link": "long-fuel-ox-test",
+          "icon": "play"
+        }
+      ],
       "about-button": "À propos"
     },
 
@@ -261,71 +363,6 @@
         "buttonLink": "/how-fuel-ox-cuts-costs"
       }
     },
-    "document-cards": [
-      {
-        "title": "Information produit",
-        "description": "Caractéristiques, normes, spécifications.",
-        "type": "documents",
-        "link": "product-information",
-        "icon": "file"
-      },
-      {
-        "title": "Livre blanc Fuel Ox",
-        "description": "5 pages, explication détaillée du fonctionnement des caractéristiques de Fuel Ox. Vraiment intéressant.",
-        "type": "documents",
-        "link": "fo-white-paper",
-        "icon": "file"
-      },
-      {
-        "title": "FAQ",
-        "description": "Questions et réponses courantes.",
-        "type": "documents",
-        "type": "documents",
-        "icon": "file"
-      },
-      {
-        "title": "Standard GNR vs EN590",
-        "description": "Comment les normes pour Gasoil Non Routier et le diesel standard de l'UE se comparent pour le traitement Fuel Ox.",
-        "type": "documents",
-        "link": "gnr-compared-toEN590",
-        "icon": "file"
-      },
-      {
-        "title": "Fuel Ox Safety Data Sheet (MSDS)",
-        "description": "Fiche de données de sécurité.",
-        "type": "documents",
-        "link": "fo-MSDS",
-        "icon": "file"
-      },
-      {
-        "title": "EN 590 Laboratory Tests",
-        "description": "Intertek France a réalisé des tests sur le diesel, comparant le carburant non traité avec du Fuel Ox ajouté à une concentration deux fois supérieure à la normale.",
-        "type": "documents",
-        "link": "intertek-EN590-test",
-        "icon": "file"
-      },
-      {
-        "title": "ASTM D-975 Laboratory Tests",
-        "description": "Le laboratoire FirstEnergy en Oklahoma a comparé le diesel traité avec Fuel Ox au diesel non traité.",
-        "type": "documents",
-        "link": "ASTM-D975-test",
-        "icon": "file"
-      },
-      {
-        "title": "Fuel Ox Manufacturer Guarantee",
-        "description": "Une police d'assurance de 2 millions de dollars contre les dommages moteur. Jamais utilisée.",
-        "type": "documents",
-        "link": "fo-guarantee",
-        "icon": "file"
-      },
-      {
-        "title": "Essai longue durée de Fuel Ox",
-        "description": "Vidéo en anglais d’un essai Fuel Ox sur 6 mois. Activez les sous-titres puis sélectionnez « Français » dans les paramètres.",
-        "type": "videos",
-        "link": "long-fuel-ox-test",
-        "icon": "play"
-      }
-    ],
     "figures-cards": {
       "min-fuel-savings": {
         "title": "9 %",
