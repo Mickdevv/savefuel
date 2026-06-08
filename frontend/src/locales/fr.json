@@ -335,7 +335,7 @@
           "icon": "play"
         }
       ],
-      "about-button": "À propos"
+      "about-button": "À propos de Save Fuel Europe"
     },
 
     "about": {
@@ -374,7 +374,7 @@
       },
       "annual-savings-per-truck": {
         "title": "7 209 €",
-        "description": "Économies annuelles par camion"
+        "description": "Économies potentielles annuelles par camion"
       },
       "proven-track-record": {
         "title": "Plus de 30 ans",

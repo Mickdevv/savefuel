@@ -112,11 +112,28 @@ currentPageStore.setCurrentPage("technical")
           <DocumentCard :properties="d" v-for="d in tm('pages.technical.document-cards')" />
         </div>
       </div>
+
+      <div class="about-button-container">
+
+        <button @click="router.push('/about')" class="about-button button primary-button">{{
+          $t('pages.technical.about-button')
+          }}</button>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
+.about-button {
+  padding: 1rem 1rem;
+}
+
+.about-button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .subtitle {
   color: var(--grey);
   margin-bottom: 1.5rem;
