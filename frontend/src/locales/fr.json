@@ -73,7 +73,7 @@
           "Partager vos données de consommation avec Save Fuel Europe. "
         ]
       },
-      "email-title": "Prêt à essayer ? Contactez-nous maintenant pour organiser votre essai gratuit :",
+      "email-title": "Prêt à essayer ? <a href=\"/contact\">Contactez nous</a> maintenant pour organiser votre essai gratuit",
       "vehicles-button": "Véhicules",
       "generators-button": "Générateurs"
     },

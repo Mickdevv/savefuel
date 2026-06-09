@@ -25,9 +25,7 @@ const { tm } = useI18n()
       <p>{{ $t('pages.free-trial-procedure.steps.subtitle') }}</p>
       <div class="steps" style="margin-bottom: 1rem;">
         <div class="step" v-for="(p, i) in tm('pages.free-trial-procedure.steps.steps')">
-
           <div class="step-number">{{ i + 1 }}</div>
-
           <div class="step-content">
             <div class="step-title">{{ p[0] }}</div>
             <div class="step-description">{{ p[1] }}</div>
@@ -47,12 +45,7 @@ const { tm } = useI18n()
         </ol>
       </div>
 
-      <h3>{{ $t('pages.free-trial-procedure.email-title') }}</h3>
-      <p>
-        <a style="font-weight:600"
-          href="mailto:contact@save-fuel.eu?subject=Free%20trial%20enquiry">contact@save-fuel.eu</a>
-      </p>
-
+      <h3 v-html="($t('pages.free-trial-procedure.email-title'))"></h3>
 
       <button class="button primary-button vehicles-link">{{ $t('pages.free-trial-procedure.vehicles-button')
         }}</button>

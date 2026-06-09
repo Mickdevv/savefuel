@@ -77,7 +77,7 @@
           "Share your consumption data with Save Fuel Europe"
         ]
       },
-      "email-title": "Ready to try? Contact us now to arrange your free trial:",
+      "email-title": "Ready to try? <a href=\"/contact\">Contact us</a> now to arrange your free trial:",
       "email-line": "Email to set up a free trial ",
       "vehicles-button": "Vehicles",
       "generators-button": "Generators"
