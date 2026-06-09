@@ -47,13 +47,13 @@ const { tm } = useI18n()
 
       <h3 v-html="($t('pages.free-trial-procedure.email-title'))"></h3>
 
-      <button class="button primary-button vehicles-link">{{ $t('pages.free-trial-procedure.vehicles-button')
+      <button @click="router.push('/vehicles')" class="button primary-button vehicles-link">{{
+        $t('pages.free-trial-procedure.vehicles-button')
         }}</button>
-      <button class="button secondary-button generators-link">{{ $t('pages.free-trial-procedure.generators-button')
+      <button @click="router.push('/generators')" class="button secondary-button generators-link">{{
+        $t('pages.free-trial-procedure.generators-button')
         }}</button>
     </div>
-
-
 
     <div class="right-column">
       <div class="images">
