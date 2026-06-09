@@ -5,6 +5,8 @@ import { useI18n } from 'vue-i18n'
 import { useRouter } from 'vue-router'
 import DocumentCard from '@/components/DocumentCard.vue'
 import FiguresCard from '@/components/FiguresCard.vue';
+import heroBannerImage from '@/assets/vehicles-banner.webp'
+import HeroBanner from '@/components/HeroBanner.vue';
 
 const { tm, t } = useI18n()
 const router = useRouter()
@@ -13,60 +15,61 @@ currentPageStore.setCurrentPage('vehicles')
 </script>
 
 <template>
-  <div class="page-container">
+  <div class="outer-page-container">
+    <!-- <HeroBanner :image="heroBannerImage" bannerName="" /> -->
+    <img class="hero-banner-image" :src="heroBannerImage" alt="">
 
-    <div class="paragraphs-column">
-      <div>
-        <h2>{{ $t('pages.vehicles.direct-cost-benefit.title') }}</h2>
-        <div class="section-divider"></div>
-        <!-- <div class=""> </div> -->
-        <p>{{ $t('pages.vehicles.direct-cost-benefit.p1') }}</p>
-        <p>{{ $t('pages.vehicles.direct-cost-benefit.p2') }}</p>
+    <div class="page-container">
 
-        <h2>{{ $t('pages.vehicles.other-benefits.title') }}</h2>
-        <p>
-          {{ $t('pages.vehicles.other-benefits.p1_1') }}
-          <a target="_blank" :href="$t('links.documents.fo-white-paper')">
-            {{ $t('pages.vehicles.other-benefits.p1_2') }}
-          </a>
-          {{ $t('pages.vehicles.other-benefits.p1_3') }}
-        </p>
-        <p>{{ $t('pages.vehicles.other-benefits.p3') }}</p>
+      <div class="paragraphs-column">
+        <div>
+          <h2>{{ $t('pages.vehicles.direct-cost-benefit.title') }}</h2>
+          <div class="section-divider"></div>
+          <!-- <div class=""> </div> -->
+          <p>{{ $t('pages.vehicles.direct-cost-benefit.p1') }}</p>
+          <p>{{ $t('pages.vehicles.direct-cost-benefit.p2') }}</p>
 
-        <ul class="custom-list">
-          <li v-for="(p, i) in $tm('pages.vehicles.other-benefits.bullet-points')" :key="i" v-html="String(p)"></li>
-        </ul>
+          <h2>{{ $t('pages.vehicles.other-benefits.title') }}</h2>
+          <p>
+            {{ $t('pages.vehicles.other-benefits.p1_1') }}
+            <a target="_blank" :href="$t('links.documents.fo-white-paper')">
+              {{ $t('pages.vehicles.other-benefits.p1_2') }}
+            </a>
+            {{ $t('pages.vehicles.other-benefits.p1_3') }}
+          </p>
+          <p>{{ $t('pages.vehicles.other-benefits.p3') }}</p>
+
+          <ul class="custom-list">
+            <li v-for="(p, i) in $tm('pages.vehicles.other-benefits.bullet-points')" :key="i" v-html="String(p)"></li>
+          </ul>
+        </div>
       </div>
-      <!---->
-      <!--   <div class="documents-container"> -->
-      <!--     <div class="left-column"> -->
-      <!--       <h2>{{ $t('pages.vehicles.trial-reports.title') }}</h2> -->
-      <!--       <ul class="custom-list"> -->
-      <!--         <li v-for="(p, i) in $tm('pages.vehicles.trial-reports.bullet-points')" :key="i" v-html="String(p)"></li> -->
-      <!--       </ul> -->
-      <!--     </div> -->
-      <!---->
-      <!--     <div class="right-column"> -->
-      <!--       <h2>{{ $t('pages.vehicles.other-vehicle-documents.title') }}</h2> -->
-      <!--       <ul class="custom-list"> -->
-      <!--         <li v-for="(p, i) in $tm('pages.vehicles.other-vehicle-documents.bullet-points')" :key="i" -->
-      <!--           v-html="String(p)"></li> -->
-      <!--       </ul> -->
-      <!--     </div> -->
-      <!--   </div> -->
-    </div>
-    <div class="technical-documents">
-      <div class="document-links">
-        <DocumentCard :properties="d" v-for="d in tm('pages.vehicles.document-cards')" />
+      <div class="technical-documents">
+        <div class="document-links">
+          <DocumentCard :properties="d" v-for="d in tm('pages.vehicles.document-cards')" />
+        </div>
       </div>
-    </div>
 
-    <button class="primary-button" @click="router.push('/four-guarantees')">{{
-      $t('pages.vehicles.four-guarantees-button') }}</button>
+      <button class="primary-button" @click="router.push('/four-guarantees')">{{
+        $t('pages.vehicles.four-guarantees-button') }}</button>
+    </div>
   </div>
 </template>
 
 <style scoped>
+.outer-page-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-banner-image {
+  object-fit: cover;
+  max-height: 320px;
+  width: 100%;
+}
+
 .document-links {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));

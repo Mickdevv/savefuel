@@ -20,7 +20,7 @@ defineProps<Props>()
     </div>
     <div class="hero-container-container">
 
-      <div class="hero-container">
+      <div v-if="bannerName != ''" class="hero-container">
         <div class="hero-content">
           <h2>{{ $t(`components.hero-banners.${bannerName}.title`) }}</h2>
 
