@@ -25,9 +25,12 @@ currentPageStore.setCurrentPage('vehicles')
         <div>
           <h2>{{ $t('pages.vehicles.direct-cost-benefit.title') }}</h2>
           <div class="section-divider"></div>
-          <!-- <div class=""> </div> -->
-          <p>{{ $t('pages.vehicles.direct-cost-benefit.p1') }}</p>
-          <p>{{ $t('pages.vehicles.direct-cost-benefit.p2') }}</p>
+
+          <div class="card">
+            <p v-for="p in $tm('pages.vehicles.direct-cost-benefit.description')">
+              {{ p }}
+            </p>
+          </div>
 
           <h2>{{ $t('pages.vehicles.other-benefits.title') }}</h2>
           <p>
@@ -57,6 +60,15 @@ currentPageStore.setCurrentPage('vehicles')
 </template>
 
 <style scoped>
+.card {
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: var(--card-background-color-grey);
+  padding: 24px;
+  border-left: 4px solid var(--primary-color-gold);
+  margin-bottom: 48px
+}
+
 .outer-page-container {
   width: 100%;
   display: flex;

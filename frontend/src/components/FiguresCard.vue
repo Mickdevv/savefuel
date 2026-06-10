@@ -1,7 +1,12 @@
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n';
+
+const { tm, t } = useI18n()
 defineProps<{
   cardName: string
 }>()
+
+
 </script>
 
 
@@ -11,8 +16,14 @@ defineProps<{
       {{ $t(`components.figures-cards.${cardName}.title`) }}
     </h1>
 
-    <p v-if="$t(`components.figures-cards.${cardName}.description`)">
-      {{ $t(`components.figures-cards.${cardName}.description`) }}
+
+    <p v-if="typeof ($tm(`components.figures-cards.${cardName}.description`)) == 'string'">
+      {{ $tm(`components.figures-cards.${cardName}.description`) }}
+    </p>
+
+    <p v-if="typeof ($tm(`components.figures-cards.${cardName}.description`)) != 'string'"
+      v-for="p in $tm(`components.figures-cards.${cardName}.description`)">
+      {{ p }}
     </p>
 
   </div>

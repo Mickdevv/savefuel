@@ -1,6 +1,7 @@
 :root {
   --primary-color-gold:#dda411; 
   --primary-color-green:#360; 
+  --card-background-color-grey:#f4f4f4;
   --almost-black:#1c1c1c;
   --grey:rgb(107, 107, 107);
 }

@@ -81,8 +81,11 @@
       "page-title": "Véhicules",
       "direct-cost-benefit": {
         "title": "Bénéfices directs sur vos coûts ",
-        "p1": "Un poids lourd parcourant 150 000 km par an avec une consommation moyenne de 30 L/100 km utilise 45 000 litres de carburant par an.  Grâce à une réduction de 9 % de la consommation, cela représente 4 050 litres économisés.",
-        "p2": "Le traitement de ces 45 000 litres nécessite seulement 4,5 litres de Fuel Ox, soit un coût de 891 € HT.  Au prix actuel du carburant de 2,00 € TTC/litre (1,67 € HT), Fuel Ox vous permet de réaliser une économie nette de 5 872 € HT par an, coût du traitement inclus."
+        "description": [
+          "Un véhicule utilitaire lourd parcourant 150 000 km par an avec une consommation moyenne de 30 L/100 km utilise 45 000 litres de carburant par an. Avec une réduction de 9% de la consommation, cela représente 4 050 litres économisés.",
+          "Le traitement de ces 45 000 litres ne nécessite que 4,5 litres de Fuel Ox, à un coût de 891 € HT. Au prix actuel du carburant de 2,00 € TTC/litre (1,67 € HT), Fuel Ox offre une économie nette de 5 872 € HT par an, y compris le coût du traitement.",
+          "Pour une flotte de 10 camions, cela représente une économie annuelle nette d'environ 58 720 €."
+        ]
       },
       "other-benefits": {
         "title": "Autres avantages  ",
