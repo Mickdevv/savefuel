@@ -60,6 +60,15 @@ currentPageStore.setCurrentPage('vehicles')
 </template>
 
 <style scoped>
+.advantage-card {
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: var(--card-background-color-grey);
+  padding: 24px;
+  border-left: 4px solid var(--primary-color-gold);
+  margin-bottom: 48px
+}
+
 .card {
   margin-top: 1rem;
   border-radius: 8px;

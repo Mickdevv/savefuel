@@ -93,6 +93,36 @@
         "p1_2": "livre blanc Fuel Ox ",
         "p1_3": ". ",
         "p3": "Le fabricant américain fait état de ces avantages supplémentaires, fruits de nombreuses années d'expérience dans le traitement du carburant avec Fuel Ox :",
+        "advantage-cards": [
+          {
+            "title": "test",
+            "description": "test"
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          },
+          {
+            "title": "",
+            "description": ""
+          }
+        ],
         "bullet-points": [
           "<strong>Combustion optimisée</strong>  Fuel Ox brise les polymères présents dans le carburant et empêche leur reformation, permettant une combustion beaucoup plus complète et efficace.",
 

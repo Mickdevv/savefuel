@@ -17,8 +17,6 @@ currentPageStore.setCurrentPage('home')
 
 </script>
 
-
-
 <template>
 
   <div class="outer-page-container">
@@ -65,7 +63,6 @@ currentPageStore.setCurrentPage('home')
 p {
   font-size: 1rem;
   margin-top: 2rem;
-  font-weight: 500;
 }
 
 .learn-more-button {
