@@ -20,7 +20,8 @@ const contactForm = ref<ContactForm>({
   message: "",
   phoneNumber: "",
   reason: "",
-  email: ""
+  email: "",
+  company: '',
 })
 
 const contactFormSubmit = async () => {
@@ -28,6 +29,7 @@ const contactFormSubmit = async () => {
   try {
     await axios.post('/api/email/contact', { ...contactForm.value, phone_number: contactForm.value.phoneNumber })
     contactForm.value = {
+      company: '',
       name: "",
       message: "",
       phoneNumber: "",

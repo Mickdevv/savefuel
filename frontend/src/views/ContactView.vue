@@ -25,7 +25,6 @@ function resetContactFormData() {
 
 const submitContactForm = async () => {
   try {
-
     loading.value = true
     console.log(contactFormData.value)
     resetContactFormData()
