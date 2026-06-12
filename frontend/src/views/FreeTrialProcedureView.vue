@@ -73,6 +73,7 @@ const { tm } = useI18n()
   padding: 12px 24px;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  color: var(--grey)
 }
 
 .button {

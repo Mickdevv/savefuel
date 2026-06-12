@@ -33,7 +33,14 @@ defineProps<{
   flex-direction: column;
 }
 
+a,
+h1,
+p {
+  text-align: left;
+}
+
 h2 {
+  text-align: left;
   margin-bottom: 10px;
   color: #336600;
 }

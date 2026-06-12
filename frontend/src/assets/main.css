@@ -5,11 +5,11 @@
   height: 3px;
   border-radius: 1.5px;
 }
-* {
+div, p {
   font-family: 'Inter', sans-serif;
   text-align: justify;
 }
-button, p, h1, h2, h3 {
+button, p, h1, h2, h3, div {
   color: #1c1c1c;
 }
 .button {
@@ -76,6 +76,7 @@ a::hover {
 
 body {
   background-color: #ffffff;
+  color: black;
   margin: 0;
 }
 /* Bottom graphic */

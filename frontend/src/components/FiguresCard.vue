@@ -39,12 +39,15 @@ defineProps<{
   color: #dda411;
 }
 
+
 h1 {
+  text-align: left;
   margin-bottom: 10px;
   color: var(--primary-color-gold)
 }
 
 p {
+  text-align: left;
   font-size: 16px;
   color: #3a3a3a;
   margin-bottom: 20px;
