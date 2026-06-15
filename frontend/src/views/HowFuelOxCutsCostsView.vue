@@ -18,11 +18,11 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
 
     <div class="text-container">
       <p>{{ $t('pages.how-fo-cuts-costs.p1') }}</p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p2') }}</p>
       <ol>
         <li>{{ $t('pages.how-fo-cuts-costs.p3') }}</li>
         <li>{{ $t('pages.how-fo-cuts-costs.p4') }}</li>
       </ol>
+      <p>{{ $t('pages.how-fo-cuts-costs.p2') }}</p>
       <p>{{ $t('pages.how-fo-cuts-costs.p5') }}</p>
       <p>{{ $t('pages.how-fo-cuts-costs.p6_1') }}<a target="_blank"
           :href="$t('links.documents.land-cruiser-22pc-report')">{{

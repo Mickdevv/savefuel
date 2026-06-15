@@ -303,7 +303,7 @@
         },
         {
           "title": "Fuel Ox White Paper",
-          "description": "5 pages, detailed explanation of how Fuel Ox works. Highly reccommended reading.",
+          "description": "5 pages, detailed explanation of how Fuel Ox works. Highly recommended reading.",
           "type": "documents",
           "link": "fo-white-paper",
           "icon": "file"
@@ -317,9 +317,9 @@
         },
         {
           "title": "GNR vs EN590 standard",
-          "description": "How Non-Road Gas, Oil and standard EU diesel standards compare for Fuel Ox treatment.",
+          "description": "How red diesel and standard EU diesel standards compare for Fuel Ox treatment.",
           "type": "documents",
-          "link": "gnr-compared-toEN590",
+          "link": "gnr-compared-to-EN590",
           "icon": "file"
         },
         {
