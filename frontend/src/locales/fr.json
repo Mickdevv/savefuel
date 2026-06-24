@@ -93,36 +93,6 @@
         "p1_2": "livre blanc Fuel Ox ",
         "p1_3": ". ",
         "p3": "Le fabricant américain fait état de ces avantages supplémentaires, fruits de nombreuses années d'expérience dans le traitement du carburant avec Fuel Ox :",
-        "advantage-cards": [
-          {
-            "title": "test",
-            "description": "test"
-          },
-          {
-            "title": "",
-            "description": ""
-          },
-          {
-            "title": "",
-            "description": ""
-          },
-          {
-            "title": "",
-            "description": ""
-          },
-          {
-            "title": "",
-            "description": ""
-          },
-          {
-            "title": "",
-            "description": ""
-          },
-          {
-            "title": "",
-            "description": ""
-          }
-        ],
         "bullet-points": [
           "<strong>Combustion optimisée</strong>  Fuel Ox brise les polymères présents dans le carburant et empêche leur reformation, permettant une combustion beaucoup plus complète et efficace.",
 
@@ -434,6 +404,43 @@
         "title": "Environnement",
         "description": "Réduisez les émissions et l’impact environnemental grâce à une combustion plus complète du carburant.",
         "href": "/technical"
+      }
+    },
+    "advantages-cards": {
+      "optimised-combustion": {
+        "title": "Combustion optimisée",
+        "description": "Fuel Ox brise les polymères présents dans le carburant et empêche leur reformation, permettant une combustion beaucoup plus complète et efficace.",
+        "href": ""
+      },
+      "adblue-saving": {
+        "title": "Réduction de l'AdBlue",
+        "description": "Les émissions de protoxyde d'azote (N₂O) diminuent, ce qui réduit directement la consommation d'AdBlue.",
+        "href": ""
+      },
+      "dpf-filters": {
+        "title": "Filtres DPF préservés",
+        "description": "Jusqu'à 60 % de suie noire en moins. Moins de particules = moins de régénérations du filtre à particules, ce qui prolonge sa durée de vie et réduit les coûts d'entretien.",
+        "href": ""
+      },
+      "filters-and-injectors": {
+        "title": "Filtres et injecteurs protégés",
+        "description": "Les émulsions et boues qui encrassent le système sont dissoutes.",
+        "href": ""
+      },
+      "antibacterial-protection": {
+        "title": "Protection antibactérienne",
+        "description": "Un agent biostatique puissant élimine la prolifération microbienne dans le carburant.",
+        "href": ""
+      },
+      "emissions-reduction": {
+        "title": "Émissions réduites",
+        "description": "Des composés catalytiques intégrés transforment plus efficacement le monoxyde de carbone et les hydrocarbures non brûlés en CO₂ et eau",
+        "href": ""
+      },
+      "long-term-storage": {
+        "title": "Stockage longue durée",
+        "description": "Le carburant traité se conserve jusqu'à 2 ans sans dégradation.",
+        "href": ""
       }
     },
     "contact-form": {

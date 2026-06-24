@@ -91,7 +91,7 @@
       },
       "other-benefits": {
         "title": "Other benefits",
-        "p1_1": "Read the ",
+        "p1_1": "For more technical information, read the ",
         "p1_2": "Fuel Ox white paper",
         "p1_3": "for detailed technical information. ",
         "p3": "The US manufacturer reports these additional benefits based on many years of fuel treatment with Fuel Ox:",
@@ -424,6 +424,43 @@
         "title": "Environnement",
         "description": "Reduce emissions and environmental impact with more complete fuel combustion. ",
         "href": "/technical"
+      }
+    },
+    "advantages-cards": {
+      "optimised-combustion": {
+        "title": "Combustion optimised",
+        "description": "Polymerisation of fuel molecules broken and re-polymerisation prevented. Maxmimises burn efficiency.",
+        "href": ""
+      },
+      "adblue-saving": {
+        "title": "Reduced AdBlue consumption",
+        "description": "Nitrous Oxide emissions reduce so AdBlue use also reduces.",
+        "href": ""
+      },
+      "dpf-filters": {
+        "title": "Preserves DPF filters",
+        "description": "Around 60% fewer black soot particulates are produced. DPF filters work less with fewer regeneration cycles and last longer.",
+        "href": ""
+      },
+      "filters-and-injectors": {
+        "title": "Protects fuel filters and injectors",
+        "description": "Emulsions, sludges and scale are reduced, preventing filter blockage and maintaining injector efficiency.",
+        "href": ""
+      },
+      "antibacterial-protection": {
+        "title": "Antibacterial properties",
+        "description": "Microbial growth is eliminated with a biostatic agent.",
+        "href": ""
+      },
+      "emissions-reduction": {
+        "title": "Reduced emissions",
+        "description": "Incorporates compounds that act as a catalytic converter, reducing carbon monoxide and unburnt hydrocarbons to CO<sub>2</sub> and water.",
+        "href": ""
+      },
+      "long-term-storage": {
+        "title": "Extends storage",
+        "description": "Storage life of fuel extended up to 2 years by eliminating polymerisation and microbial growth.",
+        "href": ""
       }
     },
     "contact-form": {
