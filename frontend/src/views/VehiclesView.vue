@@ -153,7 +153,6 @@ img {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
-  border-radius: 0.5rem;
 }
 
 .custom-list {
