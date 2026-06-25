@@ -1,51 +1,148 @@
 <script setup lang="ts">
-import { useCurrentPageStore } from '@/stores/current-page';
+import { useCurrentPageStore } from '@/stores/current-page'
 import Button from 'primevue/button'
-import { useRouter } from 'vue-router';
+import { useI18n } from 'vue-i18n'
+import { useRouter } from 'vue-router'
+import DocumentCard from '@/components/DocumentCard.vue'
+import FiguresCard from '@/components/FiguresCard.vue';
+import heroBannerImage from '@/assets/shutterstock_Generator.jpg'
+import HeroBanner from '@/components/HeroBanner.vue';
+import LinksCard from '@/components/LinksCard.vue'
+import AdvantagesCard from '@/components/AdvantagesCard.vue'
 
+const { tm, t } = useI18n()
 const router = useRouter()
-
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('generators')
 </script>
+
 <template>
-  <div class="page-container">
-    <div class="left-container">
-      <h2>{{ $t('pages.generators.direct-cost-benefit.title') }}</h2>
-      <p>{{ $t('pages.generators.direct-cost-benefit.p1') }}</p>
-      <p>{{ $t('pages.generators.direct-cost-benefit.p2') }}</p>
-      <p>{{ $t('pages.generators.direct-cost-benefit.p3') }}</p>
+  <div class="outer-page-container">
+    <!-- <HeroBanner :image="heroBannerImage" bannerName="" /> -->
+    <img class="hero-banner-image" :src="heroBannerImage" alt="">
 
-      <h2>{{ $t('pages.generators.other-benefits.title') }}</h2>
-      <p>{{ $t('pages.generators.other-benefits.p1_1') }}
-        <a target="_blank" :href="$t('links.documents.fo-white-paper')">{{ $t('pages.generators.other-benefits.p1_2')
-          }}</a>
-        {{ $t('pages.generators.other-benefits.p1_3') }}
-      </p>
-      <ul class="custom-list">
-        <li v-for="(p, i) in $tm('pages.generators.other-benefits.bullet-points')">{{ p }}</li>
-      </ul>
-      <h2>{{ $t('pages.generators.trial-reports.title') }}</h2>
-      <p>
-        <a target="_blank" :href="$t('links.documents.peruvian-mine')">{{ $t('pages.generators.trial-reports.p1')
-          }}</a>
-        <!-- <a target="_blank" :href="$t('links.documents.')">{{ $t('pages.generators.trial-reports.p2') }}</a> -->
-      </p>
-    </div>
-    <div class="right-container">
-      <div class="images">
-        <img src="@/assets/7_kW_generator.png" alt="">
-        <img src="@/assets/Generator_photo.png" alt="">
+    <div class="page-container">
 
+      <div class="paragraphs-column">
+        <div>
+          <h2>{{ $t('pages.generators.direct-cost-benefit.title') }}</h2>
+          <div class="section-divider"></div>
+
+          <div class="subtitle-card">
+            <p v-for="p in $tm('pages.generators.direct-cost-benefit.description')">
+              {{ p }}
+            </p>
+          </div>
+
+          <h2>{{ $t('pages.generators.other-benefits.title') }}</h2>
+          <div class="card-container">
+            <AdvantagesCard cardName="fuel-polymerization-optimization" />
+            <AdvantagesCard cardName="nitrous-oxide-reduction" />
+            <AdvantagesCard cardName="soot-particle-reduction" />
+            <AdvantagesCard cardName="filter-clogging-prevention" />
+            <AdvantagesCard cardName="microbial-growth-control" />
+            <AdvantagesCard cardName="combustion-catalyst-effect" />
+            <AdvantagesCard cardName="fuel-shelf-life-extension" />
+          </div>
+          <h2>{{ $t('pages.generators.trial-reports.title') }}</h2>
+          <p>
+            {{ $t('pages.generators.other-benefits.p1_1') }}
+            <a target="_blank" :href="$t('links.documents.fo-white-paper')">
+              {{ $t('pages.generators.other-benefits.p1_2') }}
+            </a>
+          </p>
+        </div>
       </div>
-      <Button @click="router.push('/four-guarantees')" class="primary-button"
-        :label="$t('pages.generators.four-guarantees-button')"></Button>
+      <div class="technical-documents">
+        <div class="document-links">
+          <DocumentCard :properties="d" v-for="d in tm('pages.generators.document-cards')" />
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button class="primary-button button" @click="router.push('/four-guarantees')">{{
+          $t('pages.generators.four-guarantees-button') }}</button>
+      </div>
     </div>
   </div>
 </template>
+
 <style scoped>
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card-container {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))
+}
+
+.advantage-card {
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: var(--card-background-color-grey);
+  padding: 24px;
+  border-left: 4px solid var(--primary-color-gold);
+  margin-bottom: 48px
+}
+
+.subtitle-card {
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: var(--card-background-color-grey);
+  padding: 24px;
+  border-left: 4px solid var(--primary-color-gold);
+  margin-bottom: 48px
+}
+
+.outer-page-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-banner-image {
+  object-fit: cover;
+  max-height: 320px;
+  width: 100%;
+}
+
+.document-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
 .page-container {
-  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.paragraphs-column {
+  width: 100%;
+}
+
+.documents-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  min-width: 200px;
+}
+
+.left-column,
+.right-column {
+  flex: 1 1 300px;
+}
+
+.images-column-container {
+  margin-left: 1rem;
 }
 
 .images {
@@ -56,30 +153,6 @@ img {
   width: 100%;
   height: auto;
   margin-bottom: 1rem;
-}
-
-.right-container,
-.left-container {
-  width: 100%;
-}
-
-@media (min-width: 1080px) {
-  .images {
-    display: block;
-  }
-
-  .page-container {
-    display: flex;
-  }
-
-  .left-container {
-    max-width: 75%;
-  }
-
-  .right-container {
-    max-width: 25%;
-    margin-left: 2rem;
-  }
 }
 
 .custom-list {
@@ -103,5 +176,32 @@ img {
   background-image: url('@/assets/SFE_Logo.png');
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 1080px) {
+  .page-container {
+    flex-wrap: nowrap;
+  }
+
+  .paragraphs-column {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .documents-container {
+    flex-wrap: nowrap;
+  }
+
+  .images-column-container {
+    width: 260px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .images {
+    display: block;
+  }
 }
 </style>

@@ -223,6 +223,15 @@
         ]
       },
 
+      "document-cards": [
+        {
+          "title": "Peruvian mine",
+          "type": "documents",
+          "description": "Large mine at 14,000 ft above sea level in the Andes mountains, Peru. Test done during June to August 2021 on two diesel electricity generators",
+          "link": "peruvian-mine",
+          "icon": "file"
+        }
+      ],
       "other-benefits": {
         "title": "Other benefits",
 
@@ -460,6 +469,41 @@
       "long-term-storage": {
         "title": "Extends storage",
         "description": "Storage life of fuel extended up to 2 years by eliminating polymerisation and microbial growth.",
+        "href": ""
+      },
+      "fuel-polymerization-optimization": {
+        "title": "Combustion optimised",
+        "description": "Polymerisation of fuel molecules broken and re-polymerisation prevented. Maximises burn efficiency.",
+        "href": ""
+      },
+      "nitrous-oxide-reduction": {
+        "title": "Reduced emissions",
+        "description": "Nitrous Oxide emissions reduce.",
+        "href": ""
+      },
+      "soot-particle-reduction": {
+        "title": "Reduced soot",
+        "description": "~60% fewer black soot particulates are produced.",
+        "href": ""
+      },
+      "filter-clogging-prevention": {
+        "title": "Cleaner fuel systems",
+        "description": "Emulsions and sludges which block filters are broken.",
+        "href": ""
+      },
+      "microbial-growth-control": {
+        "title": "Biostatic protection",
+        "description": "Microbial growth is eliminated with a biostatic agent.",
+        "href": ""
+      },
+      "combustion-catalyst-effect": {
+        "title": "Catalytic effect",
+        "description": "Incorporates compounds that act as a catalytic converter, reducing carbon monoxide and unburnt hydrocarbons to CO₂ and water.",
+        "href": ""
+      },
+      "fuel-shelf-life-extension": {
+        "title": "Long-term storage",
+        "description": "Storage life of fuel extended up to 2 years. Especially useful for emergency generators and fuel storage.",
         "href": ""
       }
     },

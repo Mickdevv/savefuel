@@ -128,6 +128,13 @@
 
       "document-cards": [
         {
+          "title": "Mine péruvienne",
+          "type": "documents",
+          "description": "Grande mine à 14 000 pieds au-dessus du niveau de la mer dans la cordillère des Andes, au Pérou. Test effectué de juin à août 2021 sur deux génératrices diesel-électriques.",
+          "href": "peruvian-mine",
+          "icon": "file"
+        },
+        {
           "title": "Laguilhon SAS",
           "description": "France, Mercedes Sprinter avec réfrigération. 10 % d'économie de carburant.",
           "type": "documents",
@@ -210,10 +217,21 @@
       "page-title": "Générateurs",
       "direct-cost-benefit": {
         "title": "Bénéfice direct en coûts ",
-        "p1": "Un générateur typique bien entretenu de 100 kVA à 75 % de pleine charge brûlerait environ 21 L/heure, fournissant ~ 3,6 kWh/L.  Si cela était utilisé sur 22 jours de travail de 8 heures par mois, le carburant non traité serait de 21 x 8 x 22 = 3696 L.  Avec la réduction de 9 % de la consommation, cela permet d'économiser 332 L. ",
-        "p2": "Le traitement de 3696 L de carburant nécessite 0,37 L de Fuel Ox, coûtant 73 € + TVA.  Si le carburant coûte 1,67 € + TVA (2,00 € au total), 9 % moins consommation réduit le coût d'un générateur sur un mois de 482 €, y compris le coût de Fuel Ox",
-        "p3": "Pour les lieux isolés, la logistique devient plus facile car chaque chargement de carburant dure plus longtemps. "
+        "description": [
+          "Un générateur typique bien entretenu de 100 kVA à 75 % de pleine charge brûlerait environ 21 L/heure, fournissant ~ 3,6 kWh/L.  Si cela était utilisé sur 22 jours de travail de 8 heures par mois, le carburant non traité serait de 21 x 8 x 22 = 3696 L.  Avec la réduction de 9 % de la consommation, cela permet d'économiser 332 L. ",
+          "Le traitement de 3696 L de carburant nécessite 0,37 L de Fuel Ox, coûtant 73 € + TVA.  Si le carburant coûte 1,67 € + TVA (2,00 € au total), 9 % moins consommation réduit le coût d'un générateur sur un mois de 482 €, y compris le coût de Fuel Ox",
+          "Pour les lieux isolés, la logistique devient plus facile car chaque chargement de carburant dure plus longtemps. "
+        ]
       },
+      "document-cards": [
+        {
+          "title": "Mine péruvienne",
+          "type": "documents",
+          "description": "Grande mine à 14 000 pieds au-dessus du niveau de la mer dans la cordillère des Andes, au Pérou. Test effectué de juin à août 2021 sur deux génératrices diesel-électriques.",
+          "link": "peruvian-mine",
+          "icon": "file"
+        }
+      ],
       "other-benefits": {
         "title": "Autres avantages",
         "p1_1": "Lisez le ",
@@ -440,6 +458,41 @@
       "long-term-storage": {
         "title": "Stockage longue durée",
         "description": "Le carburant traité se conserve jusqu'à 2 ans sans dégradation.",
+        "href": ""
+      },
+      "fuel-polymerization-optimization": {
+        "title": "Optimisation de la polymérisation du carburant",
+        "description": "Polymérisation des molécules de combustible brisées et re-polymérisation empêchée. Maximise l'efficacité de la combustion.",
+        "href": ""
+      },
+      "nitrous-oxide-reduction": {
+        "title": "Réduction du protoxyde d’azote",
+        "description": "Les émissions de protoxyde d'azote diminuent.",
+        "href": ""
+      },
+      "soot-particle-reduction": {
+        "title": "Réduction des particules de suie",
+        "description": "~ 60 % de particules de suie noire en moins sont produites.",
+        "href": ""
+      },
+      "filter-clogging-prevention": {
+        "title": "Prévention de l’encrassement des filtres",
+        "description": "Les émulsions et boues qui bloquent les filtres sont cassées.",
+        "href": ""
+      },
+      "microbial-growth-control": {
+        "title": "Contrôle de la croissance microbienne",
+        "description": "La croissance microbienne est éliminée par un agent biostatique.",
+        "href": ""
+      },
+      "combustion-catalyst-effect": {
+        "title": "Effet catalytique sur la combustion",
+        "description": "Incorpore des composés qui agissent comme catalyseurs, réduisant le monoxyde de carbone et les hydrocarbures non brûlés en CO₂ et eau.",
+        "href": ""
+      },
+      "fuel-shelf-life-extension": {
+        "title": "Prolongation de la durée de conservation",
+        "description": "La durée de conservation du carburant s'étend jusqu'à 2 ans. Particulièrement utile pour les générateurs d'urgence et le stockage de carburant.",
         "href": ""
       }
     },
