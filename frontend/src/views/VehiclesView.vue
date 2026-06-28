@@ -79,7 +79,7 @@ currentPageStore.setCurrentPage('vehicles')
   display: grid;
   gap: 16px;
   margin-bottom: 40px;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr))
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr))
 }
 
 .advantage-card {

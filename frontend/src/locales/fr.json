@@ -369,7 +369,14 @@
       "p4": "Save Fuel Europe est une petite équipe de professionnels. Sans grand siège social ni marketing tape-à-l’œil, nous privilégions l’essentiel : un service proche, transparent et orienté résultats.",
       "p5": "Nous avons choisi de commencer modestement pour construire une vraie crédibilité auprès de nos clients. Notre ambition est d’accompagner durablement les entreprises de transport routier, les stations de ski, les gestionnaires de flottes et les acteurs de la logistique en France et en Europe, en les aidant à améliorer à la fois leurs performances financières et leur empreinte environnementale.",
       "p6": "En tant que distributeur exclusif en France, nous nous engageons à fournir un accompagnement personnalisé et un service de qualité à tous nos clients.",
-      "p7": " "
+      "p7": " ",
+      "contact": {
+        "title": "Safe Fuel Europe SAS",
+        "phone": {
+          "label": "Téléphone: ",
+          "number": "+33 6 34 35 85 15"
+        }
+      }
     },
     "contact": {
       "page-title": "Contact"

@@ -12,6 +12,14 @@ div, p {
 button, p, h1, h2, h3, div {
   color: #1c1c1c;
 }
+.subtitle-card {
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: var(--card-background-color-grey);
+  padding: 24px;
+  border-left: 4px solid var(--primary-color-gold);
+  margin-bottom: 48px
+}
 .button {
   border-radius: 0.4rem;
   cursor: pointer;

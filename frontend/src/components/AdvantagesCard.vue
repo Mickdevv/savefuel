@@ -41,6 +41,7 @@ h3 {
 }
 
 p {
+  text-align: left;
   font-size: 16px;
   color: #3a3a3a;
   flex: 1;
