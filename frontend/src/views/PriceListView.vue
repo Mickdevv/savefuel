@@ -67,6 +67,7 @@ td.price {
 
 table {
   border-collapse: collapse;
+  overflow: scroll;
   margin-top: 2rem;
 }
 
@@ -76,7 +77,8 @@ td.size {
 
 td,
 th {
-  padding: 12px 20px;
+  padding: 22px 10px;
+  text-align: left;
   /* border: 1px solid var(--grey); */
 }
 

@@ -103,6 +103,8 @@ body::after {
 }
 
 .router-view {
+
+  overflow: auto;
   display: flex;
   justify-content: center;
   margin: 0 auto;
