@@ -214,7 +214,7 @@
       "direct-cost-benefit": {
         "title": "Direct cost benefit",
 
-        "paragraphs": [
+        "description": [
           "A typical well maintained 100 kVA generator at 75% full load would burn around 21 L/hour, providing ~ 3.6 kWh/L. If that was used over 22 × 8 hour working days in a month, untreated fuel used would be 21 × 8 × 22 = 3696 L. At 9% cut in consumption, this saves 332 L.",
 
           "Treating 3696 L of fuel takes 0.37 L of Fuel Ox, costing €73 + VAT. If fuel costs €1.67 + VAT (€2.00 total), a 9% saving cuts the fuel cost of one generator over one month by €482 ex VAT including the cost of Fuel Ox.",
