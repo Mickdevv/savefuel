@@ -383,6 +383,26 @@
     },
     "contact": {
       "page-title": "Contact"
+    },
+    "price-list": {
+      "page-title": "Price list",
+      "contact-button": "Request a quote",
+      "table": {
+        "on-request": "On request",
+        "headers": {
+          "size": "Size",
+          "treats": "Treats",
+          "price": "Price",
+          "notes": "Notes"
+        },
+        "notes": {
+          "1L": "Single unit",
+          "5L": "5% discount",
+          "10L": "10% discount",
+          "20L": "15% discount",
+          "200L": "Best value for large fleets"
+        }
+      }
     }
   },
 

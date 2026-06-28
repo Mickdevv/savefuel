@@ -75,12 +75,12 @@ const items = computed(() => [
   {
     label: t('menubar.price-list'),
     activeFlag: '',
-    command: () => window.open(t('links.documents.price-list'))
+    command: () => router.push('/price-list')
   },
   {
     label: t('menubar.gdpr'),
     activeFlag: '',
-    command: () => window.open(t('links.documents.gdpr'))
+    command: () => router.push('/gdpr')
   }
 ])
 const toggle = (event: any) => {

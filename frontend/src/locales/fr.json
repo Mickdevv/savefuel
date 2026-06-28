@@ -380,6 +380,26 @@
     },
     "contact": {
       "page-title": "Contact"
+    },
+    "price-list": {
+      "page-title": "Tarifs",
+      "contact-button": "Demander un devis",
+      "table": {
+        "on-request": "Sur demande",
+        "headers": {
+          "size": "Quantité",
+          "treats": "Traite",
+          "price": "Prix",
+          "notes": "Note"
+        },
+        "notes": {
+          "1L": "Unité unique",
+          "5L": "Remise de 5%",
+          "10L": "Remise de 10%",
+          "20L": "Remise de 15%",
+          "200L": "Meilleure valeur pour grandes flottes"
+        }
+      }
     }
   },
   "components": {

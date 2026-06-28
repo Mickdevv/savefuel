@@ -8,6 +8,8 @@ import VehiclesView from '@/views/VehiclesView.vue'
 import GeneratorsView from '@/views/GeneratorsView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
+import PriceListView from '@/views/PriceListView.vue'
+import GdprView from '@/views/GdprView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -46,6 +48,16 @@ const router = createRouter({
       path: '/generators',
       name: 'generators',
       component: GeneratorsView,
+    },
+    {
+      path: '/gdpr',
+      name: 'gdpr',
+      component: GdprView,
+    },
+    {
+      path: '/price-list',
+      name: 'price-list',
+      component: PriceListView,
     },
     {
       path: '/about',
