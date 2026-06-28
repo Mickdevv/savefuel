@@ -379,7 +379,24 @@
       }
     },
     "contact": {
-      "page-title": "Contact"
+      "page-title": "Contact",
+      "form": {
+        "name": "Nom",
+        "email": "Email",
+        "phone-number": "Numéro de téléphone",
+        "reason": "Motif",
+        "message": "Message",
+        "company": "Entreprise",
+        "submit-button": "Envoyer"
+      },
+      "contact-details": {
+        "title": "Infos contact",
+        "phone-label": "Numéro de téléphone",
+        "phone-number": "+33 6 34 35 85 15",
+        "email": "Email",
+        "company": "Entreprise",
+        "free-trial-button": "Infos essai gratuit"
+      }
     },
     "price-list": {
       "page-title": "Tarifs",
@@ -522,15 +539,6 @@
         "description": "La durée de conservation du carburant s'étend jusqu'à 2 ans. Particulièrement utile pour les générateurs d'urgence et le stockage de carburant.",
         "href": ""
       }
-    },
-    "contact-form": {
-      "title": "Contact",
-      "name": "Nom",
-      "email": "Email",
-      "phone-number": "Numéro de téléphone",
-      "reason": "Motif",
-      "message": "Message",
-      "button-label": "Envoyer"
     },
     "navbar": {},
     "footer": {

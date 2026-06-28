@@ -37,79 +37,78 @@ const submitContactForm = async () => {
 </script>
 
 <template>
-  <div class="outer-page-container">
-    <div class="page-container">
-      <div class="left-container">
-        <h2>Contact form</h2>
-        <div class="section-divider"></div>
+  <div class="page-container">
+    <div class="left-container">
+      <!-- <h2>{{ $t('pages.contact.title') }}</h2> -->
+      <!-- <div class="section-divider"></div> -->
 
-        <form @submit.prevent="submitContactForm()">
-          <div class="form-grid">
+      <form @submit.prevent="submitContactForm()">
+        <div class="form-grid">
 
-            <div class="input-group">
-              <label for="name">Name</label>
-              <input id="name" v-model="contactFormData.name" type="text" />
-            </div>
-            <div class="input-group">
-              <label for="company">Company</label>
-              <input id="company" v-model="contactFormData.company" type="text" />
-            </div>
-            <div class="input-group">
-              <label for="email">Email</label>
-              <input id="email" v-model="contactFormData.email" type="email" />
-            </div>
-            <div class="input-group">
-              <label for="phone">Phone</label>
-              <input id="phone" v-model="contactFormData.phoneNumber" type="text" />
-            </div>
+          <div class="input-group">
+            <label for="name">{{ $t('pages.contact.form.name') }}</label>
+            <input id="name" v-model="contactFormData.name" type="text" />
           </div>
           <div class="input-group">
-            <label for="name">Reason</label>
-            <select id="phone" v-model="contactFormData.phoneNumber" type="text" />
+            <label for="company">{{ $t('pages.contact.form.company') }}</label>
+            <input id="company" v-model="contactFormData.company" type="text" />
           </div>
           <div class="input-group">
-            <label for="message">Message</label>
-            <textarea id="message" v-model="contactFormData.message" type="text" />
+            <label for="email">{{ $t('pages.contact.form.email') }}</label>
+            <input id="email" v-model="contactFormData.email" type="email" />
           </div>
-          <button :loading="loading" type="submit" class="button primary-button">Trial</button>
-        </form>
-      </div>
-      <div class="right-container">
-        <div class="contact-card">
-          <h2>Contact details</h2>
-          <div class="data-group">
-            <i class="pi pi-phone"></i>
-            <div>
-              <p>Phone</p>
-              <p>+33 6 328472409</p>
-            </div>
-          </div>
-          <div class="data-group">
-            <i class="pi pi-envelope"></i>
-            <div>
-              <p>Email</p>
-              <p>+33 6 328472409</p>
-            </div>
-
-          </div>
-          <div class="data-group">
-            <i class="pi pi-map-marker"></i>
-
-            <div>
-              <p>Company</p>
-              <p>+33 6 328472409</p>
-              <p>France</p>
-            </div>
+          <div class="input-group">
+            <label for="phone">{{ $t('pages.contact.form.phone-number') }}</label>
+            <input id="phone" v-model="contactFormData.phoneNumber" type="text" />
           </div>
         </div>
-        <div class="contact-card">test</div>
-        <button class="button primary-button">Trial</button>
+        <div class="input-group">
+          <label for="reason">{{ $t('pages.contact.form.reason') }}</label>
+          <select id="reason" v-model="contactFormData.reason" type="text" />
+        </div>
+        <div class="input-group">
+          <label for="message">{{ $t('pages.contact.form.message') }}</label>
+          <textarea id="message" v-model="contactFormData.message" type="text" />
+        </div>
+        <button :loading="loading" type="submit" class="button primary-button">{{ $t('pages.contact.form.submit-button')
+          }}</button>
+      </form>
+    </div>
+    <div class="right-container">
+      <div class="contact-card">
+        <h2>Contact details</h2>
+        <div class="data-group">
+          <i class="pi pi-phone"></i>
+          <div>
+            <p>{{ $t('pages.contact.contact-details.phone-label') }}</p>
+            <p>{{ $t('pages.contact.contact-details.phone-number') }}</p>
+          </div>
+        </div>
+        <div class="data-group">
+          <i class="pi pi-envelope"></i>
+          <div>
+            <p>{{ $t('pages.contact.contact-details.email') }}</p>
+            <a :href="`mailto:contact@save-fuel.eu${$t('links.email.website-enquiry')}`">contact@save-fuel.eu</a>
+          </div>
+
+        </div>
+        <div class="data-group">
+          <i class="pi pi-map-marker"></i>
+
+          <div>
+            <p>{{ $t('pages.contact.contact-details.company') }}</p>
+            <p style="font-weight: bold;">Save Fuel Europe SAS</p>
+            <p>France</p>
+          </div>
+        </div>
       </div>
+      <button class="button primary-button">{{ $t('pages.contact.contact-details.free-trial-button') }}</button>
     </div>
   </div>
 </template>
 <style scoped>
 .contact-card .data-group {
+  width: 100%;
   display: flex;
   align-items: flex-start;
   gap: 16px;
@@ -178,11 +177,13 @@ input:focus {
 }
 
 .page-container {
+  margin-top: 3rem;
   display: grid;
   max-width: 1280px;
   grid-template-columns: 1fr minmax(280px, 380px);
   gap: 48px;
   aligh-items: start;
+  width: 100%;
 }
 
 .right-container .left-container {
@@ -199,14 +200,6 @@ input:focus {
 @media (max-width: 768px) {
   .page-container {
     grid-template-columns: 1fr;
-  }
-
-  .right-container {
-    max-width: 25%;
-  }
-
-  .left-container {
-    max-width: 75%;
   }
 }
 </style>

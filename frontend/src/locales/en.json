@@ -382,7 +382,24 @@
       "p7": " "
     },
     "contact": {
-      "page-title": "Contact"
+      "page-title": "Contact",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "phone-number": "Phone number",
+        "reason": "Reason",
+        "message": "Message",
+        "company": "Company",
+        "submit-button": "Submit"
+      },
+      "contact-details": {
+        "title": "Contact details",
+        "phone-label": "Phone number",
+        "phone-number": "+33 6 75 79 08 16",
+        "email": "Email",
+        "company": "Company",
+        "free-trial-button": "Free trial information"
+      }
     },
     "price-list": {
       "page-title": "Price list",
