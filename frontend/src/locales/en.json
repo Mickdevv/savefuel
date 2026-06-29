@@ -25,18 +25,20 @@
     },
     "how-fo-cuts-costs": {
       "page-title": "How Fuel Ox cuts costs",
-      "p1": "Fuel Ox works in two complementary ways to reduce your consumption in the long term.  It improves fuel combustion and optimizes the overall efficiency of your engine. ",
-      "p2": "As the tank is filled, the treatment gradually cleans the fuel and ignition systems.  The result: a more efficient engine.  On a 2005 turbocharged diesel vehicle with high mileage, tests showed a reduction in fuel consumption of up to 22% : ",
-      "p3": "17% savings thanks to engine and fuel system cleaning  ",
-      "p4": "5% more thanks to more complete and efficient combustion  ",
-      "p5": "Better combustion simply means that less fuel is needed to produce the same amount of power. ",
-      "p6_1": "Check out the full test report ",
-      "p6_2": "here.",
-      "p7": "You benefit from a possible reduction of 9% or more in your consumption.  Try before you buy with a free trial using one of your vehicles.",
-      "p8": "With our calculator here, you can easily visualize the potential savings.  Indicate the price of fuel and your monthly consumption and get a clear estimate of the possible gains across your entire fleet. ",
-      "p9_1": "Need more information?  Find all the detailed technical data in our ",
-      "p9_2": "Fuel Ox white paper.",
-      "explore-a-free-trial-button": "Explore a free trial"
+      "p1": "Fuel Ox reduces fuel consumption through two distinct mechanisms, improving both combustion efficiency and the engine itself.",
+      "p2": "Treatment over several full tanks of fuel decarbonises the fuel and ignition systems, making the engine more efficient. On a high-mileage turbodiesel from 2005, a fuel saving of 22% was observed.",
+      "p3": "Treated fuel burns more completely, meaning less fuel is needed to produce the same power output.",
+      "p4_1": "Consult the full report from the independent tests ",
+      "p4_2": "here",
+      "p5": "Benefit from a possible reduction of 9% in your consumption. Try before you buy with a free trial on one of your vehicles.",
+      "p6": "Our calculator is available to help you estimate the potential savings you could make. Enter the fuel price and your annual consumption in litres. The results will show you the minimum gains if your entire fleet is treated with Fuel Ox.",
+      "p8_1": "Detailed technical information is available in the ",
+      "p8_2": "Fuel Ox White Paper.",
+      "explore-a-free-trial-button": "Explore a free trial",
+      "steps": [
+        "The road test showed a reduction of 17% in fuel consumption due to decarbonisation of the fuel systems.",
+        "This improved combustion enabled an additional saving of 5%."
+      ]
     },
     "free-trial-procedure": {
       "page-title": "Free trial procedure",
@@ -563,10 +565,10 @@
   },
   "cost_benefit_calculator": {
     "title": "Potential savings",
-    "fuel_price": "Fuel price",
+    "fuel_price": "Fuel price (€/L incl. VAT)",
     "efficiency_gains": "Efficiency gain",
     "fuel_volume": "Fuel volume",
-    "fuelOx_price_per_L": "FuelOx® price",
+    "fuelOx_price_per_L": "FuelOx® price (€/L excl. VAT)",
     "fuel_savings": "Fuel savings",
     "fuelOx_needed": "FuelOx® needed",
     "fuelOx_cost": "FuelOx® cost",

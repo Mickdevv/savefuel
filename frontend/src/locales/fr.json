@@ -27,18 +27,21 @@
     },
     "how-fo-cuts-costs": {
       "page-title": "Comment Fuel Ox réduit les coûts",
-      "p1": "Le traitement Fuel Ox réduit la consommation de carburant par deux méthodes distinctes, améliorant l'efficacité de combustion et le moteur aussi.",
-      "p2": "Le traitement sur plusieurs pleins de carburant décrasse les systèmes de carburant et d'allumage rendant le moteur plus efficace.  Sur un véhicule turbo diesel à kilométrage élevé de 2005, une économie de 22% de carburant a pu être observé. ",
-      "p3": "L'essai sur route a montré une réduction de 17 % dans la consommation de carburant due au décrassement des systèmes moteur. ",
-      "p4": "Cette combustion améliorée a permis une économie supplémentaire de 5%. ",
-      "p5": "Le combustible traité brûle plus complètement, moins de carburant est donc nécessaire pour obtenir la même puissance.",
-      "p6_1": "Consultez le rapport complet des tests ",
-      "p6_2": "ici.",
-      "p7": "Bénéficiez d’une réduction possible de 9 % de votre consommation. Essayez avant d’acheter grâce à un essai gratuit sur l’un de vos véhicules.",
-      "p8": "Notre calculatrice est à votre disposition pour vous permettre de calculer les économies éventuelles que vous pourrez faire. Entrez le prix du carburant ainsi que votre consommation mensuelle en litres. Les résultats vous montreront les gains minimum si toute votre flotte est traité avec Fuel Ox.",
-      "p9_1": "Les informations techniques détaillées se trouvent dans le  ",
-      "p9_2": "Livre blanc Fuel Ox",
-      "explore-a-free-trial-button": "Découvrez d'un essai gratuit"
+      "p1": "Fuel Ox réduit la consommation de carburant selon deux mécanismes distincts, améliorant à la fois l'efficacité de la combustion et le moteur lui-même.",
+      "p2": "Le traitement Fuel Ox réduit la consommation de carburant par deux méthodes distinctes, améliorant l'efficacité de combustion et le moteur aussi.",
+      "p3": "Le carburant traité brûle plus complètement, ce qui signifie que moins de carburant est nécessaire pour produire la même puissance.",
+      "p4_1": "Consultez le rapport complet des tests indépendants ",
+      "p4_2": "ici",
+      "p5": "Bénéficiez d'une réduction possible de 9% de votre consommation. Essayez avant d'acheter avec un essai gratuit sur l'un de vos véhicules.",
+      "p6": "Notre calculatrice est disponible pour vous aider à estimer les économies potentielles que vous pourriez réaliser. Entrez le prix du carburant et votre consommation annuelle en litres. Les résultats vous montreront les gains minimums si toute votre flotte est traitée avec Fuel Ox.",
+      "p7": "Notre calculatrice est disponible pour vous aider à estimer les économies potentielles que vous pourriez réaliser. Entrez le prix du carburant et votre consommation annuelle en litres. Les résultats vous montreront les gains minimums si toute votre flotte est traitée avec Fuel Ox.",
+      "p8_1": "Les informations techniques détaillées se trouvent dans le  ",
+      "p8_2": "livre blanc Fuel Ox",
+      "explore-a-free-trial-button": "Découvrez d'un essai gratuit",
+      "steps": [
+        "Le test routier a montré une réduction de 17% de la consommation de carburant due au décarbonisation des systèmes de carburant.",
+        "Cette combustion améliorée a permis une économie supplémentaire de 5%."
+      ]
     },
     "free-trial-procedure": {
       "page-title": "Procédure d'essai gratuit",
@@ -360,7 +363,7 @@
     },
 
     "about": {
-      "page-title": "À propos de Save Fuel Europe SAS",
+      "page-title": "À propos",
       "title": "Save Fuel Europe est le distributeur exclusif de Fuel Ox en France",
 
       "p1": "Nous accompagnons les entreprises de transport, de livraison et de logistique dans la réduction de leurs factures de carburant grâce à une solution simple, efficace et sûre pour les moteurs.",
@@ -550,10 +553,10 @@
   },
   "cost_benefit_calculator": {
     "title": "Potentielles économies",
-    "fuel_price": "Prix du carburant",
+    "fuel_price": "Prix du carburant (€/L TTC)",
     "efficiency_gains": "Gain d’efficacité",
     "fuel_volume": "Volume de carburant",
-    "fuelOx_price_per_L": "Prix du FuelOx®",
+    "fuelOx_price_per_L": "Prix du FuelOx® (€/L HT)",
     "fuel_savings": "Économies de carburant",
     "fuelOx_needed": "FuelOx® nécessaire",
     "fuelOx_cost": "Coût du FuelOx®",

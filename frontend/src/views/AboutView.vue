@@ -18,11 +18,11 @@ currentPageStore.setCurrentPage('about')
     <p>{{ $t('pages.about.p5') }}</p>
     <p>{{ $t('pages.about.p6') }}</p>
     <p>{{ $t('pages.about.p7') }}</p>
-    <div class="subtitle-card">
-      <h3> {{ $t('pages.about.contact.title') }} </h3>
-      <p> {{ $t('pages.about.contact.phone.label') }}{{ $t('pages.about.contact.phone.number') }} </p>
-      <p> contact@save-fuel.eu </p>
-    </div>
+    <!-- <div class="subtitle-card"> -->
+    <!--   <h3> {{ $t('pages.about.contact.title') }} </h3> -->
+    <!--   <p> {{ $t('pages.about.contact.phone.label') }}{{ $t('pages.about.contact.phone.number') }} </p> -->
+    <!--   <p> contact@save-fuel.eu </p> -->
+    <!-- </div> -->
   </div>
 </template>
 <style scoped>

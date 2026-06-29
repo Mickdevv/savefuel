@@ -55,7 +55,8 @@ const costSavings = computed(() => {
         <!-- LEFT COLUMN -->
         <div class="calculator-left">
           <div class="input-group">
-            <label>{{ $t('cost_benefit_calculator.fuel_price') }} (€ / L)</label>
+            <label>{{ $t('cost_benefit_calculator.fuel_price') }}
+            </label>
             <input type="number" :min="0.1" :max="5" :step="0.1" v-model.number="fuelPrice" />
           </div>
 
@@ -70,7 +71,7 @@ const costSavings = computed(() => {
           </div>
 
           <div class="input-group">
-            <label>{{ $t('cost_benefit_calculator.fuelOx_price_per_L') }} (€ / L)</label>
+            <label>{{ $t('cost_benefit_calculator.fuelOx_price_per_L') }} </label>
             <input type="number" :min="1" :step="1" v-model.number="fuelOxPricePerL" />
           </div>
         </div>

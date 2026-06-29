@@ -80,7 +80,8 @@ const items = computed(() => [
   {
     label: t('menubar.gdpr'),
     activeFlag: '',
-    command: () => router.push('/gdpr')
+    command: () => window.open(t('links.documents.gdpr'))
+    // command: () => router.push('/gdpr')
   }
 ])
 const toggle = (event: any) => {
@@ -171,7 +172,7 @@ function navigate(path: string) {
         </div>
         <div class="language-selector">
           <button @click="localeStore.toggleLocale();" class="language-selector-select">{{ $i18n.locale.toUpperCase()
-            }}</button>
+          }}</button>
         </div>
       </div>
     </div>
