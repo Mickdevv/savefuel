@@ -5,9 +5,27 @@
   height: 3px;
   border-radius: 1.5px;
 }
+.p-toast-message-content * {
+  text-align:left;
+  color: black !important;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 div, p {
   font-family: 'Inter', sans-serif;
   text-align: justify;
+}
+h1, h2, h3 {
+
+  text-align: left;
 }
 button, p, h1, h2, h3, div {
   color: #1c1c1c;
@@ -83,6 +101,7 @@ a::hover {
 }
 
 body {
+  min-height: 100vh;
   background-color: #ffffff;
   color: black;
   margin: 0;

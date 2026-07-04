@@ -7,6 +7,7 @@ import { useRouter } from 'vue-router';
 
 const { tm } = useI18n()
 const router = useRouter()
+const { tm } = useI18n()
 
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('how-fo-cuts-costs')
@@ -17,57 +18,58 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
 <template>
 
   <div class="page-container">
+    <div class="sub-page-container">
 
-    <div class="text-container">
-      <p>{{ $t('pages.how-fo-cuts-costs.p1') }}</p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p2') }}</p>
-      <div>
-      </div>
-      <div class="steps" style="margin-bottom: 1rem;">
-        <div class="step" v-for="(p, i) in tm('pages.how-fo-cuts-costs.steps')">
-          <div class="step-content">
-            <div class="step-number">{{ i + 1 }}</div>
-            <div class="step-description">{{ p }}</div>
+      <div class="text-container">
+        <p>{{ $t('pages.how-fo-cuts-costs.p1') }}</p>
+
+
+        <div class="steps" style="margin-bottom: 1rem;">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <div class="step-description">{{ $t('pages.how-fo-cuts-costs.p3') }}</div>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <div class="step-description">{{ $t('pages.how-fo-cuts-costs.p4') }}</div>
+            </div>
           </div>
         </div>
+
+        <p>{{ $t('pages.how-fo-cuts-costs.p2') }}</p>
+        <p>{{ $t('pages.how-fo-cuts-costs.p5') }}</p>
+        <p>{{ $t('pages.how-fo-cuts-costs.p6_1') }}<a target="_blank"
+            :href="$t('links.documents.land-cruiser-22pc-report')">{{
+              $t('pages.how-fo-cuts-costs.p6_2') }}</a></p>
+        <p>{{ $t('pages.how-fo-cuts-costs.p7') }}</p>
+        <p>{{ $t('pages.how-fo-cuts-costs.p8') }}</p>
+        <p>{{ $t('pages.how-fo-cuts-costs.p9_1') }}<a target="_blank" :href="$t('links.documents.fo-white-paper')">{{
+          $t('pages.how-fo-cuts-costs.p9_2') }}</a></p>
       </div>
-      <p>{{ $t('pages.how-fo-cuts-costs.p3') }}</p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p4_1') }}<a target="_blank"
-          :href="$t('links.documents.land-cruiser-22pc-report')">{{
-            $t('pages.how-fo-cuts-costs.p4_2') }}</a></p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p5') }}</p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p6') }}</p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p7') }}</p>
-      <p>{{ $t('pages.how-fo-cuts-costs.p8_1') }}<a target="_blank" :href="$t('links.documents.fo-white-paper')">{{
-        $t('pages.how-fo-cuts-costs.p8_2') }}</a></p>
+
+      <div class="cost-calculator-container">
+        <CostBenefitCalculator class="cost-benefit-calculator" />
+        <button @click="router.push('/free-trial-procedure')" class="free-trial-button button primary-button"
+          severity="warning">{{ $t('pages.how-fo-cuts-costs.explore-a-free-trial-button') }}</button>
+      </div>
     </div>
 
-    <div class="cost-calculator-container">
-      <CostBenefitCalculator class="cost-benefit-calculator" />
-      <Button @click="router.push('/free-trial-procedure')" class="primary-button"
-        :label="$t('pages.how-fo-cuts-costs.explore-a-free-trial-button')" severity="warning" />
-    </div>
   </div>
 </template>
 
 <style scoped>
-.steps {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  margin-bottom: 32px;
-}
-
-.step {
-  display: flex;
-  gap: 16px;
+.page-container {
+  gap: 1rem;
+  display: block;
 }
 
 .step-number {
   width: 40px;
   height: 40px;
   flex-shrink: 0;
-  margin-right: 15px;
 
   display: flex;
   align-items: center;
@@ -83,8 +85,7 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
 }
 
 .step-content {
-  display: flex;
-  align-items: center;
+  flex: 1;
 }
 
 .step-title {
@@ -100,45 +101,28 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
   line-height: 1.5;
 }
 
-.page-container {
-  gap: 1rem;
-  display: block;
+.free-trial-button {
+  width: 100%;
 }
 
-@media (min-width: 1080px) {
-  .page-container {
-    display: flex;
-  }
+.sub-page-container {
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 p {
   font-size: 1rem;
-  margin-top: 2rem;
-}
-
-.learn-more-button {
-  background-color: gold;
-  border: none !important;
-  width: fit-content;
-}
-
-.learn-more-button:hover {
-  background-color: yellow !important;
-  transition: 0.2s;
+  margin-bottom: 2rem;
 }
 
 .cost-benefit-calculator {
   margin-bottom: 1rem;
-  border-radius: 5px;
-  border: solid;
 }
 
 .cost-calculator-container {
-  margin: 1rem, 0rem;
+  margin-top: 1rem;
   justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 45%;
+  width: 100%
 }
 </style>

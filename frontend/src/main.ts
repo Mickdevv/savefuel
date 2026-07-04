@@ -13,7 +13,7 @@ import ToastService from 'primevue/toastservice'
 
 const app = createApp(App)
 const i18n = createI18n({
-  locale: 'fr',
+  locale: localStorage.getItem('locale') || 'fr',
   fallbackLocale: 'fr',
   globalInjection: true,
   messages: {

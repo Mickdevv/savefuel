@@ -390,7 +390,31 @@
         "reason": "Motif",
         "message": "Message",
         "company": "Entreprise",
-        "submit-button": "Envoyer"
+        "submit-button": "Envoyer",
+        "reason-options": [
+          {
+            "title": "Commander",
+            "value": "Place an order"
+          },
+          {
+            "title": "Demander un essai gratuit",
+            "value": "Request a free trial"
+          },
+          {
+            "title": "Autre",
+            "value": "General enquiry"
+          }
+        ],
+        "toast": {
+          "success": {
+            "summary": "Email envoyé",
+            "detail": "Notre équipe reviendra vers vous dans les meilleurs délais"
+          },
+          "fail": {
+            "summary": "Erreur, veuillez réessayer ultérieurement",
+            "detail": "Si l'erreur persiste, n'hésitez pas à nous contacter directement par mail"
+          }
+        }
       },
       "contact-details": {
         "title": "Infos contact",
@@ -413,6 +437,7 @@
           "notes": "Note"
         },
         "notes": {
+          "0-5L": "Smallest unit",
           "1L": "Unité unique",
           "5L": "Remise de 5%",
           "10L": "Remise de 10%",
@@ -561,7 +586,8 @@
     "fuelOx_needed": "FuelOx® nécessaire",
     "fuelOx_cost": "Coût du FuelOx®",
     "fuelOx_cost_per_L": "Coût de traitement par litre",
-    "cost_savings": "Économies réalisées"
+    "cost_savings": "Économies réalisées",
+    "reset-button": "Réinitialiser les valeurs par défaut"
   },
   "links": {
     "videos": {

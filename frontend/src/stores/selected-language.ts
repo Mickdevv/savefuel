@@ -4,7 +4,7 @@ import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 export const useLocaleStore = defineStore('localeStore', () => {
-  const { t, locale } = useI18n()
+  const { locale } = useI18n()
   const localeFromStorage = localStorage.getItem('locale')
   const currentLocale = ref<string>(
     localeFromStorage ? (localeFromStorage as LocaleOptions) : LocaleOptions.EN,

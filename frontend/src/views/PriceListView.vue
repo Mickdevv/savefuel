@@ -7,6 +7,7 @@ const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('price-list')
 
 const PRICES = [
+  { size: "0.5 L", treats: "5,000 L", price: "€99", note: "0-5L" },
   { size: "1 L", treats: "10,000 L", price: "€198", note: "1L" },
   { size: "5 L", treats: "50,000 L", price: "€940", note: "5L" },
   { size: "10 L", treats: "100,000 L", price: "€1,782", note: "10L" },

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Toast from 'primevue/toast'
 import MenuBar from './components/MenuBar.vue';
 import Footer from './components/Footer.vue';
 

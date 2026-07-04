@@ -138,9 +138,9 @@ function navigate(path: string) {
     </div>
   </Transition>
 
-  <Dialog :header="$t('components.contact-form.title')" v-model:visible="contactFormVisible">
-    <Contact />
-  </Dialog>
+  <!-- <Dialog :header="$t('components.contact-form.title')" v-model:visible="contactFormVisible"> -->
+  <!--   <Contact /> -->
+  <!-- </Dialog> -->
 
 
   <div class="page-top-container">
@@ -180,6 +180,10 @@ function navigate(path: string) {
 </template>
 
 <style scoped>
+h2 {
+  text-align: left;
+}
+
 /* ENTER animation */
 .drawer-enter-active,
 .drawer-leave-active,

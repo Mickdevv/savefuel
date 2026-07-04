@@ -392,7 +392,31 @@
         "reason": "Reason",
         "message": "Message",
         "company": "Company",
-        "submit-button": "Submit"
+        "submit-button": "Submit",
+        "reason-options": [
+          {
+            "title": "Place an order",
+            "value": "Place an order"
+          },
+          {
+            "title": "Request a free trial",
+            "value": "Request a free trial"
+          },
+          {
+            "title": "General enquiry",
+            "value": "General enquiry"
+          }
+        ],
+        "toast": {
+          "success": {
+            "summary": "Email sent",
+            "detail": "Our team will get back to you shortly"
+          },
+          "fail": {
+            "summary": "Something went wrong",
+            "detail": "If the error persists, feel free to contact us directly by email"
+          }
+        }
       },
       "contact-details": {
         "title": "Contact details",
@@ -400,7 +424,7 @@
         "phone-number": "+33 6 75 79 08 16",
         "email": "Email",
         "company": "Company",
-        "free-trial-button": "Free trial information"
+        "free-trial-button": "Free trial details"
       }
     },
     "price-list": {
@@ -415,6 +439,7 @@
           "notes": "Notes"
         },
         "notes": {
+          "0-5L": "Smallest unit",
           "1L": "Single unit",
           "5L": "5% discount",
           "10L": "10% discount",
@@ -573,7 +598,8 @@
     "fuelOx_needed": "FuelOx® needed",
     "fuelOx_cost": "FuelOx® cost",
     "fuelOx_cost_per_L": "Cost to treat 1L of fuel",
-    "cost_savings": "Cost savings"
+    "cost_savings": "Cost savings",
+    "reset-button": "Reset to default values"
   },
   "links": {
     "videos": {
