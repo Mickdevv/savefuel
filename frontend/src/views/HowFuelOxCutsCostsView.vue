@@ -21,6 +21,7 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
 
       <div class="text-container">
         <p>{{ $t('pages.how-fo-cuts-costs.p1') }}</p>
+        <p>{{ $t('pages.how-fo-cuts-costs.p2') }}</p>
 
 
         <div class="steps" style="margin-bottom: 1rem;">
@@ -38,15 +39,14 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
           </div>
         </div>
 
-        <p>{{ $t('pages.how-fo-cuts-costs.p2') }}</p>
-        <p>{{ $t('pages.how-fo-cuts-costs.p5') }}</p>
-        <p>{{ $t('pages.how-fo-cuts-costs.p6_1') }}<a target="_blank"
+        <p>{{ $t('pages.how-fo-cuts-costs.p5_1') }}<a target="_blank"
             :href="$t('links.documents.land-cruiser-22pc-report')">{{
-              $t('pages.how-fo-cuts-costs.p6_2') }}</a></p>
+              $t('pages.how-fo-cuts-costs.p5_2') }}</a></p>
+        <p>{{ $t('pages.how-fo-cuts-costs.p6') }}</p>
         <p>{{ $t('pages.how-fo-cuts-costs.p7') }}</p>
-        <p>{{ $t('pages.how-fo-cuts-costs.p8') }}</p>
-        <p>{{ $t('pages.how-fo-cuts-costs.p9_1') }}<a target="_blank" :href="$t('links.documents.fo-white-paper')">{{
-          $t('pages.how-fo-cuts-costs.p9_2') }}</a></p>
+        <!-- <p>{{ $t('pages.how-fo-cuts-costs.p8') }}</p> -->
+        <!-- <p>{{ $t('pages.how-fo-cuts-costs.p9_1') }}<a target="_blank" :href="$t('links.documents.fo-white-paper')">{{ -->
+        <!--   $t('pages.how-fo-cuts-costs.p9_2') }}</a></p> -->
       </div>
 
       <div class="cost-calculator-container">
@@ -63,6 +63,19 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
 .page-container {
   gap: 1rem;
   display: block;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .step-number {
@@ -84,6 +97,7 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
 }
 
 .step-content {
+  align-items: center;
   flex: 1;
 }
 
@@ -107,7 +121,15 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
 .sub-page-container {
   gap: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: 1fr 0.7fr;
+  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+}
+
+@media(max-width: 800px) {
+  .sub-page-container {
+
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
 }
 
 p {

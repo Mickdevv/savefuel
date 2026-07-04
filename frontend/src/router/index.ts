@@ -10,6 +10,7 @@ import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
 import PriceListView from '@/views/PriceListView.vue'
 import GdprView from '@/views/GdprView.vue'
+import HowToUseFOView from '@/views/HowToUseFOView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -23,6 +24,11 @@ const router = createRouter({
       path: '/how-fuel-ox-cuts-costs',
       name: 'how-fuel-ox-cuts-costs',
       component: HowFuelOxCutsCostsView,
+    },
+    {
+      path: '/how-to-use-fuel-ox',
+      name: 'how-to-use-fuel-ox',
+      component: HowToUseFOView,
     },
     {
       path: '/free-trial-procedure',

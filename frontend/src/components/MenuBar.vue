@@ -30,6 +30,11 @@ const items = computed(() => [
   },
 
   {
+    label: t('menubar.how-to-use-fuel-ox'),
+    activeFlag: '/how-to-use-fuel-ox',
+    command: () => router.push('/how-to-use-fuel-ox')
+  },
+  {
     label: t('menubar.how-fo-cuts-costs'),
     activeFlag: '/how-fuel-ox-cuts-costs',
     command: () => router.push('/how-fuel-ox-cuts-costs')
@@ -172,7 +177,7 @@ function navigate(path: string) {
         </div>
         <div class="language-selector">
           <button @click="localeStore.toggleLocale();" class="language-selector-select">{{ $i18n.locale.toUpperCase()
-          }}</button>
+            }}</button>
         </div>
       </div>
     </div>
