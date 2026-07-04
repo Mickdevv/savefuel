@@ -33,10 +33,10 @@ const submitContactForm = async () => {
     loading.value = true
     console.log(contactFormData.value)
     await axios.post("/api/email/contact", contactFormData.value)
-    toast.add({ severity: "success", summary: t('pages.contact.form.toast.success.summary'), detail: t('pages.contact.form.toast.success.detail'), life: 3000 })
+    toast.add({ severity: "success", summary: t('pages.contact.form.toast.success.summary'), detail: t('pages.contact.form.toast.success.detail'), life: 6000 })
     resetContactFormData()
   } catch {
-    toast.add({ severity: "error", summary: t('pages.contact.form.toast.fail.summary'), detail: t('pages.contact.form.toast.fail.detail'), life: 3000 })
+    toast.add({ severity: "error", summary: t('pages.contact.form.toast.fail.summary'), detail: t('pages.contact.form.toast.fail.detail'), life: 6000 })
   } finally {
     loading.value = false
   }
@@ -83,7 +83,7 @@ const submitContactForm = async () => {
         </div>
         <button :disabled="loading" type="submit" class="button primary-button">{{
           $t('pages.contact.form.submit-button')
-          }}
+        }}
           <i v-if="loading" class="pi-spinner pi" />
         </button>
       </form>
@@ -117,7 +117,7 @@ const submitContactForm = async () => {
         </div>
       </div>
       <button class="button primary-button">{{ $t('pages.contact.contact-details.free-trial-button')
-      }}</button>
+        }}</button>
     </div>
   </div>
 </template>

@@ -5,7 +5,6 @@ import Button from 'primevue/button'
 import { useI18n } from 'vue-i18n';
 import { useRouter } from 'vue-router';
 
-const { tm } = useI18n()
 const router = useRouter()
 const { tm } = useI18n()
 
