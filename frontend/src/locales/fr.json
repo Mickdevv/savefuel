@@ -36,7 +36,6 @@
       "p5_2": "ici",
       "p6": "Bénéficiez d'une réduction possible de 9% de votre consommation. Essayez avant d'acheter avec un essai gratuit sur l'un de vos véhicules.",
       "p7": "Notre calculatrice est disponible pour vous aider à estimer les économies potentielles que vous pourriez réaliser. Entrez le prix du carburant et votre consommation annuelle en litres. Les résultats vous montreront les gains minimums si toute votre flotte est traitée avec Fuel Ox®.",
-      "p7": "Notre calculatrice est disponible pour vous aider à estimer les économies potentielles que vous pourriez réaliser. Entrez le prix du carburant et votre consommation annuelle en litres. Les résultats vous montreront les gains minimums si toute votre flotte est traitée avec Fuel Ox®.",
       "p8_1": "Les informations techniques détaillées se trouvent dans le  ",
       "p8_2": "livre blanc Fuel Ox®",
       "p9": "Le carburant traité brûle plus complètement, ce qui signifie que moins de carburant est nécessaire pour produire la même puissance.",
@@ -326,7 +325,6 @@
         {
           "title": "FAQ",
           "description": "Questions et réponses courantes.",
-          "type": "documents",
           "type": "documents",
           "icon": "file"
         },
