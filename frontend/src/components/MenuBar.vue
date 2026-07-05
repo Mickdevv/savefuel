@@ -30,6 +30,11 @@ const items = computed(() => [
   },
 
   {
+    label: t('menubar.how-to-use-fuel-ox'),
+    activeFlag: '/how-to-use-fuel-ox',
+    command: () => router.push('/how-to-use-fuel-ox')
+  },
+  {
     label: t('menubar.how-fo-cuts-costs'),
     activeFlag: '/how-fuel-ox-cuts-costs',
     command: () => router.push('/how-fuel-ox-cuts-costs')
@@ -138,9 +143,9 @@ function navigate(path: string) {
     </div>
   </Transition>
 
-  <Dialog :header="$t('components.contact-form.title')" v-model:visible="contactFormVisible">
-    <Contact />
-  </Dialog>
+  <!-- <Dialog :header="$t('components.contact-form.title')" v-model:visible="contactFormVisible"> -->
+  <!--   <Contact /> -->
+  <!-- </Dialog> -->
 
 
   <div class="page-top-container">
@@ -172,7 +177,7 @@ function navigate(path: string) {
         </div>
         <div class="language-selector">
           <button @click="localeStore.toggleLocale();" class="language-selector-select">{{ $i18n.locale.toUpperCase()
-          }}</button>
+            }}</button>
         </div>
       </div>
     </div>
@@ -180,6 +185,10 @@ function navigate(path: string) {
 </template>
 
 <style scoped>
+h2 {
+  text-align: left;
+}
+
 /* ENTER animation */
 .drawer-enter-active,
 .drawer-leave-active,

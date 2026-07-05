@@ -1,8 +1,13 @@
 <script setup lang="ts">
 import { useCurrentPageStore } from '@/stores/current-page';
 import type { ContactForm } from '@/types/contact-form';
-import Button from 'primevue/button'
+import axios from 'axios';
 import { ref } from 'vue';
+import { useToast } from 'primevue/usetoast';
+import { useI18n } from 'vue-i18n';
+
+const toast = useToast();
+const { t } = useI18n()
 
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('contact')
@@ -27,9 +32,11 @@ const submitContactForm = async () => {
   try {
     loading.value = true
     console.log(contactFormData.value)
+    await axios.post("/api/email/contact", contactFormData.value)
+    toast.add({ severity: "success", summary: t('pages.contact.form.toast.success.summary'), detail: t('pages.contact.form.toast.success.detail'), life: 6000 })
     resetContactFormData()
   } catch {
-    console.warn("Error")
+    toast.add({ severity: "error", summary: t('pages.contact.form.toast.fail.summary'), detail: t('pages.contact.form.toast.fail.detail'), life: 6000 })
   } finally {
     loading.value = false
   }
@@ -47,7 +54,7 @@ const submitContactForm = async () => {
 
           <div class="input-group">
             <label for="name">{{ $t('pages.contact.form.name') }}</label>
-            <input id="name" v-model="contactFormData.name" type="text" />
+            <input id="name" required v-model="contactFormData.name" type="text" />
           </div>
           <div class="input-group">
             <label for="company">{{ $t('pages.contact.form.company') }}</label>
@@ -55,7 +62,7 @@ const submitContactForm = async () => {
           </div>
           <div class="input-group">
             <label for="email">{{ $t('pages.contact.form.email') }}</label>
-            <input id="email" v-model="contactFormData.email" type="email" />
+            <input id="email" required v-model="contactFormData.email" type="email" />
           </div>
           <div class="input-group">
             <label for="phone">{{ $t('pages.contact.form.phone-number') }}</label>
@@ -64,19 +71,26 @@ const submitContactForm = async () => {
         </div>
         <div class="input-group">
           <label for="reason">{{ $t('pages.contact.form.reason') }}</label>
-          <select id="reason" v-model="contactFormData.reason" type="text" />
+          <select id="reason" required v-model="contactFormData.reason" type="text">
+            <option v-for="option in $tm('pages.contact.form.reason-options')" :value="option.value">{{
+              option.title }}
+            </option>
+          </select>
         </div>
         <div class="input-group">
           <label for="message">{{ $t('pages.contact.form.message') }}</label>
-          <textarea id="message" v-model="contactFormData.message" type="text" />
+          <textarea id="message" required v-model="contactFormData.message" type="text" />
         </div>
-        <button :loading="loading" type="submit" class="button primary-button">{{ $t('pages.contact.form.submit-button')
-          }}</button>
+        <button :disabled="loading" type="submit" class="button primary-button">{{
+          $t('pages.contact.form.submit-button')
+        }}
+          <i v-if="loading" class="pi-spinner pi" />
+        </button>
       </form>
     </div>
     <div class="right-container">
       <div class="contact-card">
-        <h2>Contact details</h2>
+        <h2>Contact</h2>
         <div class="data-group">
           <i class="pi pi-phone"></i>
           <div>
@@ -102,11 +116,20 @@ const submitContactForm = async () => {
           </div>
         </div>
       </div>
-      <button class="button primary-button">{{ $t('pages.contact.contact-details.free-trial-button') }}</button>
+      <button class="button primary-button">{{ $t('pages.contact.contact-details.free-trial-button')
+        }}</button>
     </div>
   </div>
 </template>
 <style scoped>
+.pi-spinner {
+  animation: spin 1s linear infinite;
+}
+
+button {
+  width: 100%;
+}
+
 .contact-card .data-group {
   width: 100%;
   display: flex;

@@ -1,7 +1,8 @@
 {
   "menubar": {
     "home": "Home",
-    "how-fo-cuts-costs": "How Fuel Ox cuts costs",
+    "how-fo-cuts-costs": "How Fuel Ox® cuts costs",
+    "how-to-use-fuel-ox": "How to use Fuel Ox®",
     "free-trial-procedure": "Free trial procedure",
     "four-guarantees": "Four guarantees",
     "technical": "Technical",
@@ -14,38 +15,46 @@
     "gdpr": "GDPR declaration"
   },
   "pages": {
-    "home": {
+    "home": { 
       "page-title": "Home",
       "paragraphs": [
-        "Save Fuel Europe SAS is the exclusive distributor of Fuel Ox in France. Developed over 30 years ago for AT&T and the US military, Fuel Ox is a high-performance fuel treatment that optimizes combustion and significantly reduces fuel consumption.",
-        " Before Save Fuel Europe was even established, Fuel Ox was tested on a 2005 Land Cruiser equipped with a D4D turbodiesel engine. Results showed fuel savings of 22%. These exceptional results convinced us of the product's potential and encouraged us to introduce it to the French market. See the Land Cruiser test report <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">here</a>.",
+        "Save Fuel Europe SAS is the exclusive distributor of Fuel Ox® in France. Developed over 30 years ago for AT&T and the US military, Fuel Ox® is a high-performance fuel treatment that optimizes combustion and significantly reduces fuel consumption.",
+        " Before Save Fuel Europe was even established, Fuel Ox® was tested on a 2005 Land Cruiser equipped with a D4D turbodiesel engine. Results showed fuel savings of 22%. These exceptional results convinced us of the product's potential and encouraged us to introduce it to the French market. See the Land Cruiser test report <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">here</a>.",
         "Independent road tests conducted in France have confirmed these results. The minimum fuel reduction observed was 9%.  The test report is available <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">here</a>.  "
       ],
-      "learn-more-button": "Learn more"
+      "learn-more-button": "How Fuel Ox® cuts costs"
     },
     "how-fo-cuts-costs": {
-      "page-title": "How Fuel Ox cuts costs",
-      "p1": "Fuel Ox reduces fuel consumption through two distinct mechanisms, improving both combustion efficiency and the engine itself.",
-      "p2": "Treatment over several full tanks of fuel decarbonises the fuel and ignition systems, making the engine more efficient. On a high-mileage turbodiesel from 2005, a fuel saving of 22% was observed.",
-      "p3": "Treated fuel burns more completely, meaning less fuel is needed to produce the same power output.",
-      "p4_1": "Consult the full report from the independent tests ",
-      "p4_2": "here",
-      "p5": "Benefit from a possible reduction of 9% in your consumption. Try before you buy with a free trial on one of your vehicles.",
-      "p6": "Our calculator is available to help you estimate the potential savings you could make. Enter the fuel price and your annual consumption in litres. The results will show you the minimum gains if your entire fleet is treated with Fuel Ox.",
+      "page-title": "How Fuel Ox® cuts costs",
+      "p1": "Fuel Ox® reduces fuel consumption through two complementary mechanisms. First, it cleans the engine and fuel system, helping to restore lost efficiency. Second, it promotes more complete combustion of the fuel, allowing the engine to extract more energy from every litre consumed.",
+      "p2": "Testing on a 2005 turbocharged diesel vehicle showed an overall fuel saving of 22%, comprising:",
+      "p3": "17% from improved engine and fuel system cleanliness.",
+      "p4": "5% from enhanced combustion efficiency.",
+      "p5_1": "Consult the full report from the independent tests ",
+      "p5_2": "here",
+      "p6": "You benefit from a possible reduction of 9% or more in your consumption. Try before you buy with a free trial using one of your vehicles.",
+      "p7": "With our calculator here, you can easily visualize the potential savings. Enter the price of fuel and your monthly or yearly consumption and get a clear estimate of the possible monthly or annual gains across your entire fleet.",
       "p8_1": "Detailed technical information is available in the ",
-      "p8_2": "Fuel Ox White Paper.",
+      "p8_2": "Fuel Ox® White Paper.",
       "explore-a-free-trial-button": "Explore a free trial",
       "steps": [
         "The road test showed a reduction of 17% in fuel consumption due to decarbonisation of the fuel systems.",
         "This improved combustion enabled an additional saving of 5%."
       ]
     },
+    "how-to-use-fuel-ox": {
+      "page-title": "How to use Fuel Ox®",
+      "watch-video-button": "Watch the video",
+      "p1": "It takes some time running your vehicle for Fuel Ox® to clean the fuel system and break up fuel molecule clumps. A first treatment of twice the normal concentration of Fuel Ox® in a full fuel tank (2 mL per 10 Litres of fuel) will give a faster result overall. When refuelling after the first tank, add 1mL of Fuel Ox® for every 10 Litres of fuel added to the tank.",
+      "p2": "You can expect fuel consumption to gradually improve until around 5 tanks of fuel have been used.",
+      "p3": "The 2 minute video here shows how to add Fuel Ox® to your vehicle or to storage containers."
+    },
     "free-trial-procedure": {
       "page-title": "Free trial procedure",
       "intro": {
         "title": "Test the reduction in your fuel consumption — free of charge.",
         "p1": "At Save Fuel Europe, we offer you a free trial so you can see the possible savings for yourself before making any purchase.",
-        "p2": "We provide the quantity of Fuel Ox needed to carry out this test under real conditions. For reliable results, we recommend using a vehicle that fills up at least twice a week and normally operates under similar conditions."
+        "p2": "We provide the quantity of Fuel Ox® needed to carry out this test under real conditions. For reliable results, we recommend using a vehicle that fills up at least twice a week and normally operates under similar conditions."
       },
       "steps": {
         "title": "How does the trial work?",
@@ -57,18 +66,18 @@
           ],
           [
             "Cleaning phase ",
-            "Then add Fuel Ox (startup dose) and continue using your vehicle normally. This phase gradually cleans the fuel system and optimizes its performance."
+            "Then add Fuel Ox® (startup dose) and continue using your vehicle normally. This phase gradually cleans the fuel system and optimizes its performance."
           ],
           [
             "Measure jour savings",
-            "After this phase, continue with the normal dose of Fuel Ox. Record your consumption data again to easily compare with your initial results."
+            "After this phase, continue with the normal dose of Fuel Ox®. Record your consumption data again to easily compare with your initial results."
           ]
         ]
       },
       "paragraphs": [
         "Test the reduction in your fuel consumption — free of charge.",
         "At Save Fuel Europe, we offer you a free trial so you can see the possible savings for yourself before making any purchase.",
-        "We provide the quantity of Fuel Ox needed to carry out this test under real conditions. For reliable results, we recommend using a vehicle that fills up at least twice a week and normally operates under similar conditions.",
+        "We provide the quantity of Fuel Ox® needed to carry out this test under real conditions. For reliable results, we recommend using a vehicle that fills up at least twice a week and normally operates under similar conditions.",
         "How does the trial work?  The trial is simply carried out in three stages: "
       ],
       "test-conditions": {
@@ -89,14 +98,14 @@
       "direct-cost-benefit": {
         "title": "Direct cost benefit",
         "p1": "A large truck driving 150,000 km a year burning 30 L/100 km uses 45,000 L of fuel.  At 9% cut in consumption, this saves 4 050 L. ",
-        "p2": "Treating 45,000 L of fuel takes 4.5 L of Fuel Ox, costing €891 + VAT.  If fuel costs €1.67 + VAT (€2.00 total), Fuel Ox cuts your fuel cost by €4,369 including the cost of Fuel Ox."
+        "p2": "Treating 45,000 L of fuel takes 4.5 L of Fuel Ox®, costing €891 + VAT.  If fuel costs €1.67 + VAT (€2.00 total), Fuel Ox® cuts your fuel cost by €4,369 including the cost of Fuel Ox®."
       },
       "other-benefits": {
         "title": "Other benefits",
         "p1_1": "For more technical information, read the ",
-        "p1_2": "Fuel Ox white paper",
+        "p1_2": "Fuel Ox® white paper",
         "p1_3": "for detailed technical information. ",
-        "p3": "The US manufacturer reports these additional benefits based on many years of fuel treatment with Fuel Ox:",
+        "p3": "The US manufacturer reports these additional benefits based on many years of fuel treatment with Fuel Ox®:",
         "bullet-points": [
           "<strong>Combustion optimised</strong>  Polymerisation of fuel molecules broken and re-polymerisation prevented. Maxmimises burn efficiency.",
 
@@ -168,9 +177,9 @@
       "other-vehicle-documents": {
         "title": "Other vehicle documents",
         "bullet-points": [
-          "Video, <a href=\"https://www.youtube.com/watch?v=9iECyfYqDSI\" target=\"_blank\">How to add Fuel Ox</a>",
+          "Video, <a href=\"https://www.youtube.com/watch?v=9iECyfYqDSI\" target=\"_blank\">How to add Fuel Ox®</a>",
 
-          "Video about a 6 month trial of Fuel Ox, <a href=\"https://www.youtube.com/watch?v=XqgsoKOAI4Q\" target=\"_blank\">Long Fuel Ox test</a>",
+          "Video about a 6 month trial of Fuel Ox®, <a href=\"https://www.youtube.com/watch?v=XqgsoKOAI4Q\" target=\"_blank\">Long Fuel Ox® test</a>",
 
           "<a href=\"https://save-fuel.eu/docs/en/Vehicle/FuelOX-Trucking-Fleet-Hard-Numbers.pdf\" target=\"_blank\" @click.stop>Truck fleet operations</a>",
 
@@ -190,22 +199,26 @@
       "page-title": "Four guarantees",
       "manufacturers-guarantee": {
         "title": "Manufacturer's guarantee",
-        "p1_1": "Fuel Ox carries insurance for up to US$ 2,000,000 in case of damage to an engine caused by Fuel Ox treatment. No claim was ever made. No user has ever alleged that using Fuel Ox damaged their engine.",
+        "p1_1": "Fuel Ox® carries insurance for up to US$ 2,000,000 in case of damage to an engine caused by Fuel Ox® treatment. No claim was ever made. No user has ever alleged that using Fuel Ox® damaged their engine.",
         "p1_2": "See FuelOx guarantee."
       },
       "EN590-ASTM-950": {
         "title": "EN590 and ASTM-D975 compliance guarantees",
-        "p1_1": "Laboratory tests completed by Intertek in France compared untreated diesel with diesel treated with twice the normal concentration of Fuel Ox. Most measurements were the same, 7 showed tiny differences. The treated fuel remains compliant with the EN590 specification. The lab report also notes that treated Red Diesel also remains within specification. Fuel Ox presence cannot be detected by testing to EN590. Engine warranty remains valid because the fuel meets the required specification. See the France Intertek lab EN590 tests.",
-        "p1_2": "See the France Intertek lan EN590 tests.",
+        "p1_1": "Laboratory tests completed by Intertek in France compared untreated diesel with diesel treated with twice the normal concentration of Fuel Ox®. Most measurements were the same, 7 showed tiny differences. The treated fuel remains compliant with the EN590 specification. The lab report also notes that treated Red Diesel also remains within specification. Fuel Ox® presence cannot be detected by testing to EN590. Engine warranty remains valid because the fuel meets the required specification. See the France Intertek lab EN590 tests.",
+        "p1_2": "See the France Intertek lab EN590 tests.",
         "p2": "Comparative lab tests to the US standard ASTM-D975 also showed that treated fuel results were almost identical and met the standard."
       },
       "save-fuel-europe-guarantee": {
         "title": "Save Fuel Europe SAS guarantee",
-        "p1": "Our own and many independent tests prove that Fuel Ox treatment cuts vehicle fuel consumption from 6% up to 28%. Test reports are on the Vehicles page. The lowest saving from independent tests in France showed a 9% reduction in fuel consumption."
+        "p1": "Our own and many independent tests prove that Fuel Ox® treatment cuts vehicle fuel consumption from 6% up to 28%. Test reports are on the Vehicles page. The lowest saving from independent tests in France showed a 9% reduction in fuel consumption.",
+        "p2_1": "Our guarantee is that if you perform a fuel efficiency trial using our ",
+        "p2_2": "trial procedure",
+        "p2_3": " and report the results to us, that it will cost you nothing if there is no improvement in fuel efficiency."
       },
       "historical-guarantee": {
         "title": "Historical guarantee",
-        "p1": "Fuel Ox was developed in the 1990’s for the AT&T company and the US military. With a 30 year history, Fuel Ox currently treats around 50,000,000 litres of fuel each month. Users would not continue to buy Fuel Ox if it didn’t work"
+        "p1": "Fuel Ox® was developed in the 1990’s for the AT&T company and the US military. With a 30 year history, Fuel Ox® currently treats around 50,000,000 litres of fuel each month. Users would not continue to buy Fuel Ox® if it didn’t work",
+        "p2": "Proven technology over 30 years guarantees the cost effectiveness of fuel treatment with Fuel Ox®."
       },
       "technical-button": "Technical information"
     },
@@ -219,7 +232,7 @@
         "description": [
           "A typical well maintained 100 kVA generator at 75% full load would burn around 21 L/hour, providing ~ 3.6 kWh/L. If that was used over 22 × 8 hour working days in a month, untreated fuel used would be 21 × 8 × 22 = 3696 L. At 9% cut in consumption, this saves 332 L.",
 
-          "Treating 3696 L of fuel takes 0.37 L of Fuel Ox, costing €73 + VAT. If fuel costs €1.67 + VAT (€2.00 total), a 9% saving cuts the fuel cost of one generator over one month by €482 ex VAT including the cost of Fuel Ox.",
+          "Treating 3696 L of fuel takes 0.37 L of Fuel Ox®, costing €73 + VAT. If fuel costs €1.67 + VAT (€2.00 total), a 9% saving cuts the fuel cost of one generator over one month by €482 ex VAT including the cost of Fuel Ox®.",
 
           "For remote locations, logistics becomes easier as each load of fuel lasts longer."
         ]
@@ -238,7 +251,7 @@
         "title": "Other benefits",
 
         "p1_1": "Read the ",
-        "p1_2": "Fuel Ox white paper",
+        "p1_2": "Fuel Ox® white paper",
         "p1_3": "for detailed technical information.",
 
         "bullet-points": [
@@ -272,36 +285,36 @@
     "technical": {
       "page-title": "Technical",
       "history": {
-        "title": "The science behind Fuel Ox",
+        "title": "The science behind Fuel Ox®",
 
         "p1": "Bell Labs is an American scientific and industrial research laboratory founded in 1925. It developed radio astronomy, transistors, lasers, photovoltaic cells, charge-coupled devices, information theory, the Unix operating system, and several major programming languages. Its researchers have received eleven Nobel Prizes and five Turing Awards.",
         "p2": "The molecules of hydrocarbon fuels are polar — they have different electrical charges at different points on the molecule. This leads to polymerisation, where negative charges on one molecule adhere to positive charges on another. This causes clusters of molecules to form, preventing oxygen from reaching the molecules inside the cluster during combustion. Incomplete combustion produces soot and unburned hydrocarbons in the exhaust and requires more fuel to produce a given power output.",
         "p3": "Polymerisation increases over time, so that after several months of production at the refinery, the fuel becomes unusable. It clogs filters and fuel lines and creates deposits inside injection systems. Engines become less efficient with use, meaning even more fuel must be burned to achieve a desired performance.",
-        "p4": "Bell Labs belonged to the large company AT&T, which owned a vast fleet of vehicles across the United States. The laboratories developed a fuel treatment to break down and prevent fuel polymerisation, restoring engine performance and fuel combustion to improve shelf life and reduce fuel consumption. This fuel treatment was subsequently adopted by the US military. Its current name is Fuel Ox, and it currently treats approximately 50 million litres of fuel per month, primarily in the United States.",
-        "p5": "Fuel Ox contains catalysts. A catalyst causes chemical reactions without being consumed by the reaction, so a small amount of catalyst will continue to act for a long time. Normal treatment with Fuel Ox uses one part per 10,000. One litre of Fuel Ox treats 10,000 litres of fuel. The improvement in combustion efficiency is approximately 5%. The improvement in engine efficiency can be much greater, depending on the condition of the engine."
+        "p4": "Bell Labs belonged to the large company AT&T, which owned a vast fleet of vehicles across the United States. The laboratories developed a fuel treatment to break down and prevent fuel polymerisation, restoring engine performance and fuel combustion to improve shelf life and reduce fuel consumption. This fuel treatment was subsequently adopted by the US military. Its current name is Fuel Ox®, and it currently treats approximately 50 million litres of fuel per month, primarily in the United States.",
+        "p5": "Fuel Ox® contains catalysts. A catalyst causes chemical reactions without being consumed by the reaction, so a small amount of catalyst will continue to act for a long time. Normal treatment with Fuel Ox® uses one part per 10,000. One litre of Fuel Ox® treats 10,000 litres of fuel. The improvement in combustion efficiency is approximately 5%. The improvement in engine efficiency can be much greater, depending on the condition of the engine."
       },
       "technical-documents": {
         "title": "Technical documents (PDF view or download)",
         "subtitle": "All documents are available for online viewing or download (PDF format).",
 
-        "video-trial-text": "Video about a 6 month trial of Fuel Ox.",
-        "video-trial-link": "Long Fuel Ox test",
+        "video-trial-text": "Video about a 6 month trial of Fuel Ox®.",
+        "video-trial-link": "Long Fuel Ox® test",
 
         "p1_1": "Product information",
         "p1_2": "Features, standards, specifications.",
-        "p2_1": "Fuel Ox white paper",
-        "p2_2": "5 pages, detailed explanation of how Fuel Ox features work. Really interesting.",
+        "p2_1": "Fuel Ox® white paper",
+        "p2_2": "5 pages, detailed explanation of how Fuel Ox® features work. Really interesting.",
         "p3_1": "FAQ",
         "p3_2": "Common questions and answers. Please send us any questions to add at ",
         "p4_1": "GNR compared to EN590 fuel",
-        "p4_2": "How the standards for Gasoil Non Routier and EU standard diesel compare for Fuel Ox treatment.",
-        "p5_1": "Fuel Ox MSDS",
+        "p4_2": "How the standards for Gasoil Non Routier and EU standard diesel compare for Fuel Ox® treatment.",
+        "p5_1": "Fuel Ox® MSDS",
         "p5_2": "Material safety data sheet.",
         "p6_1": "EN 590 lab tests",
-        "p6_2": "Intertek France did tests on diesel, comparing untreated fuel with Fuel Ox added at twice the normal concentration.",
+        "p6_2": "Intertek France did tests on diesel, comparing untreated fuel with Fuel Ox® added at twice the normal concentration.",
         "p7_1": "ASTM D-975 lab tests",
-        "p7_2": "FirstEnergy lab in Oklahoma compared Fuel Ox treated diesel with untreated diesel.",
-        "p8_1": "Fuel Ox manufacturer guarantee",
+        "p7_2": "FirstEnergy lab in Oklahoma compared Fuel Ox® treated diesel with untreated diesel.",
+        "p8_1": "Fuel Ox® manufacturer guarantee",
         "p8_2": "A $2m insurance policy against engine damage. Never claimed."
       },
       "document-cards": [
@@ -313,8 +326,8 @@
           "icon": "file"
         },
         {
-          "title": "Fuel Ox White Paper",
-          "description": "5 pages, detailed explanation of how Fuel Ox works. Highly recommended reading.",
+          "title": "Fuel Ox® White Paper",
+          "description": "5 pages, detailed explanation of how Fuel Ox® works. Highly recommended reading.",
           "type": "documents",
           "link": "fo-white-paper",
           "icon": "file"
@@ -328,13 +341,13 @@
         },
         {
           "title": "GNR vs EN590 standard",
-          "description": "How red diesel and standard EU diesel standards compare for Fuel Ox treatment.",
+          "description": "How red diesel and standard EU diesel standards compare for Fuel Ox® treatment.",
           "type": "documents",
           "link": "gnr-compared-to-EN590",
           "icon": "file"
         },
         {
-          "title": "Fuel Ox Safety Data Sheet (MSDS)",
+          "title": "Fuel Ox® Safety Data Sheet (MSDS)",
           "description": "Material safety data sheet.",
           "type": "documents",
           "link": "fo-MSDS",
@@ -342,28 +355,28 @@
         },
         {
           "title": "EN 590 Laboratory Tests",
-          "description": "Intertek France tested diesel, comparing untreated fuel with Fuel Ox added at twice the normal concentration.",
+          "description": "Intertek France tested diesel, comparing untreated fuel with Fuel Ox® added at twice the normal concentration.",
           "type": "documents",
           "link": "intertek-EN590-test",
           "icon": "file"
         },
         {
           "title": "ASTM D-975 Laboratory Tests",
-          "description": "FirstEnergy laboratory in Oklahoma compared Fuel Ox-treated diesel with untreated diesel.",
+          "description": "FirstEnergy laboratory in Oklahoma compared Fuel Ox®-treated diesel with untreated diesel.",
           "type": "documents",
           "link": "ASTM-D975-test",
           "icon": "file"
         },
         {
-          "title": "Fuel Ox Manufacturer Guarantee",
+          "title": "Fuel Ox® Manufacturer Guarantee",
           "description": "A US$2 million insurance policy against engine damage. Never used.",
           "type": "documents",
           "link": "fo-guarantee",
           "icon": "file"
         },
         {
-          "title": "6-Month Fuel Ox Trial Video",
-          "description": "English-language video of a 6-month Fuel Ox trial. Enable subtitles and select your language.",
+          "title": "6-Month Fuel Ox® Trial Video",
+          "description": "English-language video of a 6-month Fuel Ox® trial. Enable subtitles and select your language.",
           "type": "videos",
           "link": "long-fuel-ox-test",
           "icon": "play"
@@ -374,7 +387,7 @@
 
     "about": {
       "page-title": "About",
-      "title": "Save Fuel Europe is the exclusive Fuel Ox distributor in France",
+      "title": "Save Fuel Europe is the exclusive Fuel Ox® distributor in France",
       "p1": "We support transport, delivery, logistics companies and off-grid power users in reducing their fuel bills with a simple, efficient and engine-safe solution.",
       "p2": "Do you manage a fleet of commercial vehicles, trucks or generators and see fuel costs eroding your margins month after month? You know that a significant discount would make all the difference, but you're hesitant to trust a distributor that's still relatively unknown in France?",
       "p3": "We fully understand this caution. Vehicle and generator fleet managers are primarily concerned with two things: avoiding any risk to expensive engines and managing operating costs.",
@@ -392,7 +405,31 @@
         "reason": "Reason",
         "message": "Message",
         "company": "Company",
-        "submit-button": "Submit"
+        "submit-button": "Submit",
+        "reason-options": [
+          {
+            "title": "Place an order",
+            "value": "Place an order"
+          },
+          {
+            "title": "Request a free trial",
+            "value": "Request a free trial"
+          },
+          {
+            "title": "General enquiry",
+            "value": "General enquiry"
+          }
+        ],
+        "toast": {
+          "success": {
+            "summary": "Email sent",
+            "detail": "Our team will get back to you shortly"
+          },
+          "fail": {
+            "summary": "Something went wrong",
+            "detail": "If the error persists, feel free to contact us directly by email"
+          }
+        }
       },
       "contact-details": {
         "title": "Contact details",
@@ -400,7 +437,7 @@
         "phone-number": "+33 6 75 79 08 16",
         "email": "Email",
         "company": "Company",
-        "free-trial-button": "Free trial information"
+        "free-trial-button": "Free trial details"
       }
     },
     "price-list": {
@@ -415,6 +452,7 @@
           "notes": "Notes"
         },
         "notes": {
+          "0-5L": "Smallest unit",
           "1L": "Single unit",
           "5L": "5% discount",
           "10L": "10% discount",
@@ -429,7 +467,7 @@
     "hero-banners": {
       "home": {
         "title": "Reduce your fuel costs. \nProtect your engine.",
-        "description": "Fuel Ox is a high-performance fuel treatment trusted \nby French fleets, generators, and marine operators.",
+        "description": "Fuel Ox® is a high-performance fuel treatment trusted \nby French fleets, generators, and marine operators.",
         "buttonLabel": "See how it works",
         "buttonLink": "/how-fuel-ox-cuts-costs"
       }
@@ -453,7 +491,7 @@
       },
       "free-trial-no-obligation": {
         "title": "",
-        "description": "No risk, no obligation. We supply the Fuel Ox needed for the test at no cost. All we ask is that you follow the protocol and share your results with us."
+        "description": "No risk, no obligation. We supply the Fuel Ox® needed for the test at no cost. All we ask is that you follow the protocol and share your results with us."
       }
     },
     "links-cards": {
@@ -573,11 +611,13 @@
     "fuelOx_needed": "FuelOx® needed",
     "fuelOx_cost": "FuelOx® cost",
     "fuelOx_cost_per_L": "Cost to treat 1L of fuel",
-    "cost_savings": "Cost savings"
+    "cost_savings": "Cost savings",
+    "reset-button": "Reset to default values"
   },
   "links": {
     "videos": {
       "how-to-add-fo": "https://www.youtube.com/watch?v=9iECyfYqDSI",
+      "how-to-add-fo-embedded": "https://www.youtube.com/embed/9iECyfYqDSI",
       "long-fuel-ox-test": "https://www.youtube.com/watch?v=XqgsoKOAI4Q"
     },
 

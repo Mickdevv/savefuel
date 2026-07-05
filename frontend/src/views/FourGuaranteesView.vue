@@ -51,6 +51,10 @@ currentPageStore.setCurrentPage('four-guarantees')
           <h2>3. {{ $t('pages.four-guarantees.save-fuel-europe-guarantee.title') }}</h2>
           <div class="section-divider"></div>
           <p>{{ $t('pages.four-guarantees.save-fuel-europe-guarantee.p1') }} </p>
+          <p>{{ $t('pages.four-guarantees.save-fuel-europe-guarantee.p2_1') }}<a target="_blank"
+              :href="$t('links.documents.trial-procedure')">{{
+                $t('pages.four-guarantees.save-fuel-europe-guarantee.p2_2') }}</a>{{
+                $t('pages.four-guarantees.save-fuel-europe-guarantee.p2_3') }} </p>
         </div>
       </div>
 
@@ -62,6 +66,7 @@ currentPageStore.setCurrentPage('four-guarantees')
           <h2>4. {{ $t('pages.four-guarantees.historical-guarantee.title') }}</h2>
           <div class="section-divider"></div>
           <p>{{ $t('pages.four-guarantees.historical-guarantee.p1') }} </p>
+          <p>{{ $t('pages.four-guarantees.historical-guarantee.p2') }} </p>
         </div>
       </div>
 

@@ -47,12 +47,14 @@ const { tm } = useI18n()
 
       <h3 v-html="($t('pages.free-trial-procedure.email-title'))"></h3>
 
-      <button @click="router.push('/vehicles')" class="button primary-button vehicles-link">{{
-        $t('pages.free-trial-procedure.vehicles-button')
-        }}</button>
-      <button @click="router.push('/generators')" class="button secondary-button generators-link">{{
-        $t('pages.free-trial-procedure.generators-button')
-        }}</button>
+      <div class="buttons-container">
+        <button @click="router.push('/vehicles')" class="button primary-button vehicles-link">{{
+          $t('pages.free-trial-procedure.vehicles-button')
+          }}</button>
+        <button @click="router.push('/generators')" class="button secondary-button generators-link">{{
+          $t('pages.free-trial-procedure.generators-button')
+          }}</button>
+      </div>
     </div>
 
     <div class="right-column">
@@ -66,6 +68,12 @@ const { tm } = useI18n()
 </template>
 
 <style scoped>
+.buttons-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
 .conditions-container {
   background: rgb(244, 244, 244);
   border-radius: 8px;
@@ -180,10 +188,6 @@ ol {
 
 .paragraphs {
   width: 100%;
-}
-
-.primary-button {
-  margin: 1rem;
 }
 
 .images {

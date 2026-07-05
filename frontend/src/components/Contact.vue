@@ -36,9 +36,9 @@ const contactFormSubmit = async () => {
       reason: "",
       email: ""
     }
-    toast.add({ severity: 'success', summary: 'contact form submitted', detail: 'success', life: 4000 })
+    toast.add({ severity: 'success', summary: 'contact form submitted', detail: 'success', life: 6000 })
   } catch {
-    toast.add({ severity: 'error', summary: 'Fail', detail: 'Failed to send contact form', life: 4000 })
+    toast.add({ severity: 'error', summary: 'Fail', detail: 'Failed to send contact form', life: 6000 })
   } finally {
     loading.value = false
   }

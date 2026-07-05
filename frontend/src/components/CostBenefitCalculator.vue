@@ -106,7 +106,7 @@ const costSavings = computed(() => {
       </div>
 
       <div class="calculator-footer">
-        <button @click="reset()">Reset</button>
+        <button @click="reset()">{{ $t('cost_benefit_calculator.reset-button') }}</button>
       </div>
     </div>
   </div>
@@ -116,16 +116,15 @@ const costSavings = computed(() => {
 .calculator-wrapper {
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  width: 100%;
 }
 
 .calculator-card {
   width: 100%;
-  max-width: 720px;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  background: #f4f4f4;
+  border: 1px solid var(--grey);
+  border-radius: .5rem;
+  /* box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); */
   padding: 1.5rem;
 }
 
@@ -139,23 +138,12 @@ const costSavings = computed(() => {
 
 .calculator-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5rem;
 }
 
-@media (min-width: 1080px) {
-  .calculator-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-.calculator-left {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
 .input-group {
+  margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -183,12 +171,6 @@ const costSavings = computed(() => {
   box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.15);
 }
 
-.calculator-right {
-  display: flex;
-  flex-direction: column;
-  gap: 0.8rem;
-  justify-content: space-between;
-}
 
 .result-box {
   background: #f9fafb;
@@ -196,11 +178,22 @@ const costSavings = computed(() => {
   border-radius: 8px;
   padding: 0.7rem;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0.3rem 0;
 }
 
 .result-box p {
   font-size: 0.85rem;
   color: #6b7280;
+  margin-bottom: 0.2rem;
+}
+
+.result-box.highlight p {
+  font-size: 0.85rem;
+  color: white;
   margin-bottom: 0.2rem;
 }
 
@@ -211,12 +204,13 @@ const costSavings = computed(() => {
 }
 
 .result-box.highlight {
-  background: #ecfdf5;
+  background: var(--primary-color-green);
+  color: white;
   border-color: #10b981;
 }
 
 .result-box.highlight span {
-  color: #059669;
+  color: white;
 }
 
 .calculator-footer {
@@ -226,7 +220,7 @@ const costSavings = computed(() => {
 }
 
 .calculator-footer button {
-  background: #3b82f6;
+  background: var(--grey);
   color: white;
   border: none;
   padding: 0.5rem 1.2rem;
@@ -234,10 +228,11 @@ const costSavings = computed(() => {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
+  width: 100%;
 }
 
 .calculator-footer button:hover {
-  background: #2563eb;
+  background: grey;
 }
 
 .calculator-footer button:active {
