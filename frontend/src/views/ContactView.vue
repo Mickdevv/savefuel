@@ -53,7 +53,7 @@ const submitContactForm = async () => {
         <div class="form-grid">
 
           <div class="input-group">
-            <label for="name">{{ $t('pages.contact.form.name') }}12345</label>
+            <label for="name">{{ $t('pages.contact.form.name') }}</label>
             <input id="name" required v-model="contactFormData.name" type="text" />
           </div>
           <div class="input-group">
