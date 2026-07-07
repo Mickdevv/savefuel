@@ -17,7 +17,7 @@
   "pages": {
     "home": {
       "page-title": "Accueil",
-      "paragraphs": [ 
+      "paragraphs": [
         "Save Fuel Europe SAS est le distributeur exclusif de Fuel Ox® en France. Développé il y a plus de 30 ans pour AT&T et l'armée americaine, Fuel Ox® est un traitement pour carburant haute performance qui optimise la combustion, réduit significativement la consommation de carburant et réduit les coûts de maintenance.",
 
         "Avant même la création de Save Fuel Europe SAS, Fuel Ox® a été testé sur un Land Cruiser 2005 équipé d'un moteur turbo diesel D4D. Les résultats ont révélé une économie de carburant de 22%. Ces performances exceptionnelles nous ont convaincus du potential du produit et nous ont encouragés à l'introduire sur le marché français. Consultez le rapport du Land Cruiser  <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\">ici</a>.",
@@ -465,7 +465,7 @@
         "title": "Réduisez vos coûts de carburant.\nProtégez votre moteur.",
         "description": "Fuel Ox® est un traitement carburant haute performance \nutilisé par les flottes françaises, les groupes électrogènes \net les opérateurs maritimes.",
         "buttonLabel": "Comment ça marche ?",
-        "buttonLink": "/how-fuel-ox-cuts-costs"
+        "buttonLink": "/technical"
       }
     },
     "figures-cards": {

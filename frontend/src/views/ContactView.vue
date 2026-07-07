@@ -5,9 +5,11 @@ import axios from 'axios';
 import { ref } from 'vue';
 import { useToast } from 'primevue/usetoast';
 import { useI18n } from 'vue-i18n';
+import { useRouter } from 'vue-router';
 
 const toast = useToast();
 const { t } = useI18n()
+const router = useRouter()
 
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('contact')
@@ -66,7 +68,7 @@ const submitContactForm = async () => {
           </div>
           <div class="input-group">
             <label for="phone">{{ $t('pages.contact.form.phone-number') }}</label>
-            <input id="phone" v-model="contactFormData.phoneNumber" type="text" />
+            <input id="phone" required v-model="contactFormData.phoneNumber" type="text" />
           </div>
         </div>
         <div class="input-group">
@@ -116,7 +118,8 @@ const submitContactForm = async () => {
           </div>
         </div>
       </div>
-      <button class="button primary-button">{{ $t('pages.contact.contact-details.free-trial-button')
+      <button @click="router.push('/free-trial-procedure')" class="button primary-button">{{
+        $t('pages.contact.contact-details.free-trial-button')
         }}</button>
     </div>
   </div>
