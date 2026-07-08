@@ -14,7 +14,6 @@ function reset() {
   fuelOxPricePerL.value = 198
 }
 
-// ✅ FORMATTERS (French style: spaces + €)
 function formatNumber(value: number) {
   return new Intl.NumberFormat(locale.value).format(value)
 }
@@ -22,7 +21,8 @@ function formatNumber(value: number) {
 function formatCurrency(value: number) {
   return new Intl.NumberFormat(locale.value, {
     style: 'currency',
-    currency: 'EUR'
+    currency: 'EUR',
+    maximumFractionDigits: 6
   }).format(value)
 }
 

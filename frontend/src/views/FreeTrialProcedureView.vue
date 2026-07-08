@@ -19,7 +19,7 @@ const { tm } = useI18n()
     <div class="paragraphs">
       <h2>{{ $t('pages.free-trial-procedure.intro.title') }}</h2>
       <p>{{ $t('pages.free-trial-procedure.intro.p1') }}</p>
-      <p>{{ $t('pages.free-trial-procedure.intro.p2') }}</p>
+      <p v-html="$t('pages.free-trial-procedure.intro.p2')"></p>
 
       <h2>{{ $t('pages.free-trial-procedure.steps.title') }}</h2>
       <p>{{ $t('pages.free-trial-procedure.steps.subtitle') }}</p>

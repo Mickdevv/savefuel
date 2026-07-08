@@ -29,6 +29,13 @@ const items = computed(() => [
     command: () => router.push('/')
   },
 
+// Route remains /technical, but the displayed menu/page title is now "How it works" or "Comment ça marche".
+{
+  label: t('menubar.technical'),
+  activeFlag: '/technical',
+  command: () => router.push('/technical')
+},
+
   {
     label: t('menubar.how-to-use-fuel-ox'),
     activeFlag: '/how-to-use-fuel-ox',
@@ -51,11 +58,7 @@ const items = computed(() => [
     activeFlag: '/four-guarantees',
     command: () => router.push('/four-guarantees')
   },
-  {
-    label: t('menubar.technical'),
-    activeFlag: '/technical',
-    command: () => router.push('/technical')
-  },
+  
 
   {
     label: t('menubar.vehicles'),
