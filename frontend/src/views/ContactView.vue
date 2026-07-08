@@ -208,7 +208,7 @@ input:focus {
   max-width: 1280px;
   grid-template-columns: 1fr minmax(280px, 380px);
   gap: 48px;
-  aligh-items: start;
+  align-items: start;
   width: 100%;
 }
 

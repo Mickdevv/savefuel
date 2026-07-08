@@ -5,7 +5,7 @@
     "how-to-use-fuel-ox": "How to use Fuel Ox®",
     "free-trial-procedure": "Free trial procedure",
     "four-guarantees": "Four guarantees",
-    "technical": "Technical",
+    "technical": "How it works",
     "vehicles": "Vehicles",
     "generators": "Generators",
     "about": "Save Fuel Europe",
@@ -19,8 +19,8 @@
       "page-title": "Home",
       "paragraphs": [
         "Save Fuel Europe SAS is the exclusive distributor of Fuel Ox® in France. Developed over 30 years ago for AT&T and the US military, Fuel Ox® is a high-performance fuel treatment that optimizes combustion and significantly reduces fuel consumption.",
-        " Before Save Fuel Europe was even established, Fuel Ox® was tested on a 2005 Land Cruiser equipped with a D4D turbodiesel engine. Results showed fuel savings of 22%. These exceptional results convinced us of the product's potential and encouraged us to introduce it to the French market. See the Land Cruiser test report <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">here</a>.",
-        "Independent road tests conducted in France have confirmed these results. The minimum fuel reduction observed was 9%.  The test report is available <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">here</a>.  "
+        "Before Save Fuel Europe was even established, Fuel Ox® was tested on a 2005 Land Cruiser equipped with a D4D turbodiesel engine. Results showed fuel savings of 22%. These exceptional results convinced us of the product's potential and encouraged us to introduce it to the French market. See the Land Cruiser test report <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">here</a>.",
+        "Independent road tests conducted in France have confirmed these results. The minimum fuel reduction observed was 9%. The test report is available <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">here</a>."
       ],
       "learn-more-button": "How Fuel Ox® cuts costs"
     },
@@ -45,9 +45,9 @@
     "how-to-use-fuel-ox": {
       "page-title": "How to use Fuel Ox®",
       "watch-video-button": "Watch the video",
-      "p1": "It takes some time running your vehicle for Fuel Ox® to clean the fuel system and break up fuel molecule clumps. A first treatment of twice the normal concentration of Fuel Ox® in a full fuel tank (2 mL per 10 Litres of fuel) will give a faster result overall. When refuelling after the first tank, add 1mL of Fuel Ox® for every 10 Litres of fuel added to the tank.",
-      "p2": "You can expect fuel consumption to gradually improve until around 5 tanks of fuel have been used.",
-      "p3": "The 2 minute video here shows how to add Fuel Ox® to your vehicle or to storage containers."
+      "p1": "It takes some time running your vehicle for Fuel Ox® to clean the fuel system and break up fuel molecule clumps. A first treatment at twice the normal concentration of Fuel Ox® in a full fuel tank (2 mL per 10 litres of fuel) will give a faster result overall. When refuelling after the first tank, add 1 mL of Fuel Ox® for every 10 litres of fuel added to the tank.",
+      "p2": "You can expect fuel consumption to gradually improve until around five tanks of fuel have been used.",
+      "p3": "The 2-minute video here shows how to add Fuel Ox® to your vehicle or to storage containers."
     },
     "free-trial-procedure": {
       "page-title": "Free trial procedure",
@@ -62,15 +62,15 @@
         "steps": [
           [
             "Measure your current consumption",
-            "Start by filling up (always to the same level to ensure accuracy). Note your mileage, then use the vehicle normally. At the next fill-up, note the mileage and fuel quantity added again. This gives you your baseline consumption."
+            "Start by filling up, always to the same level to ensure accuracy. Note your mileage, then use the vehicle normally. At the next fill-up, note the mileage and fuel quantity added again. This gives you your baseline consumption."
           ],
           [
-            "Cleaning phase ",
-            "Then add Fuel Ox® (startup dose) and continue using your vehicle normally. This phase gradually cleans the fuel system and optimizes its performance."
+            "Cleaning phase",
+            "Then add Fuel Ox® at the start-up dose and continue using your vehicle normally. This phase gradually cleans the fuel system and optimizes its performance."
           ],
           [
-            "Measure jour savings",
-            "After this phase, continue with the normal dose of Fuel Ox®. Record your consumption data again to easily compare with your initial results."
+            "Measure your savings",
+            "After this phase, continue with the normal dose of Fuel Ox®. Record your consumption data again to compare easily with your initial results."
           ]
         ]
       },
@@ -78,7 +78,7 @@
         "Test the reduction in your fuel consumption — free of charge.",
         "At Save Fuel Europe, we offer you a free trial so you can see the possible savings for yourself before making any purchase.",
         "We provide the quantity of Fuel Ox® needed to carry out this test under real conditions. For reliable results, we recommend using a vehicle that fills up at least twice a week and normally operates under similar conditions.",
-        "How does the trial work?  The trial is simply carried out in three stages: "
+        "How does the trial work? The trial is simply carried out in three stages:"
       ],
       "test-conditions": {
         "title": "Test conditions",
@@ -97,78 +97,70 @@
       "page-title": "Vehicles",
       "direct-cost-benefit": {
         "title": "Direct cost benefit",
-        "p1": "A large truck driving 150,000 km a year burning 30 L/100 km uses 45,000 L of fuel.  At 9% cut in consumption, this saves 4 050 L. ",
-        "p2": "Treating 45,000 L of fuel takes 4.5 L of Fuel Ox®, costing €891 + VAT.  If fuel costs €1.67 + VAT (€2.00 total), Fuel Ox® cuts your fuel cost by €4,369 including the cost of Fuel Ox®."
+        "description": [
+          "A large truck driving 150,000 km per year with average consumption of 30 L/100 km uses 45,000 litres of fuel per year. With a 9% reduction in consumption, this represents 4,050 litres saved.",
+          "Treating those 45,000 litres requires only 4.5 litres of Fuel Ox®, costing €891 ex VAT. At a fuel price of €2.00 incl. VAT/litre (€1.67 ex VAT), Fuel Ox® provides a net saving of €5,872 ex VAT per year, including the cost of treatment.",
+          "For a fleet of 10 trucks, this represents a net annual saving of approximately €58,720."
+        ]
       },
       "other-benefits": {
         "title": "Other benefits",
         "p1_1": "For more technical information, read the ",
         "p1_2": "Fuel Ox® white paper",
-        "p1_3": "for detailed technical information. ",
+        "p1_3": "for detailed technical information.",
         "p3": "The US manufacturer reports these additional benefits based on many years of fuel treatment with Fuel Ox®:",
         "bullet-points": [
-          "<strong>Combustion optimised</strong>  Polymerisation of fuel molecules broken and re-polymerisation prevented. Maxmimises burn efficiency.",
-
-          "<strong>Reduced AdBlue consumption</strong>  Nitrous Oxide emissions reduce so AdBlue use also reduces.",
-
-          "<strong>Preserves DPF filters</strong>  Around 60% fewer black soot particulates are produced. DPF filters work less with fewer regeneration cycles and last longer.",
-
-          "<strong>Protects fuel filters and injectors</strong>  Emulsions, sludges and scale are reduced, preventing filter blockage and maintaining injector efficiency.",
-
-          "<strong>Antibacterial properties</strong>  Microbial growth is eliminated with a biostatic agent.",
-
-          "<strong>Reduced emissions</strong>  Incorporates compounds that act as a catalytic converter, reducing carbon monoxide and unburnt hydrocarbons to CO<sub>2</sub> and water.",
-
-          "<strong>Extends storage life</strong>  Storage life of fuel extended up to 2 years by eliminating polymerisation and microbial growth."
+          "<strong>Combustion optimised</strong> Polymerisation of fuel molecules is broken down and re-polymerisation is prevented. Maximises burn efficiency.",
+          "<strong>Reduced AdBlue consumption</strong> Nitrous oxide emissions are reduced, so AdBlue use is also reduced.",
+          "<strong>Preserves DPF filters</strong> Around 60% fewer black soot particulates are produced. DPF filters work less, with fewer regeneration cycles, and last longer.",
+          "<strong>Protects fuel filters and injectors</strong> Emulsions, sludges and scale are reduced, preventing filter blockage and maintaining injector efficiency.",
+          "<strong>Antibacterial properties</strong> Microbial growth is eliminated with a biostatic agent.",
+          "<strong>Reduced emissions</strong> Incorporates compounds that act as a catalytic converter, reducing carbon monoxide and unburnt hydrocarbons to CO<sub>2</sub> and water.",
+          "<strong>Extends storage life</strong> Storage life of fuel is extended up to 2 years by eliminating polymerisation and microbial growth."
         ]
       },
-
       "trial-reports": {
         "title": "Trial reports",
         "bullet-points": [
           "France, Mercedes Sprinter with refrigeration. 10% fuel saving. <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2026-test-Mercedes-Sprinter.pdf\" target=\"_blank\">Laguilhon SAS</a>",
-
-          "France, off road rally vehicle, 9% fuel saving.  <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">SARL Bearn Land</a>",
-
-          "France, turbo diesel Land Cruiser, 22% fuel saving.  <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">2005 Land Cruiser</a>",
-
-          "Burkino Faso gold mine.  <a href=\"https://save-fuel.eu/docs/en/Vehicle/Goldmine-Trial-Burkina-Faso.pdf\" target=\"_blank\">Caterpillar 150 ton haul trucks and bulldozer test</a>",
-
-          "Ghana mine.  <a href=\"https://save-fuel.eu/docs/en/Vehicle/Adamus-Resources-Ghana-mine.pdf\" target=\"_blank\">Haul trucks, bulldozer and excavator test</a>"
+          "France, off-road rally vehicle. 9% fuel saving. <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">SARL Bearn Land</a>",
+          "France, turbo diesel Land Cruiser. 22% fuel saving. <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">2005 Land Cruiser</a>",
+          "Burkina Faso gold mine. <a href=\"https://save-fuel.eu/docs/en/Vehicle/Goldmine-Trial-Burkina-Faso.pdf\" target=\"_blank\">Caterpillar 150-ton haul trucks and bulldozer test</a>",
+          "Ghana mine. <a href=\"https://save-fuel.eu/docs/en/Vehicle/Adamus-Resources-Ghana-mine.pdf\" target=\"_blank\">Haul trucks, bulldozer and excavator test</a>"
         ]
       },
       "document-cards": [
         {
           "title": "Laguilhon SAS",
-          "description": "France, Mercedes Sprinter avec réfrigération. 10 % d'économie de carburant.",
+          "description": "France, Mercedes Sprinter with refrigeration. 10% fuel saving.",
           "type": "documents",
           "link": "laguilhon-trial",
           "icon": "file"
         },
         {
           "title": "SARL Bearn Land",
-          "description": "France, véhicule tout-terrain, économie de carburant de 9 %.",
+          "description": "France, off-road vehicle. 9% fuel saving.",
           "type": "documents",
           "link": "land-rover-trial",
           "icon": "file"
         },
         {
           "title": "2005 Toyota Land Cruiser",
-          "description": "France, Land Cruiser turbo diesel, économie de carburant de 22 %.",
+          "description": "France, turbo diesel Land Cruiser. 22% fuel saving.",
           "type": "documents",
           "link": "land-cruiser-22pc-report",
           "icon": "file"
         },
         {
           "title": "Burkina Faso",
-          "description": "Mine d'or Burkino Faso. Camions de transport Caterpillar de 150 tonnes et essai de bulldozer.",
+          "description": "Burkina Faso gold mine. Caterpillar 150-ton haul trucks and bulldozer test.",
           "type": "documents",
           "link": "burkhina-faso-mine",
           "icon": "file"
         },
         {
           "title": "Ghana",
-          "description": "Essai de mines au Ghana. Camions de remorque, bulldozer et excavatrice.",
+          "description": "Ghana mine test. Haul trucks, bulldozer and excavator.",
           "type": "documents",
           "link": "ghana-mine",
           "icon": "file"
@@ -178,33 +170,26 @@
         "title": "Other vehicle documents",
         "bullet-points": [
           "Video, <a href=\"https://www.youtube.com/watch?v=9iECyfYqDSI\" target=\"_blank\">How to add Fuel Ox®</a>",
-
-          "Video about a 6 month trial of Fuel Ox®, <a href=\"https://www.youtube.com/watch?v=XqgsoKOAI4Q\" target=\"_blank\">Long Fuel Ox® test</a>",
-
+          "Video about a 6-month trial of Fuel Ox®, <a href=\"https://www.youtube.com/watch?v=XqgsoKOAI4Q\" target=\"_blank\">Long Fuel Ox® test</a>",
           "<a href=\"https://save-fuel.eu/docs/en/Vehicle/FuelOX-Trucking-Fleet-Hard-Numbers.pdf\" target=\"_blank\" @click.stop>Truck fleet operations</a>",
-
           "<a href=\"https://save-fuel.eu/docs/en/Vehicle/FAQ-ski-stations.pdf\" target=\"_blank\" @click.stop>Ski stations FAQ</a>",
-
           "<a href=\"https://save-fuel.eu/docs/en/Vehicle/Vehicle-test-procedure.pdf\" target=\"_blank\" @click.stop>Generic vehicle test procedure</a>",
-
           "Scotland, <a href=\"https://save-fuel.eu/docs/en/Vehicle/Transit-Van-Emissions-Results.pdf\" target=\"_blank\" @click.stop>Ford Transit van emissions test</a>",
-
           "United Arab Emirates, <a href=\"https://save-fuel.eu/docs/en/Vehicle/UAE-truck-emissions-trial.pdf\" target=\"_blank\" @click.stop>Mitsubishi truck emissions test</a>"
         ]
       },
       "four-guarantees-button": "Four guarantees"
     },
-
     "four-guarantees": {
       "page-title": "Four guarantees",
       "manufacturers-guarantee": {
         "title": "Manufacturer's guarantee",
-        "p1_1": "Fuel Ox® carries insurance for up to US$ 2,000,000 in case of damage to an engine caused by Fuel Ox® treatment. No claim was ever made. No user has ever alleged that using Fuel Ox® damaged their engine.",
-        "p1_2": "See FuelOx guarantee."
+        "p1_1": "Fuel Ox® carries insurance for up to US$2,000,000 in case of damage to an engine caused by Fuel Ox® treatment. No claim has ever been made. No user has ever alleged that using Fuel Ox® damaged their engine.",
+        "p1_2": "See Fuel Ox® guarantee."
       },
       "EN590-ASTM-950": {
         "title": "EN590 and ASTM-D975 compliance guarantees",
-        "p1_1": "Laboratory tests completed by Intertek in France compared untreated diesel with diesel treated with twice the normal concentration of Fuel Ox®. Most measurements were the same, 7 showed tiny differences. The treated fuel remains compliant with the EN590 specification. The lab report also notes that treated Red Diesel also remains within specification. Fuel Ox® presence cannot be detected by testing to EN590. Engine warranty remains valid because the fuel meets the required specification. See the France Intertek lab EN590 tests.",
+        "p1_1": "Laboratory tests completed by Intertek in France compared untreated diesel with diesel treated with twice the normal concentration of Fuel Ox®. Most measurements were the same; seven showed tiny differences. The treated fuel remains compliant with the EN590 specification. The lab report also notes that treated red diesel also remains within specification. Fuel Ox® presence cannot be detected by testing to EN590. Engine warranty remains valid because the fuel meets the required specification.",
         "p1_2": "See the France Intertek lab EN590 tests.",
         "p2": "Comparative lab tests to the US standard ASTM-D975 also showed that treated fuel results were almost identical and met the standard."
       },
@@ -213,121 +198,100 @@
         "p1": "Our own and many independent tests prove that Fuel Ox® treatment cuts vehicle fuel consumption from 6% up to 28%. Test reports are on the Vehicles page. The lowest saving from independent tests in France showed a 9% reduction in fuel consumption.",
         "p2_1": "Our guarantee is that if you perform a fuel efficiency trial using our ",
         "p2_2": "trial procedure",
-        "p2_3": " and report the results to us, that it will cost you nothing if there is no improvement in fuel efficiency."
+        "p2_3": " and report the results to us, it will cost you nothing if there is no improvement in fuel efficiency."
       },
       "historical-guarantee": {
         "title": "Historical guarantee",
-        "p1": "Fuel Ox® was developed in the 1990’s for the AT&T company and the US military. With a 30 year history, Fuel Ox® currently treats around 50,000,000 litres of fuel each month. Users would not continue to buy Fuel Ox® if it didn’t work",
+        "p1": "Fuel Ox® was developed in the 1990s for AT&T and the US military. With a 30-year history, Fuel Ox® currently treats around 50,000,000 litres of fuel each month. Users would not continue to buy Fuel Ox® if it did not work.",
         "p2": "Proven technology over 30 years guarantees the cost effectiveness of fuel treatment with Fuel Ox®."
       },
       "technical-button": "Technical information"
     },
-
     "generators": {
       "page-title": "Generators",
-
       "direct-cost-benefit": {
         "title": "Direct cost benefit",
-
         "description": [
-          "A typical well maintained 100 kVA generator at 75% full load would burn around 21 L/hour, providing ~ 3.6 kWh/L. If that was used over 22 × 8 hour working days in a month, untreated fuel used would be 21 × 8 × 22 = 3696 L. At 9% cut in consumption, this saves 332 L.",
-
-          "Treating 3696 L of fuel takes 0.37 L of Fuel Ox®, costing €73 + VAT. If fuel costs €1.67 + VAT (€2.00 total), a 9% saving cuts the fuel cost of one generator over one month by €482 ex VAT including the cost of Fuel Ox®.",
-
-          "For remote locations, logistics becomes easier as each load of fuel lasts longer."
+          "A typical well-maintained 100 kVA generator at 75% full load would burn around 21 L/hour, providing approximately 3.6 kWh/L. If used over 22 × 8-hour working days in a month, untreated fuel use would be 21 × 8 × 22 = 3,696 L. At a 9% reduction in consumption, this saves 332 L.",
+          "Treating 3,696 L of fuel takes 0.37 L of Fuel Ox®, costing €73 ex VAT. If fuel costs €1.67 ex VAT (€2.00 incl. VAT), a 9% saving cuts the fuel cost of one generator over one month by €482 ex VAT, including the cost of Fuel Ox®.",
+          "For remote locations, logistics become easier as each load of fuel lasts longer."
         ]
       },
-
       "document-cards": [
         {
           "title": "Peruvian mine",
           "type": "documents",
-          "description": "Large mine at 14,000 ft above sea level in the Andes mountains, Peru. Test done during June to August 2021 on two diesel electricity generators",
+          "description": "Large mine at 14,000 ft above sea level in the Andes, Peru. Test carried out during June to August 2021 on two diesel electricity generators.",
           "link": "peruvian-mine",
           "icon": "file"
         }
       ],
       "other-benefits": {
         "title": "Other benefits",
-
         "p1_1": "Read the ",
         "p1_2": "Fuel Ox® white paper",
         "p1_3": "for detailed technical information.",
-
         "bullet-points": [
-          "<strong>Combustion optimised</strong> Polymerisation of fuel molecules broken and re-polymerisation prevented. Maximises burn efficiency.",
-
-          "<strong>Reduced emissions</strong> Nitrous Oxide emissions reduce.",
-
-          "<strong>Reduced soot</strong> ~60% fewer black soot particulates are produced.",
-
-          "<strong>Cleaner fuel systems</strong> Emulsions and sludges which block filters are broken.",
-
+          "<strong>Combustion optimised</strong> Polymerisation of fuel molecules is broken down and re-polymerisation is prevented. Maximises burn efficiency.",
+          "<strong>Reduced emissions</strong> Nitrous oxide emissions are reduced.",
+          "<strong>Reduced soot</strong> Around 60% fewer black soot particulates are produced.",
+          "<strong>Cleaner fuel systems</strong> Emulsions and sludges that block filters are broken down.",
           "<strong>Biostatic protection</strong> Microbial growth is eliminated with a biostatic agent.",
-
           "<strong>Catalytic effect</strong> Incorporates compounds that act as a catalytic converter, reducing carbon monoxide and unburnt hydrocarbons to CO₂ and water.",
-
-          "<strong>Long-term storage</strong> Storage life of fuel extended up to 2 years. Especially useful for emergency generators and fuel storage."
+          "<strong>Long-term storage</strong> Storage life of fuel is extended up to 2 years. Especially useful for emergency generators and fuel storage."
         ]
       },
-
       "trial-reports": {
         "title": "Trial reports",
-
         "bullet-points": [
           "Peruvian mine. <a href=\"https://save-fuel.eu/docs/en/Static/Peruvian-Mine-emissions-reduction.pdf\" target=\"_blank\">Generator emissions test</a>"
         ]
       },
-
       "four-guarantees-button": "Four guarantees"
     },
-
     "technical": {
-      "page-title": "Technical",
+      "page-title": "How it works",
       "history": {
         "title": "The science behind Fuel Ox®",
-
         "p1": "Bell Labs is an American scientific and industrial research laboratory founded in 1925. It developed radio astronomy, transistors, lasers, photovoltaic cells, charge-coupled devices, information theory, the Unix operating system, and several major programming languages. Its researchers have received eleven Nobel Prizes and five Turing Awards.",
         "p2": "The molecules of hydrocarbon fuels are polar — they have different electrical charges at different points on the molecule. This leads to polymerisation, where negative charges on one molecule adhere to positive charges on another. This causes clusters of molecules to form, preventing oxygen from reaching the molecules inside the cluster during combustion. Incomplete combustion produces soot and unburned hydrocarbons in the exhaust and requires more fuel to produce a given power output.",
-        "p3": "Polymerisation increases over time, so that after several months of production at the refinery, the fuel becomes unusable. It clogs filters and fuel lines and creates deposits inside injection systems. Engines become less efficient with use, meaning even more fuel must be burned to achieve a desired performance.",
-        "p4": "Bell Labs belonged to the large company AT&T, which owned a vast fleet of vehicles across the United States. The laboratories developed a fuel treatment to break down and prevent fuel polymerisation, restoring engine performance and fuel combustion to improve shelf life and reduce fuel consumption. This fuel treatment was subsequently adopted by the US military. Its current name is Fuel Ox®, and it currently treats approximately 50 million litres of fuel per month, primarily in the United States.",
+        "p3": "Polymerisation increases over time, so after several months from production at the refinery, fuel can become unusable. It clogs filters and fuel lines and creates deposits inside injection systems. Engines become less efficient with use, meaning even more fuel must be burned to achieve a desired performance.",
+        "p4": "Bell Labs belonged to AT&T, which owned a vast fleet of vehicles across the United States. The laboratories developed a fuel treatment to break down and prevent fuel polymerisation, restoring engine performance and fuel combustion to improve shelf life and reduce fuel consumption. This fuel treatment was subsequently adopted by the US military. Its current name is Fuel Ox®, and it currently treats approximately 50 million litres of fuel per month, primarily in the United States.",
         "p5": "Fuel Ox® contains catalysts. A catalyst causes chemical reactions without being consumed by the reaction, so a small amount of catalyst will continue to act for a long time. Normal treatment with Fuel Ox® uses one part per 10,000. One litre of Fuel Ox® treats 10,000 litres of fuel. The improvement in combustion efficiency is approximately 5%. The improvement in engine efficiency can be much greater, depending on the condition of the engine."
       },
       "technical-documents": {
         "title": "Technical documents (PDF view or download)",
-        "subtitle": "All documents are available for online viewing or download (PDF format).",
-
-        "video-trial-text": "Video about a 6 month trial of Fuel Ox®.",
+        "subtitle": "All documents are available for online viewing or download in PDF format.",
+        "video-trial-text": "Video about a 6-month trial of Fuel Ox®.",
         "video-trial-link": "Long Fuel Ox® test",
-
         "p1_1": "Product information",
-        "p1_2": "Features, standards, specifications.",
+        "p1_2": "Features, standards and specifications.",
         "p2_1": "Fuel Ox® white paper",
-        "p2_2": "5 pages, detailed explanation of how Fuel Ox® features work. Really interesting.",
+        "p2_2": "Five pages giving a detailed explanation of how Fuel Ox® works. Highly recommended reading.",
         "p3_1": "FAQ",
         "p3_2": "Common questions and answers. Please send us any questions to add at ",
         "p4_1": "GNR compared to EN590 fuel",
         "p4_2": "How the standards for Gasoil Non Routier and EU standard diesel compare for Fuel Ox® treatment.",
         "p5_1": "Fuel Ox® MSDS",
         "p5_2": "Material safety data sheet.",
-        "p6_1": "EN 590 lab tests",
-        "p6_2": "Intertek France did tests on diesel, comparing untreated fuel with Fuel Ox® added at twice the normal concentration.",
+        "p6_1": "EN590 lab tests",
+        "p6_2": "Intertek France tested diesel, comparing untreated fuel with Fuel Ox® added at twice the normal concentration.",
         "p7_1": "ASTM D-975 lab tests",
-        "p7_2": "FirstEnergy lab in Oklahoma compared Fuel Ox® treated diesel with untreated diesel.",
+        "p7_2": "FirstEnergy laboratory in Oklahoma compared Fuel Ox®-treated diesel with untreated diesel.",
         "p8_1": "Fuel Ox® manufacturer guarantee",
-        "p8_2": "A $2m insurance policy against engine damage. Never claimed."
+        "p8_2": "A US$2 million insurance policy against engine damage. Never claimed."
       },
       "document-cards": [
         {
           "title": "Product Information",
-          "description": "Characteristics, standards, specifications",
+          "description": "Characteristics, standards and specifications.",
           "type": "documents",
           "link": "product-information",
           "icon": "file"
         },
         {
           "title": "Fuel Ox® White Paper",
-          "description": "5 pages, detailed explanation of how Fuel Ox® works. Highly recommended reading.",
+          "description": "Five pages giving a detailed explanation of how Fuel Ox® works. Highly recommended reading.",
           "type": "documents",
           "link": "fo-white-paper",
           "icon": "file"
@@ -354,7 +318,7 @@
           "icon": "file"
         },
         {
-          "title": "EN 590 Laboratory Tests",
+          "title": "EN590 Laboratory Tests",
           "description": "Intertek France tested diesel, comparing untreated fuel with Fuel Ox® added at twice the normal concentration.",
           "type": "documents",
           "link": "intertek-EN590-test",
@@ -384,12 +348,11 @@
       ],
       "about-button": "About Save Fuel Europe"
     },
-
     "about": {
       "page-title": "About",
       "title": "Save Fuel Europe is the exclusive Fuel Ox® distributor in France",
       "p1": "We support transport, delivery, logistics companies and off-grid power users in reducing their fuel bills with a simple, efficient and engine-safe solution.",
-      "p2": "Do you manage a fleet of commercial vehicles, trucks or generators and see fuel costs eroding your margins month after month? You know that a significant discount would make all the difference, but you're hesitant to trust a distributor that's still relatively unknown in France?",
+      "p2": "Do you manage a fleet of commercial vehicles, trucks or generators and see fuel costs eroding your margins month after month? You know that a significant reduction would make all the difference, but you are hesitant to trust a distributor that is still relatively unknown in France?",
       "p3": "We fully understand this caution. Vehicle and generator fleet managers are primarily concerned with two things: avoiding any risk to expensive engines and managing operating costs.",
       "p4": "Save Fuel Europe is a small team of professionals. Without a large head office or flashy marketing, we focus on the essentials: a close, transparent and results-oriented service.",
       "p5": "We chose to start modestly to build real credibility with our clients. Our ambition is to provide long-term support to road transport companies, ski resorts, fleet managers and off-grid power users in France and Europe, helping them improve both their financial performance and their environmental footprint.",
@@ -427,7 +390,7 @@
           },
           "fail": {
             "summary": "Something went wrong",
-            "detail": "If the error persists, feel free to contact us directly by email"
+            "detail": "If the error persists, please contact us directly by email."
           }
         }
       },
@@ -462,12 +425,11 @@
       }
     }
   },
-
   "components": {
     "hero-banners": {
       "home": {
-        "title": "Reduce your fuel costs. \nProtect your engine.",
-        "description": "Fuel Ox® is a high-performance fuel treatment trusted \nby French fleets, generators, and marine operators.",
+        "title": "Reduce your fuel costs.\nProtect your engine.",
+        "description": "Fuel Ox® is a high-performance fuel treatment trusted by French fleets, generators and marine operators.",
         "buttonLabel": "See how it works",
         "buttonLink": "/technical"
       }
@@ -482,8 +444,8 @@
         "description": "Maximum fuel savings observed"
       },
       "annual-savings-per-truck": {
-        "title": "€7,209",
-        "description": "Annual savings per truck"
+        "title": "€5,872",
+        "description": "Annual saving per truck"
       },
       "proven-track-record": {
         "title": "30+ years",
@@ -507,25 +469,25 @@
         "href": "/generators"
       },
       "environment": {
-        "title": "Environnement",
-        "description": "Reduce emissions and environmental impact with more complete fuel combustion. ",
+        "title": "Environment",
+        "description": "Reduce emissions and environmental impact with more complete fuel combustion.",
         "href": "/technical"
       }
     },
     "advantages-cards": {
       "optimised-combustion": {
         "title": "Combustion optimised",
-        "description": "Polymerisation of fuel molecules broken and re-polymerisation prevented. Maxmimises burn efficiency.",
+        "description": "Polymerisation of fuel molecules is broken down and re-polymerisation is prevented. Maximises burn efficiency.",
         "href": ""
       },
       "adblue-saving": {
         "title": "Reduced AdBlue consumption",
-        "description": "Nitrous Oxide emissions reduce so AdBlue use also reduces.",
+        "description": "Nitrous oxide emissions are reduced, so AdBlue use is also reduced.",
         "href": ""
       },
       "dpf-filters": {
         "title": "Preserves DPF filters",
-        "description": "Around 60% fewer black soot particulates are produced. DPF filters work less with fewer regeneration cycles and last longer.",
+        "description": "Around 60% fewer black soot particulates are produced. DPF filters work less, with fewer regeneration cycles, and last longer.",
         "href": ""
       },
       "filters-and-injectors": {
@@ -545,27 +507,27 @@
       },
       "long-term-storage": {
         "title": "Extends storage",
-        "description": "Storage life of fuel extended up to 2 years by eliminating polymerisation and microbial growth.",
+        "description": "Storage life of fuel is extended up to 2 years by eliminating polymerisation and microbial growth.",
         "href": ""
       },
       "fuel-polymerization-optimization": {
         "title": "Combustion optimised",
-        "description": "Polymerisation of fuel molecules broken and re-polymerisation prevented. Maximises burn efficiency.",
+        "description": "Polymerisation of fuel molecules is broken down and re-polymerisation is prevented. Maximises burn efficiency.",
         "href": ""
       },
       "nitrous-oxide-reduction": {
         "title": "Reduced emissions",
-        "description": "Nitrous Oxide emissions reduce.",
+        "description": "Nitrous oxide emissions are reduced.",
         "href": ""
       },
       "soot-particle-reduction": {
         "title": "Reduced soot",
-        "description": "~60% fewer black soot particulates are produced.",
+        "description": "Around 60% fewer black soot particulates are produced.",
         "href": ""
       },
       "filter-clogging-prevention": {
         "title": "Cleaner fuel systems",
-        "description": "Emulsions and sludges which block filters are broken.",
+        "description": "Emulsions and sludges that block filters are broken down.",
         "href": ""
       },
       "microbial-growth-control": {
@@ -580,7 +542,7 @@
       },
       "fuel-shelf-life-extension": {
         "title": "Long-term storage",
-        "description": "Storage life of fuel extended up to 2 years. Especially useful for emergency generators and fuel storage.",
+        "description": "Storage life of fuel is extended up to 2 years. Especially useful for emergency generators and fuel storage.",
         "href": ""
       }
     },
@@ -606,11 +568,11 @@
     "fuel_price": "Fuel price (€/L incl. VAT)",
     "efficiency_gains": "Efficiency gain",
     "fuel_volume": "Fuel volume",
-    "fuelOx_price_per_L": "FuelOx® price (€/L excl. VAT)",
+    "fuelOx_price_per_L": "Fuel Ox® price (€/L excl. VAT)",
     "fuel_savings": "Fuel savings",
-    "fuelOx_needed": "FuelOx® needed",
-    "fuelOx_cost": "FuelOx® cost",
-    "fuelOx_cost_per_L": "Cost to treat 1L of fuel",
+    "fuelOx_needed": "Fuel Ox® needed",
+    "fuelOx_cost": "Fuel Ox® cost",
+    "fuelOx_cost_per_L": "Cost to treat 1 L of fuel",
     "cost_savings": "Cost savings",
     "reset-button": "Reset to default values"
   },
@@ -620,7 +582,6 @@
       "how-to-add-fo-embedded": "https://www.youtube.com/embed/9iECyfYqDSI",
       "long-fuel-ox-test": "https://www.youtube.com/watch?v=XqgsoKOAI4Q"
     },
-
     "documents": {
       "FAQ-ski-stations": "https://save-fuel.eu/docs/en/Vehicle/FAQ-ski-stations.pdf",
       "truck-fleet-ops": "https://save-fuel.eu/docs/en/Vehicle/FuelOX-Trucking-Fleet-Hard-Numbers.pdf",
@@ -631,7 +592,7 @@
       "laguilhon-trial": "https://save-fuel.eu/docs/en/Vehicle/France-2026-test-Mercedes-Sprinter.pdf",
       "burkhina-faso-mine": "https://save-fuel.eu/docs/en/Vehicle/Goldmine-Trial-Burkina-Faso.pdf",
       "ghana-mine": "https://save-fuel.eu/docs/en/Vehicle/Adamus-Resources-Ghana-mine.pdf",
-      "how-tu-use-fo": "https://save-fuel.eu/docs/en/Technical/Using-FuelOx.pdf",
+      "how-to-use-fo": "https://save-fuel.eu/docs/en/Technical/Using-FuelOx.pdf",
       "gdpr": "https://save-fuel.eu/docs/en/Business/GDPR-statement.pdf",
       "legal-details": "https://save-fuel.eu/docs/en/Business/Company-Information.pdf",
       "price-list": "https://save-fuel.eu/docs/en/Business/FuelOx-Price-List.pdf",
