@@ -18,11 +18,11 @@ function formatNumber(value: number) {
   return new Intl.NumberFormat(locale.value).format(value)
 }
 
-function formatCurrency(value: number) {
+function formatCurrency(value: number, decimalPlaces: number) {
   return new Intl.NumberFormat(locale.value, {
     style: 'currency',
     currency: 'EUR',
-    maximumFractionDigits: 6
+    maximumFractionDigits: decimalPlaces
   }).format(value)
 }
 
@@ -82,7 +82,7 @@ const costSavings = computed(() => {
           <div class="result-box">
             <p>{{ $t('cost_benefit_calculator.fuelOx_cost_per_L') }}</p>
             <span>
-              {{ formatCurrency((fuelOxPricePerL / 10000)) }}
+              {{ formatCurrency((fuelOxPricePerL / 10000),4) }}
             </span>
           </div>
 
@@ -98,7 +98,7 @@ const costSavings = computed(() => {
 
           <div class="result-box highlight">
             <p>{{ $t('cost_benefit_calculator.cost_savings') }}</p>
-            <span>{{ formatCurrency(costSavings) }}</span>
+            <span>{{ formatCurrency(costSavings,2) }}</span>
           </div>
 
         </div>
