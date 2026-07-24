@@ -4,7 +4,7 @@
     "how-fo-cuts-costs": "How Fuel Ox® cuts costs",
     "how-to-use-fuel-ox": "How to use Fuel Ox®",
     "free-trial-procedure": "Free trial procedure",
-    "four-guarantees": "Four guarantees",
+    "four-guarantees": "Four commitments",
     "technical": "How it works",
     "vehicles": "Vehicles",
     "generators": "Generators",
@@ -45,6 +45,7 @@
     "how-to-use-fuel-ox": {
       "page-title": "How to use Fuel Ox®",
       "watch-video-button": "Watch the video",
+      "learn-more-button": "How Fuel Ox® cuts costs",
       "p1": "It takes some time running your vehicle for Fuel Ox® to clean the fuel system and break up fuel molecule clumps. A first treatment at twice the normal concentration of Fuel Ox® in a full fuel tank (2 mL per 10 litres of fuel) will give a faster result overall. When refuelling after the first tank, add 1 mL of Fuel Ox® for every 10 litres of fuel added to the tank.",
       "p2": "You can expect fuel consumption to gradually improve until around five tanks of fuel have been used.",
       "p3": "The 2-minute video here shows how to add Fuel Ox® to your vehicle or to storage containers."
@@ -178,32 +179,32 @@
           "United Arab Emirates, <a href=\"https://save-fuel.eu/docs/en/Vehicle/UAE-truck-emissions-trial.pdf\" target=\"_blank\" @click.stop>Mitsubishi truck emissions test</a>"
         ]
       },
-      "four-guarantees-button": "Four guarantees"
+      "four-guarantees-button": "Four commitments"
     },
     "four-guarantees": {
-      "page-title": "Four guarantees",
+      "page-title": "Four commitments",
       "manufacturers-guarantee": {
         "title": "Manufacturer's guarantee",
         "p1_1": "Fuel Ox® carries insurance for up to US$2,000,000 in case of damage to an engine caused by Fuel Ox® treatment. No claim has ever been made. No user has ever alleged that using Fuel Ox® damaged their engine.",
         "p1_2": "See Fuel Ox® guarantee."
       },
       "EN590-ASTM-950": {
-        "title": "EN590 and ASTM-D975 compliance guarantees",
+        "title": "EN590 and ASTM-D975 compliance",
         "p1_1": "Laboratory tests completed by Intertek in France compared untreated diesel with diesel treated with twice the normal concentration of Fuel Ox®. Most measurements were the same; seven showed tiny differences. The treated fuel remains compliant with the EN590 specification. The lab report also notes that treated red diesel also remains within specification. Fuel Ox® presence cannot be detected by testing to EN590. Engine warranty remains valid because the fuel meets the required specification.",
         "p1_2": "See the France Intertek lab EN590 tests.",
         "p2": "Comparative lab tests to the US standard ASTM-D975 also showed that treated fuel results were almost identical and met the standard."
       },
       "save-fuel-europe-guarantee": {
-        "title": "Save Fuel Europe SAS guarantee",
+        "title": "Our Confidence in Fuel Ox",
         "p1": "Our own and many independent tests prove that Fuel Ox® treatment cuts vehicle fuel consumption from 6% up to 28%. Test reports are on the Vehicles page. The lowest saving from independent tests in France showed a 9% reduction in fuel consumption.",
         "p2_1": "Our guarantee is that if you perform a fuel efficiency trial using our ",
         "p2_2": "trial procedure",
         "p2_3": " and report the results to us, it will cost you nothing if there is no improvement in fuel efficiency."
       },
       "historical-guarantee": {
-        "title": "Historical guarantee",
+        "title": "Historical assurance",
         "p1": "Fuel Ox® was developed in the 1990s for AT&T and the US military. With a 30-year history, Fuel Ox® currently treats around 50,000,000 litres of fuel each month. Users would not continue to buy Fuel Ox® if it did not work.",
-        "p2": "Proven technology over 30 years guarantees the cost effectiveness of fuel treatment with Fuel Ox®."
+        "p2": "Proven technology over 30 years attests to the cost effectiveness of fuel treatment with Fuel Ox®."
       },
       "technical-button": "Technical information"
     },
@@ -247,7 +248,7 @@
           "Peruvian mine. <a href=\"https://save-fuel.eu/docs/en/Static/Peruvian-Mine-emissions-reduction.pdf\" target=\"_blank\">Generator emissions test</a>"
         ]
       },
-      "four-guarantees-button": "Four guarantees"
+      "four-guarantees-button": "Four commitments"
     },
     "technical": {
       "page-title": "How it works",
@@ -256,7 +257,7 @@
         "p1": "Bell Labs is an American scientific and industrial research laboratory founded in 1925. It developed radio astronomy, transistors, lasers, photovoltaic cells, charge-coupled devices, information theory, the Unix operating system, and several major programming languages. Its researchers have received eleven Nobel Prizes and five Turing Awards.",
         "p2": "The molecules of hydrocarbon fuels are polar — they have different electrical charges at different points on the molecule. This leads to polymerisation, where negative charges on one molecule adhere to positive charges on another. This causes clusters of molecules to form, preventing oxygen from reaching the molecules inside the cluster during combustion. Incomplete combustion produces soot and unburned hydrocarbons in the exhaust and requires more fuel to produce a given power output.",
         "p3": "Polymerisation increases over time, so after several months from production at the refinery, fuel can become unusable. It clogs filters and fuel lines and creates deposits inside injection systems. Engines become less efficient with use, meaning even more fuel must be burned to achieve a desired performance.",
-        "p4": "Bell Labs belonged to AT&T, which owned a vast fleet of vehicles across the United States. The laboratories developed a fuel treatment to break down and prevent fuel polymerisation, restoring engine performance and fuel combustion to improve shelf life and reduce fuel consumption. This fuel treatment was subsequently adopted by the US military. Its current name is Fuel Ox®, and it currently treats approximately 50 million litres of fuel per month, primarily in the United States.",
+        "p4": "Bell Labs belonged to the Atlantic Telephone and Telegraph Company (AT&T), which owned a vast fleet of vehicles across the United States. The laboratories developed a fuel treatment to break down and prevent fuel polymerisation, restoring engine performance and fuel combustion to improve shelf life and reduce fuel consumption. This fuel treatment was subsequently adopted by the US military. Its current name is Fuel Ox®, and it currently treats approximately 50 million litres of fuel per month, primarily in the United States.",
         "p5": "Fuel Ox® contains catalysts. A catalyst causes chemical reactions without being consumed by the reaction, so a small amount of catalyst will continue to act for a long time. Normal treatment with Fuel Ox® uses one part per 10,000. One litre of Fuel Ox® treats 10,000 litres of fuel. The improvement in combustion efficiency is approximately 5%. The improvement in engine efficiency can be much greater, depending on the condition of the engine."
       },
       "technical-documents": {
@@ -415,8 +416,8 @@
           "notes": "Notes"
         },
         "notes": {
-          "0-5L": "Smallest unit",
-          "1L": "Single unit",
+          "0.5L": "Smallest unit",
+          "1L": "Two x 0.5L bottles",
           "5L": "5% discount",
           "10L": "10% discount",
           "20L": "15% discount",

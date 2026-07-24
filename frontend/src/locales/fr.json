@@ -4,7 +4,7 @@
     "how-fo-cuts-costs": "Comment Fuel Ox® réduit les coûts",
     "how-to-use-fuel-ox": "Comment utiliser Fuel Ox®",
     "free-trial-procedure": "Procédure d’essai gratuit",
-    "four-guarantees": "Quatre garanties",
+    "four-guarantees": "Quatre assurances",
     "technical": "Comment ça marche",
     "vehicles": "Véhicules",
     "generators": "Générateurs",
@@ -45,10 +45,13 @@
     "how-to-use-fuel-ox": {
       "page-title": "Comment utiliser Fuel Ox®",
       "watch-video-button": "Regarder la vidéo",
+      "learn-more-button": "Comment Fuel Ox® réduit les coûts",
       "p1": "Il faut un certain temps d’utilisation du véhicule pour que Fuel Ox® nettoie le système d’alimentation et désagrège les amas de molécules de carburant. Un premier traitement à double concentration dans un réservoir plein (2 mL pour 10 litres de carburant) permet d’obtenir un résultat global plus rapide. Lors du ravitaillement après le premier plein, ajoutez 1 mL de Fuel Ox® pour chaque tranche de 10 litres de carburant ajoutée.",
       "p2": "Vous pouvez vous attendre à une amélioration progressive de la consommation jusqu’à environ cinq pleins de carburant.",
       "p3": "La vidéo de 2 minutes montre comment ajouter Fuel Ox® à votre véhicule ou à vos récipients de stockage."
+      
     },
+
     "free-trial-procedure": {
       "page-title": "Procédure d’essai gratuit",
       "intro": {
@@ -181,27 +184,27 @@
       "four-guarantees-button": "Quatre garanties"
     },
     "four-guarantees": {
-      "page-title": "Quatre garanties",
+      "page-title": "Quatre assurances",
       "manufacturers-guarantee": {
         "title": "Garantie du fabricant",
         "p1_1": "Fuel Ox® est couvert par une assurance responsabilité civile allant jusqu’à 2 000 000 $ US en cas de dommage moteur causé par le traitement Fuel Ox®. Aucune réclamation n’a jamais été faite. Aucun utilisateur n’a jamais allégué que Fuel Ox® avait endommagé son moteur.",
         "p1_2": "Voir la garantie Fuel Ox®."
       },
       "EN590-ASTM-950": {
-        "title": "Garanties de conformité EN590 et ASTM-D975",
+        "title": "Assurances de conformité EN590 et ASTM-D975",
         "p1_1": "Des tests de laboratoire réalisés par Intertek en France ont comparé du diesel non traité avec du diesel traité avec deux fois la concentration normale de Fuel Ox®. La plupart des mesures sont restées identiques ; sept ont montré de très faibles différences. Le carburant traité reste conforme à la norme EN590. Le rapport de laboratoire indique également que le Gasoil Non Routier traité reste dans les spécifications. La présence de Fuel Ox® ne peut pas être détectée par un test EN590. La garantie moteur reste valable car le carburant respecte la spécification requise.",
         "p1_2": "Voir les tests EN590 du laboratoire Intertek France.",
         "p2": "Des tests comparatifs selon la norme américaine ASTM-D975 ont également montré que les résultats du carburant traité étaient presque identiques à ceux du carburant non traité et respectaient la norme."
       },
       "save-fuel-europe-guarantee": {
-        "title": "Garantie Save Fuel Europe SAS",
+        "title": "Nos engagements et preuves de performance",
         "p1": "Nos propres tests et plusieurs essais indépendants prouvent que le traitement Fuel Ox® peut réduire la consommation de carburant des véhicules de 6 % à 28 %. Les rapports d’essais sont disponibles sur la page Véhicules. Le plus faible résultat observé lors d’essais indépendants en France a montré une réduction de 9 % de la consommation.",
         "p2_1": "Notre garantie est que si vous effectuez un essai d’efficacité énergétique selon notre ",
         "p2_2": "procédure d’essai",
         "p2_3": " et que vous nous communiquez les résultats, cela ne vous coûtera rien s’il n’y a aucune amélioration de l’efficacité énergétique."
       },
       "historical-guarantee": {
-        "title": "Garantie historique",
+        "title": "Assurance historique",
         "p1": "Fuel Ox® a été développé dans les années 1990 pour AT&T et l’armée américaine. Fort de plus de 30 ans d’historique, Fuel Ox® traite actuellement environ 50 000 000 de litres de carburant chaque mois. Les utilisateurs ne continueraient pas à acheter Fuel Ox® s’il ne fonctionnait pas.",
         "p2": "Une technologie éprouvée depuis plus de 30 ans garantit la rentabilité du traitement du carburant avec Fuel Ox®."
       },
@@ -249,7 +252,7 @@
         "p1": "Mine péruvienne",
         "p2": "Essai d’émissions sur générateurs."
       },
-      "four-guarantees-button": "Quatre garanties"
+      "four-guarantees-button": "Quatre assurances"
     },
     "technical": {
       "page-title": "Comment ça marche",
@@ -258,7 +261,7 @@
         "p1": "Bell Labs est un laboratoire américain de recherche scientifique et industrielle fondé en 1925. Il a développé la radioastronomie, les transistors, les lasers, les cellules photovoltaïques, les dispositifs à couplage de charge, la théorie de l’information, le système d’exploitation Unix et plusieurs langages de programmation majeurs. Ses chercheurs ont reçu onze prix Nobel et cinq prix Turing.",
         "p2": "Les molécules des carburants hydrocarbonés sont polaires : elles présentent des charges électriques différentes à différents endroits de la molécule. Cela favorise la polymérisation, où les charges négatives d’une molécule adhèrent aux charges positives d’une autre. Des grappes de molécules se forment alors, empêchant l’oxygène d’atteindre les molécules situées à l’intérieur pendant la combustion. Une combustion incomplète produit de la suie et des hydrocarbures imbrûlés dans l’échappement, et nécessite plus de carburant pour produire une puissance donnée.",
         "p3": "La polymérisation augmente avec le temps. Après plusieurs mois depuis la production à la raffinerie, le carburant peut se dégrader. Il peut obstruer les filtres et les conduites de carburant, et créer des dépôts dans les systèmes d’injection. Les moteurs deviennent moins efficaces avec l’usage, ce qui signifie qu’il faut brûler davantage de carburant pour obtenir les performances souhaitées.",
-        "p4": "Bell Labs appartenait à AT&T, qui possédait une vaste flotte de véhicules aux États-Unis. Les laboratoires ont développé un traitement carburant pour décomposer et prévenir la polymérisation, restaurer les performances du moteur et améliorer la combustion, la durée de stockage et la consommation. Ce traitement a ensuite été adopté par l’armée américaine. Son nom actuel est Fuel Ox®, et il traite aujourd’hui environ 50 millions de litres de carburant par mois, principalement aux États-Unis.",
+        "p4": "Bell Labs appartenait à l'enterprise Atlantic Telephone & Telegraph (AT&T), qui possédait une vaste flotte de véhicules aux États-Unis. Les laboratoires ont développé un traitement carburant pour décomposer et prévenir la polymérisation, restaurer les performances du moteur et améliorer la combustion, la durée de stockage et la consommation. Ce traitement a ensuite été adopté par l’armée américaine. Son nom actuel est Fuel Ox®, et il traite aujourd’hui environ 50 millions de litres de carburant par mois, principalement aux États-Unis.",
         "p5": "Fuel Ox® contient des catalyseurs. Un catalyseur provoque des réactions chimiques sans être consommé par la réaction ; une petite quantité peut donc continuer à agir pendant longtemps. Le traitement normal avec Fuel Ox® utilise une concentration d’une partie pour 10 000. Un litre de Fuel Ox® traite 10 000 litres de carburant. L’amélioration de l’efficacité de combustion est d’environ 5 %. L’amélioration de l’efficacité du moteur peut être beaucoup plus importante, selon son état."
       },
       "technical-documents": {
@@ -425,7 +428,7 @@
         },
         "notes": {
           "0-5L": "Plus petite unité",
-          "1L": "Unité individuelle",
+          "1L": "Deux fois 0.5 L bouteilles",
           "5L": "Remise de 5 %",
           "10L": "Remise de 10 %",
           "20L": "Remise de 15 %",
@@ -511,7 +514,7 @@
       },
       "emissions-reduction": {
         "title": "Émissions réduites",
-        "description": "Des composés catalytiques intégrés transforment plus efficacement le monoxyde de carbone et les hydrocarbures non brûlés en CO<sub>2</sub> et en eau.",
+        "description": "Des composés catalytiques intégrés transforment plus efficacement le monoxyde de carbone et les hydrocarbures non brûlés en CO₂ et en eau.",
         "href": ""
       },
       "long-term-storage": {
