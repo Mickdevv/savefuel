@@ -4,7 +4,7 @@
     "how-fo-cuts-costs": "Comment Fuel Ox® réduit les coûts",
     "how-to-use-fuel-ox": "Comment utiliser Fuel Ox®",
     "free-trial-procedure": "Procédure d’essai gratuit",
-    "four-guarantees": "Quatre assurances",
+    "four-guarantees": "Pack de conformité",
     "technical": "Comment ça marche",
     "vehicles": "Véhicules",
     "generators": "Générateurs",
@@ -181,10 +181,10 @@
           "Émirats arabes unis, <a href=\"https://save-fuel.eu/docs/fr/Vehicle/UAE-Emissions-Camion.pdf\" target=\"_blank\" @click.stop>essai d’émissions sur camion Mitsubishi</a>"
         ]
       },
-      "four-guarantees-button": "Quatre assurances"
+      "four-guarantees-button": "Pack de conformité"
     },
     "four-guarantees": {
-      "page-title": "Quatre assurances",
+      "page-title": "Pack de conformité",
       "manufacturers-guarantee": {
         "title": "Garantie du fabricant",
         "p1_1": "Fuel Ox® est couvert par une assurance responsabilité civile allant jusqu’à 2 000 000 $ US en cas de dommage moteur causé par le traitement Fuel Ox®. Aucune réclamation n’a jamais été faite. Aucun utilisateur n’a jamais allégué que Fuel Ox® avait endommagé son moteur.",
@@ -252,7 +252,7 @@
         "p1": "Mine péruvienne",
         "p2": "Essai d’émissions sur générateurs."
       },
-      "four-guarantees-button": "Quatre assurances"
+      "four-guarantees-button": "Pack de conformité"
     },
     "technical": {
       "page-title": "Comment ça marche",
@@ -456,8 +456,8 @@
         "description": "Économies de carburant maximales constatées"
       },
       "annual-savings-per-truck": {
-        "title": "5 872 €",
-        "description": "Économie annuelle par camion"
+        "title": "5 184 €",
+        "description": "Économie annuelle par camion, 45 000L €1,50/L, 9% économie"
       },
       "proven-track-record": {
         "title": "Plus de 30 ans",

@@ -4,7 +4,7 @@
     "how-fo-cuts-costs": "How Fuel Ox® cuts costs",
     "how-to-use-fuel-ox": "How to use Fuel Ox®",
     "free-trial-procedure": "Free trial procedure",
-    "four-guarantees": "Four commitments",
+    "four-guarantees": "Compliance pack",
     "technical": "How it works",
     "vehicles": "Vehicles",
     "generators": "Generators",
@@ -179,14 +179,14 @@
           "United Arab Emirates, <a href=\"https://save-fuel.eu/docs/en/Vehicle/UAE-truck-emissions-trial.pdf\" target=\"_blank\" @click.stop>Mitsubishi truck emissions test</a>"
         ]
       },
-      "four-guarantees-button": "Four commitments"
+      "four-guarantees-button": "Compliance pack"
     },
     "four-guarantees": {
-      "page-title": "Four commitments",
+      "page-title": "Compliance pack",
       "manufacturers-guarantee": {
         "title": "Manufacturer's guarantee",
         "p1_1": "Fuel Ox® carries insurance for up to US$2,000,000 in case of damage to an engine caused by Fuel Ox® treatment. No claim has ever been made. No user has ever alleged that using Fuel Ox® damaged their engine.",
-        "p1_2": "See Fuel Ox® guarantee."
+        "p1_2": "See the Fuel Ox® guarantee."
       },
       "EN590-ASTM-950": {
         "title": "EN590 and ASTM-D975 compliance",
@@ -445,8 +445,8 @@
         "description": "Maximum fuel savings observed"
       },
       "annual-savings-per-truck": {
-        "title": "€5,872",
-        "description": "Annual saving per truck"
+        "title": "€5,184",
+        "description": "Annual saving per truck, 45,000L at €1.50/L, 9% efficiency"
       },
       "proven-track-record": {
         "title": "30+ years",
