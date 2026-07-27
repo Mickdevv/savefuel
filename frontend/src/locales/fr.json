@@ -181,7 +181,7 @@
           "Émirats arabes unis, <a href=\"https://save-fuel.eu/docs/fr/Vehicle/UAE-Emissions-Camion.pdf\" target=\"_blank\" @click.stop>essai d’émissions sur camion Mitsubishi</a>"
         ]
       },
-      "four-guarantees-button": "Quatre garanties"
+      "four-guarantees-button": "Quatre assurances"
     },
     "four-guarantees": {
       "page-title": "Quatre assurances",
@@ -208,7 +208,7 @@
         "p1": "Fuel Ox® a été développé dans les années 1990 pour AT&T et l’armée américaine. Fort de plus de 30 ans d’historique, Fuel Ox® traite actuellement environ 50 000 000 de litres de carburant chaque mois. Les utilisateurs ne continueraient pas à acheter Fuel Ox® s’il ne fonctionnait pas.",
         "p2": "Une technologie éprouvée depuis plus de 30 ans garantit la rentabilité du traitement du carburant avec Fuel Ox®."
       },
-      "technical-button": "Informations techniques"
+      "technical-button": "Comment ça marche"
     },
     "generators": {
       "page-title": "Générateurs",
