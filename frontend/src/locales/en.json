@@ -100,8 +100,8 @@
         "title": "Direct cost benefit",
         "description": [
           "A large truck driving 150,000 km per year with average consumption of 30 L/100 km uses 45,000 litres of fuel per year. With a 9% reduction in consumption, this represents 4,050 litres saved.",
-          "Treating those 45,000 litres requires only 4.5 litres of Fuel Ox®, costing €891 ex VAT. At a fuel price of €2.00/litre, Fuel Ox® provides a net saving of €7,209 per year, including the cost of treatment.",
-          "For a fleet of 10 trucks, this represents a net annual saving on fuel of approximately €72,090.  Other cost benefits include reduced DPF regenerations and reduced AdBlue consumption."
+          "Treating those 45,000 litres requires only 4.5 litres of Fuel Ox®, costing €891 ex VAT. At a fuel price of €1.50/litre, Fuel Ox® provides a net saving of €5,184 per year, including the cost of treatment.",
+          "For a fleet of 10 trucks, this represents a net annual saving on fuel of approximately €51,840.  Other cost benefits include reduced DPF regenerations and reduced AdBlue consumption."
         ]
       },
       "other-benefits": {
@@ -248,7 +248,7 @@
           "Peruvian mine. <a href=\"https://save-fuel.eu/docs/en/Static/Peruvian-Mine-emissions-reduction.pdf\" target=\"_blank\">Generator emissions test</a>"
         ]
       },
-      "four-guarantees-button": "Four commitments"
+      "four-guarantees-button": "Compliance pack"
     },
     "technical": {
       "page-title": "How it works",
