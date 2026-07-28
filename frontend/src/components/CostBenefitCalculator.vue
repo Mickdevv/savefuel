@@ -3,7 +3,7 @@ import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
 const efficiencyGains = ref(9)
-const fuelPrice = ref(2.0)
+const fuelPrice = ref(1.5)
 const fuelVolume = ref(45000)
 const fuelOxPricePerL = ref(198)
 

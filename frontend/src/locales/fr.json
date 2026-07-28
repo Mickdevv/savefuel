@@ -4,7 +4,7 @@
     "how-fo-cuts-costs": "Comment Fuel Ox® réduit les coûts",
     "how-to-use-fuel-ox": "Comment utiliser Fuel Ox®",
     "free-trial-procedure": "Procédure d’essai gratuit",
-    "four-guarantees": "Quatre assurances",
+    "four-guarantees": "Pack de conformité",
     "technical": "Comment ça marche",
     "vehicles": "Véhicules",
     "generators": "Générateurs",
@@ -102,8 +102,8 @@
         "title": "Bénéfices directs sur vos coûts",
         "description": [
           "Un camion parcourant 150 000 km par an avec une consommation moyenne de 30 L/100 km utilise 45 000 litres de carburant par an. Avec une réduction de 9 % de la consommation, cela représente 4 050 litres économisés.",
-          "Le traitement de ces 45 000 litres ne nécessite que 4,5 litres de Fuel Ox®, pour un coût de 891 € HT. Avec un prix du carburant de 2,00 €/litre, Fuel Ox® offre une économie nette de 7 209 € par an, y compris le coût du traitement.",
-          "Pour une flotte de 10 camions, cela représente une économie annuelle nette d’environ 72 090 €.  Parmi les autres avantages économiques, citons la réduction des régénérations du filtre à particules (FAP) et une consommation d'AdBlue réduite."
+          "Le traitement de ces 45 000 litres ne nécessite que 4,5 litres de Fuel Ox®, pour un coût de 891 € HT. Avec un prix du carburant de 1,50 €/litre, Fuel Ox® offre une économie nette de 5 184 € par an, y compris le coût du traitement.",
+          "Pour une flotte de 10 camions, cela représente une économie annuelle nette d’environ 51 840 €.  Parmi les autres avantages économiques, citons la réduction des régénérations du filtre à particules (FAP) et une consommation d'AdBlue réduite."
         ]
       },
       "other-benefits": {
@@ -181,10 +181,10 @@
           "Émirats arabes unis, <a href=\"https://save-fuel.eu/docs/fr/Vehicle/UAE-Emissions-Camion.pdf\" target=\"_blank\" @click.stop>essai d’émissions sur camion Mitsubishi</a>"
         ]
       },
-      "four-guarantees-button": "Quatre assurances"
+      "four-guarantees-button": "Pack de conformité"
     },
     "four-guarantees": {
-      "page-title": "Quatre assurances",
+      "page-title": "Pack de conformité",
       "manufacturers-guarantee": {
         "title": "Garantie du fabricant",
         "p1_1": "Fuel Ox® est couvert par une assurance responsabilité civile allant jusqu’à 2 000 000 $ US en cas de dommage moteur causé par le traitement Fuel Ox®. Aucune réclamation n’a jamais été faite. Aucun utilisateur n’a jamais allégué que Fuel Ox® avait endommagé son moteur.",
@@ -252,7 +252,7 @@
         "p1": "Mine péruvienne",
         "p2": "Essai d’émissions sur générateurs."
       },
-      "four-guarantees-button": "Quatre assurances"
+      "four-guarantees-button": "Pack de conformité"
     },
     "technical": {
       "page-title": "Comment ça marche",
@@ -456,8 +456,8 @@
         "description": "Économies de carburant maximales constatées"
       },
       "annual-savings-per-truck": {
-        "title": "5 872 €",
-        "description": "Économie annuelle par camion"
+        "title": "5 184 €",
+        "description": "Économie annuelle par camion, 45 000L €1,50/L, 9% économie"
       },
       "proven-track-record": {
         "title": "Plus de 30 ans",
