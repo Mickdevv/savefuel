@@ -44,9 +44,14 @@ currentPageStore.setCurrentPage('how-to-use-fuel-ox')
 </template>
 
 <style scoped>
+
 iframe {
+  display: block;
   width: 100%;
-  min-height: 800px;
+  max-width: 960px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  margin: 0 auto;
   border: none;
 }
 
