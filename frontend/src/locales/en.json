@@ -580,7 +580,7 @@
   "links": {
     "videos": {
       "how-to-add-fo": "https://www.youtube.com/watch?v=9iECyfYqDSI",
-      "how-to-add-fo-embedded": "https://www.youtube.com/embed/9iECyfYqDSI",
+      "how-to-add-fo-embedded": "https://www.youtube.com/embed/9iECyfYqDSI?rel=0",
       "long-fuel-ox-test": "https://www.youtube.com/watch?v=XqgsoKOAI4Q"
     },
     "documents": {
