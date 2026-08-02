@@ -70,14 +70,14 @@ const items = computed(() => [
     command: () => router.push('/about'),
   },
   {
-    label: t('menubar.contact'),
-    activeFlag: '/contact',
-    command: () => router.push('/contact'),
-  },
-  {
     label: t('menubar.faq'),
     activeFlag: '/faq',
     command: () => router.push('/faq'),
+  },
+  {
+    label: t('menubar.contact'),
+    activeFlag: '/contact',
+    command: () => router.push('/contact'),
   },
   {
     label: t('menubar.price-list'),
