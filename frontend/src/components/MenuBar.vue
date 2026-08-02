@@ -268,20 +268,29 @@ h2 {
 }
 
 /* header */
+.overlay-menu-header .close-button:hover {
+  transition: 0.15s;
+  color: var(--primary-color-gold);
+  border: 1px solid var(--primary-color-gold);
+  background: rgba(221, 164, 17, 0.06);
+}
 .overlay-menu-header {
   display: flex;
-  justify-content: flex-end;
-  padding: 16px 20px 8px;
+  justify-content: flex-start;
+  padding: 4px 30px 4px;
   border-bottom: 1px solid #e8e8e8;
 }
 
 /* close button */
 .close-button {
   background: none;
-  border: none;
+  border: 1px solid transparent;
   cursor: pointer;
   color: #1c1c1c;
+  font-size: 24px;
+  scale: 1.5 1;
   padding: 4px;
+  border-radius: 5px;
 }
 
 .menu-list-container {
