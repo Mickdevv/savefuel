@@ -12,6 +12,7 @@
     "price-list": "Tarifs",
     "legal-details": "Mentions légales SFE",
     "contact": "Contact",
+    "faq":"FAQ",
     "gdpr": "Déclaration RGPD"
   },
   "pages": {
@@ -370,6 +371,67 @@
           "number": "+33 6 75 79 08 16"
         }
       }
+    },
+    "faq":{
+      "page-title":"FAQ",
+      "FAQs":[
+        {
+          "question":"Comment pouvez-vous garantir que Fuel Ox® réduira la consommation de carburant ?",
+          "answers":[
+            "Nous l'avons testé nous-mêmes – consulter le rapport sur le site Web documentation pour les véhicules, <a href='https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf' target='_blank'>ici</a>. Nous l'utilisons dans nos propres voitures et motos. Si ça ne fonctionne pas pour vous, cela ne vous coûtera rien. Nous fournissons la procédure à suivre et nous vous offrons Fuel Oxâ pour un essai gratuit. Les clients ne continueraient pas à acheter 5000 litres de Fuel Oxâ chaque mois si ça ne réduisait pas leurs coûts. Téléchargez le <a href='https://save-fuel.eu/docs/en/Vehicle/FuelOx-free-trial-application-form.docx' target='_blank'> formulaire de demande d'essai gratuit</a> et envoyez-le-nous par e-mail ;  ou remplissez le <a href='/contact'>formulaire de contact</a>."
+          ]
+        },
+        {
+          "question":"Avez-vous des tests indépendants ou des certifications ?",
+          "answers":[
+            "Oui. Le diesel traité à Fuel Ox® de carburant a été testé par des laboratoires indépendants selon les normes ASTM D975 et EN590. Intertek en France a noté que les résultats des tests indiquent que le gasoil traité par Fuel Ox à une concentration 2x supérieure à la normale répondra aux spécifications pour EN590 en Europe. Comme le carburant reste dans les spécifications, la garantie moteur n'est pas affectée. Les rapports des tests EU et USA est disponible sur notre site web :",
+            "<a href='https://save-fuel.eu/docs/fr/Technical/EN590-Rapport-Analyse-Fuel-Ox.pdf' target='blank'>Tests laboratoire EN590</a>",
+            "<a href='https://save-fuel.eu/docs/fr/Technical/ASTM-D975-Rapport-Analyse-Fuel-Ox.pdf' target='blank'>Tests laboratoire ASTM D-975</a>",
+            "<a href='' target='blank'></a>"
+          ]
+        },
+        {
+          "question":"Fuel Oxâ peut-il tolérer une teneur élevée en soufre dans le carburant ?",
+          "answers":[
+            "Fuel Oxâ n'a aucune limitation concernant la teneur en soufre dans tout carburant distillé moyen (diesel, mazout de chauffage, gazole marin, etc.). Il est entièrement compatible avec les carburants à très faible teneur en soufre, à faible teneur en soufre et à haute teneur en soufre. Le produit n'ajoute pas de soufre au carburant."
+          ]
+        },
+        {
+          "question":"Comment Fuel Oxâ gère-t-il la contamination des réservoirs de carburant et la croissance microbienne ?",
+          "answers":[
+            "Fuel Ox a été développé à l'origine par Bell Labs pour AT&T afin de maintenir de grands volumes de carburant stockés. Il contient de puissants dispersants et un biocide de niveau d'entretien. Ces ingrédients aident à contrôler la contamination microbienne, les boues et l'accumulation de sédiments, ce qui permet de maintenir les systèmes de carburant propres et stables."
+          ]
+        },
+        {
+          "question":"Comment Fuel Oxâ affecte-t-il le carburant contenant de l'eau ?",
+          "answers":[
+            "Fuel Ox n'affecte pas négativement le carburant contenant de l'eau. Au lieu de cela, il aide en désémulsifiant l'eau, en la poussant vers le séparateur de carburant ou vers le fond du réservoir pour un drainage ou une filtration facile."
+          ]
+        },
+        {
+          "question":"Le Fuel Oxâ est-il compatible avec les équipements lourds ?",
+          "answers":[
+            "Fuel Oxâ est largement et avec succès utilisé dans la construction, l'exploitation minière et les équipements diesel lourds. Le traitement de la « fonte jaune » est au cœur de l'activité de Fuel Ox depuis des années et le restera tant que la machinerie lourde utilisera du diesel."
+          ]
+        },
+        {
+          "question":"Fuel Oxâ peut-il être utilisé dans les moteurs au gaz naturel ?",
+          "answers":[
+            "Fuel Oxâ est conçu exclusivement pour les carburants liquides à distillats moyens (diesel, fioul, kérosène, etc.). Il n'est pas formulé pour les moteurs alimentés au gaz naturel, au propane ou au méthane, y compris les moteurs Waukesha qui fonctionnent au gaz. Bien que Waukesha fabrique des moteurs pour les carburants liquides et gazeux, les moteurs fonctionnant au gaz naturel ou au propane ne sont pas visés par l'application prévue de Fuel Oxâ."
+          ]
+        },
+        {
+          "question":"Pourquoi n'ai-je jamais entendu parler de Fuel Oxâ ?",
+          "answers":[
+            "Fuel Oxâ a été développé aux États-Unis pour améliorer l'efficacité énergétique et réduire l'usure du moteur. Le marché intérieur des États-Unis est énorme, de sorte que l'additif n'a pas été activement commercialisé dans l'UE jusqu'à présent. ",
+            "Il est utilisé par le ministère américain de la Défense, des organisations commerciales ainsi que des particuliers. Les niveaux de production actuels traitent environ 5 millions de litres de carburant par mois. Save Fuel Europe SAS est le distributeur Européen de Fuel Ox. Consulter les informations sur les produits, y compris les normes, à l’adresse <a target='_blank' href='https://save-fuel.eu/docs/fr/Technical/FuelOxInformation-Produit.pdf'> .</a>"
+          ]
+        }
+
+
+
+      ]
+
     },
     "contact": {
       "page-title": "Contact",

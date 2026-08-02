@@ -29,12 +29,12 @@ const items = computed(() => [
     command: () => router.push('/')
   },
 
-// Route remains /technical, but the displayed menu/page title is now "How it works" or "Comment ça marche".
-{
-  label: t('menubar.technical'),
-  activeFlag: '/technical',
-  command: () => router.push('/technical')
-},
+  // Route remains /technical, but the displayed menu/page title is now "How it works" or "Comment ça marche".
+  {
+    label: t('menubar.technical'),
+    activeFlag: '/technical',
+    command: () => router.push('/technical')
+  },
 
   {
     label: t('menubar.how-to-use-fuel-ox'),
@@ -58,7 +58,7 @@ const items = computed(() => [
     activeFlag: '/four-guarantees',
     command: () => router.push('/four-guarantees')
   },
-  
+
 
   {
     label: t('menubar.vehicles'),
@@ -79,6 +79,11 @@ const items = computed(() => [
     label: t('menubar.contact'),
     activeFlag: '/contact',
     command: () => router.push('/contact')
+  },
+  {
+    label: t('menubar.faq'),
+    activeFlag: '/faq',
+    command: () => router.push('/faq')
   },
   {
     label: t('menubar.price-list'),
@@ -180,7 +185,7 @@ function navigate(path: string) {
         </div>
         <div class="language-selector">
           <button @click="localeStore.toggleLocale();" class="language-selector-select">{{ $i18n.locale.toUpperCase()
-            }}</button>
+          }}</button>
         </div>
       </div>
     </div>
