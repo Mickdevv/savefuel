@@ -30,7 +30,7 @@ type FAQ = {
           "
         >
           <h3>{{ faq.question }}</h3>
-          <i class="toggle-open" :class="faq.open ? 'pi pi-arrow-up' : 'pi pi-arrow-down'"></i>
+          <i class="toggle-open" :class="faq.open ? 'pi pi-angle-up' : 'pi pi-angle-down'"></i>
         </div>
         <div class="body" v-if="faq.open">
           <p v-html="answer" v-for="(answer, answer_index) in faq.answers"></p>
@@ -40,6 +40,11 @@ type FAQ = {
   </div>
 </template>
 <style scoped>
+.toggle-open {
+  scale: 1.5;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
 .FAQ-container .body {
   padding: 15px;
   width: 100%;
