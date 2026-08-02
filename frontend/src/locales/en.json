@@ -360,6 +360,61 @@
       "p6": "As the exclusive distributor in France, we are committed to providing personalized support and quality service to all our customers.",
       "p7": " "
     },
+    "faq": {
+      "page-title": "FAQ",
+      "FAQs": [
+        {
+          "question": "How can you guarantee that Fuel Ox will reduce fuel consumption by 7-20%?",
+          "answers": [
+            "We have tested it ourselves – see the <a target='_blank' href='https://savefuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf'>report</a> on the documentation for vehicles. We use it in our own cars and motorcycles. Your guarantee from us is that if it doesn’t work, it doesn’t cost you anything. We provide the procedure and sufficient free Fuel Ox for a trial. Buyers would not continue to buy 5000 litres of Fuel Ox each month if it didn’t reduce their costs. Download the <a target='_blank' href='https://save-fuel.eu/docs/en/Vehicle/FuelOx-free-trial-application-form.docx'>application form</a> for a free trial and email it to us;  or fill in the <a href='/contact'>Contact form</a>."
+          ]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        },
+        {
+          "question": "",
+          "answers": [""]
+        }
+      ]
+    },
     "contact": {
       "page-title": "Contact",
       "form": {
@@ -614,3 +669,4 @@
     }
   }
 }
+

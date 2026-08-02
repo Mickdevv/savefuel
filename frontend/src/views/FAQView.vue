@@ -1,24 +1,34 @@
 <script setup lang="ts">
-import { useCurrentPageStore } from '@/stores/current-page';
+import { useCurrentPageStore } from '@/stores/current-page'
 import Button from 'primevue/button'
-import { useI18n } from 'vue-i18n';
+import { useI18n } from 'vue-i18n'
 
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('faq')
 
-
 type FAQ = {
-  question: string,
-  answers: string[],
+  question: string
+  answers: string[]
   open: boolean
 }
 </script>
 <template>
   <div class="page-container">
     <div class="FAQ-container">
-      <div class="FAQ" :style="index % 2 == 0 ? 'background: rgb(244, 244, 244);' : ''"
-        v-for="(faq, index) in $tm('pages.faq.FAQs') as FAQ[]" :key="index">
-        <div class="title" @click="() => { faq.open = !faq.open }">
+      <div
+        class="FAQ"
+        :style="index % 2 == 0 ? 'background: rgb(244, 244, 244);' : ''"
+        v-for="(faq, index) in $tm('pages.faq.FAQs') as FAQ[]"
+        :key="index"
+      >
+        <div
+          class="title"
+          @click="
+            () => {
+              faq.open = !faq.open
+            }
+          "
+        >
           <h3>{{ faq.question }}</h3>
           <i class="toggle-open" :class="faq.open ? 'pi pi-arrow-up' : 'pi pi-arrow-down'"></i>
         </div>
@@ -56,7 +66,6 @@ type FAQ = {
   padding: 1rem;
   border: 2px solid rgb(232, 232, 232);
   width: 100%;
-
 }
 
 .page-container {

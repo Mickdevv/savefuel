@@ -12,7 +12,7 @@
     "price-list": "Tarifs",
     "legal-details": "Mentions légales SFE",
     "contact": "Contact",
-    "faq":"FAQ",
+    "faq": "FAQ",
     "gdpr": "Déclaration RGPD"
   },
   "pages": {
@@ -50,7 +50,6 @@
       "p1": "Il faut un certain temps d’utilisation du véhicule pour que Fuel Ox® nettoie le système d’alimentation et désagrège les amas de molécules de carburant. Un premier traitement à double concentration dans un réservoir plein (2 mL pour 10 litres de carburant) permet d’obtenir un résultat global plus rapide. Lors du ravitaillement après le premier plein, ajoutez 1 mL de Fuel Ox® pour chaque tranche de 10 litres de carburant ajoutée.",
       "p2": "Vous pouvez vous attendre à une amélioration progressive de la consommation jusqu’à environ cinq pleins de carburant.",
       "p3": "La vidéo de 2 minutes montre comment ajouter Fuel Ox® à votre véhicule ou à vos récipients de stockage."
-      
     },
 
     "free-trial-procedure": {
@@ -58,7 +57,7 @@
       "intro": {
         "title": "Testez gratuitement la réduction de votre consommation de carburant.",
         "p1": "Chez Save Fuel Europe, nous vous proposons un essai gratuit afin que vous puissiez constater par vous-même les économies possibles avant tout achat.",
-       "p2": "Nous fournissons la quantité de Fuel Ox® nécessaire pour réaliser ce test en conditions réelles. Pour obtenir des résultats fiables, nous recommandons d’utiliser un véhicule qui fait le plein au moins deux fois par semaine et qui fonctionne habituellement dans des conditions similaires. Veuillez <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Formulaire-de-demande-essai-gratuit-camions.docx\" target=\"_blank\">télécharger le formulaire de demande</a>, puis <a href=\"mailto:contact%40save-fuel.eu?subject=Essai%20gratuit\">envoyez le formulaire rempli par email</a> afin de nous fournir les informations nécessaires à la mise en place de l’essai."
+        "p2": "Nous fournissons la quantité de Fuel Ox® nécessaire pour réaliser ce test en conditions réelles. Pour obtenir des résultats fiables, nous recommandons d’utiliser un véhicule qui fait le plein au moins deux fois par semaine et qui fonctionne habituellement dans des conditions similaires. Veuillez <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Formulaire-de-demande-essai-gratuit-camions.docx\" target=\"_blank\">télécharger le formulaire de demande</a>, puis <a href=\"mailto:contact%40save-fuel.eu?subject=Essai%20gratuit\">envoyez le formulaire rempli par email</a> afin de nous fournir les informations nécessaires à la mise en place de l’essai."
       },
       "steps": {
         "title": "Comment se déroule l’essai ?",
@@ -372,66 +371,90 @@
         }
       }
     },
-    "faq":{
-      "page-title":"FAQ",
-      "FAQs":[
+    "faq": {
+      "page-title": "FAQ",
+      "FAQs": [
         {
-          "question":"Comment pouvez-vous garantir que Fuel Ox® réduira la consommation de carburant ?",
-          "answers":[
-            "Nous l'avons testé nous-mêmes – consulter le rapport sur le site Web documentation pour les véhicules, <a href='https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf' target='_blank'>ici</a>. Nous l'utilisons dans nos propres voitures et motos. Si ça ne fonctionne pas pour vous, cela ne vous coûtera rien. Nous fournissons la procédure à suivre et nous vous offrons Fuel Oxâ pour un essai gratuit. Les clients ne continueraient pas à acheter 5000 litres de Fuel Oxâ chaque mois si ça ne réduisait pas leurs coûts. Téléchargez le <a href='https://save-fuel.eu/docs/en/Vehicle/FuelOx-free-trial-application-form.docx' target='_blank'> formulaire de demande d'essai gratuit</a> et envoyez-le-nous par e-mail ;  ou remplissez le <a href='/contact'>formulaire de contact</a>."
+          "question": "Comment pouvez-vous garantir que Fuel Ox® réduira la consommation de carburant ?",
+          "answers": [
+            "Nous l'avons testé nous-mêmes – consulter le rapport sur le site Web documentation pour les véhicules, <a href='https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf' target='_blank'>ici</a>. Nous l'utilisons dans nos propres voitures et motos. Si ça ne fonctionne pas pour vous, cela ne vous coûtera rien. Nous fournissons la procédure à suivre et nous vous offrons Fuel Ox® pour un essai gratuit. Les clients ne continueraient pas à acheter 5000 litres de Fuel Ox® chaque mois si ça ne réduisait pas leurs coûts. Téléchargez le <a href='https://save-fuel.eu/docs/en/Vehicle/FuelOx-free-trial-application-form.docx' target='_blank'> formulaire de demande d'essai gratuit</a> et envoyez-le-nous par e-mail ;  ou remplissez le <a href='/contact'>formulaire de contact</a>."
           ]
         },
         {
-          "question":"Avez-vous des tests indépendants ou des certifications ?",
-          "answers":[
-            "Oui. Le diesel traité à Fuel Ox® de carburant a été testé par des laboratoires indépendants selon les normes ASTM D975 et EN590. Intertek en France a noté que les résultats des tests indiquent que le gasoil traité par Fuel Ox à une concentration 2x supérieure à la normale répondra aux spécifications pour EN590 en Europe. Comme le carburant reste dans les spécifications, la garantie moteur n'est pas affectée. Les rapports des tests EU et USA est disponible sur notre site web :",
+          "question": "Avez-vous des tests indépendants ou des certifications ?",
+          "answers": [
+            "Oui. Le diesel traité à Fuel Ox® de carburant a été testé par des laboratoires indépendants selon les normes ASTM D975 et EN590. Intertek en France a noté que les résultats des tests indiquent que le gasoil traité par Fuel Ox® à une concentration 2x supérieure à la normale répondra aux spécifications pour EN590 en Europe. Comme le carburant reste dans les spécifications, la garantie moteur n'est pas affectée. Les rapports des tests EU et USA est disponible sur notre site web :",
             "<a href='https://save-fuel.eu/docs/fr/Technical/EN590-Rapport-Analyse-Fuel-Ox.pdf' target='blank'>Tests laboratoire EN590</a>",
             "<a href='https://save-fuel.eu/docs/fr/Technical/ASTM-D975-Rapport-Analyse-Fuel-Ox.pdf' target='blank'>Tests laboratoire ASTM D-975</a>",
             "<a href='' target='blank'></a>"
           ]
         },
         {
-          "question":"Fuel Oxâ peut-il tolérer une teneur élevée en soufre dans le carburant ?",
-          "answers":[
-            "Fuel Oxâ n'a aucune limitation concernant la teneur en soufre dans tout carburant distillé moyen (diesel, mazout de chauffage, gazole marin, etc.). Il est entièrement compatible avec les carburants à très faible teneur en soufre, à faible teneur en soufre et à haute teneur en soufre. Le produit n'ajoute pas de soufre au carburant."
+          "question": "Fuel Ox® peut-il tolérer une teneur élevée en soufre dans le carburant ?",
+          "answers": [
+            "Fuel Ox® n'a aucune limitation concernant la teneur en soufre dans tout carburant distillé moyen (diesel, mazout de chauffage, gazole marin, etc.). Il est entièrement compatible avec les carburants à très faible teneur en soufre, à faible teneur en soufre et à haute teneur en soufre. Le produit n'ajoute pas de soufre au carburant."
           ]
         },
         {
-          "question":"Comment Fuel Oxâ gère-t-il la contamination des réservoirs de carburant et la croissance microbienne ?",
-          "answers":[
-            "Fuel Ox a été développé à l'origine par Bell Labs pour AT&T afin de maintenir de grands volumes de carburant stockés. Il contient de puissants dispersants et un biocide de niveau d'entretien. Ces ingrédients aident à contrôler la contamination microbienne, les boues et l'accumulation de sédiments, ce qui permet de maintenir les systèmes de carburant propres et stables."
+          "question": "Comment Fuel Ox® gère-t-il la contamination des réservoirs de carburant et la croissance microbienne ?",
+          "answers": [
+            "Fuel Ox® a été développé à l'origine par Bell Labs pour AT&T afin de maintenir de grands volumes de carburant stockés. Il contient de puissants dispersants et un biocide de niveau d'entretien. Ces ingrédients aident à contrôler la contamination microbienne, les boues et l'accumulation de sédiments, ce qui permet de maintenir les systèmes de carburant propres et stables."
           ]
         },
         {
-          "question":"Comment Fuel Oxâ affecte-t-il le carburant contenant de l'eau ?",
-          "answers":[
-            "Fuel Ox n'affecte pas négativement le carburant contenant de l'eau. Au lieu de cela, il aide en désémulsifiant l'eau, en la poussant vers le séparateur de carburant ou vers le fond du réservoir pour un drainage ou une filtration facile."
+          "question": "Comment Fuel Ox® affecte-t-il le carburant contenant de l'eau ?",
+          "answers": [
+            "Fuel Ox® n'affecte pas négativement le carburant contenant de l'eau. Au lieu de cela, il aide en désémulsifiant l'eau, en la poussant vers le séparateur de carburant ou vers le fond du réservoir pour un drainage ou une filtration facile."
           ]
         },
         {
-          "question":"Le Fuel Oxâ est-il compatible avec les équipements lourds ?",
-          "answers":[
-            "Fuel Oxâ est largement et avec succès utilisé dans la construction, l'exploitation minière et les équipements diesel lourds. Le traitement de la « fonte jaune » est au cœur de l'activité de Fuel Ox depuis des années et le restera tant que la machinerie lourde utilisera du diesel."
+          "question": "Le Fuel Ox® est-il compatible avec les équipements lourds ?",
+          "answers": [
+            "Fuel Ox® est largement et avec succès utilisé dans la construction, l'exploitation minière et les équipements diesel lourds. Le traitement de la « fonte jaune » est au cœur de l'activité de Fuel Ox® depuis des années et le restera tant que la machinerie lourde utilisera du diesel."
           ]
         },
         {
-          "question":"Fuel Oxâ peut-il être utilisé dans les moteurs au gaz naturel ?",
-          "answers":[
-            "Fuel Oxâ est conçu exclusivement pour les carburants liquides à distillats moyens (diesel, fioul, kérosène, etc.). Il n'est pas formulé pour les moteurs alimentés au gaz naturel, au propane ou au méthane, y compris les moteurs Waukesha qui fonctionnent au gaz. Bien que Waukesha fabrique des moteurs pour les carburants liquides et gazeux, les moteurs fonctionnant au gaz naturel ou au propane ne sont pas visés par l'application prévue de Fuel Oxâ."
+          "question": "Fuel Ox® peut-il être utilisé dans les moteurs au gaz naturel ?",
+          "answers": [
+            "Fuel Ox® est conçu exclusivement pour les carburants liquides à distillats moyens (diesel, fioul, kérosène, etc.). Il n'est pas formulé pour les moteurs alimentés au gaz naturel, au propane ou au méthane, y compris les moteurs Waukesha qui fonctionnent au gaz. Bien que Waukesha fabrique des moteurs pour les carburants liquides et gazeux, les moteurs fonctionnant au gaz naturel ou au propane ne sont pas visés par l'application prévue de Fuel Ox®."
           ]
         },
         {
-          "question":"Pourquoi n'ai-je jamais entendu parler de Fuel Oxâ ?",
-          "answers":[
-            "Fuel Oxâ a été développé aux États-Unis pour améliorer l'efficacité énergétique et réduire l'usure du moteur. Le marché intérieur des États-Unis est énorme, de sorte que l'additif n'a pas été activement commercialisé dans l'UE jusqu'à présent. ",
-            "Il est utilisé par le ministère américain de la Défense, des organisations commerciales ainsi que des particuliers. Les niveaux de production actuels traitent environ 5 millions de litres de carburant par mois. Save Fuel Europe SAS est le distributeur Européen de Fuel Ox. Consulter les informations sur les produits, y compris les normes, à l’adresse <a target='_blank' href='https://save-fuel.eu/docs/fr/Technical/FuelOxInformation-Produit.pdf'> .</a>"
+          "question": "Pourquoi n'ai-je jamais entendu parler de Fuel Ox® ?",
+          "answers": [
+            "Fuel Ox® a été développé aux États-Unis pour améliorer l'efficacité énergétique et réduire l'usure du moteur. Le marché intérieur des États-Unis est énorme, de sorte que l'additif n'a pas été activement commercialisé dans l'UE jusqu'à présent. ",
+            "Il est utilisé par le ministère américain de la Défense, des organisations commerciales ainsi que des particuliers. Les niveaux de production actuels traitent environ 5 millions de litres de carburant par mois. Save Fuel Europe SAS est le distributeur Européen de Fuel Ox. Consulter les informations sur les produits, y compris les normes <a target='_blank' href='https://save-fuel.eu/docs/fr/Technical/FuelOxInformation-Produit.pdf'>ici</a>."
+          ]
+        },
+        {
+          "question": "Certains des exemples sur le site Web Save Fuel montrent des réductions conséquentes de la consommation de carburant. Comment est-ce possible ?",
+          "answers": [
+            "Pour le traitement initial, une double dose est requise (2 ml par 10 litres de carburant) pour bien nettoyer le système de carburant entrainant une amélioration de la performance du moteur.",
+            "Fuel Ox® augmente également l'efficacité du processus de combustion en dépolymérisant le combustible, permettant une combustion plus complète. Fuel Ox® réduit également les fines particules provenant d’une combustion incomplète. Une fois le nettoyage fait avec le premier plein, le traitement continu (1 ml par 10 litres de carburant) permettant de garder le moteur propre tout en maintenant une efficacité de combustion maximale. Nous vous conseillions de prendre connaissance du <a href='https://savefuel.eu/docs/en/Technical/FuelOx-White-Paper.pdf' target='_blank'>livre blanc de Fuel Ox</a>."
+          ]
+        },
+        {
+          "question": "Outre la réduction de la quantité de carburant consommée, comment cela réduit-il mes coûts d'exploitation ?",
+          "answers": [
+            "Pour les véhicules utilisant l'AdBlue, les émissions de NOx sont réduites, réduisant la quantité d'AdBlue utilisée. Comme moins de particules sont produites, les véhicules équipés d'un filtre DPF ont moins de cycles de régénération, ce qui réduit la consommation de carburant.",
+            "Comme le moteur est maintenu dans un état propre et que la combustion commence à une température plus basse grâce à Fuel Ox, il y aura moins d'usure mécanique améliorant la fiabilité et réduisant les coûts de l’entretien.",
+            "Fuel Ox® empêche le bouchage du filtre éliminant ainsi une source potentielle de panne. Ceci est particulièrement important lorsque le carburant reste dans un réservoir ou dans une cuve de stockage pendant de longues périodes, par exemple les générateurs de secours ou alors les voiliers où le moteur n’est pas toujours sollicité. Un composant biocide empêche la contamination par les algues."
+          ]
+        },
+        {
+          "question": "Comment Fuel Ox® « protège-t-il la Terre » ?",
+          "answers": [
+            "Il réduit les émissions de CO2, de Nox, hydrocarbures imbrûlés et de particules."
+          ]
+        },
+        {
+          "question": "Comment puis-je manipuler Fuel Ox® en toute sécurité ?",
+          "answers": [
+            "C'est un liquide inflammable tout comme le gasoil ou l’essence. Évitez de respirer les vapeurs ; évitez le contact avec les yeux, la bouche ou la peau ; ne l'ingérez pas et tenez-le à l'écart des sources d'inflammation. Tenir hors de la portée des enfants. La fiche de données de sécurité est disponible <a target='_blank' href='https://save-fuel.eu/docs/en/Technical/FuelOx-Material-SafetyData-Sheet.pdf'>ici</a>.",
+            "Débarrassez-vous des contenants comme vous le feriez pour un contenant de carburant. Si vous avez nos bouteilles de 100 ml, vous pouvez nous les retourner ou les réutiliser."
           ]
         }
-
-
-
       ]
-
     },
     "contact": {
       "page-title": "Contact",
@@ -652,8 +675,8 @@
   },
   "links": {
     "videos": {
-     "how-to-add-fo": "https://www.youtube.com/watch?v=MB-Mvrx4GJ8",
-    "how-to-add-fo-embedded": "https://www.youtube.com/embed/MB-Mvrx4GJ8?rel=0", 
+      "how-to-add-fo": "https://www.youtube.com/watch?v=MB-Mvrx4GJ8",
+      "how-to-add-fo-embedded": "https://www.youtube.com/embed/MB-Mvrx4GJ8?rel=0",
       "long-fuel-ox-test": "https://www.youtube.com/watch?v=XqgsoKOAI4Q"
     },
     "documents": {
