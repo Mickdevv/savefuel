@@ -360,6 +360,85 @@
       "p6": "As the exclusive distributor in France, we are committed to providing personalized support and quality service to all our customers.",
       "p7": " "
     },
+    "faq": {
+      "page-title": "FAQ",
+      "FAQs": [
+        {
+          "question": "How can you guarantee that Fuel Ox® will reduce fuel consumption by 7-20%?",
+          "answers": [
+            "We have tested it ourselves – see the <a target='_blank' href='https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf'>report</a> on the documentation for vehicles. We use it in our own cars and motorcycles. Your guarantee from us is that if it doesn’t work, it doesn’t cost you anything. We provide the procedure and sufficient free Fuel Ox® for a trial. Buyers would not continue to buy 5000 litres of Fuel Ox® each month if it didn’t reduce their costs. Download the <a target='_blank' href='https://save-fuel.eu/docs/en/Vehicle/FuelOx-free-trial-application-form.docx'>application form</a> for a free trial and email it to us;  or fill in the <a href='/contact'>Contact form</a>."
+          ]
+        },
+        {
+          "question": "Do you have independent testing or certifications?",
+          "answers": [
+            "Yes. Fuel Ox® treated diesel has been tested by independent laboratories to ASTM D975 and EN590. Treated fuel meets both specifications. Intertek in France noted that the test results indicate that Fuel Ox® treated fuel will meet the specification for GNR in Europe. As the fuel remains within specification, engine warranty is not affected."
+          ]
+        },
+        {
+          "question": "Can Fuel Ox® tolerate high sulphur content in fuel?",
+          "answers": [
+            "Fuel Ox® has no limitations regarding sulphur content in any middle distillate fuel (diesel, heating oil, marine gas oil, etc.). It is fully compatible with ultra-low sulphur, low sulphur, and high sulphur fuels. The product does not add any sulphur to the fuel."
+          ]
+        },
+        {
+          "question": "How does Fuel Ox® affect fuel with water content?",
+          "answers": [
+            "Fuel Ox® does not negatively affect fuel with water content. Instead, it helps by demulsifying water, pushing it to the fuel separator or to the bottom of the tank for easy drainage or filtration."
+          ]
+        },
+        {
+          "question": "How does Fuel Ox® deal with fuel tank contamination and microbial growth?",
+          "answers": [
+            "Fuel Ox® was originally developed by Bell Labs for AT&T to maintain large volumes of stored fuel. It contains strong dispersants and a maintenance-level biocide. These ingredients help control microbial contamination, sludge, and sediment buildup, keeping fuel systems clean and stable."
+          ]
+        },
+        {
+          "question": "Is Fuel Ox® compatible with heavy equipment?",
+          "answers": [
+            "Fuel Ox® is widely and successfully used in construction, mining, and heavy diesel equipment. Treating “yellow iron” has been a core part of Fuel Ox’s business for years and will remain so as long as heavy machinery relies on diesel."
+          ]
+        },
+        {
+          "question": "Can Fuel Ox® be used in natural gas engines?",
+          "answers": [
+            "Fuel Ox® is designed exclusively for middle distillate liquid fuels (diesel, heating oil, kerosene, etc.). It is not formulated for natural gas, propane, or methane-fuelled engines, including Waukesha engines that run on gas. While Waukesha manufactures engines for both liquid and gaseous fuels, the engines operating on natural gas or propane fall outside Fuel Ox’s intended application."
+          ]
+        },
+        {
+          "question": "Why have I never heard of Fuel Ox® before now?",
+          "answers": [
+            "Fuel Ox® was developed in the United States to dramatically improve fuel efficiency and reduce engine wear. The USA home market is huge so the additive was not actively marketed in the EU until now. It’s used by the US Department of Defense, commercial organisations and individuals. It is US Environmental Protection Agency registered. Current production levels treat around 5 million litres of fuel a month. Save Fuel Europe SAS is the European distributor for Fuel Ox. See <a target='_blank' href='https://save-fuel.eu/docs/en/Technical/FuelOx-Product-Information.pdf'>product information</a> including standards."
+          ]
+        },
+        {
+          "question": "Some of the examples on the Save Fuel website show dramatic reductions in fuel consumption. How is that possible?",
+          "answers": [
+            "The initial treatment at double the normal concentration – 2 mL per 10 litres of fuel - cleans out the fuel and combustion systems of sludges, emulsions and deposits which restores the engine’s efficiency. ",
+            "Fuel Ox® also increase the efficiency of the combustion process by de-polymerising the fuel leading to more complete fuel combustion. This also reduces soot, which is caused by incomplete combustion. Continued treatment at 1 mL per 10 litres of fuel keeps the engine clean while maintaining maximum combustion efficiency. It’s worth reading the <a target='_blank' href='https://save-fuel.eu/docs/en/Technical/FuelOx-White-Paper.pdf'>Fuel Ox® white paper</a>."
+          ]
+        },
+        {
+          "question": "Apart from reducing the amount of fuel consumed, how else does it reduce my operating costs?",
+          "answers": [
+            "For vehicles using AdBlue, NOx emissions are reduced so the amount of AdBlue used reduces. As fewer particulates are produced, vehicles with a DPF filter have fewer regeneration cycles, reducing fuel consumption for regeneration.",
+            "As the engine is kept cleaner internally and combustion starts at a lower temperature, there is less wear on the engine, giving improved reliability and lower maintenance costs.",
+            "Fuel Ox® breaks sludges and emulsions and stops them from forming. This prevents filter blockage by sludge or emulsion from stopping the engine, removing a potential source of breakdown. This is especially important where fuel remains in a tank or storage container for extended periods, such as for emergency generators or sailing boats where the engine might not be used much. A biocide component prevents algal contamination."
+          ]
+        },
+        {
+          "question": "How does Fuel Ox® “Protect Earth”?",
+          "answers": ["It reduces emissions of CO2, NOx and particulates."]
+        },
+        {
+          "question": "How do I safely handle Fuel Ox?",
+          "answers": [
+            "Treat it as you would treat Diesel. It’s a combustible liquid. Avoid breathing the fumes or contact with eyes or skin, don’t ingest it and keep it away from ignition sources. Keep away from children. The Material Safety Data Sheet is available <a target='_blank' href='https://save-fuel.eu/docs/en/Technical/FuelOx-Material-Safety-Data-Sheet.pdf'>here</a>.",
+            "Dispose of the containers as you would a container that has had fuel in it. If you have our 100 mL bottles, you can return them to us or re-use them."
+          ]
+        }
+      ]
+    },
     "contact": {
       "page-title": "Contact",
       "form": {

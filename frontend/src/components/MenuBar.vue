@@ -1,21 +1,16 @@
 <script setup lang="ts">
-import { computed, ref, Transition } from 'vue';
+import { useCurrentPageStore } from '@/stores/current-page'
+import { useLocaleStore } from '@/stores/selected-language'
 import 'primeicons/primeicons.css'
-import Menu from 'primevue/menu';
-import Button from 'primevue/button';
-import Select from 'primevue/select';
-import { useLocaleStore } from '@/stores/selected-language';
-import { useCurrentPageStore } from '@/stores/current-page';
-import { useRoute, useRouter } from 'vue-router';
-import { useI18n } from 'vue-i18n';
-import Dialog from 'primevue/dialog';
+import { computed, ref, Transition } from 'vue'
+import { useI18n } from 'vue-i18n'
+import { useRoute, useRouter } from 'vue-router'
 
 const visible = ref<boolean>(false)
-const contactFormVisible = ref<boolean>(false)
 
 const localeStore = useLocaleStore()
 const currentPageStore = useCurrentPageStore()
-const menu = ref();
+const menu = ref()
 
 const { t } = useI18n()
 
@@ -26,117 +21,115 @@ const items = computed(() => [
   {
     label: t('menubar.home'),
     activeFlag: '/',
-    command: () => router.push('/')
+    command: () => router.push('/'),
   },
 
-// Route remains /technical, but the displayed menu/page title is now "How it works" or "Comment ça marche".
-{
-  label: t('menubar.technical'),
-  activeFlag: '/technical',
-  command: () => router.push('/technical')
-},
+  // Route remains /technical, but the displayed menu/page title is now "How it works" or "Comment ça marche".
+  {
+    label: t('menubar.technical'),
+    activeFlag: '/technical',
+    command: () => router.push('/technical'),
+  },
 
   {
     label: t('menubar.how-to-use-fuel-ox'),
     activeFlag: '/how-to-use-fuel-ox',
-    command: () => router.push('/how-to-use-fuel-ox')
+    command: () => router.push('/how-to-use-fuel-ox'),
   },
   {
     label: t('menubar.how-fo-cuts-costs'),
     activeFlag: '/how-fuel-ox-cuts-costs',
-    command: () => router.push('/how-fuel-ox-cuts-costs')
+    command: () => router.push('/how-fuel-ox-cuts-costs'),
   },
 
   {
     label: t('menubar.free-trial-procedure'),
     activeFlag: '/free-trial-procedure',
-    command: () => router.push('/free-trial-procedure')
+    command: () => router.push('/free-trial-procedure'),
   },
 
   {
     label: t('menubar.four-guarantees'),
     activeFlag: '/four-guarantees',
-    command: () => router.push('/four-guarantees')
+    command: () => router.push('/four-guarantees'),
   },
-  
 
   {
     label: t('menubar.vehicles'),
     activeFlag: '/vehicles',
-    command: () => router.push('/vehicles')
+    command: () => router.push('/vehicles'),
   },
   {
     label: t('menubar.generators'),
     activeFlag: '/generators',
-    command: () => router.push('/generators')
+    command: () => router.push('/generators'),
   },
   {
     label: t('menubar.about'),
     activeFlag: '/about',
-    command: () => router.push('/about')
+    command: () => router.push('/about'),
+  },
+  {
+    label: t('menubar.faq'),
+    activeFlag: '/faq',
+    command: () => router.push('/faq'),
   },
   {
     label: t('menubar.contact'),
     activeFlag: '/contact',
-    command: () => router.push('/contact')
+    command: () => router.push('/contact'),
   },
   {
     label: t('menubar.price-list'),
     activeFlag: '',
-    command: () => router.push('/price-list')
+    command: () => router.push('/price-list'),
   },
   {
     label: t('menubar.gdpr'),
     activeFlag: '',
-    command: () => window.open(t('links.documents.gdpr'))
+    command: () => window.open(t('links.documents.gdpr')),
     // command: () => router.push('/gdpr')
-  }
+  },
 ])
 const toggle = (event: any) => {
-  menu.value.toggle(event);
-};
+  menu.value.toggle(event)
+}
 
 const emit = defineEmits<{
   (e: 'update:menuOpen', value: boolean): void
 }>()
 
-
 const openMenu = () => {
   visible.value = true
 }
-const closeMenu = () => {
+const closeMenu = (command?: () => void) => {
+  command?.()
   visible.value = false
-  console.log("test coe")
+  console.log('test coe')
 }
 
 const currentPath = computed(() => route.path)
-
-function navigate(path: string) {
-  router.push(path)
-  closeMenu()
-}
-
 </script>
 
-
 <template>
-
   <Transition name="fade-in">
-    <div v-if="visible" class="overlay-menu-backdrop" @click="closeMenu"></div>
+    <div v-if="visible" class="overlay-menu-backdrop" @click="() => closeMenu()"></div>
   </Transition>
   <Transition name="drawer">
     <div v-if="visible" class="nav-drawer">
-
       <nav class="overlay-menu-panel">
         <div class="overlay-menu-header">
-          <button class="close-button" @click="closeMenu" aria-label="Close menu">X</button>
+          <button class="close-button" @click="() => closeMenu()" aria-label="Close menu">X</button>
         </div>
 
         <div class="menu-list-container">
           <ul class="menu-list">
             <li v-for="item in items" :key="item.label">
-              <p @click="item.command(); closeMenu()" class="menu-link"
-                :class="{ active: currentPath === (item.activeFlag) && item.activeFlag != '' }">
+              <p
+                @click="closeMenu(item.command)"
+                class="menu-link"
+                :class="{ active: currentPath === item.activeFlag && item.activeFlag != '' }"
+              >
                 {{ item.label }}
               </p>
             </li>
@@ -146,16 +139,11 @@ function navigate(path: string) {
     </div>
   </Transition>
 
-  <!-- <Dialog :header="$t('components.contact-form.title')" v-model:visible="contactFormVisible"> -->
-  <!--   <Contact /> -->
-  <!-- </Dialog> -->
-
-
   <div class="page-top-container">
     <div class="menubar">
       <a class="logo-link" href="/">
-        <div style="font-weight: bold; display: flex;">
-          <img src="../assets/SFE_Logo.png" style="max-width: 3rem;" />
+        <div style="font-weight: bold; display: flex">
+          <img src="../assets/SFE_Logo.png" style="max-width: 3rem" />
           <p class="company-name">Save Fuel Europe SAS</p>
         </div>
       </a>
@@ -164,23 +152,31 @@ function navigate(path: string) {
       </div>
       <div class="links">
         <span class="icons">
-          <a target="_blank" class="sm-link linkedin-link"
-            href="https://www.linkedin.com/company/save-fuel-europe/?viewAsMember=true ">
+          <a
+            target="_blank"
+            class="sm-link linkedin-link"
+            href="https://www.linkedin.com/company/save-fuel-europe/?viewAsMember=true "
+          >
             <i class="pi pi-linkedin"></i>
           </a>
-          <a target="_blank" class="sm-link youtube-link" href="https://www.youtube.com/@SaveFuelEurope">
+          <a
+            target="_blank"
+            class="sm-link youtube-link"
+            href="https://www.youtube.com/@SaveFuelEurope"
+          >
             <i class="pi pi-youtube"></i>
           </a>
         </span>
         <div class="border border-right menu">
-          <button class="language-selector-select" @click="openMenu"><i class="pi pi-align-justify">
-            </i>
+          <button class="language-selector-select" @click="openMenu">
+            <i class="pi pi-align-justify"> </i>
             <p>Menu</p>
           </button>
         </div>
         <div class="language-selector">
-          <button @click="localeStore.toggleLocale();" class="language-selector-select">{{ $i18n.locale.toUpperCase()
-            }}</button>
+          <button @click="localeStore.toggleLocale()" class="language-selector-select">
+            {{ $i18n.locale.toUpperCase() }}
+          </button>
         </div>
       </div>
     </div>
@@ -272,20 +268,29 @@ h2 {
 }
 
 /* header */
+.overlay-menu-header .close-button:hover {
+  transition: 0.15s;
+  color: var(--primary-color-gold);
+  border: 1px solid var(--primary-color-gold);
+  background: rgba(221, 164, 17, 0.06);
+}
 .overlay-menu-header {
   display: flex;
-  justify-content: flex-end;
-  padding: 16px 20px 8px;
+  justify-content: flex-start;
+  padding: 4px 30px 4px;
   border-bottom: 1px solid #e8e8e8;
 }
 
 /* close button */
 .close-button {
   background: none;
-  border: none;
+  border: 1px solid transparent;
   cursor: pointer;
   color: #1c1c1c;
+  font-size: 24px;
+  scale: 1.5 1;
   padding: 4px;
+  border-radius: 5px;
 }
 
 .menu-list-container {
@@ -346,10 +351,10 @@ h2 {
   color: hsla(195, 100%, 37%, 1);
 }
 
-@media (min-width: 100px) {}
+@media (min-width: 100px) {
+}
 
 @media (min-width: 1000px) {
-
   .youtube-link,
   .linkedin-link {
     display: inline;
@@ -361,10 +366,11 @@ h2 {
 }
 
 .page-top-container {
-  background: linear-gradient(to bottom,
-      rgba(44, 57, 245, 0.2) 0%,
-      /* rgba(44, 57, 205, 0.5) 50%, */
-      rgba(44, 57, 245, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(44, 57, 245, 0.2) 0%,
+    /* rgba(44, 57, 205, 0.5) 50%, */ rgba(44, 57, 245, 0) 100%
+  );
 }
 
 .language-selector-select p {
@@ -384,7 +390,6 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 5px;
-
 }
 
 .language-selector-select:hover {
@@ -402,7 +407,7 @@ h2 {
 
 .sm-link {
   border-radius: 5px;
-  margin: 0.5rem
+  margin: 0.5rem;
 }
 
 .menu-internal-element {
@@ -445,7 +450,6 @@ h2 {
   border-right: 1px solid rgb(224, 224, 224);
   padding: 0rem 0.5rem;
 }
-
 
 .logo-link {
   text-decoration: none;

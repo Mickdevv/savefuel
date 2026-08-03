@@ -11,6 +11,7 @@ import ContactView from '@/views/ContactView.vue'
 import PriceListView from '@/views/PriceListView.vue'
 import GdprView from '@/views/GdprView.vue'
 import HowToUseFOView from '@/views/HowToUseFOView.vue'
+import FAQView from '@/views/FAQView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -54,6 +55,11 @@ const router = createRouter({
       path: '/generators',
       name: 'generators',
       component: GeneratorsView,
+    },
+    {
+      path: '/faq',
+      name: 'faq',
+      component: FAQView,
     },
     {
       path: '/gdpr',
