@@ -675,8 +675,8 @@
   },
   "links": {
     "videos": {
-      "how-to-add-fo": "https://www.youtube.com/watch?v=MB-Mvrx4GJ8",
-      "how-to-add-fo-embedded": "https://www.youtube.com/embed/MB-Mvrx4GJ8?rel=0",
+     "how-to-add-fo": "https://www.youtube.com/watch?v=MB-Mvrx4GJ8",
+    "how-to-add-fo-embedded": "https://www.youtube.com/embed/MB-Mvrx4GJ8?rel=0", 
       "long-fuel-ox-test": "https://www.youtube.com/watch?v=XqgsoKOAI4Q"
     },
     "documents": {

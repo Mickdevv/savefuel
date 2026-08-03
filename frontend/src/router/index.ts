@@ -80,7 +80,7 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: ContactView,
-    },
+       },
   ],
 
   scrollBehavior(_to, _from, savedPosition) {
