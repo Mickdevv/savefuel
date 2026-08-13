@@ -172,12 +172,8 @@
       "other-vehicle-documents": {
         "title": "Autres documents véhicules",
         "bullet-points": [
-<<<<<<< Updated upstream
-          "Vidéo, <a href=\"https://www.youtube.com/watch?v=9iECyfYqDSI\" target=\"_blank\">comment ajouter Fuel Ox®</a>",
-=======
           "Video, <a href=\"https://www.youtube.com/watch?v=MB-Mvrx4GJ8\" target=\"_blank\"> Comment ajouter du Fuel Ox®</a>",
 
->>>>>>> Stashed changes
           "Vidéo en anglais d’un essai Fuel Ox® sur 6 mois. Activez les sous-titres puis sélectionnez « Français » dans les paramètres. <a href=\"https://www.youtube.com/watch?v=XqgsoKOAI4Q\" target=\"_blank\">Essai longue durée de Fuel Ox®</a>",
           "<a href=\"https://save-fuel.eu/docs/en/Vehicle/FuelOX-Trucking-Fleet-Hard-Numbers.pdf\" target=\"_blank\" @click.stop>Exploitation de flotte de camions (en anglais)</a>",
           "<a href=\"https://save-fuel.eu/docs/fr/Vehicle/FAQ-stations-de-ski.pdf\" target=\"_blank\" @click.stop>FAQ stations de ski</a>",
@@ -680,13 +676,8 @@
   },
   "links": {
     "videos": {
-<<<<<<< Updated upstream
-     "how-to-add-fo": "https://www.youtube.com/watch?v=MB-Mvrx4GJ8",
-    "how-to-add-fo-embedded": "https://www.youtube.com/embed/MB-Mvrx4GJ8?rel=0", 
-=======
       "how-to-add-fo": "https://www.youtube.com/watch?v=MB-Mvrx4GJ8",
       "how-to-add-fo-embedded": "https://www.youtube.com/embed/MB-Mvrx4GJ8",
->>>>>>> Stashed changes
       "long-fuel-ox-test": "https://www.youtube.com/watch?v=XqgsoKOAI4Q"
     },
     "documents": {
