@@ -123,18 +123,11 @@
         ]
       },
       "trial-reports": {
-        "title": "Rapports d’essais",
-        "bullet-points": [
-          "France, Mercedes Sprinter avec réfrigération. 10 % d’économie de carburant. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2026-test-Mercedes-Sprinter.pdf\" target=\"_blank\">Laguilhon SAS</a>",
-          "France, véhicule tout-terrain. 9 % d’économie de carburant. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-LandRover-9pc-moins-fioul.pdf\" target=\"_blank\">SARL Bearn Land</a>",
-          "France, Toyota Land Cruiser turbo diesel. 22 % d’économie de carburant. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\">Toyota Land Cruiser 2005</a>",
-          "Mine d’or au Burkina Faso. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Mine-d'or-Burkina-Faso.pdf\" target=\"_blank\">Essai sur camions de transport Caterpillar de 150 tonnes et bulldozer</a>",
-          "Mine au Ghana. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Adamus-Resources-Ghana-mine.pdf\" target=\"_blank\">Essai sur camions de transport, bulldozer et excavatrice</a>"
-        ]
+        "title": "Rapports d’essais"
       },
       "document-cards": [
         {
-          "title": "Laguilhon SAS",
+          "title": "Petite entreprise SW France",
           "description": "France, Mercedes Sprinter avec réfrigération. 10 % d’économie de carburant.",
           "type": "documents",
           "link": "laguilhon-trial",
@@ -247,9 +240,7 @@
       },
       "trial-reports": {
         "title": "Rapports d’essais",
-        "bullet-points": [
-          "Mine péruvienne. <a href=\"https://save-fuel.eu/docs/fr/Static/Peru-Mine-Generator.pdf\" target=\"_blank\">Essai d’émissions sur générateurs</a>"
-        ],
+
         "p1": "Mine péruvienne",
         "p2": "Essai d’émissions sur générateurs."
       },
