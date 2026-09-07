@@ -1,4 +1,5 @@
-const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID as string | undefined
+const GA_MEASUREMENT_ID =
+  (import.meta.env.VITE_GA_MEASUREMENT_ID as string | undefined) || 'G-79T8PHS6ZB'
 
 type ConsentState = 'granted' | 'denied'
 
