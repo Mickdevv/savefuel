@@ -24,6 +24,8 @@ jobs:
 
       - name: Build frontend
         working-directory: ./frontend
+        env:
+          VITE_GA_MEASUREMENT_ID: ${{ vars.TEST_VITE_GA_MEASUREMENT_ID }}
         run: npm run build
         
       - name: "Deploy frontend"
