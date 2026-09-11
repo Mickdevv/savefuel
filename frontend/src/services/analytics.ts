@@ -43,9 +43,9 @@ const ANALYTICS_GRANTED: ConsentSettings = {
 let enabled = false
 let scriptLoaded = false
 
-function gtag(...args: unknown[]): void {
+function gtag(..._args: unknown[]): void {
   window.dataLayer = window.dataLayer ?? []
-  window.dataLayer.push(args)
+  window.dataLayer.push(arguments)
 }
 
 function defineGtag(): void {
@@ -107,10 +107,10 @@ export function disableAnalytics(): void {
 }
 
 export function trackPageView(path: string): void {
-  if (!enabled) {
+  if (!enabled || !window.gtag) {
     return
   }
-  gtag('event', 'page_view', {
+  window.gtag('event', 'page_view', {
     page_path: path,
     page_location: window.location.href,
     page_title: document.title,
