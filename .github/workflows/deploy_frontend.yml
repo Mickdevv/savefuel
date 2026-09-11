@@ -2,9 +2,9 @@ name: Deploy frontend
 
 on:
   push:
-    branches: ['main']
+    branches: ["main"]
 
-jobs: 
+jobs:
   Deploy-backend:
     name: "Deploy frontend"
     runs-on: ubuntu-slim
@@ -24,8 +24,10 @@ jobs:
 
       - name: Build frontend
         working-directory: ./frontend
+        env:
+          VITE_GA_MEASUREMENT_ID: ${{ vars.VITE_GA_MEASUREMENT_ID }}
         run: npm run build
-        
+
       - name: "Deploy frontend"
         env:
           SSH_USERNAME: ${{ secrets.SSH_USER }}
@@ -34,7 +36,7 @@ jobs:
           SSH_PORT: ${{ secrets.SSH_PORT_2 }}
         run: |
           set -e
-          
+
           mkdir -p ~/.ssh/
           printf "%s" "$SSH_KEY" > ~/.ssh/vps.key
           chmod 600 ~/.ssh/vps.key
@@ -45,7 +47,7 @@ jobs:
           -P "$SSH_PORT" \
           -r ./frontend/dist/* \
           "$SSH_USERNAME@$SSH_HOST:/var/www/savefuel/dist"
-          
+
           ssh -i ~/.ssh/vps.key \
           -p "$SSH_PORT" \
           "$SSH_USERNAME@$SSH_HOST" << 'EOF'
