@@ -51,7 +51,6 @@
       "p2": "Vous pouvez vous attendre à une amélioration progressive de la consommation jusqu’à environ cinq pleins de carburant.",
       "p3": "La vidéo de 2 minutes montre comment ajouter Fuel Ox® à votre véhicule ou à vos récipients de stockage."
     },
-
     "free-trial-procedure": {
       "page-title": "Procédure d’essai gratuit",
       "intro": {
@@ -123,18 +122,11 @@
         ]
       },
       "trial-reports": {
-        "title": "Rapports d’essais",
-        "bullet-points": [
-          "France, Mercedes Sprinter avec réfrigération. 10 % d’économie de carburant. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2026-test-Mercedes-Sprinter.pdf\" target=\"_blank\">Laguilhon SAS</a>",
-          "France, véhicule tout-terrain. 9 % d’économie de carburant. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-LandRover-9pc-moins-fioul.pdf\" target=\"_blank\">SARL Bearn Land</a>",
-          "France, Toyota Land Cruiser turbo diesel. 22 % d’économie de carburant. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\">Toyota Land Cruiser 2005</a>",
-          "Mine d’or au Burkina Faso. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Mine-d'or-Burkina-Faso.pdf\" target=\"_blank\">Essai sur camions de transport Caterpillar de 150 tonnes et bulldozer</a>",
-          "Mine au Ghana. <a href=\"https://save-fuel.eu/docs/fr/Vehicle/Adamus-Resources-Ghana-mine.pdf\" target=\"_blank\">Essai sur camions de transport, bulldozer et excavatrice</a>"
-        ]
+        "title": "Rapports d’essais"
       },
       "document-cards": [
         {
-          "title": "Laguilhon SAS",
+          "title": "Petite entreprise SW France",
           "description": "France, Mercedes Sprinter avec réfrigération. 10 % d’économie de carburant.",
           "type": "documents",
           "link": "laguilhon-trial",
@@ -173,7 +165,6 @@
         "title": "Autres documents véhicules",
         "bullet-points": [
           "Video, <a href=\"https://www.youtube.com/watch?v=MB-Mvrx4GJ8\" target=\"_blank\"> Comment ajouter du Fuel Ox®</a>",
-
           "Vidéo en anglais d’un essai Fuel Ox® sur 6 mois. Activez les sous-titres puis sélectionnez « Français » dans les paramètres. <a href=\"https://www.youtube.com/watch?v=XqgsoKOAI4Q\" target=\"_blank\">Essai longue durée de Fuel Ox®</a>",
           "<a href=\"https://save-fuel.eu/docs/en/Vehicle/FuelOX-Trucking-Fleet-Hard-Numbers.pdf\" target=\"_blank\" @click.stop>Exploitation de flotte de camions (en anglais)</a>",
           "<a href=\"https://save-fuel.eu/docs/fr/Vehicle/FAQ-stations-de-ski.pdf\" target=\"_blank\" @click.stop>FAQ stations de ski</a>",
@@ -247,9 +238,7 @@
       },
       "trial-reports": {
         "title": "Rapports d’essais",
-        "bullet-points": [
-          "Mine péruvienne. <a href=\"https://save-fuel.eu/docs/fr/Static/Peru-Mine-Generator.pdf\" target=\"_blank\">Essai d’émissions sur générateurs</a>"
-        ],
+
         "p1": "Mine péruvienne",
         "p2": "Essai d’émissions sur générateurs."
       },
@@ -524,6 +513,12 @@
     }
   },
   "components": {
+    "analytics-consent-popup": {
+      "title": "Nous utilisons des cookies pour l’analyse",
+      "body": "Nous utilisons des cookies pour comprendre comment les visiteurs utilisent notre site (par exemple, les visites de pages et les clics) via Google Analytics 4 (analytique de base). Ces cookies nous aident à améliorer notre site. Vous pouvez accepter ou modifier vos choix à tout moment. ",
+      "accept": "Accepter",
+      "decline": "Refuser"
+    },
     "hero-banners": {
       "home": {
         "title": "Réduisez vos coûts de carburant.\nProtégez votre moteur.",
@@ -658,7 +653,8 @@
       "save-fuel": "Économisez du carburant",
       "protect-earth": "Protégez la planète",
       "reduce-costs": "Réduisez vos coûts",
-      "contact": "Contact : Lesley VAQUERO +33 6 34 35 85 15"
+      "contact": "Contact : Lesley VAQUERO +33 6 34 35 85 15",
+      "analytics-preferences": "Préférences de cookies"
     }
   },
   "cost_benefit_calculator": {

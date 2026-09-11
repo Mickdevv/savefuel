@@ -121,18 +121,11 @@
         ]
       },
       "trial-reports": {
-        "title": "Trial reports",
-        "bullet-points": [
-          "France, Mercedes Sprinter with refrigeration. 10% fuel saving. <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2026-test-Mercedes-Sprinter.pdf\" target=\"_blank\">Laguilhon SAS</a>",
-          "France, off-road rally vehicle. 9% fuel saving. <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-test-9pc-reduction.pdf\" target=\"_blank\">SARL Bearn Land</a>",
-          "France, turbo diesel Land Cruiser. 22% fuel saving. <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">2005 Land Cruiser</a>",
-          "Burkina Faso gold mine. <a href=\"https://save-fuel.eu/docs/en/Vehicle/Goldmine-Trial-Burkina-Faso.pdf\" target=\"_blank\">Caterpillar 150-ton haul trucks and bulldozer test</a>",
-          "Ghana mine. <a href=\"https://save-fuel.eu/docs/en/Vehicle/Adamus-Resources-Ghana-mine.pdf\" target=\"_blank\">Haul trucks, bulldozer and excavator test</a>"
-        ]
+        "title": "Trial reports"
       },
       "document-cards": [
         {
-          "title": "Laguilhon SAS",
+          "title": "Small company SW France",
           "description": "France, Mercedes Sprinter with refrigeration. 10% fuel saving.",
           "type": "documents",
           "link": "laguilhon-trial",
@@ -428,7 +421,9 @@
         },
         {
           "question": "How does Fuel Ox® “Protect Earth”?",
-          "answers": ["It reduces emissions of CO2, NOx and particulates."]
+          "answers": [
+            "It reduces emissions of CO2, NOx and particulates."
+          ]
         },
         {
           "question": "How do I safely handle Fuel Ox?",
@@ -506,6 +501,12 @@
     }
   },
   "components": {
+    "analytics-consent-popup": {
+      "title": "We use cookies for analytics",
+      "body": "We use cookies to understand how visitors use our site (for example, page visits and clicks) using Google Analytics 4 (basic analytics). These cookies help us improve our website. You can accept or manage your choices at any time.",
+      "accept": "Accept",
+      "decline": "Decline"
+    },
     "hero-banners": {
       "home": {
         "title": "Reduce your fuel costs.\nProtect your engine.",
@@ -640,7 +641,8 @@
       "save-fuel": "Save fuel",
       "protect-earth": "Protect earth",
       "reduce-costs": "Reduce costs",
-      "contact": "Contact: Steve Devereux +33 6 75 79 08 16"
+      "contact": "Contact: Steve Devereux +33 6 75 79 08 16",
+      "analytics-preferences": "Analytics preferences"
     }
   },
   "cost_benefit_calculator": {

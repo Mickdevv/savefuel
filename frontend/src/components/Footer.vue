@@ -1,5 +1,7 @@
 <script setup lang="ts">
+import { useConsentCookieStore } from '@/stores/cookie-consent'
 
+const consentStore = useConsentCookieStore()
 </script>
 
 <template>
@@ -16,6 +18,7 @@
       <p>{{ $t('components.footer.contact') }}</p>
       <a target="_blank" :href="$t('links.documents.legal-details')">{{ $t('menubar.legal-details') }}</a>
       <a :href="`mailto:contact@save-fuel.eu${$t('links.email.website-enquiry')}`">contact@save-fuel.eu</a>
+      <a href="#" @click.prevent="consentStore.openBanner()">{{ $t('components.footer.analytics-preferences') }}</a>
 
     </div>
   </div>
