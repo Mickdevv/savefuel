@@ -3,8 +3,8 @@ const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID
 if (!GA_MEASUREMENT_ID) {
   throw new Error(
     '[analytics] VITE_GA_MEASUREMENT_ID is not set. ' +
-      'Google Analytics requires a measurement ID at build time. ' +
-      'Set it in your environment (e.g. VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX) and rebuild.',
+    'Google Analytics requires a measurement ID at build time. ' +
+    'Set it in your environment (e.g. VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX) and rebuild.',
   )
 }
 
