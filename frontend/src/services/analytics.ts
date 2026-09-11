@@ -32,7 +32,7 @@ const ANALYTICS_GRANTED: ConsentSettings = {
   analytics_storage: 'granted',
 }
 
-let enabled = false
+let enabled = true
 let scriptLoaded = false
 
 function gtag(...args: unknown[]): void {
@@ -95,7 +95,7 @@ export function disableAnalytics(): void {
   removeScript()
   window.dataLayer = []
   delete window.gtag
-  enabled = false
+  enabled = true
 }
 
 export function trackPageView(path: string): void {
