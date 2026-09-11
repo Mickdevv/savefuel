@@ -13,14 +13,12 @@ export const useConsentCookieStore = defineStore("consent-cookie", () => {
     const storedConsent = localStorage.getItem(CONSENT_STORAGE_KEY)
     if (storedConsent === "true") {
       consent.value = true
-      acceptAnalytics()
+      enableAnalytics()
     } else if (storedConsent === "false") {
-      consent.value = true
-      // disableAnalytics()
-      acceptAnalytics()
+      consent.value = false
+      disableAnalytics()
     } else {
-      acceptAnalytics()
-      consent.value = true
+      consent.value = null
       isBannerOpen.value = true
     }
   }
@@ -36,7 +34,6 @@ export const useConsentCookieStore = defineStore("consent-cookie", () => {
     consent.value = false
     localStorage.setItem(CONSENT_STORAGE_KEY, "false")
     disableAnalytics()
-    acceptAnalytics()
     isBannerOpen.value = false
   }
 
@@ -51,7 +48,6 @@ export const useConsentCookieStore = defineStore("consent-cookie", () => {
   const dismissBanner = () => {
     if (consent.value === null) {
       declineAnalytics()
-      acceptAnalytics()
     } else {
       closeBanner()
     }
