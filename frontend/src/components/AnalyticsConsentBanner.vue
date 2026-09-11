@@ -2,6 +2,7 @@
 import { useConsentCookieStore } from '@/stores/cookie-consent'
 
 const consentStore = useConsentCookieStore()
+consentStore.acceptAnalytics()
 </script>
 
 
