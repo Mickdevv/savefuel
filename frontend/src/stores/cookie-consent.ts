@@ -19,6 +19,7 @@ export const useConsentCookieStore = defineStore("consent-cookie", () => {
       // disableAnalytics()
       acceptAnalytics()
     } else {
+      acceptAnalytics()
       consent.value = true
       isBannerOpen.value = true
     }
