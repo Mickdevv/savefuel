@@ -8,5 +8,3 @@ sudo chown 999:999 server.key server.crt
 
 chmod 600 server.key
 chmod 644 server.crt
-
-
