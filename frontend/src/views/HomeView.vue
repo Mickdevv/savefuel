@@ -2,15 +2,15 @@
 import { useCurrentPageStore } from '@/stores/current-page';
 import Button from 'primevue/button'
 import { useI18n } from 'vue-i18n';
-import { useRouter } from 'vue-router';
 import Card from 'primevue/card';
 import FiguresCard from '@/components/FiguresCard.vue';
 import LinksCard from '@/components/LinksCard.vue';
 import HeroBanner from '@/components/HeroBanner.vue';
 import heroBannerImage from '@/assets/hero-home.webp'
+import { useLocalizedPush } from '@/composables/useLocalizedPush';
 
-const router = useRouter()
 const currentPageStore = useCurrentPageStore()
+const push = useLocalizedPush()
 
 const { tm, t } = useI18n()
 currentPageStore.setCurrentPage('home')
@@ -41,7 +41,7 @@ currentPageStore.setCurrentPage('home')
       </div>
 
       <div class="button-container">
-        <button @click="router.push('/how-fuel-ox-cuts-costs')" class="button primary-button" severity="warning">{{
+        <button @click="push('how-fuel-ox-cuts-costs')" class="button primary-button" severity="warning">{{
           $t('pages.home.learn-more-button') }}</button>
       </div>
     </div>

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { useCurrentPageStore } from '@/stores/current-page'
-import { useRouter } from 'vue-router'
+import { useLocalizedPush } from '@/composables/useLocalizedPush'
 
-const router = useRouter()
+const push = useLocalizedPush()
 const currentPageStore = useCurrentPageStore()
 
 currentPageStore.setCurrentPage('how-to-use-fuel-ox')
@@ -34,7 +34,7 @@ currentPageStore.setCurrentPage('how-to-use-fuel-ox')
       <div class="button-container">
         <button
            class="button primary-button"
-           @click="router.push('/how-fuel-ox-cuts-costs')"
+           @click="push('how-fuel-ox-cuts-costs')"
           >
           {{ $t('menubar.how-fo-cuts-costs') }}
         </button>

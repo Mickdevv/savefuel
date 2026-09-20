@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import router from '@/router';
+import { useRoute } from 'vue-router';
 import Button from 'primevue/button'
 
 interface Props {
@@ -9,11 +10,19 @@ interface Props {
 }
 
 defineProps<Props>()
+
+const route = useRoute()
+const locale = route.params.locale as string || 'fr'
+
+function navigate(buttonLink: string) {
+  router.push(`/${locale}${buttonLink}`)
+}
 </script>
 
 
 <template>
-  <section class="hero-banner" :style="{ backgroundImage: `url(${image})` }">
+  <section class="hero-banner" :style="{ backgroundImage: `url(${image})` }"
+    role="img" :aria-label="imageAlt || $t(`components.hero-banners.${bannerName}.title`)">
     <!-- <img :src="image" :alt="imageAlt" class="hero-image" /> -->
 
     <div class="hero-overlay">
@@ -29,7 +38,7 @@ defineProps<Props>()
           </p>
 
           <div>
-            <button @click="router.push($t(`components.hero-banners.${bannerName}.buttonLink`))"
+            <button @click="navigate($t(`components.hero-banners.${bannerName}.buttonLink`))"
               class="button primary-button">{{ $t(`components.hero-banners.${bannerName}.buttonLabel`) }}</button>
           </div>
         </div>

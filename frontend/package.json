@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@primeuix/themes": "^2.0.3",
+    "@unhead/vue": "^2.1.17",
     "axios": "^1.16.1",
     "lucide-vue-next": "^1.0.0",
     "pinia": "^3.0.4",

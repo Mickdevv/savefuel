@@ -1,4 +1,5 @@
 import { LocaleOptions } from '@/types/enums/locales.enum'
+import { DEFAULT_LOCALE } from '@/lib/seo'
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
@@ -7,7 +8,7 @@ export const useLocaleStore = defineStore('localeStore', () => {
   const { locale } = useI18n()
   const localeFromStorage = localStorage.getItem('locale')
   const currentLocale = ref<string>(
-    localeFromStorage ? (localeFromStorage as LocaleOptions) : LocaleOptions.EN,
+    localeFromStorage ? (localeFromStorage as LocaleOptions) : DEFAULT_LOCALE,
   )
 
   const selectLocale = (locale: string) => {

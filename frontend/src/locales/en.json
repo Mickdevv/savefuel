@@ -17,6 +17,8 @@
   "pages": {
     "home": {
       "page-title": "Home",
+      "meta-title": "Save Fuel Europe | Fuel Ox® Fuel Treatment — Cut Fuel Costs",
+      "meta-description": "Fuel Ox® is a high-performance fuel treatment that reduces fuel consumption by 9–22%. Exclusive distributor in France. Free trial for fleets, trucks and generators.",
       "paragraphs": [
         "Save Fuel Europe SAS is the exclusive distributor of Fuel Ox® in France. Developed over 30 years ago for AT&T and the US military, Fuel Ox® is a high-performance fuel treatment that optimizes combustion and significantly reduces fuel consumption.",
         "Before Save Fuel Europe was even established, Fuel Ox® was tested on a 2005 Land Cruiser equipped with a D4D turbodiesel engine. Results showed fuel savings of 22%. These exceptional results convinced us of the product's potential and encouraged us to introduce it to the French market. See the Land Cruiser test report <a href=\"https://save-fuel.eu/docs/en/Vehicle/France-2025-TurboDiesel-22pc-less-fuel.pdf\" target=\"_blank\">here</a>.",
@@ -26,6 +28,8 @@
     },
     "how-fo-cuts-costs": {
       "page-title": "How Fuel Ox® cuts costs",
+      "meta-title": "How Fuel Ox® Cuts Costs | Save Fuel Europe",
+      "meta-description": "Fuel Ox® cuts fuel consumption through engine cleaning and more complete combustion. See the 22% Land Cruiser test and estimate your savings with our calculator.",
       "p1": "Fuel Ox® reduces fuel consumption through two complementary mechanisms. First, it cleans the engine and fuel system, helping to restore lost efficiency. Second, it promotes more complete combustion of the fuel, allowing the engine to extract more energy from every litre consumed.",
       "p2": "Testing on a 2005 turbocharged diesel vehicle showed an overall fuel saving of 22%, comprising:",
       "p3": "17% from improved engine and fuel system cleanliness.",
@@ -44,6 +48,8 @@
     },
     "how-to-use-fuel-ox": {
       "page-title": "How to use Fuel Ox®",
+      "meta-title": "How to Use Fuel Ox® | Save Fuel Europe",
+      "meta-description": "Learn how to dose and apply Fuel Ox® to diesel vehicles and storage tanks. Watch the 2-minute video and start cutting your fuel costs.",
       "watch-video-button": "Watch the video",
       "learn-more-button": "How Fuel Ox® cuts costs",
       "p1": "It takes some time running your vehicle for Fuel Ox® to clean the fuel system and break up fuel molecule clumps. A first treatment at twice the normal concentration of Fuel Ox® in a full fuel tank (2 mL per 10 litres of fuel) will give a faster result overall. When refuelling after the first tank, add 1 mL of Fuel Ox® for every 10 litres of fuel added to the tank.",
@@ -52,6 +58,8 @@
     },
     "free-trial-procedure": {
       "page-title": "Free trial procedure",
+      "meta-title": "Free Trial Procedure | Save Fuel Europe",
+      "meta-description": "Test Fuel Ox® free of charge on your own vehicles. Download the application form and measure your fuel savings with our simple 3-step trial.",
       "intro": {
         "title": "Test the reduction in your fuel consumption — free of charge.",
         "p1": "At Save Fuel Europe, we offer you a free trial so you can see the possible savings for yourself before making any purchase.",
@@ -96,6 +104,8 @@
     },
     "vehicles": {
       "page-title": "Vehicles",
+      "meta-title": "Fuel Savings for Vehicles & Fleets | Save Fuel Europe",
+      "meta-description": "Cut fleet fuel costs by 9% or more with Fuel Ox®. Independent French tests, cost examples and trial reports for trucks and commercial vehicles.",
       "direct-cost-benefit": {
         "title": "Direct cost benefit",
         "description": [
@@ -176,6 +186,8 @@
     },
     "four-guarantees": {
       "page-title": "Compliance pack",
+      "meta-title": "Compliance Pack & Guarantees | Save Fuel Europe",
+      "meta-description": "Fuel Ox® is insured up to US$2M, meets EN590 and ASTM-D975, and is backed by a no-savings, no-cost trial guarantee.",
       "manufacturers-guarantee": {
         "title": "Manufacturer's guarantee",
         "p1_1": "Fuel Ox® carries insurance for up to US$2,000,000 in case of damage to an engine caused by Fuel Ox® treatment. No claim has ever been made. No user has ever alleged that using Fuel Ox® damaged their engine.",
@@ -203,6 +215,8 @@
     },
     "generators": {
       "page-title": "Generators",
+      "meta-title": "Fuel Savings for Generators | Save Fuel Europe",
+      "meta-description": "Reduce generator fuel consumption by 9% or more and extend fuel storage life. Cost examples and trial reports for diesel generators.",
       "direct-cost-benefit": {
         "title": "Direct cost benefit",
         "description": [
@@ -245,6 +259,8 @@
     },
     "technical": {
       "page-title": "How it works",
+      "meta-title": "How It Works — The Science of Fuel Ox® | Save Fuel Europe",
+      "meta-description": "How Fuel Ox® catalysts break down fuel polymerisation to restore engine efficiency. Technical documents, white paper and lab tests.",
       "history": {
         "title": "The science behind Fuel Ox®",
         "p1": "Bell Labs is an American scientific and industrial research laboratory founded in 1925. It developed radio astronomy, transistors, lasers, photovoltaic cells, charge-coupled devices, information theory, the Unix operating system, and several major programming languages. Its researchers have received eleven Nobel Prizes and five Turing Awards.",
@@ -344,6 +360,8 @@
     },
     "about": {
       "page-title": "About",
+      "meta-title": "About Us | Save Fuel Europe",
+      "meta-description": "Save Fuel Europe SAS is the exclusive distributor of Fuel Ox® in France, helping fleets and off-grid power users cut fuel costs.",
       "title": "Save Fuel Europe is the exclusive Fuel Ox® distributor in France",
       "p1": "We support transport, delivery, logistics companies and off-grid power users in reducing their fuel bills with a simple, efficient and engine-safe solution.",
       "p2": "Do you manage a fleet of commercial vehicles, trucks or generators and see fuel costs eroding your margins month after month? You know that a significant reduction would make all the difference, but you are hesitant to trust a distributor that is still relatively unknown in France?",
@@ -355,6 +373,8 @@
     },
     "faq": {
       "page-title": "FAQ",
+      "meta-title": "FAQ | Save Fuel Europe",
+      "meta-description": "Answers about Fuel Ox® safety, compatibility, independent testing and how the fuel treatment reduces consumption and emissions.",
       "FAQs": [
         {
           "question": "How can you guarantee that Fuel Ox® will reduce fuel consumption by 7-20%?",
@@ -436,6 +456,8 @@
     },
     "contact": {
       "page-title": "Contact",
+      "meta-title": "Contact | Save Fuel Europe",
+      "meta-description": "Contact Save Fuel Europe to place an order or request a free Fuel Ox® trial for your vehicles or generators.",
       "form": {
         "name": "Name",
         "email": "Email",
@@ -480,6 +502,8 @@
     },
     "price-list": {
       "page-title": "Price list",
+      "meta-title": "Price List | Save Fuel Europe",
+      "meta-description": "Fuel Ox® sizes and prices, from 0.5 L bottles to 200 L drums, with volume discounts for fleets and generators.",
       "contact-button": "Request a quote",
       "table": {
         "on-request": "On request",
@@ -498,6 +522,11 @@
           "200L": "Best value for large fleets"
         }
       }
+    },
+    "gdpr": {
+      "page-title": "GDPR declaration",
+      "meta-title": "GDPR Declaration | Save Fuel Europe",
+      "meta-description": "Save Fuel Europe's GDPR declaration and how we handle personal data."
     }
   },
   "components": {

@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { useCurrentPageStore } from '@/stores/current-page';
 import Button from 'primevue/button'
-import { useRouter } from 'vue-router';
+import { useLocalizedPush } from '@/composables/useLocalizedPush';
 import { ShieldCheck } from 'lucide-vue-next'
 
-const router = useRouter()
+const push = useLocalizedPush()
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('four-guarantees')
 </script>
@@ -72,7 +72,7 @@ currentPageStore.setCurrentPage('four-guarantees')
 
       <div class="bottom-button-container">
 
-        <button class="button primary-button" @click="router.push('/technical')">{{
+        <button class="button primary-button" @click="push('technical')">{{
           $t('pages.four-guarantees.technical-button') }}</button>
       </div>
     </div>

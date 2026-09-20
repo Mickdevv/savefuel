@@ -2,11 +2,11 @@
 import Button from 'primevue/button'
 import { useCurrentPageStore } from '@/stores/current-page';
 import { useI18n } from 'vue-i18n';
-import { useRouter } from 'vue-router';
+import { useLocalizedPush } from '@/composables/useLocalizedPush';
 import LinksCard from '@/components/LinksCard.vue';
 import FiguresCard from '@/components/FiguresCard.vue';
 
-const router = useRouter()
+const push = useLocalizedPush()
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage("free-trial-procedure")
 
@@ -48,10 +48,10 @@ const { tm } = useI18n()
       <h3 v-html="($t('pages.free-trial-procedure.email-title'))"></h3>
 
       <div class="buttons-container">
-        <button @click="router.push('/vehicles')" class="button primary-button vehicles-link">{{
+        <button @click="push('vehicles')" class="button primary-button vehicles-link">{{
           $t('pages.free-trial-procedure.vehicles-button')
           }}</button>
-        <button @click="router.push('/generators')" class="button secondary-button generators-link">{{
+        <button @click="push('generators')" class="button secondary-button generators-link">{{
           $t('pages.free-trial-procedure.generators-button')
           }}</button>
       </div>
@@ -59,7 +59,7 @@ const { tm } = useI18n()
 
     <div class="right-column">
       <div class="images">
-        <img class="truck-image" src="@/assets/ai-trucks.webp" style="border-radius: 5px; width: 100%" alt="">
+        <img class="truck-image" src="@/assets/ai-trucks.webp" style="border-radius: 5px; width: 100%" :alt="$t('pages.vehicles.page-title')">
       </div>
       <FiguresCard cardName="free-trial-no-obligation" />
     </div>

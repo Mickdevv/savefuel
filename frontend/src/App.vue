@@ -7,6 +7,9 @@ import { useConsentCookieStore } from '@/stores/cookie-consent';
 import { trackPageView } from '@/services/analytics';
 import { watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
+import { useSeo } from '@/composables/useSeo';
+
+useSeo()
 
 const consentStore = useConsentCookieStore()
 consentStore.initConsentCookie()

@@ -12,75 +12,90 @@ import PriceListView from '@/views/PriceListView.vue'
 import GdprView from '@/views/GdprView.vue'
 import HowToUseFOView from '@/views/HowToUseFOView.vue'
 import FAQView from '@/views/FAQView.vue'
+import { i18n } from '@/i18n'
+import { DEFAULT_LOCALE, isSupportedLocale } from '@/lib/seo'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
+      path: '/:locale',
       name: 'home',
       component: HomeView,
+      meta: { pageKey: 'home', segment: '' },
     },
     {
-      path: '/how-fuel-ox-cuts-costs',
+      path: '/:locale/how-fuel-ox-cuts-costs',
       name: 'how-fuel-ox-cuts-costs',
       component: HowFuelOxCutsCostsView,
+      meta: { pageKey: 'how-fo-cuts-costs', segment: 'how-fuel-ox-cuts-costs' },
     },
     {
-      path: '/how-to-use-fuel-ox',
+      path: '/:locale/how-to-use-fuel-ox',
       name: 'how-to-use-fuel-ox',
       component: HowToUseFOView,
+      meta: { pageKey: 'how-to-use-fuel-ox', segment: 'how-to-use-fuel-ox' },
     },
     {
-      path: '/free-trial-procedure',
+      path: '/:locale/free-trial-procedure',
       name: 'free-trial-procedure',
       component: FreeTrialProcedureView,
+      meta: { pageKey: 'free-trial-procedure', segment: 'free-trial-procedure' },
     },
     {
-      path: '/four-guarantees',
+      path: '/:locale/four-guarantees',
       name: 'four-guarantees',
       component: FourGuaranteesView,
+      meta: { pageKey: 'four-guarantees', segment: 'four-guarantees' },
     },
     {
-      path: '/technical',
+      path: '/:locale/technical',
       name: 'technical',
       component: TechnicalView,
+      meta: { pageKey: 'technical', segment: 'technical' },
     },
     {
-      path: '/vehicles',
+      path: '/:locale/vehicles',
       name: 'vehicles',
       component: VehiclesView,
+      meta: { pageKey: 'vehicles', segment: 'vehicles' },
     },
     {
-      path: '/generators',
+      path: '/:locale/generators',
       name: 'generators',
       component: GeneratorsView,
+      meta: { pageKey: 'generators', segment: 'generators' },
     },
     {
-      path: '/faq',
+      path: '/:locale/faq',
       name: 'faq',
       component: FAQView,
+      meta: { pageKey: 'faq', segment: 'faq' },
     },
     {
-      path: '/gdpr',
+      path: '/:locale/gdpr',
       name: 'gdpr',
       component: GdprView,
+      meta: { pageKey: 'gdpr', segment: 'gdpr' },
     },
     {
-      path: '/price-list',
+      path: '/:locale/price-list',
       name: 'price-list',
       component: PriceListView,
+      meta: { pageKey: 'price-list', segment: 'price-list' },
     },
     {
-      path: '/about',
+      path: '/:locale/about',
       name: 'about',
       component: AboutView,
+      meta: { pageKey: 'about', segment: 'about' },
     },
     {
-      path: '/contact',
+      path: '/:locale/contact',
       name: 'contact',
       component: ContactView,
-       },
+      meta: { pageKey: 'contact', segment: 'contact' },
+    },
   ],
 
   scrollBehavior(_to, _from, savedPosition) {
@@ -93,6 +108,18 @@ const router = createRouter({
       left: 0,
     }
   },
+})
+
+router.beforeEach((to) => {
+  const firstSegment = to.path.split('/')[1]
+  if (!isSupportedLocale(firstSegment)) {
+    const rest = to.path.replace(/^\//, '')
+    const target = `/${DEFAULT_LOCALE}${rest ? `/${rest}` : ''}`
+    return { path: target, replace: true }
+  }
+
+  i18n.global.locale = firstSegment
+  return true
 })
 
 export default router

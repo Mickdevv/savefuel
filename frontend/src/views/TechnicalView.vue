@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import Button from 'primevue/button'
 import { useCurrentPageStore } from '@/stores/current-page';
-import { useRouter } from 'vue-router';
+import { useLocalizedPush } from '@/composables/useLocalizedPush';
 import DocumentCard from '@/components/DocumentCard.vue';
 import { useI18n } from 'vue-i18n';
 
 const { tm } = useI18n()
-const router = useRouter()
+const push = useLocalizedPush()
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage("technical")
 </script>
@@ -39,7 +39,7 @@ currentPageStore.setCurrentPage("technical")
 
       <div class="about-button-container">
 
-        <button @click="router.push('/about')" class="about-button button primary-button">{{
+        <button @click="push('about')" class="about-button button primary-button">{{
           $t('pages.technical.about-button')
         }}</button>
       </div>

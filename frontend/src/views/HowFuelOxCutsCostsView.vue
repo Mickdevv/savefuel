@@ -3,9 +3,9 @@ import CostBenefitCalculator from '@/components/CostBenefitCalculator.vue';
 import { useCurrentPageStore } from '@/stores/current-page';
 import Button from 'primevue/button'
 import { useI18n } from 'vue-i18n';
-import { useRouter } from 'vue-router';
+import { useLocalizedPush } from '@/composables/useLocalizedPush';
 
-const router = useRouter()
+const push = useLocalizedPush()
 const { tm } = useI18n()
 
 const currentPageStore = useCurrentPageStore()
@@ -51,7 +51,7 @@ currentPageStore.setCurrentPage('how-fo-cuts-costs')
 
       <div class="cost-calculator-container">
         <CostBenefitCalculator class="cost-benefit-calculator" />
-        <button @click="router.push('/free-trial-procedure')" class="free-trial-button button primary-button"
+        <button @click="push('free-trial-procedure')" class="free-trial-button button primary-button"
           severity="warning">{{ $t('pages.how-fo-cuts-costs.explore-a-free-trial-button') }}</button>
       </div>
     </div>

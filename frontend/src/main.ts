@@ -3,24 +3,17 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import PrimeVue from 'primevue/config'
-import en from './locales/en.json'
-import fr from './locales/fr.json'
 import Material from '@primeuix/themes/material'
 import App from './App.vue'
 import router from './router'
-import { createI18n } from 'vue-i18n'
+import { i18n } from './i18n'
+import { createHead } from '@unhead/vue/client'
 import ToastService from 'primevue/toastservice'
 
 const app = createApp(App)
-const i18n = createI18n({
-  locale: localStorage.getItem('locale') || 'fr',
-  fallbackLocale: 'fr',
-  globalInjection: true,
-  messages: {
-    en,
-    fr,
-  },
-})
+const head = createHead()
+
+app.use(head)
 app.use(ToastService)
 app.use(i18n)
 app.use(PrimeVue, {

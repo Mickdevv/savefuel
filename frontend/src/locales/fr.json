@@ -18,6 +18,8 @@
   "pages": {
     "home": {
       "page-title": "Accueil",
+      "meta-title": "Save Fuel Europe | Traitement carburant Fuel Ox® — réduisez vos coûts",
+      "meta-description": "Fuel Ox® est un traitement carburant haute performance qui réduit la consommation de 9 à 22 %. Distributeur exclusif en France. Essai gratuit.",
       "paragraphs": [
         "Save Fuel Europe SAS est le distributeur exclusif de Fuel Ox® en France. Développé il y a plus de 30 ans pour AT&T et l’armée américaine, Fuel Ox® est un traitement carburant haute performance qui optimise la combustion, réduit significativement la consommation de carburant et peut contribuer à réduire les coûts de maintenance.",
         "Avant même la création de Save Fuel Europe SAS, Fuel Ox® a été testé sur un Toyota Land Cruiser 2005 équipé d’un moteur turbo diesel D4D. Les résultats ont révélé une économie de carburant de 22 %. Ces performances exceptionnelles nous ont convaincus du potentiel du produit et nous ont encouragés à l’introduire sur le marché français. Consultez le rapport du Land Cruiser <a href=\"https://save-fuel.eu/docs/fr/Vehicle/France-2025-TurboDiesel-22pc-moins-fioul.pdf\" target=\"_blank\">ici</a>.",
@@ -27,6 +29,8 @@
     },
     "how-fo-cuts-costs": {
       "page-title": "Comment Fuel Ox® réduit les coûts",
+      "meta-title": "Comment Fuel Ox® réduit les coûts | Save Fuel Europe",
+      "meta-description": "Fuel Ox® réduit la consommation grâce au nettoyage moteur et à une combustion plus complète. Découvrez le test Land Cruiser à 22 %.",
       "p1": "Fuel Ox® réduit la consommation de carburant grâce à deux mécanismes complémentaires. Premièrement, il nettoie le moteur et le système d’alimentation, ce qui aide à restaurer l’efficacité perdue. Deuxièmement, il favorise une combustion plus complète du carburant, permettant au moteur d’extraire davantage d’énergie de chaque litre consommé.",
       "p2": "Un essai réalisé sur un véhicule turbo diesel de 2005 a montré une économie globale de carburant de 22 %, comprenant :",
       "p3": "17 % grâce à l’amélioration de la propreté du moteur et du système d’alimentation.",
@@ -45,6 +49,8 @@
     },
     "how-to-use-fuel-ox": {
       "page-title": "Comment utiliser Fuel Ox®",
+      "meta-title": "Comment utiliser Fuel Ox® | Save Fuel Europe",
+      "meta-description": "Apprenez à doser et appliquer Fuel Ox® dans vos véhicules et cuves. Regardez la vidéo de 2 minutes et commencez à économiser.",
       "watch-video-button": "Regarder la vidéo",
       "learn-more-button": "Comment Fuel Ox® réduit les coûts",
       "p1": "Il faut un certain temps d’utilisation du véhicule pour que Fuel Ox® nettoie le système d’alimentation et désagrège les amas de molécules de carburant. Un premier traitement à double concentration dans un réservoir plein (2 mL pour 10 litres de carburant) permet d’obtenir un résultat global plus rapide. Lors du ravitaillement après le premier plein, ajoutez 1 mL de Fuel Ox® pour chaque tranche de 10 litres de carburant ajoutée.",
@@ -53,6 +59,8 @@
     },
     "free-trial-procedure": {
       "page-title": "Procédure d’essai gratuit",
+      "meta-title": "Procédure d’essai gratuit | Save Fuel Europe",
+      "meta-description": "Testez Fuel Ox® gratuitement sur vos véhicules. Téléchargez le formulaire et mesurez vos économies avec notre essai en 3 étapes.",
       "intro": {
         "title": "Testez gratuitement la réduction de votre consommation de carburant.",
         "p1": "Chez Save Fuel Europe, nous vous proposons un essai gratuit afin que vous puissiez constater par vous-même les économies possibles avant tout achat.",
@@ -97,6 +105,8 @@
     },
     "vehicles": {
       "page-title": "Véhicules",
+      "meta-title": "Économies de carburant pour véhicules et flottes | Save Fuel Europe",
+      "meta-description": "Réduisez la consommation de votre flotte de 9 % ou plus. Tests indépendants, exemples de coûts et rapports d’essais.",
       "direct-cost-benefit": {
         "title": "Bénéfices directs sur vos coûts",
         "description": [
@@ -177,6 +187,8 @@
     },
     "four-guarantees": {
       "page-title": "Pack de conformité",
+      "meta-title": "Pack de conformité et garanties | Save Fuel Europe",
+      "meta-description": "Fuel Ox® est assuré jusqu’à 2 M$, conforme aux normes EN590 et ASTM-D975, avec garantie « aucune économie, aucun coût ».",
       "manufacturers-guarantee": {
         "title": "Garantie du fabricant",
         "p1_1": "Fuel Ox® est couvert par une assurance responsabilité civile allant jusqu’à 2 000 000 $ US en cas de dommage moteur causé par le traitement Fuel Ox®. Aucune réclamation n’a jamais été faite. Aucun utilisateur n’a jamais allégué que Fuel Ox® avait endommagé son moteur.",
@@ -204,6 +216,8 @@
     },
     "generators": {
       "page-title": "Générateurs",
+      "meta-title": "Économies de carburant pour générateurs | Save Fuel Europe",
+      "meta-description": "Réduisez la consommation de vos générateurs de 9 %+ et prolongez la conservation du carburant. Exemples et rapports d’essais.",
       "direct-cost-benefit": {
         "title": "Bénéfice direct sur les coûts",
         "description": [
@@ -246,6 +260,8 @@
     },
     "technical": {
       "page-title": "Comment ça marche",
+      "meta-title": "Comment ça marche — la science de Fuel Ox® | Save Fuel Europe",
+      "meta-description": "Comment les catalyseurs Fuel Ox® décomposent la polymérisation du carburant. Documentation technique, livre blanc et tests laboratoire.",
       "history": {
         "title": "La science derrière Fuel Ox®",
         "p1": "Bell Labs est un laboratoire américain de recherche scientifique et industrielle fondé en 1925. Il a développé la radioastronomie, les transistors, les lasers, les cellules photovoltaïques, les dispositifs à couplage de charge, la théorie de l’information, le système d’exploitation Unix et plusieurs langages de programmation majeurs. Ses chercheurs ont reçu onze prix Nobel et cinq prix Turing.",
@@ -345,6 +361,8 @@
     },
     "about": {
       "page-title": "À propos",
+      "meta-title": "À propos de nous | Save Fuel Europe",
+      "meta-description": "Save Fuel Europe SAS est le distributeur exclusif de Fuel Ox® en France, au service des flottes et des énergies hors réseau.",
       "title": "Save Fuel Europe est le distributeur exclusif de Fuel Ox® en France",
       "p1": "Nous accompagnons les entreprises de transport, de livraison, de logistique et les utilisateurs de groupes électrogènes isolés dans la réduction de leurs factures de carburant grâce à une solution simple, efficace et sûre pour les moteurs.",
       "p2": "Vous gérez une flotte de véhicules utilitaires, de camions ou de générateurs et vous voyez les coûts du carburant rogner vos marges mois après mois ? Vous savez qu’une réduction significative ferait une réelle différence, mais vous hésitez à faire confiance à un distributeur encore peu connu en France ?",
@@ -363,6 +381,8 @@
     },
     "faq": {
       "page-title": "FAQ",
+      "meta-title": "FAQ | Save Fuel Europe",
+      "meta-description": "Réponses sur la sécurité, la compatibilité, les tests indépendants et le fonctionnement du traitement carburant Fuel Ox®.",
       "FAQs": [
         {
           "question": "Comment pouvez-vous garantir que Fuel Ox® réduira la consommation de carburant ?",
@@ -448,6 +468,8 @@
     },
     "contact": {
       "page-title": "Contact",
+      "meta-title": "Contact | Save Fuel Europe",
+      "meta-description": "Contactez Save Fuel Europe pour passer commande ou demander un essai gratuit de Fuel Ox®.",
       "form": {
         "name": "Nom",
         "email": "Email",
@@ -492,6 +514,8 @@
     },
     "price-list": {
       "page-title": "Tarifs",
+      "meta-title": "Tarifs | Save Fuel Europe",
+      "meta-description": "Tailles et prix Fuel Ox®, des bouteilles de 0,5 L aux fûts de 200 L, avec remises pour flottes et générateurs.",
       "contact-button": "Demander un devis",
       "table": {
         "on-request": "Sur demande",
@@ -510,6 +534,11 @@
           "200L": "Meilleur rapport qualité-prix pour grandes flottes"
         }
       }
+    },
+    "gdpr": {
+      "page-title": "Déclaration RGPD",
+      "meta-title": "Déclaration RGPD | Save Fuel Europe",
+      "meta-description": "Déclaration RGPD de Save Fuel Europe et traitement de vos données personnelles."
     }
   },
   "components": {

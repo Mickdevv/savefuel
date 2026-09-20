@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import router from '@/router';
 import { useCurrentPageStore } from '@/stores/current-page';
 import Button from 'primevue/button'
+import { useLocalizedPush } from '@/composables/useLocalizedPush';
 
+const push = useLocalizedPush()
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('price-list')
 
@@ -36,7 +37,7 @@ const PRICES = [
 
     <div class="button-container">
 
-      <button class="primary-button button" @click="router.push('/contact')">{{
+      <button class="primary-button button" @click="push('contact')">{{
         $t('pages.price-list.contact-button') }}</button>
     </div>
   </div>

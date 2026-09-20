@@ -9,9 +9,9 @@ const consentStore = useConsentCookieStore()
   <div class="footer-container">
     <div class="mission-statement-container">
       <p>{{ $t('components.footer.save-fuel') }}</p>
-      <img src="../assets/SFE_Logo.png" alt="">
+      <img src="../assets/SFE_Logo.png" :alt="$t('components.footer.save-fuel')">
       <p>{{ $t('components.footer.protect-earth') }}</p>
-      <img src="../assets/SFE_Logo.png" alt="">
+      <img src="../assets/SFE_Logo.png" :alt="$t('components.footer.protect-earth')">
       <p>{{ $t('components.footer.reduce-costs') }}</p>
     </div>
     <div class="contact-row-container">

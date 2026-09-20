@@ -5,11 +5,11 @@ import axios from 'axios';
 import { ref } from 'vue';
 import { useToast } from 'primevue/usetoast';
 import { useI18n } from 'vue-i18n';
-import { useRouter } from 'vue-router';
+import { useLocalizedPush } from '@/composables/useLocalizedPush';
 
 const toast = useToast();
 const { t } = useI18n()
-const router = useRouter()
+const push = useLocalizedPush()
 
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('contact')
@@ -118,7 +118,7 @@ const submitContactForm = async () => {
           </div>
         </div>
       </div>
-      <button @click="router.push('/free-trial-procedure')" class="button primary-button">{{
+      <button @click="push('free-trial-procedure')" class="button primary-button">{{
         $t('pages.contact.contact-details.free-trial-button')
         }}</button>
     </div>

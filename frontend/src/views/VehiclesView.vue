@@ -2,7 +2,7 @@
 import { useCurrentPageStore } from '@/stores/current-page'
 import Button from 'primevue/button'
 import { useI18n } from 'vue-i18n'
-import { useRouter } from 'vue-router'
+import { useLocalizedPush } from '@/composables/useLocalizedPush'
 import DocumentCard from '@/components/DocumentCard.vue'
 import FiguresCard from '@/components/FiguresCard.vue';
 import heroBannerImage from '@/assets/vehicles-banner.webp'
@@ -11,7 +11,7 @@ import LinksCard from '@/components/LinksCard.vue'
 import AdvantagesCard from '@/components/AdvantagesCard.vue'
 
 const { tm, t } = useI18n()
-const router = useRouter()
+const push = useLocalizedPush()
 const currentPageStore = useCurrentPageStore()
 currentPageStore.setCurrentPage('vehicles')
 </script>
@@ -19,7 +19,7 @@ currentPageStore.setCurrentPage('vehicles')
 <template>
   <div class="outer-page-container">
     <!-- <HeroBanner :image="heroBannerImage" bannerName="" /> -->
-    <img class="hero-banner-image" :src="heroBannerImage" alt="">
+    <img class="hero-banner-image" :src="heroBannerImage" :alt="$t('pages.vehicles.page-title')">
 
     <div class="page-container">
 
@@ -60,7 +60,7 @@ currentPageStore.setCurrentPage('vehicles')
       </div>
 
       <div class="button-container">
-        <button class="primary-button button" @click="router.push('/four-guarantees')">{{
+        <button class="primary-button button" @click="push('four-guarantees')">{{
           $t('pages.vehicles.four-guarantees-button') }}</button>
       </div>
     </div>

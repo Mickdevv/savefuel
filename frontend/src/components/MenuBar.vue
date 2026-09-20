@@ -1,14 +1,13 @@
 <script setup lang="ts">
 import { useCurrentPageStore } from '@/stores/current-page'
-import { useLocaleStore } from '@/stores/selected-language'
 import 'primeicons/primeicons.css'
 import { computed, ref, Transition } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useRoute, useRouter } from 'vue-router'
+import { DEFAULT_LOCALE, isSupportedLocale, type SupportedLocale } from '@/lib/seo'
 
 const visible = ref<boolean>(false)
 
-const localeStore = useLocaleStore()
 const currentPageStore = useCurrentPageStore()
 const menu = ref()
 
@@ -17,80 +16,89 @@ const { t } = useI18n()
 const router = useRouter()
 const route = useRoute()
 
+const currentLocale = computed<SupportedLocale>(() =>
+  isSupportedLocale(route.params.locale) ? (route.params.locale as SupportedLocale) : DEFAULT_LOCALE,
+)
+
 const items = computed(() => [
   {
     label: t('menubar.home'),
-    activeFlag: '/',
-    command: () => router.push('/'),
+    routeName: 'home',
+    command: () => router.push({ name: 'home', params: { locale: currentLocale.value } }),
   },
 
-  // Route remains /technical, but the displayed menu/page title is now "How it works" or "Comment ça marche".
+  // Route remains /:locale/technical, but the displayed menu/page title is now "How it works" or "Comment ça marche".
   {
     label: t('menubar.technical'),
-    activeFlag: '/technical',
-    command: () => router.push('/technical'),
+    routeName: 'technical',
+    command: () => router.push({ name: 'technical', params: { locale: currentLocale.value } }),
   },
 
   {
     label: t('menubar.how-to-use-fuel-ox'),
-    activeFlag: '/how-to-use-fuel-ox',
-    command: () => router.push('/how-to-use-fuel-ox'),
+    routeName: 'how-to-use-fuel-ox',
+    command: () => router.push({ name: 'how-to-use-fuel-ox', params: { locale: currentLocale.value } }),
   },
   {
     label: t('menubar.how-fo-cuts-costs'),
-    activeFlag: '/how-fuel-ox-cuts-costs',
-    command: () => router.push('/how-fuel-ox-cuts-costs'),
+    routeName: 'how-fuel-ox-cuts-costs',
+    command: () => router.push({ name: 'how-fuel-ox-cuts-costs', params: { locale: currentLocale.value } }),
   },
 
   {
     label: t('menubar.free-trial-procedure'),
-    activeFlag: '/free-trial-procedure',
-    command: () => router.push('/free-trial-procedure'),
+    routeName: 'free-trial-procedure',
+    command: () => router.push({ name: 'free-trial-procedure', params: { locale: currentLocale.value } }),
   },
 
   {
     label: t('menubar.four-guarantees'),
-    activeFlag: '/four-guarantees',
-    command: () => router.push('/four-guarantees'),
+    routeName: 'four-guarantees',
+    command: () => router.push({ name: 'four-guarantees', params: { locale: currentLocale.value } }),
   },
 
   {
     label: t('menubar.vehicles'),
-    activeFlag: '/vehicles',
-    command: () => router.push('/vehicles'),
+    routeName: 'vehicles',
+    command: () => router.push({ name: 'vehicles', params: { locale: currentLocale.value } }),
   },
   {
     label: t('menubar.generators'),
-    activeFlag: '/generators',
-    command: () => router.push('/generators'),
+    routeName: 'generators',
+    command: () => router.push({ name: 'generators', params: { locale: currentLocale.value } }),
   },
   {
     label: t('menubar.about'),
-    activeFlag: '/about',
-    command: () => router.push('/about'),
+    routeName: 'about',
+    command: () => router.push({ name: 'about', params: { locale: currentLocale.value } }),
   },
   {
     label: t('menubar.faq'),
-    activeFlag: '/faq',
-    command: () => router.push('/faq'),
+    routeName: 'faq',
+    command: () => router.push({ name: 'faq', params: { locale: currentLocale.value } }),
   },
   {
     label: t('menubar.contact'),
-    activeFlag: '/contact',
-    command: () => router.push('/contact'),
+    routeName: 'contact',
+    command: () => router.push({ name: 'contact', params: { locale: currentLocale.value } }),
   },
   {
     label: t('menubar.price-list'),
-    activeFlag: '',
-    command: () => router.push('/price-list'),
+    routeName: 'price-list',
+    command: () => router.push({ name: 'price-list', params: { locale: currentLocale.value } }),
   },
   {
     label: t('menubar.gdpr'),
-    activeFlag: '',
+    routeName: '',
     command: () => window.open(t('links.documents.gdpr')),
-    // command: () => router.push('/gdpr')
   },
 ])
+
+function toggleLocale() {
+  const target: SupportedLocale = currentLocale.value === 'fr' ? 'en' : 'fr'
+  router.push({ name: (route.name as string) || 'home', params: { locale: target } })
+}
+
 const toggle = (event: any) => {
   menu.value.toggle(event)
 }
@@ -105,10 +113,9 @@ const openMenu = () => {
 const closeMenu = (command?: () => void) => {
   command?.()
   visible.value = false
-  console.log('test coe')
 }
 
-const currentPath = computed(() => route.path)
+const currentRouteName = computed(() => route.name)
 </script>
 
 <template>
@@ -128,7 +135,7 @@ const currentPath = computed(() => route.path)
               <p
                 @click="closeMenu(item.command)"
                 class="menu-link"
-                :class="{ active: currentPath === item.activeFlag && item.activeFlag != '' }"
+                :class="{ active: item.routeName != '' && currentRouteName === item.routeName }"
               >
                 {{ item.label }}
               </p>
@@ -141,9 +148,9 @@ const currentPath = computed(() => route.path)
 
   <div class="page-top-container">
     <div class="menubar">
-      <a class="logo-link" href="/">
+      <a class="logo-link" :href="'/' + currentLocale">
         <div style="font-weight: bold; display: flex">
-          <img src="../assets/SFE_Logo.png" style="max-width: 3rem" />
+          <img src="../assets/SFE_Logo.png" style="max-width: 3rem" alt="Save Fuel Europe logo" />
           <p class="company-name">Save Fuel Europe SAS</p>
         </div>
       </a>
@@ -174,8 +181,8 @@ const currentPath = computed(() => route.path)
           </button>
         </div>
         <div class="language-selector">
-          <button @click="localeStore.toggleLocale()" class="language-selector-select">
-            {{ $i18n.locale.toUpperCase() }}
+          <button @click="toggleLocale()" class="language-selector-select">
+            {{ currentLocale.toUpperCase() }}
           </button>
         </div>
       </div>

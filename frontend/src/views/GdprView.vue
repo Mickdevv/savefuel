@@ -3,7 +3,7 @@ import { useCurrentPageStore } from '@/stores/current-page';
 import Button from 'primevue/button'
 
 const currentPageStore = useCurrentPageStore()
-currentPageStore.setCurrentPage('GDPR')
+currentPageStore.setCurrentPage('gdpr')
 </script>
 <template>
   <div class="page-container">

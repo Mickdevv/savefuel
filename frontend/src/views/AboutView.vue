@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { useCurrentPageStore } from '@/stores/current-page'
-import { useRouter } from 'vue-router'
+import { useLocalizedPush } from '@/composables/useLocalizedPush'
 
-const router = useRouter()
+const push = useLocalizedPush()
 const currentPageStore = useCurrentPageStore()
 
 currentPageStore.setCurrentPage('about')
@@ -25,7 +25,7 @@ currentPageStore.setCurrentPage('about')
     <button
       class="free-trial-button button primary-button"
       severity="warning"
-      @click="router.push('/free-trial-procedure')"
+      @click="push('free-trial-procedure')"
     >
       {{ $t('pages.how-fo-cuts-costs.explore-a-free-trial-button') }}
     </button>

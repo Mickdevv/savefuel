@@ -1,7 +1,12 @@
 <script setup lang="ts">
+import { useRoute } from 'vue-router'
+
 defineProps<{
   cardName: string
 }>()
+
+const route = useRoute()
+const locale = route.params.locale as string || 'fr'
 </script>
 
 
@@ -13,7 +18,7 @@ defineProps<{
       {{ $t(`components.links-cards.${cardName}.description`) }}
     </p>
 
-    <a v-if="$t(`components.links-cards.${cardName}.href`) != ''" :href="$t(`components.links-cards.${cardName}.href`)">
+    <a v-if="$t(`components.links-cards.${cardName}.href`) != ''" :href="`/${locale}${$t(`components.links-cards.${cardName}.href`)}`">
       {{ $t(`components.links-cards.link-label`) }}
       <span>→</span>
     </a>
