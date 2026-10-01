@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { onMounted, computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
 const efficiencyGains = ref(9)
-const fuelPrice = ref(1.5)
+const fuelPrice = ref(2)
 const fuelVolume = ref(45000)
 const fuelOxPricePerL = ref(198)
 
@@ -40,6 +40,10 @@ const costSavings = computed(() => {
     (efficiencyGains.value * fuelVolume.value * fuelPrice.value) / 100 -
     fuelOxPricePerL.value * fuelOxLitres.value
   )
+})
+
+onMounted(() => {
+  reset()
 })
 </script>
 
@@ -82,7 +86,7 @@ const costSavings = computed(() => {
           <div class="result-box">
             <p>{{ $t('cost_benefit_calculator.fuelOx_cost_per_L') }}</p>
             <span>
-              {{ formatCurrency((fuelOxPricePerL / 10000),4) }}
+              {{ formatCurrency((fuelOxPricePerL / 10000), 4) }}
             </span>
           </div>
 
@@ -98,7 +102,7 @@ const costSavings = computed(() => {
 
           <div class="result-box highlight">
             <p>{{ $t('cost_benefit_calculator.cost_savings') }}</p>
-            <span>{{ formatCurrency(costSavings,2) }}</span>
+            <span>{{ formatCurrency(costSavings, 2) }}</span>
           </div>
 
         </div>

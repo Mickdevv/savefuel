@@ -252,7 +252,6 @@
       },
       "trial-reports": {
         "title": "Rapports d’essais",
-
         "p1": "Mine péruvienne",
         "p2": "Essai d’émissions sur générateurs."
       },
@@ -691,7 +690,7 @@
     "fuel_price": "Prix du carburant (€/L)",
     "efficiency_gains": "Gain d’efficacité",
     "fuel_volume": "Volume de carburant",
-    "fuelOx_price_per_L": "Prix de Fuel Ox® (€/L)",
+    "fuelOx_price_per_L": "Prix de Fuel Ox® (€/L HT)",
     "fuel_savings": "Économies de carburant",
     "fuelOx_needed": "Fuel Ox® nécessaire",
     "fuelOx_cost": "Coût de Fuel Ox®",

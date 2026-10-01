@@ -679,11 +679,11 @@
     "fuel_price": "Fuel price (€/L)",
     "efficiency_gains": "Efficiency gain",
     "fuel_volume": "Fuel volume",
-    "fuelOx_price_per_L": "Fuel Ox® price (€/L)",
+    "fuelOx_price_per_L": "Fuel Ox® price (€/L excl. VAT)",
     "fuel_savings": "Fuel savings",
     "fuelOx_needed": "Fuel Ox® needed",
     "fuelOx_cost": "Fuel Ox® cost",
-    "fuelOx_cost_per_L": "Cost to treat 1 L of fuel",
+    "fuelOx_cost_per_L": "Cost to treat 1L of fuel",
     "cost_savings": "Cost savings",
     "reset-button": "Reset to default values"
   },
