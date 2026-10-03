@@ -525,12 +525,12 @@
           "notes": "Notes"
         },
         "notes": {
-          "0-5L": "Plus petite unité",
-          "1L": "Deux fois 0.5 L bouteilles",
+          "0-5L": "",
+          "1L": "2 x 0.5 L bouteilles",
           "5L": "Remise de 5 %",
           "10L": "Remise de 10 %",
           "20L": "Remise de 15 %",
-          "200L": "Meilleur rapport qualité-prix pour grandes flottes"
+          "200L": "Meilleur rapport quantité-prix"
         }
       }
     },
