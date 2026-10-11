@@ -8,6 +8,7 @@
     "technical": "How it works",
     "vehicles": "Vehicles",
     "generators": "Generators",
+    "marine": "Marine",
     "about": "Save Fuel Europe",
     "price-list": "Price list",
     "legal-details": "SFE legal details",
@@ -255,6 +256,59 @@
           "Peruvian mine. <a href=\"https://save-fuel.eu/docs/en/Static/Peruvian-Mine-emissions-reduction.pdf\" target=\"_blank\">Generator emissions test</a>"
         ]
       },
+      "four-guarantees-button": "Compliance pack"
+    },
+    "marine": {
+      "page-title": "Marine",
+      "meta-title": "Fuel Savings for Marine Vehicles & Fishing Fleets | Save Fuel Europe",
+      "meta-description": "Cut fuel costs on fishing boats, trawlers, ferries and workboats by 9% or more with Fuel Ox®. Cleaner burning fuel, protected tanks and longer storage life.",
+      "direct-cost-benefit": {
+        "title": "Direct cost benefit",
+        "description": [
+          "Fuel is one of the largest running costs for any commercial vessel. A typical coastal trawler burns around 40 litres of fuel per hour and runs roughly 1,500 hours per year, consuming about 60,000 litres of marine gas oil annually. With a 9% reduction in consumption, that is 5,400 litres saved every year.",
+          "Treating those 60,000 litres requires only 6 litres of Fuel Ox®, costing €1,188 ex VAT. At a marine fuel price of €0.85/litre, Fuel Ox® provides a net saving of €3,402 per year, including the cost of treatment.",
+          "For a small fishing fleet of five boats, this represents an annual saving of around €17,010. Ferries and workboats with much higher consumption see proportionally larger savings — every litre of fuel that lasts longer goes straight to the bottom line."
+        ]
+      },
+      "other-benefits": {
+        "title": "Other benefits",
+        "p1_1": "For more technical information, read the ",
+        "p1_2": "Fuel Ox® white paper",
+        "p1_3": "for detailed technical information."
+      },
+      "trial-reports": {
+        "title": "Trial reports"
+      },
+      "document-cards": [
+        {
+          "title": "Fuel Ox® White Paper",
+          "description": "Detailed explanation of how Fuel Ox® works. Highly recommended reading.",
+          "type": "documents",
+          "link": "fo-white-paper",
+          "icon": "file"
+        },
+        {
+          "title": "GNR vs EN590 standard",
+          "description": "How red diesel and standard EU diesel standards compare for Fuel Ox® treatment.",
+          "type": "documents",
+          "link": "gnr-compared-to-EN590",
+          "icon": "file"
+        },
+        {
+          "title": "Product Information",
+          "description": "Characteristics, standards and specifications.",
+          "type": "documents",
+          "link": "product-information",
+          "icon": "file"
+        },
+        {
+          "title": "Fuel Ox® Safety Data Sheet (MSDS)",
+          "description": "Material safety data sheet.",
+          "type": "documents",
+          "link": "fo-MSDS",
+          "icon": "file"
+        }
+      ],
       "four-guarantees-button": "Compliance pack"
     },
     "technical": {
@@ -618,6 +672,11 @@
       "long-term-storage": {
         "title": "Extends storage",
         "description": "Storage life of fuel is extended up to 2 years by eliminating polymerisation and microbial growth.",
+        "href": ""
+      },
+      "water-demulsification": {
+        "title": "Separates water from fuel",
+        "description": "Water that enters marine fuel is demulsified and pushed to the separator or tank bottom for easy draining, protecting the engine from water damage.",
         "href": ""
       },
       "fuel-polymerization-optimization": {

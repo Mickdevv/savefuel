@@ -68,6 +68,11 @@ const items = computed(() => [
     command: () => router.push({ name: 'generators', params: { locale: currentLocale.value } }),
   },
   {
+    label: t('menubar.marine'),
+    routeName: 'marine',
+    command: () => router.push({ name: 'marine', params: { locale: currentLocale.value } }),
+  },
+  {
     label: t('menubar.about'),
     routeName: 'about',
     command: () => router.push({ name: 'about', params: { locale: currentLocale.value } }),

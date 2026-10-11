@@ -6,6 +6,7 @@ import FourGuaranteesView from '@/views/FourGuaranteesView.vue'
 import TechnicalView from '@/views/TechnicalView.vue'
 import VehiclesView from '@/views/VehiclesView.vue'
 import GeneratorsView from '@/views/GeneratorsView.vue'
+import MarineView from '@/views/MarineView.vue'
 import AboutView from '@/views/AboutView.vue'
 import ContactView from '@/views/ContactView.vue'
 import PriceListView from '@/views/PriceListView.vue'
@@ -65,6 +66,12 @@ const router = createRouter({
       name: 'generators',
       component: GeneratorsView,
       meta: { pageKey: 'generators', segment: 'generators' },
+    },
+    {
+      path: '/:locale/marine',
+      name: 'marine',
+      component: MarineView,
+      meta: { pageKey: 'marine', segment: 'marine' },
     },
     {
       path: '/:locale/faq',

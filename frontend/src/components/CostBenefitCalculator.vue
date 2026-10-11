@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import axios from 'axios'
 import { onMounted, computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 const { locale } = useI18n()
@@ -10,7 +11,7 @@ const fuelOxPricePerL = ref(198)
 function reset() {
   efficiencyGains.value = 9
   fuelPrice.value = 2.0
-  fuelVolume.value = 45000
+  fuelVolume.value = 10000
   fuelOxPricePerL.value = 198
 }
 
@@ -42,7 +43,8 @@ const costSavings = computed(() => {
   )
 })
 
-onMounted(() => {
+onMounted(async () => {
+  // console.log((await axios.get("https://www.fuel-prices.eu/live/geojson.php?country=FR&fuel=diesel&bounds=41.90228,-27.68555,51.56341,17.79785&limit=400", {mode: 'no-cors'})).data)
   reset()
 })
 </script>

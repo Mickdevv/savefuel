@@ -98,6 +98,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://save-fuel.eu/fr/generators"/>
   </url>
   <url>
+    <loc>https://save-fuel.eu/fr/marine</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://save-fuel.eu/fr/marine"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://save-fuel.eu/en/marine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://save-fuel.eu/fr/marine"/>
+  </url>
+  <url>
+    <loc>https://save-fuel.eu/en/marine</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://save-fuel.eu/fr/marine"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://save-fuel.eu/en/marine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://save-fuel.eu/fr/marine"/>
+  </url>
+  <url>
     <loc>https://save-fuel.eu/fr/faq</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://save-fuel.eu/fr/faq"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://save-fuel.eu/en/faq"/>

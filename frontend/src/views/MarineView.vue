@@ -1,0 +1,180 @@
+<script setup lang="ts">
+import { useCurrentPageStore } from '@/stores/current-page'
+import { useI18n } from 'vue-i18n'
+import { useLocalizedPush } from '@/composables/useLocalizedPush'
+import DocumentCard from '@/components/DocumentCard.vue'
+import heroBannerImage from '@/assets/vehicles-banner.webp'
+import AdvantagesCard from '@/components/AdvantagesCard.vue'
+
+const { tm } = useI18n()
+const push = useLocalizedPush()
+const currentPageStore = useCurrentPageStore()
+currentPageStore.setCurrentPage('marine')
+</script>
+
+<template>
+  <div class="outer-page-container">
+    <img class="hero-banner-image" :src="heroBannerImage" :alt="$t('pages.marine.page-title')">
+
+    <div class="page-container">
+
+      <div class="paragraphs-column">
+        <div>
+          <h2>{{ $t('pages.marine.direct-cost-benefit.title') }}</h2>
+          <div class="section-divider"></div>
+
+          <div class="subtitle-card">
+            <p v-for="p in $tm('pages.marine.direct-cost-benefit.description')">
+              {{ p }}
+            </p>
+          </div>
+
+          <h2>{{ $t('pages.marine.other-benefits.title') }}</h2>
+          <div class="card-container">
+            <AdvantagesCard cardName="optimised-combustion" />
+            <AdvantagesCard cardName="water-demulsification" />
+            <AdvantagesCard cardName="filter-clogging-prevention" />
+            <AdvantagesCard cardName="microbial-growth-control" />
+            <AdvantagesCard cardName="soot-particle-reduction" />
+            <AdvantagesCard cardName="long-term-storage" />
+            <AdvantagesCard cardName="emissions-reduction" />
+          </div>
+          <h2>{{ $t('pages.marine.trial-reports.title') }}</h2>
+          <p>
+            {{ $t('pages.marine.other-benefits.p1_1') }}
+            <a target="_blank" :href="$t('links.documents.fo-white-paper')">
+              {{ $t('pages.marine.other-benefits.p1_2') }}
+            </a>
+            {{ $t('pages.marine.other-benefits.p1_3') }}
+          </p>
+        </div>
+      </div>
+      <div class="technical-documents">
+        <div class="document-links">
+          <DocumentCard :properties="d" v-for="d in tm('pages.marine.document-cards')" />
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button class="primary-button button" @click="push('four-guarantees')">{{
+          $t('pages.marine.four-guarantees-button') }}</button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card-container {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 40px;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr))
+}
+
+.advantage-card {
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: var(--card-background-color-grey);
+  padding: 24px;
+  border-left: 4px solid var(--primary-color-gold);
+  margin-bottom: 48px
+}
+
+.subtitle-card {
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: var(--card-background-color-grey);
+  padding: 24px;
+  border-left: 4px solid var(--primary-color-gold);
+  margin-bottom: 48px
+}
+
+.outer-page-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-banner-image {
+  object-fit: cover;
+  max-height: 320px;
+  width: 100%;
+}
+
+.document-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.page-container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.paragraphs-column {
+  width: 100%;
+}
+
+.documents-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  min-width: 200px;
+}
+
+.left-column,
+.right-column {
+  flex: 1 1 300px;
+}
+
+.images-column-container {
+  margin-left: 1rem;
+}
+
+.images {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1080px) {
+  .page-container {
+    flex-wrap: nowrap;
+  }
+
+  .paragraphs-column {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .documents-container {
+    flex-wrap: nowrap;
+  }
+
+  .images-column-container {
+    width: 260px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .images {
+    display: block;
+  }
+}
+</style>
